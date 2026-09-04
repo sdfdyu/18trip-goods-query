@@ -13598,6 +13598,13 @@ function ghHeaders(token) {
 
 // 自动从云端拉取（页面加载后延迟静默执行，访客也可用）
 async function cloudAutoPull() {
+  // 管理员不自动拉取，避免云端旧数据覆盖本地新数据
+  // 管理员可以手动点击"拉取数据"按钮
+  if (isAdmin()) {
+    console.log('[云同步] 管理员模式，跳过自动拉取');
+    return;
+  }
+
   const c = getCloudConfig();
   let url = getPullUrl();
 
@@ -13611,11 +13618,19 @@ async function cloudAutoPull() {
   }
 
   if (!url) return;
+  const currentCount = goodsData.length;
   try {
     const res = await fetch(url + '?t=' + Date.now());
     if (!res.ok) { console.log('[云同步] 云端无数据，使用本地'); return; }
     const data = await res.json();
     if (data && Array.isArray(data.goods) && data.goods.length > 0) {
+      // 保护机制：如果云端数据比本地少很多（少 20% 以上），不覆盖
+      // 防止云端数据异常或未及时更新时，把本地数据越同步越少
+      const cloudCount = data.goods.length;
+      if (cloudCount < currentCount * 0.8) {
+        console.log(`[云同步] 云端数据(${cloudCount}条)远少于本地(${currentCount}条)，跳过自动拉取`);
+        return;
+      }
       goodsData = data.goods;
       localStorage.setItem(STORAGE_GOODS, JSON.stringify(goodsData));
       localStorage.setItem(STORAGE_VERSION, data.version || DATA_VERSION);
