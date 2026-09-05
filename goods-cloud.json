@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-05T19:34:21.433Z",
+  "timestamp": "2026-09-05T20:14:32.674Z",
   "goods": [
     {
       "id": 1858,
@@ -7591,11 +7591,17 @@
       "id": 1659,
       "name": "18TRIP ステッカーセット/旅先レポート 朝班",
       "nameCn": "旅先报告贴纸套",
-      "category": "贴纸",
+      "category": "",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -7606,7 +7612,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176531_1_1720779088.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176531_1_1720779088.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176531_1_1720779088.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 446,
@@ -9499,11 +9509,17 @@
       "id": 1842,
       "name": "18TRIP フレークシール 朝班【まねきねこコラボ】【再販】",
       "nameCn": "まねきねこコラボ",
-      "category": "贴纸",
+      "category": "",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -9514,7 +9530,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1818,
@@ -9714,11 +9734,17 @@
       "id": 1666,
       "name": "18TRIP ステッカーセット/昼班【再販】",
       "nameCn": "贴纸套装",
-      "category": "贴纸",
+      "category": "亚克力立牌",
       "series": "ステッカーセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -9729,7 +9755,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ステッカーセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631284_1_1718877970.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631284_1_1718877970.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631284_1_1718877970.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 493,
@@ -10945,23 +10975,43 @@
       "id": 1882,
       "name": "18TRIP アクリルキーホルダー06/ブラインド(全5種)",
       "nameCn": "その他",
-      "category": "亚克力挂件",
+      "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "sonia",
+        "mashiro",
+        "kamoshika",
+        "zhaoyun",
+        "laika"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "eeoUrl": "https://eeo.today/store/101/products/detail/323227",
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
-      "preorderDate": "",
+      "preorderDate": "2026年7月",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC06/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A85%E7%A8%AE%29/pd/3537888/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_2_1784001908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_1_1784001913.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_1_1784001913.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo store",
+          "url": "https://eeo.today/store/101/title/5345"
+        },
+        {
+          "name": "animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 654,
@@ -11607,9 +11657,15 @@
       "nameCn": "明信片套装",
       "category": "卡片相卡",
       "series": "ポストカードセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -11620,7 +11676,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ポストカードセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328096_1_1732599379.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328096_1_1732599379.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328096_1_1732599379.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1011,
@@ -11881,7 +11941,7 @@
       "id": 617,
       "name": "アクリルキーホルダー『18TRIP』06/ブラインド(5種)",
       "nameCn": "亚克力挂件 盲盒 5种(机器人 另一款)",
-      "category": "亚克力挂件",
+      "category": "",
       "series": "eeo Store ペットロボ",
       "characters": [],
       "allTeams": true,
@@ -11896,7 +11956,11 @@
       "status": "发售中",
       "statusJp": "販売中",
       "description": "ペットロボ5種のアクリルキーホルダー・ブラインド（別イラスト）",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_2_1784001908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_2_1784001908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826505_2_1784001908.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 126,
@@ -12091,9 +12155,22 @@
       "nameCn": "vol.6",
       "category": "日常杂货",
       "series": "vol.6",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
@@ -12163,9 +12240,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
@@ -12176,7 +12259,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631281_1_1718877998.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631281_1_1718877998.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631281_1_1718877998.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 999,
@@ -15063,10 +15150,15 @@
       "category": "亚克力立牌",
       "series": "しゅうまいのちゅあスタ",
       "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
         "shumai"
       ],
-      "allTeams": true,
-      "teamScope": 5,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -15077,7 +15169,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ちゅあスタ ミニチュアアクリルスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309465_1_1740489201.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309465_1_1740489201.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309465_1_1740489201.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 644,
@@ -16153,11 +16249,17 @@
       "id": 1728,
       "name": "18TRIP R1ze Botania フレークシール",
       "nameCn": "Botania联动",
-      "category": "贴纸",
+      "category": "",
       "series": "Botania コラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -16168,7 +16270,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 709,
@@ -16408,9 +16514,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "495円(税込)",
@@ -16421,7 +16533,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868647_1_1728554967.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868647_1_1728554967.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868647_1_1728554967.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1823,
@@ -16896,11 +17012,17 @@
       "id": 1656,
       "name": "18TRIP ステッカーセット/旅先レポート 夜班",
       "nameCn": "旅先报告贴纸套",
-      "category": "贴纸",
+      "category": "",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -16911,7 +17033,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176562_1_1720778879.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176562_1_1720778879.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176562_1_1720778879.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 748,
@@ -17742,9 +17868,15 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,980円(税込)",
@@ -17755,7 +17887,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327808_1_1732603147.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327808_1_1732603147.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327808_1_1732603147.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 846,
@@ -19840,11 +19976,17 @@
       "id": 1667,
       "name": "18TRIP ステッカーセット/朝班【再販】",
       "nameCn": "贴纸套装",
-      "category": "贴纸",
+      "category": "",
       "series": "ステッカーセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -19855,7 +19997,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ステッカーセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631283_1_1718878002.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631283_1_1718878002.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631283_1_1718878002.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 303,
@@ -20768,11 +20914,17 @@
       "id": 1727,
       "name": "18TRIP Day2 Botania フレークシール",
       "nameCn": "Botania联动",
-      "category": "贴纸",
+      "category": "",
       "series": "Botania コラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -20783,7 +20935,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1739,
@@ -21219,11 +21375,17 @@
       "id": 1664,
       "name": "18TRIP ステッカーセット/夜班【再販】",
       "nameCn": "贴纸套装",
-      "category": "贴纸",
+      "category": "",
       "series": "ステッカーセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -21234,7 +21396,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ステッカーセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631286_1_1718878026.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631286_1_1718878026.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631286_1_1718878026.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 639,
@@ -21288,9 +21454,15 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,980円(税込)",
@@ -21301,7 +21473,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327815_1_1732603732.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327815_1_1732603732.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327815_1_1732603732.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1378,
@@ -22057,9 +22233,15 @@
       "nameCn": "明信片套装",
       "category": "卡片相卡",
       "series": "ポストカードセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -22070,7 +22252,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ポストカードセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328065_1_1732604000.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328065_1_1732604000.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328065_1_1732604000.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 429,
@@ -23529,10 +23715,14 @@
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%97%E3%83%AC%E3%83%BC%E3%83%8802/%E3%81%BE%E3%81%97%E3%82%8D/pd/3537890/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "アクリルスタンドプレート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826529_1_1784001908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826529_1_1784001908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826529_1_1784001908.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1586,
@@ -23795,9 +23985,15 @@
       "nameCn": "圆珠笔",
       "category": "日常杂货",
       "series": "ボールペン",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -23808,7 +24004,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ボールペン",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327822_1_1732595643.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327822_1_1732595643.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327822_1_1732595643.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 770,
@@ -24107,9 +24307,15 @@
       "nameCn": "明信片套装",
       "category": "卡片相卡",
       "series": "ポストカードセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -24120,7 +24326,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ポストカードセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328072_1_1732607480.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328072_1_1732607480.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328072_1_1732607480.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 109,
@@ -24913,9 +25123,15 @@
       "nameCn": "圆珠笔",
       "category": "日常杂货",
       "series": "ボールペン",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -24926,7 +25142,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ボールペン",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327853_1_1732608152.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327853_1_1732608152.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327853_1_1732608152.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1314,
@@ -25644,9 +25864,15 @@
       "nameCn": "圆珠笔",
       "category": "日常杂货",
       "series": "ボールペン",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -25657,7 +25883,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ボールペン",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327846_1_1732598654.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327846_1_1732598654.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327846_1_1732598654.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1147,
@@ -26979,9 +27209,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
@@ -26992,7 +27228,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631280_1_1718878007.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631280_1_1718878007.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631280_1_1718878007.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 943,
@@ -27168,9 +27408,15 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
@@ -27181,7 +27427,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 505,
@@ -27457,11 +27707,17 @@
       "id": 1840,
       "name": "18TRIP フレークシール 夕班【まねきねこコラボ】【再販】",
       "nameCn": "まねきねこコラボ",
-      "category": "贴纸",
+      "category": "",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -27472,7 +27728,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 730,
@@ -27644,9 +27904,15 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
@@ -27657,7 +27923,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1262,
@@ -27946,9 +28216,15 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,980円(税込)",
@@ -27959,7 +28235,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327785_1_1732608193.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327785_1_1732608193.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327785_1_1732608193.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 204,
@@ -28818,11 +29098,17 @@
       "id": 1725,
       "name": "18TRIP L4mps Botania フレークシール",
       "nameCn": "Botania联动",
-      "category": "贴纸",
+      "category": "",
       "series": "Botania コラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -28833,7 +29119,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 668,
@@ -29507,10 +29797,15 @@
       "category": "亚克力立牌",
       "series": "しゅうまいのちゅあスタ",
       "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
         "shumai"
       ],
-      "allTeams": true,
-      "teamScope": 5,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -29521,7 +29816,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ちゅあスタ ミニチュアアクリルスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309458_1_1740489324.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309458_1_1740489324.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309458_1_1740489324.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 703,
@@ -30787,11 +31086,17 @@
       "id": 1685,
       "name": "18TRIP ステッカーセット/旅先レポート vol.2 朝班",
       "nameCn": "旅先报告贴纸套",
-      "category": "贴纸",
+      "category": "",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -30802,7 +31107,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200748_1_1725962889.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200748_1_1725962889.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200748_1_1725962889.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 197,
@@ -31695,11 +32004,17 @@
       "id": 1682,
       "name": "18TRIP ステッカーセット/旅先レポート vol.2 夜班",
       "nameCn": "旅先报告贴纸套",
-      "category": "贴纸",
+      "category": "",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -31710,7 +32025,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200779_1_1725962720.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200779_1_1725962720.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200779_1_1725962720.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1672,
@@ -31718,9 +32037,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
@@ -31731,7 +32056,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631278_1_1718877917.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631278_1_1718877917.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631278_1_1718877917.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 545,
@@ -31861,9 +32190,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "495円(税込)",
@@ -31874,7 +32209,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868678_1_1728554945.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868678_1_1728554945.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868678_1_1728554945.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 273,
@@ -32188,11 +32527,17 @@
       "id": 1839,
       "name": "18TRIP フレークシール 夜班【まねきねこコラボ】【再販】",
       "nameCn": "まねきねこコラボ",
-      "category": "贴纸",
+      "category": "",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -32203,7 +32548,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1159,
@@ -32866,9 +33215,15 @@
       "nameCn": "圆珠笔",
       "category": "日常杂货",
       "series": "ボールペン",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -32879,7 +33234,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ボールペン",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327839_1_1732602476.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327839_1_1732602476.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327839_1_1732602476.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 835,
@@ -33216,9 +33575,15 @@
       "nameCn": "文件夹",
       "category": "日常杂货",
       "series": "クリアファイル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "495円(税込)",
@@ -33229,7 +33594,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "クリアファイル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868654_1_1728554834.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868654_1_1728554834.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776868654_1_1728554834.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1614,
@@ -33427,10 +33796,15 @@
       "category": "亚克力立牌",
       "series": "しゅうまいのちゅあスタ",
       "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
         "shumai"
       ],
-      "allTeams": true,
-      "teamScope": 5,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -33441,7 +33815,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ちゅあスタ ミニチュアアクリルスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309441_1_1740489088.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309441_1_1740489088.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309441_1_1740489088.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 336,
@@ -34976,11 +35354,17 @@
       "id": 1726,
       "name": "18TRIP Ev3ns Botania フレークシール",
       "nameCn": "Botania联动",
-      "category": "贴纸",
+      "category": "",
       "series": "Botania コラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -34991,7 +35375,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 256,
@@ -36718,9 +37106,15 @@
       "nameCn": "明信片套装",
       "category": "卡片相卡",
       "series": "ポストカードセット",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
@@ -36731,7 +37125,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ポストカードセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328089_1_1732602572.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328089_1_1732602572.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328089_1_1732602572.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 899,
@@ -36790,11 +37188,17 @@
       "id": 1658,
       "name": "18TRIP ステッカーセット/旅先レポート 昼班",
       "nameCn": "旅先报告贴纸套",
-      "category": "贴纸",
+      "category": "",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
@@ -36805,7 +37209,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176548_1_1720778722.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176548_1_1720778722.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176548_1_1720778722.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 768,
@@ -39942,10 +40350,10 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "fuebuki-ya",
+        "fuefuki-yachiyo",
         "karigane-sakujiro",
-        "kitakata-ikyu",
-        "iwabuchi-daniel-hiroshi"
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -39959,7 +40367,11 @@
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg"
+      ]
     },
     {
       "id": 2020,
@@ -40562,10 +40974,10 @@
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
-        "fuebuki-ya",
+        "fuefuki-yachiyo",
         "karigane-sakujiro",
-        "kitakata-ikyu",
-        "iwabuchi-daniel-hiroshi"
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -40579,7 +40991,11 @@
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg"
+      ]
     },
     {
       "id": 2047,
@@ -47414,11 +47830,11 @@
       "id": 2333,
       "name": "アフターパンフレット（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "书籍/杂志·Sparkle演唱会",
-      "category": "书籍/杂志",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002270/",
@@ -47427,20 +47843,24 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 书籍/杂志",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png"
+      ]
     },
     {
       "id": 2334,
       "name": "チケットファイル（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "收纳包·Sparkle演唱会",
-      "category": "收纳包",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002271/",
@@ -47449,42 +47869,50 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 收纳包",
-      "image": "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png"
+      ]
     },
     {
       "id": 2335,
       "name": "ネームボードタオル（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "毛巾·Sparkle演唱会",
-      "category": "毛巾",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002272/",
-      "price": "",
+      "price": "价格待补",
       "preorderDate": "",
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 毛巾",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png"
+      ]
     },
     {
       "id": 2336,
       "name": "ブロマイド【全20種／ランダム2枚入り】（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "相卡·Sparkle演唱会",
-      "category": "相卡",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002292/",
@@ -47493,10 +47921,14 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 相卡",
-      "image": "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png"
+      ]
     },
     {
       "id": 2337,
@@ -47546,11 +47978,11 @@
       "id": 2339,
       "name": "吊り下げポーチ（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "收纳包·Sparkle演唱会",
-      "category": "收纳包",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002295/",
@@ -47559,20 +47991,24 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 收纳包",
-      "image": "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png"
+      "image": "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png"
+      ]
     },
     {
       "id": 2340,
       "name": "HMRトートバッグ／HAMA（劇場版『HAMAツアーズpresents “おもてなしライブ” -Sparkle-』）",
       "nameCn": "包·Sparkle演唱会",
-      "category": "包",
+      "category": "",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000002300/",
@@ -47581,10 +48017,14 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "おもてなしライブ -Sparkle- / 包",
-      "image": "https://canime.jp/upload/product/sample_18trip_omolive-goods.png"
+      "image": "https://canime.jp/upload/product/sample_18trip_omolive-goods.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/sample_18trip_omolive-goods.png"
+      ]
     },
     {
       "id": 2341,
@@ -47660,51 +48100,59 @@
       "series": "Good Luck 系列",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001567/",
-      "price": "",
+      "price": "价格待补",
       "preorderDate": "",
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 亚克力立牌",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-Acryl.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-Acryl.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-Acryl.png"
+      ]
     },
     {
       "id": 2345,
       "name": "イベントTシャツ／ホワイト(18TRIP presents “HAMAツアーズ全体会議”)",
       "nameCn": "T恤·HAMA全体会议",
-      "category": "T恤",
+      "category": "",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001547/",
-      "price": "",
+      "price": "价格待补",
       "preorderDate": "",
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ全体会議 / T恤",
-      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png"
+      ]
     },
     {
       "id": 2346,
       "name": "スティックバルーン(18TRIP presents “HAMAツアーズ全体会議”)",
       "nameCn": "应援物·HAMA全体会议",
-      "category": "应援物",
+      "category": "",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001549/",
@@ -47713,10 +48161,14 @@
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ全体会議 / 应援物",
-      "image": "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png"
+      ]
     },
     {
       "id": 2347,
@@ -47942,11 +48394,13 @@
       "id": 2357,
       "name": "18TRIP Good Luck しゅうまいネックピロー",
       "nameCn": "日用品·Good Luck",
-      "category": "日用品",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015516/",
@@ -47955,10 +48409,14 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 日用品",
-      "image": "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg"
+      "image": "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg"
+      ]
     },
     {
       "id": 2358,
@@ -48487,11 +48945,17 @@
       "id": 2380,
       "name": "18TRIP Good Luck アクリルブロック(18is)",
       "nameCn": "亚克力块·Good Luck",
-      "category": "亚克力块",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015519/",
@@ -48500,20 +48964,30 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 亚克力块",
-      "image": "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png"
+      "image": "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png"
+      ]
     },
     {
       "id": 2381,
       "name": "18TRIP Good Luck トレーディングカードコンプリートセット(18is)",
       "nameCn": "相卡·Good Luck",
-      "category": "相卡",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015518/",
@@ -48522,20 +48996,30 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 相卡",
-      "image": "https://canime.jp/upload/product/37_18trip-casette1_trc-.png"
+      "image": "https://canime.jp/upload/product/37_18trip-casette1_trc-.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/37_18trip-casette1_trc-.png"
+      ]
     },
     {
       "id": 2382,
       "name": "18TRIP Good Luck 缶バッジコンプリートセット(18is)",
       "nameCn": "徽章·Good Luck",
-      "category": "徽章",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015517/",
@@ -48544,10 +49028,14 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 徽章",
-      "image": "https://canime.jp/upload/product/36_18trip-casette1_canset-.png"
+      "image": "https://canime.jp/upload/product/36_18trip-casette1_canset-.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/36_18trip-casette1_canset-.png"
+      ]
     },
     {
       "id": 2383,
@@ -48577,11 +49065,13 @@
       "id": 2384,
       "name": "18TRIP Good Luck しゅうまいミニキーホルダー",
       "nameCn": "挂件·Good Luck",
-      "category": "挂件",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015515/",
@@ -48590,10 +49080,14 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 挂件",
-      "image": "https://canime.jp/upload/product/34_18tr_keyring_s.jpg"
+      "image": "https://canime.jp/upload/product/34_18tr_keyring_s.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/34_18tr_keyring_s.jpg"
+      ]
     },
     {
       "id": 2385,
@@ -48779,33 +49273,37 @@
       "id": 2393,
       "name": "HAMAツアーズロゴTシャツ",
       "nameCn": "T恤",
-      "category": "T恤",
+      "category": "",
       "series": "HAMAツアーズ",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015520/",
-      "price": "",
+      "price": "价格待补",
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ / T恤",
-      "image": "https://canime.jp/upload/product/39_hamatoures_tee_sample.png"
+      "image": "https://canime.jp/upload/product/39_hamatoures_tee_sample.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/39_hamatoures_tee_sample.png"
+      ]
     },
     {
       "id": 2394,
       "name": "18TRIP Cassette #01~05 ポストカード5枚セット",
       "nameCn": "相卡",
-      "category": "相卡",
+      "category": "",
       "series": "Cassette 系列",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015490/",
@@ -48814,10 +49312,14 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Cassette 系列 / 相卡",
-      "image": "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png"
+      "image": "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png"
+      ]
     },
     {
       "id": 2395,
@@ -48867,11 +49369,13 @@
       "id": 2397,
       "name": "18TRIP HAMAツアーズスクラップブック",
       "nameCn": "书籍/杂志",
-      "category": "书籍/杂志",
+      "category": "",
       "series": "HAMAツアーズ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001197/",
@@ -48880,10 +49384,14 @@
       "releaseDate": "",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ / 书籍/杂志",
-      "image": "https://canime.jp/upload/product/BRZG01197.png"
+      "image": "https://canime.jp/upload/product/BRZG01197.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG01197.png"
+      ]
     },
     {
       "id": 2398,
@@ -49091,11 +49599,11 @@
       "id": 2407,
       "name": "18TRIP ユニットキービジュアルポストカードセット",
       "nameCn": "相卡·主视觉图",
-      "category": "相卡",
+      "category": "",
       "series": "ユニットキービジュアル",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 20,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001196/",
@@ -49104,10 +49612,14 @@
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
       "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "ユニットキービジュアル / 相卡",
-      "image": "https://canime.jp/upload/product/BRZG01196_0.png"
+      "image": "https://canime.jp/upload/product/BRZG01196_0.png",
+      "isStage": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG01196_0.png"
+      ]
     }
   ]
 }
