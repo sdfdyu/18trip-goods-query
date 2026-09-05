@@ -1,7 +1,59 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-05T08:33:42.456Z",
+  "timestamp": "2026-09-05T09:17:12.169Z",
   "goods": [
+    {
+      "name": "リアルフィルムフォトsquare［Ev3ns］",
+      "nameCn": "胶片拍立得/研修拍立得/旅行Q拍立得 夕班",
+      "category": "卡片相卡",
+      "series": "リアルフィルムフォトsquare",
+      "characters": [],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBEv3ns%EF%BC%BD/pd/3479432/",
+      "price": "770円(税込)",
+      "preorderDate": "予約終了(已发售)",
+      "releaseDate": "2026年8月上旬",
+      "shipDate": "順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBEv3ns%EF%BC%BD/pd/3479432/",
+      "status": "已结束",
+      "description": "Animate(オンライン通販)状況:× 在庫なし(无现货)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567022_1_1778497509.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567022_1_1778497509.jpg"
+      ],
+      "id": 1788598747586
+    },
+    {
+      "name": "リアルフィルムフォトsquare［Day2］",
+      "nameCn": "胶片拍立得/研修拍立得/旅行Q拍立得 昼班",
+      "category": "卡片相卡",
+      "series": "リアルフィルムフォトsquare",
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBDay2%EF%BC%BD/pd/3479431/",
+      "price": "770 円(税込)",
+      "preorderDate": "予約終了(已发售)",
+      "releaseDate": "2026年8月上旬",
+      "shipDate": "順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBDay2%EF%BC%BD/pd/3479431/",
+      "status": "已结束",
+      "description": "Animate(オンライン通販)状況:× 在庫なし(无现货)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567015_1_1778497509.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567015_1_1778497509.jpg"
+      ],
+      "id": 1788598551402
+    },
     {
       "name": "トレーディンググリッター缶バッジ Part2",
       "nameCn": "吧唧 Part2",
@@ -2590,7 +2642,7 @@
     {
       "id": 208,
       "name": "リアルフィルムフォトsquare［R1ze］",
-      "nameCn": "复古胶片照 朝班",
+      "nameCn": "胶片拍立得/研修拍立得/旅行Q拍立得 朝班",
       "category": "卡片相卡",
       "series": "18TRIP グッズ",
       "characters": [
@@ -2612,12 +2664,15 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567008_1_1778497511.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567008_1_1778497511.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567008_1_1778497511.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 209,
       "name": "リアルフィルムフォトsquare［L4mps］",
-      "nameCn": "复古胶片照 夜班",
+      "nameCn": "胶片拍立得/研修拍立得/旅行Q拍立得 夜班",
       "category": "卡片相卡",
       "series": "18TRIP グッズ",
       "characters": [
@@ -2639,7 +2694,10 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567039_1_1778497504.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567039_1_1778497504.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567039_1_1778497504.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 210,
@@ -2725,7 +2783,11 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624728_1_1779768319.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624728_3_1779768306.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624728_3_1779768306.jpg",
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624728_1_1779768319.jpg"
+      ]
     },
     {
       "id": 213,
@@ -2757,7 +2819,11 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624735_1_1779768319.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624735_3_1779768308.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624735_3_1779768308.jpg",
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621624735_1_1779768319.jpg"
+      ]
     },
     {
       "id": 214,
@@ -3231,7 +3297,7 @@
     {
       "id": 234,
       "name": "アクリルカード01/ブラインド(全10種)(公式イラスト)",
-      "nameCn": "亚克力卡 盲盒(官方插画)",
+      "nameCn": "一轮生日亚克力片 盲盒(官方插画)",
       "category": "卡片相卡",
       "series": "18TRIP グッズ",
       "characters": [
@@ -3266,7 +3332,7 @@
     {
       "id": 235,
       "name": "アクリルカード02/ブラインド(全10種)(公式イラスト)",
-      "nameCn": "亚克力卡 盲盒(官方插画)",
+      "nameCn": "一轮生日亚克力片 盲盒(官方插画)",
       "category": "卡片相卡",
       "series": "18TRIP グッズ",
       "characters": [
@@ -3301,7 +3367,7 @@
     {
       "id": 236,
       "name": "アクリルキーホルダー01/ブラインド(全10種)(公式イラスト)",
-      "nameCn": "亚克力挂件 盲盒(官方插画)",
+      "nameCn": "一轮生日亚克力挂件 盲盒(官方插画)",
       "category": "亚克力立牌",
       "series": "18TRIP グッズ",
       "characters": [],
@@ -3325,8 +3391,8 @@
     {
       "id": 237,
       "name": "アクリルキーホルダー02/ブラインド(全10種)(公式イラスト)",
-      "nameCn": "亚克力挂件 盲盒(官方插画)",
-      "category": "",
+      "nameCn": "一轮生日亚克力挂件 盲盒(官方插画)",
+      "category": "亚克力立牌",
       "series": "18TRIP グッズ",
       "characters": [
         "kitakata-raito",
@@ -4328,7 +4394,7 @@
     {
       "id": 278,
       "name": "ころっとアクリルフィギュアコレクション／vol.3 A朝班・昼班",
-      "nameCn": "立牌 vol.3 朝班昼班",
+      "nameCn": "一轮ssr厚Q立/QQ人迷你立牌 vol.3 朝班昼班",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -4355,12 +4421,15 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 279,
       "name": "ころっとアクリルフィギュアコレクション／vol.3 B夕班・夜班",
-      "nameCn": "立牌 vol.3 夕班夜班",
+      "nameCn": "一轮ssr厚Q立/QQ人迷你立牌 vol.3 夕班夜班",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -4387,7 +4456,10 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 280,
@@ -5440,7 +5512,7 @@
     {
       "id": 324,
       "name": "くるみたぴぬい Vol.1",
-      "nameCn": "くるみたぴぬい毛绒 vol.1",
+      "nameCn": "tapioca掌心襁褓毛绒玩偶/烧卖襁褓 vol.1",
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.1",
       "characters": [
@@ -5470,7 +5542,7 @@
     {
       "id": 325,
       "name": "くるみたぴぬい Vol.2",
-      "nameCn": "くるみたぴぬい毛绒 vol.2",
+      "nameCn": "tapioca掌心襁褓毛绒玩偶/烧卖襁褓 vol.2",
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -5500,7 +5572,7 @@
     {
       "id": 326,
       "name": "くるみたぴぬい Vol.3",
-      "nameCn": "くるみたぴぬい毛绒 vol.3",
+      "nameCn": "tapioca掌心襁褓毛绒玩偶/烧卖襁褓 vol.3",
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -5530,7 +5602,7 @@
     {
       "id": 327,
       "name": "くるみたぴぬい Vol.4",
-      "nameCn": "くるみたぴぬい毛绒 vol.4",
+      "nameCn": "tapioca掌心襁褓毛绒玩偶/烧卖襁褓 vol.4",
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -6020,7 +6092,7 @@
     {
       "id": 348,
       "name": "クッション／西園 練牙",
-      "nameCn": "抱枕 西园练牙",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 西园练牙",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6038,12 +6110,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 349,
       "name": "クッション／大黒 可不可",
-      "nameCn": "抱枕 大黑可不可",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 大黑可不可",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6061,12 +6136,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 350,
       "name": "クッション／叢雲 添",
-      "nameCn": "抱枕 丛云添",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 丛云添",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6084,12 +6162,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 351,
       "name": "クッション／神名 雪風",
-      "nameCn": "抱枕 神名雪风",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 神名雪风",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6107,12 +6188,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 352,
       "name": "クッション／鹿 礼光",
-      "nameCn": "抱枕 鹿礼光",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 鹿礼光",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6130,12 +6214,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 353,
       "name": "クッション／五十竹 あく太",
-      "nameCn": "抱枕 五十竹芥太",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 五十竹芥太",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6153,12 +6240,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 354,
       "name": "クッション／衣川 季肋",
-      "nameCn": "抱枕 衣川季肋",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 衣川季肋",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6176,12 +6266,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760952_1_1785755112.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760952_1_1785755112.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760952_1_1785755112.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 355,
       "name": "クッション／斜木 七基",
-      "nameCn": "抱枕 斜木七基",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 斜木七基",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6199,12 +6292,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760969_1_1785755106.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760969_1_1785755106.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760969_1_1785755106.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 356,
       "name": "クッション／輝矢 宗氏",
-      "nameCn": "抱枕 辉矢宗氏",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 辉矢宗氏",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6222,12 +6318,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760976_1_1785755113.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760976_1_1785755113.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760976_1_1785755113.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 357,
       "name": "クッション／北片 來人",
-      "nameCn": "抱枕 北片来人",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 北片来人",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6245,12 +6344,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760990_1_1785755111.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760990_1_1785755111.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760990_1_1785755111.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 358,
       "name": "クッション／畔川 幾成",
-      "nameCn": "抱枕 畔川几成",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 畔川几成",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6268,12 +6370,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761003_1_1785755122.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761003_1_1785755122.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761003_1_1785755122.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 359,
       "name": "クッション／夏焼 千弥",
-      "nameCn": "抱枕 夏烧千弥",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 夏烧千弥",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6291,12 +6396,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761010_1_1785755116.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761010_1_1785755116.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761010_1_1785755116.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 360,
       "name": "クッション／木ノ内 太緒",
-      "nameCn": "抱枕 木之内太绪",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 木之内太绪",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6314,12 +6422,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761027_1_1785755110.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761027_1_1785755110.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761027_1_1785755110.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 361,
       "name": "クッション／百目鬼 潜",
-      "nameCn": "抱枕 百目鬼潜",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 百目鬼潜",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6337,12 +6448,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761034_1_1785755117.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761034_1_1785755117.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761034_1_1785755117.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 362,
       "name": "クッション／蜂乃屋 凪",
-      "nameCn": "抱枕 蜂乃屋凪",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 蜂乃屋凪",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6360,12 +6474,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761041_1_1785755125.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761041_1_1785755125.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761041_1_1785755125.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 363,
       "name": "クッション／白光 糖衣",
-      "nameCn": "抱枕 白光糖衣",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 白光糖衣",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6383,12 +6500,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761058_1_1785755109.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761058_1_1785755109.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761058_1_1785755109.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 364,
       "name": "クッション／白光 琉衣",
-      "nameCn": "抱枕 白光琉衣",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 白光琉衣",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6406,12 +6526,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761065_1_1785755106.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761065_1_1785755106.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761065_1_1785755106.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 365,
       "name": "クッション／棗 夜鷹",
-      "nameCn": "抱枕 枣夜鹰",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 枣夜鹰",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6429,12 +6552,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761072_1_1785755109.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761072_1_1785755109.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761072_1_1785755109.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 366,
       "name": "クッション／夜半 子タろ",
-      "nameCn": "抱枕 夜半子太郎",
+      "nameCn": "磁带抱枕/磁带QQ人抱枕 夜半子太郎",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6452,12 +6578,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761089_1_1785755116.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761089_1_1785755116.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761089_1_1785755116.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 367,
       "name": "クッション／しゅうまい",
-      "nameCn": "抱枕 烧卖",
+      "nameCn": "烧卖抱枕",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -6475,7 +6604,10 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761096_1_1785755112.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761096_1_1785755112.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761096_1_1785755112.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 368,
@@ -8188,7 +8320,7 @@
     {
       "id": 441,
       "name": "しゅうまいのさがら刺繍ポーチ",
-      "nameCn": "刺绣小包 烧卖",
+      "nameCn": "烧卖 刺绣小包",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -8206,12 +8338,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695322_1_1786359913.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695322_1_1786359913.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695322_1_1786359913.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 442,
       "name": "しゅうまいのティーポット",
-      "nameCn": "茶壶 烧卖",
+      "nameCn": "烧卖茶壶",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -8229,12 +8364,15 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695339_1_1787112311.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695339_1_1787112311.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695339_1_1787112311.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 443,
       "name": "マグカップ/しゅうまい【再販】",
-      "nameCn": "马克杯 烧卖 再贩",
+      "nameCn": "烧卖马克杯",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -8252,7 +8390,10 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 444,
