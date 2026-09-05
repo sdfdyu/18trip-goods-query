@@ -1,7 +1,157 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-05T11:50:44.963Z",
+  "timestamp": "2026-09-05T12:03:44.254Z",
   "goods": [
+    {
+      "name": "アクリルスタンド／vol.12　神名 雪風",
+      "nameCn": "立牌 vol.12 神名雪风",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "kamina-yukikaze"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3537717/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3537717/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690723_1_1784001915.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690723_1_1784001915.jpg"
+      ],
+      "id": 1788609811478
+    },
+    {
+      "name": "アクリルスタンド／vol.12　五十竹 あく太",
+      "nameCn": "立牌 vol.12 五十竹芥太",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "isotake-akuta"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3537719/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3537719/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690747_1_1784001911.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690747_1_1784001911.jpg"
+      ],
+      "id": 1788609697091
+    },
+    {
+      "name": "アクリルスタンド／vol.12　衣川 季肋",
+      "nameCn": "立牌 vol.12 衣川季肋",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "kinugawa-kiroku"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3537720/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3537720/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690754_1_1784001913.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690754_1_1784001913.jpg"
+      ],
+      "id": 1788609561739
+    },
+    {
+      "name": "アクリルスタンド／vol.12　北片 來人",
+      "nameCn": "立牌 vol.12 北片来人",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "kitakata-raito"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3537724/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3537724/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690792_1_1784001910.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690792_1_1784001910.jpg"
+      ],
+      "id": 1788609487928
+    },
+    {
+      "name": "アクリルスタンド／vol.12　棗 夜鷹",
+      "nameCn": "立牌 vol.12 枣夜鹰",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "natsume-yodaka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3537732/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3537732/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690877_1_1784001909.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690877_1_1784001909.jpg"
+      ],
+      "id": 1788609377801
+    },
+    {
+      "name": "アクリルスタンド／vol.12　白光 糖衣",
+      "nameCn": "立牌 vol.12 白光糖衣",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "shiromitsu-toi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3537730/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3537730/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690853_1_1784001917.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690853_1_1784001917.jpg"
+      ],
+      "id": 1788609258619
+    },
     {
       "name": "アクリルスタンド／vol.12　西園 練牙",
       "nameCn": "立牌 vol.12 西园练牙",
