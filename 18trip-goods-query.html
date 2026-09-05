@@ -364,7 +364,7 @@
       <option value="all">全部状态</option>
       <option>预约中</option>
       <option>发售中</option>
-      <option>即将发售</option>
+      <option>待出荷</option>
       <option>已结束</option>
     </select>
     <select id="fSort" onchange="changeSort(this.value)">
@@ -457,7 +457,7 @@
         <select id="f_status">
           <option>发售中</option>
           <option>预约中</option>
-          <option>即将发售</option>
+          <option>待出荷</option>
           <option>已结束</option>
         </select>
       </div>
@@ -11684,13 +11684,13 @@ let starOnly = false;
 const STATUS_CLS = {
   '预约中': 'st-pre',
   '发售中': 'st-on',
-  '即将发售': 'st-soon',
+  '待出荷': 'st-soon',
   '已结束': 'st-end'
 };
 const STATUS_ICON = {
   '预约中': '⏰',
   '发售中': '✅',
-  '即将发售': '🔜',
+  '待出荷': '⏳',
   '已结束': '🏁'
 };
 const TEAM_COLOR = {
