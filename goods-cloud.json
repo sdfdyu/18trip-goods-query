@@ -1,7 +1,29 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-05T10:55:36.998Z",
+  "timestamp": "2026-09-05T11:27:58.751Z",
   "goods": [
+    {
+      "name": "アクリルスタンド／vol.12　叢雲 添",
+      "nameCn": "立牌 vol.12 丛云添",
+      "category": "亚克力立牌",
+      "series": "アクリルスタンド vol.12",
+      "characters": [
+        "murakumo-ten"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3537716/",
+      "price": "1,650 円(税込)",
+      "preorderDate": "販売終了",
+      "releaseDate": "2026年10月2日",
+      "shipDate": "2026年10月2日",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3537716/",
+      "status": "待出荷",
+      "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
+      "image": "",
+      "id": 1788607672619
+    },
     {
       "name": "おまんじゅうにぎにぎマスコット2 R1ze(朝班)",
       "nameCn": "ENSKY团子第二弹/笑颜团子 朝班",
@@ -23,7 +45,7 @@
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+R1ze%28%E6%9C%9D%E7%8F%AD%29/pd/3559075/",
-      "status": "已结束",
+      "status": "待出荷",
       "description": "",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934651_1_1785841505.jpg",
       "imgs": [
@@ -52,7 +74,7 @@
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Ev3ns%28%E5%A4%95%E7%8F%AD%29/pd/3559077/",
-      "status": "已结束",
+      "status": "待出荷",
       "description": "Animate(オンライン通販)状況:販売終了(待出荷)",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934699_1_1785841505.jpg",
       "imgs": [
@@ -149,8 +171,8 @@
     {
       "id": 100,
       "name": "Cassette #10 'Funny day' -R1ze-",
-      "nameCn": "卡带 #10 朝班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #10 朝班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "nishizono-renga",
@@ -171,13 +193,16 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://aka.doubaocdn.com/s/EEoNbUsNV3"
+      "image": "https://aka.doubaocdn.com/s/EEoNbUsNV3",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/EEoNbUsNV3"
+      ]
     },
     {
       "id": 101,
       "name": "Cassette #11 'Funny day' -Day2-",
-      "nameCn": "卡带 #11 昼班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #11 昼班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "isotake-akuta",
@@ -198,13 +223,16 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05151304_6a069b440bd9b.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05151304_6a069b440bd9b.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05151304_6a069b440bd9b.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 102,
       "name": "Cassette #12 'Funny day' -Ev3ns-",
-      "nameCn": "卡带 #12 夕班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #12 夕班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "kitakata-raito",
@@ -225,13 +253,16 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06051211_6a223e5f1b64a.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06051211_6a223e5f1b64a.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06051211_6a223e5f1b64a.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 103,
       "name": "Cassette #13 'Funny day' -L4mps-",
-      "nameCn": "卡带 #13 夜班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #13 夜班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "shiromitsu-toi",
@@ -252,7 +283,10 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07101239_6a50696d9586f.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07101239_6a50696d9586f.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07101239_6a50696d9586f.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 104,
@@ -5361,7 +5395,7 @@
       "name": "アクリルスタンド／vol.12 輝矢 宗氏",
       "nameCn": "立牌 vol.12 辉矢宗氏",
       "category": "亚克力立牌",
-      "series": "定番グッズ vol.12",
+      "series": "アクリルスタンド vol.12",
       "characters": [
         "kiya-muneuji"
       ],
@@ -5377,14 +5411,17 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690778_1_1784001916.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690778_1_1784001916.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690778_1_1784001916.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 317,
       "name": "アクリルスタンド／vol.12 畔川 幾成",
       "nameCn": "立牌 vol.12 畔川几成",
       "category": "亚克力立牌",
-      "series": "定番グッズ vol.12",
+      "series": "アクリルスタンド vol.12",
       "characters": [
         "azekawa-ikinari"
       ],
@@ -5400,14 +5437,17 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690808_1_1784001918.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690808_1_1784001918.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690808_1_1784001918.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 318,
       "name": "アクリルスタンド／vol.12 夏焼 千弥",
       "nameCn": "立牌 vol.12 夏烧千弥",
       "category": "亚克力立牌",
-      "series": "定番グッズ vol.12",
+      "series": "アクリルスタンド vol.12",
       "characters": [
         "natsuyaki-chihiro"
       ],
@@ -5423,14 +5463,17 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690815_1_1784001909.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690815_1_1784001909.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690815_1_1784001909.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 319,
       "name": "アクリルスタンド／vol.12 木ノ内 太緒",
       "nameCn": "立牌 vol.12 木之内太绪",
       "category": "亚克力立牌",
-      "series": "定番グッズ vol.12",
+      "series": "アクリルスタンド vol.12",
       "characters": [
         "kinouchi-tao"
       ],
@@ -5446,14 +5489,17 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690822_1_1784001918.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690822_1_1784001918.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690822_1_1784001918.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 320,
       "name": "アクリルスタンド／vol.12 夜半 子タろ",
       "nameCn": "立牌 vol.12 夜半子太郎",
       "category": "亚克力立牌",
-      "series": "定番グッズ vol.12",
+      "series": "アクリルスタンド vol.12",
       "characters": [
         "yowa-kotaro"
       ],
@@ -5469,7 +5515,10 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690884_1_1784001916.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690884_1_1784001916.jpg&width=1200&height=630",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690884_1_1784001916.jpg&width=1200&height=630"
+      ]
     },
     {
       "id": 321,
@@ -7673,7 +7722,7 @@
     {
       "id": 411,
       "name": "ぱしゃこれ／vol.4",
-      "nameCn": "拍立得卡集 vol.4",
+      "nameCn": "二轮SSR拍立得 vol.4",
       "category": "卡片相卡",
       "series": "定番グッズ vol.4",
       "characters": [],
@@ -8462,8 +8511,8 @@
     {
       "id": 444,
       "name": "Cassette #01 'グッドラック'/HAMAツアーズ",
-      "nameCn": "卡带 #01",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #01",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [],
       "allTeams": true,
@@ -8478,13 +8527,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/vXdNipBFiU"
+      "image": "https://aka.doubaocdn.com/s/vXdNipBFiU",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/vXdNipBFiU"
+      ]
     },
     {
       "id": 445,
       "name": "Cassette #02 'HAMA Nice Trip' -R1ze-/R1ze",
-      "nameCn": "卡带 #02 朝班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #02 朝班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "nishizono-renga",
@@ -8505,13 +8557,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/RFbLAelIr8"
+      "image": "https://aka.doubaocdn.com/s/RFbLAelIr8",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/RFbLAelIr8"
+      ]
     },
     {
       "id": 446,
       "name": "Cassette #03 'HAMA Nice Trip' -Day2-/Day2",
-      "nameCn": "卡带 #03 昼班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #03 昼班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "isotake-akuta",
@@ -8532,13 +8587,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/k7qxJ9ZKt8"
+      "image": "https://aka.doubaocdn.com/s/k7qxJ9ZKt8",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/k7qxJ9ZKt8"
+      ]
     },
     {
       "id": 447,
       "name": "Cassette #04 'HAMA Nice Trip' -Ev3ns-/Ev3ns",
-      "nameCn": "卡带 #04 夕班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #04 夕班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "kitakata-raito",
@@ -8559,13 +8617,16 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://aka.doubaocdn.com/s/DISM3mV86f"
+      "image": "https://aka.doubaocdn.com/s/DISM3mV86f",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/DISM3mV86f"
+      ]
     },
     {
       "id": 448,
       "name": "Cassette #05 'HAMA Nice Trip' -L4mps-/L4mps",
-      "nameCn": "卡带 #05 夜班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #05 夜班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "shiromitsu-toi",
@@ -8586,7 +8647,10 @@
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11181045_673a9c472a2eb.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11181045_673a9c472a2eb.jpg&width=400&height=400&square=1",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11181045_673a9c472a2eb.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 449,
@@ -8755,8 +8819,8 @@
     {
       "id": 454,
       "name": "Cassette #06 ‘Smiley day’ -R1ze-",
-      "nameCn": "卡带 #06 朝班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #06 朝班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "nishizono-renga",
@@ -8777,13 +8841,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/lkbF2ajVFb"
+      "image": "https://aka.doubaocdn.com/s/lkbF2ajVFb",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/lkbF2ajVFb"
+      ]
     },
     {
       "id": 455,
       "name": "Cassette #07 ‘Smiley day’ -Day2-",
-      "nameCn": "卡带 #07 昼班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #07 昼班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "isotake-akuta",
@@ -8804,13 +8871,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/6QBsArpU8t"
+      "image": "https://aka.doubaocdn.com/s/6QBsArpU8t",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/6QBsArpU8t"
+      ]
     },
     {
       "id": 456,
       "name": "Cassette #08 ‘Smiley day’ -Ev3ns-",
-      "nameCn": "卡带 #08 夕班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #08 夕班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "kitakata-raito",
@@ -8831,13 +8901,16 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/OAxjszdlIX"
+      "image": "https://aka.doubaocdn.com/s/OAxjszdlIX",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/OAxjszdlIX"
+      ]
     },
     {
       "id": 457,
       "name": "Cassette #09 ‘Smiley day’ -L4mps-",
-      "nameCn": "卡带 #09 夜班",
-      "category": "卡带音乐",
+      "nameCn": "磁带 #09 夜班",
+      "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [
         "shiromitsu-toi",
@@ -8858,7 +8931,10 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://aka.doubaocdn.com/s/aWW7VtEUtq"
+      "image": "https://aka.doubaocdn.com/s/aWW7VtEUtq",
+      "imgs": [
+        "https://aka.doubaocdn.com/s/aWW7VtEUtq"
+      ]
     },
     {
       "id": 458,
