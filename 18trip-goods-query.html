@@ -124,7 +124,7 @@
 
   /* 卡片 */
   #list{display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:14px;}
-  #list .card{height:100%;}
+  #list .card{height:100%; contain:layout style; will-change:transform;}
   .card{
     background:var(--card); border-radius:14px; overflow:hidden; box-shadow:0 3px 12px var(--shadow-soft);
     display:flex; flex-direction:column; transition:transform .1s ease, box-shadow .1s ease; position:relative;
@@ -134,10 +134,9 @@
   .card .strip{height:6px; flex:none;}
   .gimg{
     background:var(--surface); display:flex; align-items:center; justify-content:center;
-    max-height:230px; overflow:hidden; border-bottom:1px solid var(--line);
-    position:relative;
+    height:200px; overflow:hidden; border-bottom:1px solid var(--line); position:relative; flex:0 0 200px;
   }
-  .gimg img{max-width:100%; max-height:230px; object-fit:contain; display:block;}
+  .gimg img{width:100%; height:100%; object-fit:contain; display:block;}
   /* ===== 状态角标 ===== */
   .st-badge{
     position:absolute; top:10px; right:10px; z-index:5; font-size:11px; font-weight:700; letter-spacing:.5px;
@@ -43271,13 +43270,15 @@ function openLightbox(src) {
 const VS = {
   filtered: [],
   rowHeight: 0,
+  measuredRowHeight: 0,
   colCount: 0,
   totalRows: 0,
   startIdx: 0,
   endIdx: 0,
   buffer: 4,
   ticking: false,
-  _lastLen: -1
+  _lastLen: -1,
+  _lastColCount: -1
 };
 
 function estimateColCount() {
@@ -43291,7 +43292,26 @@ function estimateColCount() {
 }
 
 function estimateRowHeight() {
-  return 440;
+  // 如果已经测量过实际高度，用测量值；否则用估算值
+  if (VS.measuredRowHeight > 0) return VS.measuredRowHeight;
+  // 移动端单列时卡片更高（文字换行多），桌面端多列时较矮
+  const cols = estimateColCount();
+  if (cols === 1) return 520; // 手机单列，卡片较高
+  if (cols === 2) return 470; // 平板两列
+  return 440; // 桌面多列
+}
+
+// 渲染第一批卡片后测量实际高度，提高虚拟滚动精度
+function measureRowHeight() {
+  const listEl = document.getElementById('list');
+  if (!listEl) return;
+  const firstCard = listEl.querySelector('.card');
+  if (firstCard) {
+    const h = firstCard.offsetHeight;
+    if (h > 200 && h < 1200) {
+      VS.measuredRowHeight = h;
+    }
+  }
 }
 
 function getCardHtml(item) {
@@ -43372,6 +43392,12 @@ function renderVirtual() {
   const rowHeight = estimateRowHeight();
   const totalRows = Math.ceil(data.length / colCount);
   
+  // 列数变化时重置测量高度，重新测量
+  if (colCount !== VS._lastColCount) {
+    VS.measuredRowHeight = 0;
+    VS._lastColCount = colCount;
+  }
+  
   VS.colCount = colCount;
   VS.rowHeight = rowHeight;
   VS.totalRows = totalRows;
@@ -43382,7 +43408,9 @@ function renderVirtual() {
   const viewportTop = scrollTop;
   const viewportBottom = scrollTop + window.innerHeight;
   
-  const bufferPx = VS.buffer * rowHeight;
+  // 单列（手机）时增加缓冲行数，避免快速滚动时白屏
+  const bufferRows = colCount === 1 ? 8 : (colCount === 2 ? 6 : 4);
+  const bufferPx = bufferRows * rowHeight;
   
   let startRow = Math.max(0, Math.floor((viewportTop - listTop - bufferPx) / (rowHeight + 14)));
   let endRow = Math.min(totalRows, Math.ceil((viewportBottom - listTop + bufferPx) / (rowHeight + 14)));
@@ -43390,7 +43418,7 @@ function renderVirtual() {
   const startIdx = Math.min(data.length, startRow * colCount);
   const endIdx = Math.min(data.length, endRow * colCount);
   
-  if (startIdx === VS.startIdx && endIdx === VS.endIdx && data.length === VS._lastLen) return;
+  if (startIdx === VS.startIdx && endIdx === VS.endIdx && data.length === VS._lastLen && VS.measuredRowHeight > 0) return;
   VS.startIdx = startIdx;
   VS.endIdx = endIdx;
   VS._lastLen = data.length;
@@ -43413,6 +43441,17 @@ function renderVirtual() {
     : '';
   
   listEl.innerHTML = topSpacer + html + bottomSpacer;
+  
+  // 首次渲染后测量实际卡片高度，用于修正计算
+  if (!VS.measuredRowHeight) {
+    requestAnimationFrame(function() {
+      measureRowHeight();
+      if (VS.measuredRowHeight) {
+        VS._lastLen = -1; // 强制重新计算
+        renderVirtual();
+      }
+    });
+  }
 }
 
 function renderGoods() {
@@ -43792,6 +43831,7 @@ function submitGoodsForm() {
 
   const { chars, allTeams, teamScope } = getSelectedChars();
 
+  const shopLinksData = getShopLinks();
   const item = {
     name, nameCn, category,
     isStage: document.getElementById('f_isStage').value === 'true',
@@ -43806,12 +43846,55 @@ function submitGoodsForm() {
     description: document.getElementById('f_desc').value.trim(),
     image: pendingImgs[0] || '',
     imgs: pendingImgs.length ? [...pendingImgs] : undefined,
-    shopLinks: getShopLinks().length ? getShopLinks() : undefined
+    shopLinks: shopLinksData.length ? shopLinksData : undefined,
+    // 平台专用链接字段：根据 shopLinks 中的 URL 同步，确保删除操作生效
+    platformUrl: undefined,
+    movicUrl: undefined,
+    eeoUrl: undefined,
+    enskyUrl: undefined,
+    skJapanUrl: undefined,
+    officialUrl: undefined
   };
+  
+  // 将 shopLinks 中的链接回填到对应平台字段
+  // （与 editGoods 中的加载逻辑对应，确保删除渠道时旧字段被清空）
+  if (shopLinksData && shopLinksData.length) {
+    for (let i = 0; i < shopLinksData.length; i++) {
+      const sl = shopLinksData[i];
+      const url = sl.url || '';
+      const name = (sl.name || '').toLowerCase();
+      if (!url) continue;
+      
+      if (name.indexOf('movic') > -1) item.movicUrl = url;
+      else if (name.indexOf('eeo') > -1) item.eeoUrl = url;
+      else if (name.indexOf('ensky') > -1) item.enskyUrl = url;
+      else if (name.indexOf('sk japan') > -1 || name.indexOf('sk-japan') > -1) item.skJapanUrl = url;
+      else if (name.indexOf('官方') > -1) item.officialUrl = url;
+      else if (name === platform.toLowerCase() || name.indexOf(platform.toLowerCase()) > -1) {
+        item.platformUrl = url;
+      } else {
+        // 其他平台：如果和 platform 名称匹配就放到 platformUrl
+        if (!item.platformUrl && platform && name.indexOf(platform.toLowerCase()) > -1) {
+          item.platformUrl = url;
+        }
+      }
+    }
+  }
 
   if (editingId) {
     const i = goodsData.findIndex(g => g.id === editingId);
-    if (i !== -1) { goodsData[i] = { ...goodsData[i], ...item }; }
+    if (i !== -1) {
+      // 先合并基础数据
+      goodsData[i] = { ...goodsData[i], ...item };
+      // 显式删除平台专用字段（如果 shopLinks 中已不存在），确保删除渠道生效
+      // （对象展开时 undefined 不会覆盖已有属性，所以需要手动删除）
+      const platformFields = ['platformUrl', 'movicUrl', 'eeoUrl', 'enskyUrl', 'skJapanUrl', 'officialUrl'];
+      for (let f = 0; f < platformFields.length; f++) {
+        if (item[platformFields[f]] === undefined) {
+          delete goodsData[i][platformFields[f]];
+        }
+      }
+    }
   } else {
     item.id = Date.now();
     goodsData.unshift(item);
