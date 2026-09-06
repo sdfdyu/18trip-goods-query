@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-06T16:27:04.353Z",
+  "timestamp": "2026-09-06T17:25:38.816Z",
   "goods": [
     {
       "id": 1858,
@@ -77,7 +77,7 @@
       "category": "亚克力立牌",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "sonia"
       ],
       "allTeams": false,
       "eeoUrl": "https://eeo.today/store/101/products/detail/323223",
@@ -91,7 +91,22 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826512_1_1784001909.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826512_1_1784001909.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826512_1_1784001909.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/323223"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%97%E3%83%AC%E3%83%BC%E3%83%8801/%E3%82%BD%E3%83%8B%E3%82%A2/pd/3537889/"
+        }
+      ]
     },
     {
       "id": 1574,
@@ -2640,7 +2655,7 @@
     {
       "id": 1224,
       "name": "18TRIP しゅうまいのちゅあスタ　ミニチュアアクリルスタンドコレクション／vol.2",
-      "nameCn": "立牌 烧卖",
+      "nameCn": "18TRIP 烧麦迷你立牌套组 vol.2",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -2659,7 +2674,21 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番グッズ vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621599750_1_1777547106.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621599750_1_1777547106.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621599750_1_1777547106.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00311/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/sphone/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP%20%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%81%A1%E3%82%85%E3%81%82%E3%82%B9%E3%82%BF%E3%80%80%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.2/pd/3430529/?srsltid=AfmBOooS8TyQQxx3iS5HBXeCssacgMxocH6MahQPcVPPUjDsrBe1j6v1"
+        }
+      ]
     },
     {
       "id": 969,
@@ -4347,10 +4376,8 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002120",
       "canimeUrl": "https://canime.jp/product/BRZG000002120/",
@@ -4362,7 +4389,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002120/org/1639502101_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002120/org/1639502101_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002120/org/1639502101_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002120"
+        }
+      ]
     },
     {
       "id": 454,
@@ -5206,10 +5244,19 @@
       "id": 234,
       "name": "アクリルカード01/ブラインド(全10種)(公式イラスト)",
       "nameCn": "亚克力卡 盲盒(官方插画)",
-      "category": "拍立得",
+      "category": "卡片",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -5222,7 +5269,18 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637329_2_1779879908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637329_1_1779879910.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637329_1_1779879910.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AB%E3%83%BC%E3%83%8901/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3494703/"
+        }
+      ]
     },
     {
       "id": 486,
@@ -7872,10 +7930,8 @@
       "nameCn": "立牌",
       "category": "亚克力立牌",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002073",
       "canimeUrl": "https://canime.jp/product/BRZG000002073/",
@@ -7887,7 +7943,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002073"
+        }
+      ]
     },
     {
       "id": 1024,
@@ -10173,9 +10240,7 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
+      "characters": [],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002021",
@@ -10188,7 +10253,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002021/org/1639502002_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002021/org/1639502002_1.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002021/org/1639502002_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002021"
+        }
+      ]
     },
     {
       "id": 400,
@@ -10557,10 +10633,19 @@
       "id": 235,
       "name": "アクリルカード02/ブラインド(全10種)(公式イラスト)",
       "nameCn": "亚克力卡 盲盒(官方插画)",
-      "category": "拍立得",
+      "category": "卡片",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -10573,7 +10658,18 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637336_1_1779879908.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637336_1_1779879908.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637336_1_1779879908.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AB%E3%83%BC%E3%83%8902/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3494704/"
+        }
+      ]
     },
     {
       "id": 1691,
@@ -14867,10 +14963,8 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002052",
       "canimeUrl": "https://canime.jp/product/BRZG000002052/",
@@ -14882,7 +14976,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002052/org/1639502033_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002052/org/1639502033_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002052/org/1639502033_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002052"
+        }
+      ]
     },
     {
       "id": 1644,
@@ -18721,7 +18826,11 @@
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -18734,7 +18843,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)|全5種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826475_1_1784001916.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826475_1_1784001916.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826475_1_1784001916.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%B801/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A85%E7%A8%AE%29/pd/3537886/"
+        }
+      ]
     },
     {
       "id": 957,
@@ -19314,7 +19434,11 @@
       "category": "亚克力挂件",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -19327,7 +19451,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)|全5種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826482_1_1784001910.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826482_1_1784001910.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826482_1_1784001910.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC05/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A85%E7%A8%AE%29/pd/3537887/"
+        }
+      ]
     },
     {
       "id": 695,
@@ -19699,12 +19834,10 @@
       "id": 412,
       "name": "証明写真館／vol.2（トレーディング）",
       "nameCn": "证件照收藏 vol.2(盲袋)",
-      "category": "拍立得",
+      "category": "相卡",
       "series": "定番グッズ vol.2",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E8%A8%BC%E6%98%8E%E5%86%99%E7%9C%9F%E9%A4%A8%EF%BC%8Fvol.2%EF%BC%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%89/pd/3564684/",
       "price": "275 円(税込)",
@@ -19715,7 +19848,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 24,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E8%A8%BC%E6%98%8E%E5%86%99%E7%9C%9F%E9%A4%A8%EF%BC%8Fvol.2%EF%BC%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%89/pd/3564684/"
+        }
+      ]
     },
     {
       "id": 689,
@@ -20083,10 +20227,8 @@
       "nameCn": "透明海报",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002119",
       "canimeUrl": "https://canime.jp/product/BRZG000002119/",
@@ -20098,7 +20240,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002119/org/1639502100_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002119/org/1639502100_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002119/org/1639502100_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002119"
+        }
+      ]
     },
     {
       "id": 996,
@@ -21202,7 +21355,7 @@
     {
       "id": 1193,
       "name": "18TRIP しゅうまいのふわふわハンドタオル",
-      "nameCn": "杂货 烧卖",
+      "nameCn": "烧麦手帕",
       "category": "日常杂货",
       "series": "その他",
       "characters": [
@@ -21221,7 +21374,25 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626203_1_1773918310.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626203_1_1773918310.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626203_1_1773918310.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00401-00022/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/sphone/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%BF%E3%82%AA%E3%83%AB%E3%80%9118TRIP%20%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%83%8F%E3%83%B3%E3%83%89%E3%82%BF%E3%82%AA%E3%83%AB/pd/3431147/?srsltid=AfmBOooXZoIBYG_mNBV9nBBYyM-6PY3Zd3rdm8rH7_twdMjRIXoFx9c7"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 774,
@@ -22092,7 +22263,11 @@
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.2",
       "characters": [
-        "shumai"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -22105,7 +22280,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930425_1_1784606709.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930425_1_1784606709.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930425_1_1784606709.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E3%80%9118TRIP+%E3%81%8F%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%B4%E3%81%AC%E3%81%84+Vol.2/pd/3544771/"
+        }
+      ]
     },
     {
       "id": 249,
@@ -23462,13 +23648,11 @@
     {
       "id": 496,
       "name": "イベントパンフレット【第2版】（HAMAツアーズpresents “おもてなしライブ” -Sparkle-）",
-      "nameCn": "周边",
+      "nameCn": "Omotenashi Live -Sparkle- 活动宣传册【第2版】",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002269",
       "canimeUrl": "https://canime.jp/product/BRZG000002269/",
@@ -23480,7 +23664,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp"
+      "image": "https://canime.jp/upload/product/01%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88-02.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/product/01%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88-02.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "canime",
+          "url": "https://canime.jp/product/BRZG000002269"
+        }
+      ]
     },
     {
       "id": 1296,
@@ -24305,7 +24500,16 @@
       "category": "亚克力立牌",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307428",
@@ -24319,7 +24523,22 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661089_1_1780459506.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661089_1_1780459506.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661089_1_1780459506.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/307428"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%91%E3%80%8E18TRIP%E3%80%8F+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%81%B7%E3%81%A1%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%8908/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3499185/"
+        }
+      ]
     },
     {
       "id": 1605,
@@ -24396,10 +24615,8 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002053",
       "canimeUrl": "https://canime.jp/product/BRZG000002053/",
@@ -24411,7 +24628,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002053/org/1639502034_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002053/org/1639502034_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002053/org/1639502034_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002053"
+        }
+      ]
     },
     {
       "id": 1824,
@@ -24440,10 +24668,8 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002121",
       "canimeUrl": "https://canime.jp/product/BRZG000002121/",
@@ -24455,7 +24681,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002121/org/1639502102_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002121/org/1639502102_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002121/org/1639502102_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002121"
+        }
+      ]
     },
     {
       "id": 1167,
@@ -27844,7 +28081,11 @@
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.3",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -27857,7 +28098,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935642_1_1784606709.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935642_1_1784606709.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935642_1_1784606709.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E3%80%9118TRIP+%E3%81%8F%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%B4%E3%81%AC%E3%81%84+Vol.3/pd/3544772/"
+        }
+      ]
     },
     {
       "id": 409,
@@ -29179,10 +29431,8 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002050",
       "canimeUrl": "https://canime.jp/product/BRZG000002050/",
@@ -29194,7 +29444,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002050/org/1639502031_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002050/org/1639502031_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002050/org/1639502031_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002050"
+        }
+      ]
     },
     {
       "id": 379,
@@ -30021,9 +30282,7 @@
       "nameCn": "周边",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
+      "characters": [],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002047",
@@ -30036,7 +30295,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/jacket/BRZG000002047/org/1639502028_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002047/org/1639502028_1.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002047/org/1639502028_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002047"
+        }
+      ]
     },
     {
       "id": 1305,
@@ -30635,13 +30905,11 @@
     {
       "id": 501,
       "name": "ペンライトチューブ（HAMAツアーズpresents “おもてなしライブ” -Sparkle-）",
-      "nameCn": "周边",
+      "nameCn": "Omotenashi Live -Sparkle- Call棒/应援棒",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/product/BRZG000002022",
       "canimeUrl": "https://canime.jp/product/BRZG000002022/",
@@ -30653,7 +30921,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp"
+      "image": "https://canime.jp/upload/product/all_18trip_omolive-goods_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/product/all_18trip_omolive-goods_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002022"
+        }
+      ]
     },
     {
       "id": 1126,
@@ -31412,7 +31691,16 @@
       "category": "亚克力挂件",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -31425,7 +31713,18 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637343_1_1779879906.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637343_1_1779879906.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637343_1_1779879906.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC01/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3494705/"
+        }
+      ]
     },
     {
       "id": 317,
@@ -31716,7 +32015,16 @@
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307432",
@@ -31730,7 +32038,22 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661041_1_1780459505.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661041_1_1780459505.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661041_1_1780459505.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/307432"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%91%E3%80%8E18TRIP%E3%80%8F+%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B809/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3499183/"
+        }
+      ]
     },
     {
       "id": 1312,
@@ -32159,7 +32482,11 @@
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.1",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -32172,7 +32499,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930401_1_1784606711.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930401_1_1784606711.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831930401_1_1784606711.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E3%80%9118TRIP+%E3%81%8F%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%B4%E3%81%AC%E3%81%84+Vol.1/pd/3544770/"
+        }
+      ]
     },
     {
       "id": 923,
@@ -32424,9 +32762,9 @@
     {
       "id": 1649,
       "name": "18TRIP アクリル缶バッジホルダー 5.しゅうまい",
-      "nameCn": "吧唧 烧卖",
-      "category": "徽章吧唧",
-      "series": "その他",
+      "nameCn": "亚克力吧唧套 烧卖款",
+      "category": "日常杂货",
+      "series": "18TRIP アクリル缶バッジホルダー",
       "characters": [
         "shumai"
       ],
@@ -32435,14 +32773,29 @@
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "2,200円(税込)",
-      "preorderDate": "",
+      "preorderDate": "2026年05月12日",
       "releaseDate": "2026年08月上旬 発売",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%82%AB%E3%83%90%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC+5.%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84/pd/3479438/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
-      "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567121_1_1778497510.jpg&width=400&height=400&square=1"
+      "description": "× 在庫なし，店舗受取り可能",
+      "image": "https://makeshop-multi-images.akamaized.net/dtcshop/itemimages/000000002458_gfMHamo.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://makeshop-multi-images.akamaized.net/dtcshop/itemimages/000000002458_gfMHamo.jpg",
+        "https://makeshop-multi-images.akamaized.net/dtcshop/shopimages/58/24/1_000000002458.jpg?1778202021"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/sphone/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%82%AB%E3%83%90%E3%83%BC%E3%80%9118TRIP%20%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%205.%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84/pd/3479438/?srsltid=AfmBOorFl43TLQchxITrtCNXO7_nen7HU61xGppJMX1Cw_8RzhM-eJQv"
+        },
+        {
+          "name": "charalog",
+          "url": "https://www.chara-log.com/view/item/000000002458?srsltid=AfmBOorZznYfpdtDZnyA9tapS0Xn5p6oJECszAGbX7LGGHntw3zuAuet"
+        }
+      ]
     },
     {
       "id": 315,
@@ -32617,7 +32970,11 @@
       "category": "毛绒玩偶",
       "series": "定番グッズ vol.4",
       "characters": [
-        "shumai"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -32630,7 +32987,18 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935666_1_1784606709.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935666_1_1784606709.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580831935666_1_1784606709.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E3%80%9118TRIP+%E3%81%8F%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%B4%E3%81%AC%E3%81%84+Vol.4/pd/3544773/"
+        }
+      ]
     },
     {
       "id": 386,
@@ -34040,7 +34408,16 @@
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307433",
@@ -34054,7 +34431,22 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661034_1_1780459507.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661034_1_1780459507.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661034_1_1780459507.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/307433"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%91%E3%80%8E18TRIP%E3%80%8F+%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B808/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3499182/"
+        }
+      ]
     },
     {
       "id": 362,
@@ -34265,7 +34657,18 @@
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -34278,7 +34681,18 @@
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898704_1_1762920311.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898704_1_1762920311.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898704_1_1762920311.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305219/"
+        }
+      ]
     },
     {
       "id": 106,
@@ -35335,7 +35749,16 @@
       "category": "亚克力挂件",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
@@ -35348,7 +35771,18 @@
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)|全10種",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637350_1_1779879910.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637350_1_1779879910.jpg&width=1200&height=630",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843637350_1_1779879910.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC02/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3494706/"
+        }
+      ]
     },
     {
       "id": 129,
@@ -35701,7 +36135,7 @@
     {
       "id": 508,
       "name": "ラバーブレスレット（HAMAツアーズpresents “おもてなしライブ” -Sparkle-）",
-      "nameCn": "周边",
+      "nameCn": "橡胶手环（HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
       "category": "日常杂货",
       "series": "おもてなしライブ -Sparkle-",
       "characters": [
@@ -35719,7 +36153,20 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ / ポニーキャニオン状況:受注終了(已结束)",
-      "image": "https://canime.jp"
+      "image": "https://canime.jp/upload/product/18trip_omolive-rubberband_.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-rubberband_.png",
+        "https://canime.jp/upload/product/043_1.png",
+        "https://canime.jp/upload/product/044_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002051"
+        }
+      ]
     },
     {
       "id": 1744,
@@ -42390,7 +42837,7 @@
       "id": 2267,
       "name": "ネームボードタオル（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "姓名牌毛巾（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "毛巾·布料",
+      "category": "",
       "series": "おもてなしライブ -Sparkle- 劇場版",
       "characters": [
         "shumai"
@@ -42404,10 +42851,25 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002272/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002272/"
+        },
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/18trip_omotenashi_movie/"
+        }
+      ]
     },
     {
       "id": 2268,
@@ -42459,12 +42921,10 @@
       "id": 2270,
       "name": "アフターパンフレット（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "After场刊（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "书籍·杂志",
+      "category": "杂志书籍",
       "series": "おもてなしライブ -Sparkle- 劇場版",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002270/",
@@ -42473,21 +42933,34 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002270/",
-      "status": "已发售",
+      "status": "已结束",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-fmt_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002270/"
+        },
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/18trip_omotenashi_movie/"
+        }
+      ]
     },
     {
       "id": 2271,
       "name": "ブロマイド【全20種／ランダム2枚入り】（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "相卡【全20种/随机2张】（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "相卡·写真",
+      "category": "",
       "series": "おもてなしライブ -Sparkle- 劇場版",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002292/",
@@ -42496,10 +42969,25 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002292/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002292/org/1639502134_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002292/"
+        },
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/18trip_omotenashi_movie/"
+        }
+      ]
     },
     {
       "id": 2272,
@@ -42571,7 +43059,7 @@
       "id": 2274,
       "name": "HMRトートバッグ／HAMA（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "HMR托特包／HAMA（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "收纳·包袋",
+      "category": "",
       "series": "おもてなしライブ -Sparkle- 劇場版",
       "characters": [
         "shumai"
@@ -42585,10 +43073,25 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002300/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/product/sample_18trip_omolive-goods.png"
+      "image": "https://canime.jp/upload/product/sample_18trip_omolive-goods.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/product/sample_18trip_omolive-goods.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002300/"
+        },
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/18trip_omotenashi_movie/"
+        }
+      ]
     },
     {
       "id": 2275,
@@ -42681,14 +43184,12 @@
     },
     {
       "id": 2278,
-      "name": "Good Luck アクリルスタンド(18TRIP presents \"HAMAツアーズ全体会議\")",
-      "nameCn": "Good Luck 立牌(18TRIP presents \"HAMA巡演全体会议\")",
+      "name": "アクリルスタンド（HAMAツアーズpresents “おもてなしライブ” -Sparkle-）",
+      "nameCn": "亚克力立牌（HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002073/",
@@ -42697,20 +43198,29 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002073/",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "きゃにめ HAMAツアーズ全体会議",
-      "image": "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002073/org/1639502054_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "canime",
+          "url": "https://canime.jp/product/BRZG000002073/"
+        }
+      ]
     },
     {
       "id": 2279,
       "name": "イベントTシャツ／ホワイト(18TRIP presents \"HAMAツアーズ全体会議\")",
       "nameCn": "活动T恤／白色(18TRIP presents \"HAMA巡演全体会议\")",
-      "category": "服饰·衣类",
+      "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [
-        "shumai"
-      ],
+      "characters": [],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
       "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
@@ -42720,10 +43230,22 @@
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000001547/",
-      "status": "已发售",
+      "status": "已结束",
       "statusJp": "",
       "description": "きゃにめ HAMAツアーズ全体会議",
-      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png",
+        "https://canime.jp/upload/product/%E3%81%8D%E3%82%83%E3%81%AB%E3%82%81%E5%95%86%E5%93%81%E7%94%BB%E5%83%8F%EF%BC%89BRZG000001547-02.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001547/"
+        }
+      ]
     },
     {
       "id": 2280,
