@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-06T17:49:13.323Z",
+  "timestamp": "2026-09-06T18:19:48.266Z",
   "goods": [
     {
       "id": 1858,
@@ -532,24 +532,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%9118TRIP+%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B903/Ev3ns%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3133301/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617864_1_1747314327.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617864_1_1747314327.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617864_1_1747314327.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 961,
@@ -792,28 +801,37 @@
     {
       "id": 1814,
       "name": "18TRIP おまんじゅうにぎにぎマスコット Day2（昼班）",
-      "nameCn": "その他",
-      "category": "日常杂货",
+      "nameCn": "ENSKY团子1弹 昼班",
+      "category": "毛绒玩偶",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88+Day2%EF%BC%88%E6%98%BC%E7%8F%AD%EF%BC%89/pd/3013528/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692797_2_1732680515.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692797_2_1732680515.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692797_2_1732680515.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 475,
@@ -998,12 +1016,7 @@
         "kitakata-nayuki",
         "iwabuchi-hiroshi",
         "hamasaki-momiji",
-        "hamasaki-kaede",
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hamasaki-kaede"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -2346,24 +2359,33 @@
       "category": "贴纸",
       "series": "まねきねこコラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB+%E6%98%BC%E7%8F%AD%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3134512/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a16a5f01.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a16a5f01.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a16a5f01.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 349,
@@ -2663,24 +2685,33 @@
       "category": "拍立得",
       "series": "vol.2",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%83%8F%E3%83%8B%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+vol.2+Day2/pd/3512097/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432337404_2_1781607910.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432337404_2_1781607910.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432337404_2_1781607910.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 295,
@@ -3091,24 +3122,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%9118TRIP+%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B902/Day2%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3133300/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617857_1_1747314341.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617857_1_1747314341.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617857_1_1747314341.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 936,
@@ -3813,25 +3853,43 @@
       "category": "日常杂货",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E6%96%87%E6%88%BF%E5%85%B7%E3%80%9118TRIP+%E3%83%9E%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%86%E3%83%BC%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%EF%BC%8F%E6%9C%9D%E3%83%BB%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419085/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00366-00001/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524707_1_1773140709.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524707_1_1773140709.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524707_1_1773140709.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00366-00001/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 206,
@@ -4618,28 +4676,37 @@
     {
       "id": 1813,
       "name": "18TRIP おまんじゅうにぎにぎマスコット Ev3ns（夕班）",
-      "nameCn": "その他",
+      "nameCn": "ENSKY团子1弹 夕班",
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88+Ev3ns%EF%BC%88%E5%A4%95%E7%8F%AD%EF%BC%89/pd/3013529/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692810_2_1732680313.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692810_2_1732680313.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692810_2_1732680313.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 937,
@@ -7258,29 +7325,42 @@
     {
       "id": 1888,
       "name": "18TRIP おまんじゅうにぎにぎマスコット2 Ev3ns(夕班)",
-      "nameCn": "その他",
-      "category": "日常杂货",
-      "series": "その他",
+      "nameCn": "ENSKY团子2弹/夕班笑颜团子",
+      "category": "毛绒玩偶",
+      "series": "おまんじゅうにぎにぎマスコット",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "enskyUrl": "https://www.enskyshop.com/products/detail/32442",
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Ev3ns%28%E5%A4%95%E7%8F%AD%29/pd/3559077/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934699_2_1785841504.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934699_2_1785841504.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934699_2_1785841504.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "ensky Shop",
+          "url": "https://www.enskyshop.com/products/detail/32442"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1291,
@@ -7309,28 +7389,37 @@
     {
       "id": 1812,
       "name": "18TRIP おまんじゅうにぎにぎマスコット L4mps（夜班）",
-      "nameCn": "その他",
+      "nameCn": "ENSKY团子1弹 夜班",
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88+L4mps%EF%BC%88%E5%A4%9C%E7%8F%AD%EF%BC%89/pd/3013530/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692834_2_1732680502.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692834_2_1732680502.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692834_2_1732680502.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 984,
@@ -8207,28 +8296,37 @@
     {
       "id": 1815,
       "name": "18TRIP おまんじゅうにぎにぎマスコット R1ze（朝班）",
-      "nameCn": "その他",
+      "nameCn": "ENSKY团子1弹 朝班",
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88+R1ze%EF%BC%88%E6%9C%9D%E7%8F%AD%EF%BC%89/pd/3013527/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692773_2_1732680486.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692773_2_1732680486.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692773_2_1732680486.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1583,
@@ -8697,27 +8795,36 @@
       "id": 1884,
       "name": "18TRIP Cherigem Stciker L4mps",
       "nameCn": "その他",
-      "category": "日常杂货",
+      "category": "贴纸",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Cherigem+Stciker+L4mps/pd/3482955/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333031_1_1778731503.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333031_1_1778731503.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333031_1_1778731503.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 873,
@@ -9627,24 +9734,33 @@
       "category": "贴纸",
       "series": "まねきねこコラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB+%E6%9C%9D%E7%8F%AD%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3134511/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161849_68270a28c6b91.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1818,
@@ -11931,27 +12047,36 @@
       "id": 1887,
       "name": "18TRIP Cherigem Stciker R1ze",
       "nameCn": "その他",
-      "category": "日常杂货",
+      "category": "贴纸",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Cherigem+Stciker+R1ze/pd/3482952/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333000_1_1778731504.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333000_1_1778731504.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333000_1_1778731504.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 220,
@@ -12271,25 +12396,45 @@
       "category": "日常杂货",
       "series": "vol.6",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年8月7日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.6%E3%80%80%E5%A4%95%E7%8F%AD%EF%BC%86%E5%A4%9C%E7%8F%AD/pd/3491556/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00213-00017/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.6",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621653964_1_1779768313.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621653964_1_1779768313.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621653964_1_1779768313.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00213-00017/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1630,
@@ -15539,31 +15684,43 @@
     },
     {
       "id": 369,
-      "name": "おまんじゅうにぎにぎマスコット2 L4mps(夜班)",
-      "nameCn": "挂件玩偶 夜班",
+      "name": "18TRIP おまんじゅうにぎにぎマスコット2 L4mps(夜班)",
+      "nameCn": "ENSKY团子2弹/夜班笑颜团子",
       "category": "毛绒玩偶",
       "series": "18TRIP グッズ",
       "characters": [
-        "shiromitsu-toi",
         "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
         "natsume-yodaka",
-        "yowa-kotaro",
-        "shiromitsu-rui"
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "enskyUrl": "https://www.enskyshop.com/products/detail/32443",
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+L4mps%28%E5%A4%9C%E7%8F%AD%29/pd/3559078/",
       "price": "880 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+L4mps%28%E5%A4%9C%E7%8F%AD%29/pd/3559078/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934712_1_1785841505.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934712_1_1785841505.jpg&width=1200&height=630",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934712_1_1785841505.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "ensky Shop",
+          "url": "https://www.enskyshop.com/products/detail/32443"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+L4mps%28%E5%A4%9C%E7%8F%AD%29/pd/3559078/"
+        }
+      ]
     },
     {
       "id": 621,
@@ -15609,24 +15766,33 @@
       "category": "拍立得",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年08月上旬 発売",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBDay2%EF%BC%BD/pd/3479431/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567015_2_1778497513.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567015_2_1778497513.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567015_2_1778497513.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 227,
@@ -16379,24 +16545,33 @@
       "category": "贴纸",
       "series": "Botania コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年3月7日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+R1ze+Botania+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB/pd/3312145/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098247_2_1763377540.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 709,
@@ -20121,24 +20296,33 @@
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "2,200円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年08月上旬 発売",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%82%AB%E3%83%90%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC+3.Ev3ns/pd/3479436/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567107_1_1778497506.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567107_1_1778497506.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567107_1_1778497506.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 752,
@@ -20781,24 +20965,33 @@
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "2,200円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年08月上旬 発売",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%82%AB%E3%83%90%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC+2.Day2/pd/3479435/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567091_1_1778497505.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567091_1_1778497505.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567091_1_1778497505.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1028,
@@ -21158,24 +21351,33 @@
       "category": "贴纸",
       "series": "Botania コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年3月7日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Day2+Botania+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB/pd/3312146/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098254_2_1763377581.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1739,
@@ -27185,25 +27387,38 @@
       "category": "日常杂货",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,760円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9D%E3%83%BC%E3%83%81%E3%80%9118TRIP+%E3%83%95%E3%83%A9%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%EF%BC%8F%E5%A4%95%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419092/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00682-00007/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524745_1_1773140711.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524745_1_1773140711.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524745_1_1773140711.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00682-00007/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 180,
@@ -27433,25 +27648,38 @@
       "category": "日常杂货",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%8F%E5%A4%95%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419053/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00240-00054/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524684_1_1773140703.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524684_1_1773140703.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524684_1_1773140703.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00240-00054/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1548,
@@ -27706,24 +27934,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%9118TRIP+%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B904/L4mps%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3133302/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617871_1_1747314369.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 505,
@@ -27901,24 +28138,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Cherigem+Stciker+Day2/pd/3482953/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333017_1_1778731504.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333017_1_1778731504.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333017_1_1778731504.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 994,
@@ -28009,24 +28255,33 @@
       "category": "贴纸",
       "series": "まねきねこコラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB+%E5%A4%95%E7%8F%AD%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3134513/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_68270a00d488d.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 730,
@@ -28205,24 +28460,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "715円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9%E3%80%9118TRIP+%E3%83%94%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B901/R1ze%28%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A2%E3%83%BC%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3133299/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582793617840_1_1747314312.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1262,
@@ -28770,28 +29034,41 @@
       "id": 1754,
       "name": "18TRIP クリアファイル／朝班　サンリオキャラクターズ",
       "nameCn": "三丽鸥联动",
-      "category": "日常杂货",
+      "category": "联动谷子",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%8F%E6%9C%9D%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419051/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00240-00052/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524660_1_1773140709.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524660_1_1773140709.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524660_1_1773140709.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00240-00052/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1609,
@@ -28892,28 +29169,46 @@
       "id": 1748,
       "name": "18TRIP マスキングテープセット／夕・夜班　サンリオキャラクターズ",
       "nameCn": "三丽鸥联动",
-      "category": "日常杂货",
+      "category": "联动谷子",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E6%96%87%E6%88%BF%E5%85%B7%E3%80%9118TRIP+%E3%83%9E%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%86%E3%83%BC%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%EF%BC%8F%E5%A4%95%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419086/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00366-00002/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524714_1_1773140711.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524714_1_1773140711.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524714_1_1773140711.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00366-00002/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1322,
@@ -29391,24 +29686,33 @@
       "category": "贴纸",
       "series": "Botania コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年3月7日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+L4mps+Botania+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB/pd/3312148/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098278_2_1763377556.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 668,
@@ -31013,24 +31317,33 @@
       "category": "日常杂货",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Cherigem+Stciker+Ev3ns/pd/3482954/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333024_1_1778731505.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333024_1_1778731505.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333024_1_1778731505.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 605,
@@ -32890,24 +33203,33 @@
       "category": "贴纸",
       "series": "まねきねこコラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB+%E5%A4%9C%E7%8F%AD%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3134514/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05161848_682709e976eec.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1159,
@@ -33696,29 +34018,42 @@
     {
       "id": 1889,
       "name": "18TRIP おまんじゅうにぎにぎマスコット2 R1ze(朝班)",
-      "nameCn": "その他",
-      "category": "日常杂货",
+      "nameCn": "ENSKY团子2弹/朝班笑颜团子",
+      "category": "毛绒玩偶",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
       ],
       "allTeams": false,
       "enskyUrl": "https://www.enskyshop.com/products/detail/32444",
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+R1ze%28%E6%9C%9D%E7%8F%AD%29/pd/3559075/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934651_2_1785841504.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934651_2_1785841504.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934651_2_1785841504.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "ensky Shop",
+          "url": "https://www.enskyshop.com/products/detail/32444"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 964,
@@ -35748,24 +36083,33 @@
       "category": "贴纸",
       "series": "Botania コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "990円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年3月7日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Ev3ns+Botania+%E3%83%95%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%AB/pd/3312147/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "Botania コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4573643098261_2_1763377524.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 256,
@@ -36206,24 +36550,33 @@
       "category": "拍立得",
       "series": "その他",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年08月上旬 発売",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%83%95%E3%82%A9%E3%83%88square%EF%BC%BBEv3ns%EF%BC%BD/pd/3479432/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567022_2_1778497505.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567022_2_1778497505.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4571650567022_2_1778497505.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 260,
@@ -36414,28 +36767,41 @@
       "id": 1744,
       "name": "18TRIP フラットポーチ／昼班　サンリオキャラクターズ",
       "nameCn": "三丽鸥联动",
-      "category": "日常杂货",
+      "category": "联动谷子",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,760円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月11日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9D%E3%83%BC%E3%83%81%E3%80%9118TRIP+%E3%83%95%E3%83%A9%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419091/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00682-00006/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "サンリオキャラクターズ コラボ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524738_1_1773140705.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524738_1_1773140705.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524738_1_1773140705.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00682-00006/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 514,
@@ -37197,8 +37563,8 @@
     },
     {
       "id": 368,
-      "name": "おまんじゅうにぎにぎマスコット2 Day2(昼班)",
-      "nameCn": "挂件玩偶 昼班",
+      "name": "18TRIP おまんじゅうにぎにぎマスコット2 Day2(昼班)",
+      "nameCn": "ENSKY团子2弹/昼班笑颜团子",
       "category": "毛绒玩偶",
       "series": "18TRIP グッズ",
       "characters": [
@@ -37212,16 +37578,28 @@
       "teamScope": 0,
       "enskyUrl": "https://www.enskyshop.com/products/detail/32441",
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Day2%28%E6%98%BC%E7%8F%AD%29/pd/3559076/",
       "price": "880 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Day2%28%E6%98%BC%E7%8F%AD%29/pd/3559076/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934675_1_1785841503.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934675_1_1785841503.jpg&width=1200&height=630",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934675_1_1785841503.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "ensky Shop",
+          "url": "https://www.enskyshop.com/products/detail/32441"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Day2%28%E6%98%BC%E7%8F%AD%29/pd/3559076/"
+        }
+      ]
     },
     {
       "id": 1612,
@@ -37960,7 +38338,7 @@
     {
       "id": 1899,
       "name": "ぬいパル（ぬいぐるみマスコット） 神名 雪風",
-      "nameCn": "毛绒玩偶挂件（毛绒玩偶） 神名雪风",
+      "nameCn": "一周年努努/努努伙伴 神名雪风",
       "category": "毛绒玩偶",
       "series": "ぬいパル",
       "characters": [
@@ -37969,21 +38347,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,980円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00700-00010-2/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "ぬいパル",
-      "image": "https://www.movic.jp/img/goods/S/05377-00700-00010-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00700-00010-s.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00700-00010-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1900,
       "name": "ぬいパル（ぬいぐるみマスコット） 鹿 礼光",
-      "nameCn": "毛绒玩偶挂件（毛绒玩偶） 鹿礼光",
+      "nameCn": "一周年努努/努努伙伴 鹿礼光",
       "category": "毛绒玩偶",
       "series": "ぬいパル",
       "characters": [
@@ -37992,39 +38379,57 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,980円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00700-00011-2/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "ぬいパル",
-      "image": "https://www.movic.jp/img/goods/S/05377-00700-00011-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00700-00011-s.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00700-00011-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1901,
       "name": "ぬいパル（ぬいぐるみマスコット） 久楽間 潮",
-      "nameCn": "毛绒玩偶挂件（毛绒玩偶） 久乐间潮",
+      "nameCn": "一周年努努/努努伙伴 久乐间潮",
       "category": "毛绒玩偶",
       "series": "ぬいパル",
       "characters": [
-        "kuguruma-ushio"
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,980円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00700-00016-2/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "ぬいパル",
-      "image": "https://www.movic.jp/img/goods/S/05377-00700-00016-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00700-00016-s.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00700-00016-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1902,
@@ -42607,21 +43012,39 @@
       "nameCn": "迷你收藏！毛绒卡套1",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71904",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "09月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71904",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー1_4519869532417.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー1_4519869532417.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー1_4519869532417.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71904"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2247,
@@ -42629,109 +43052,199 @@
       "nameCn": "迷你收藏！毛绒卡套2",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71907",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "09月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71907",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー2_4519869532424.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー2_4519869532424.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_みにコレ！ぬいぐるみ付きカードホルダー2_4519869532424.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71907"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2248,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみおすわりマスコット3",
-      "nameCn": "迷你收藏！制服玩偶坐姿挂件3",
+      "nameCn": "烧麦坐姿努/迷你收藏！制服玩偶坐姿挂件3",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70645",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "08月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70645",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC3_4519869628035.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC3_4519869628035.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC3_4519869628035.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70645"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2249,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみおすわりマスコット4",
-      "nameCn": "迷你收藏！制服玩偶坐姿挂件4",
+      "nameCn": "烧麦坐姿努/迷你收藏！制服玩偶坐姿挂件4",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70648",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "08月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70648",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC4_4519869628042.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC4_4519869628042.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/07/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC4_4519869628042.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-70648"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2250,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみおすわりマスコット1",
-      "nameCn": "迷你收藏！制服玩偶坐姿挂件1",
+      "nameCn": "烧麦坐姿努/迷你收藏！制服玩偶坐姿挂件1",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62491",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62491",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC1_4519869627113.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC1_4519869627113.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC1_4519869627113.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62491"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2251,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみおすわりマスコット2",
-      "nameCn": "迷你收藏！制服玩偶坐姿挂件2",
+      "nameCn": "烧麦坐姿努/迷你收藏！制服玩偶坐姿挂件2",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62498",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62498",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC2_4519869627120.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC2_4519869627120.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/06/18TRIP_みにコレ！しゅうまい着ぐるみおすわりMC2_4519869627120.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62498"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2252,
@@ -42739,21 +43252,35 @@
       "nameCn": "制服玩偶",
       "category": "毛绒玩偶",
       "series": "制服玩偶系列",
-      "characters": [],
+      "characters": [
+        "shumai"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-61686",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "06月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-61686",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/05/18TRIP_しゅうまいMC_4519869626093.webp"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/05/18TRIP_しゅうまいMC_4519869626093.webp",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/05/18TRIP_しゅうまいMC_4519869626093.webp"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-61686"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2253,
@@ -42761,21 +43288,35 @@
       "nameCn": "制服趴趴大毛绒2",
       "category": "毛绒玩偶",
       "series": "制服玩偶系列",
-      "characters": [],
+      "characters": [
+        "shumai"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-60002",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "04月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-60002",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/03/18TRIP_しゅうまい寝そべりBIGぬいぐるみ2_4519869623696.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/03/18TRIP_しゅうまい寝そべりBIGぬいぐるみ2_4519869623696.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/03/18TRIP_しゅうまい寝そべりBIGぬいぐるみ2_4519869623696.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-60002"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2254,
@@ -42802,90 +43343,162 @@
     {
       "id": 2255,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみマスコット1　【ナムコ限定】",
-      "nameCn": "迷你收藏！制服玩偶挂件1 【namco限定】",
+      "nameCn": "烧麦努/迷你收藏！制服玩偶挂件1 【namco限定】",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55482",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55482",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC1_4519869529561.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC1_4519869529561.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC1_4519869529561.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55482"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2256,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみマスコット2　【ナムコ限定】",
-      "nameCn": "迷你收藏！制服玩偶挂件2 【namco限定】",
+      "nameCn": "烧麦努/迷你收藏！制服玩偶挂件2 【namco限定】",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55484",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55484",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC2_4519869529578.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC2_4519869529578.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC2_4519869529578.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55484"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2257,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみマスコット3　【ナムコ限定】",
-      "nameCn": "迷你收藏！制服玩偶挂件3 【namco限定】",
+      "nameCn": "烧麦努/迷你收藏！制服玩偶挂件3 【namco限定】",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55486",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55486",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC3_4519869530314.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC3_4519869530314.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC3_4519869530314.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55486"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2258,
       "name": "18TRIP　みにコレ！しゅうまい着ぐるみマスコット4　【ナムコ限定】",
-      "nameCn": "迷你收藏！制服玩偶挂件4 【namco限定】",
+      "nameCn": "烧麦努/迷你收藏！制服玩偶挂件4 【namco限定】",
       "category": "毛绒玩偶",
       "series": "みにコレ！迷你收藏系列",
-      "characters": [],
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55487",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55487",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC4_4519869530321.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC4_4519869530321.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2025/10/18TRIP_みにコレ！しゅうまい着ぐるみMC4_4519869530321.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55487"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2259,
@@ -42981,21 +43594,35 @@
       "nameCn": "制服趴趴大毛绒",
       "category": "毛绒玩偶",
       "series": "制服玩偶系列",
-      "characters": [],
+      "characters": [
+        "shumai"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53247",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
       "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53247",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/06/18TRIP_しゅうまい寝そべりBIGぬいぐるみ_4519869527871.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2025/06/18TRIP_しゅうまい寝そべりBIGぬいぐるみ_4519869527871.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2025/06/18TRIP_しゅうまい寝そべりBIGぬいぐるみ_4519869527871.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53247"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2264,
@@ -46481,44 +47108,74 @@
     {
       "id": 2414,
       "name": "18TRIP ちびぐるみ～昼班～",
-      "nameCn": "小毛绒玩偶 昼班",
+      "nameCn": "一弹努努 昼班",
       "category": "毛绒玩偶",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738422/",
-      "price": "",
+      "price": "景品",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
-      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738422.jpg/250w_250h.jpg"
+      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738422.jpg/250w_250h.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738422.jpg/250w_250h.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Banpresto",
+          "url": "https://bsp-prize.jp/item/2738422/"
+        }
+      ]
     },
     {
       "id": 2415,
       "name": "18TRIP ちびぐるみ～朝班～",
-      "nameCn": "小毛绒玩偶 朝班",
+      "nameCn": "一弹努努 朝班",
       "category": "毛绒玩偶",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 5,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738421/",
-      "price": "",
+      "price": "景品",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "已结束",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
-      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738421.jpg/250w_250h.jpg"
+      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738421.jpg/250w_250h.jpg",
+      "isStage": false,
+      "imgs": [
+        "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.08/2738421.jpg/250w_250h.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Banpresto",
+          "url": "https://bsp-prize.jp/item/2738421/"
+        }
+      ]
     },
     {
       "id": 2416,
