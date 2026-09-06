@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" data-theme="light"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -353,9 +353,42 @@
   @media (max-width:400px){
     .imgpick{flex-direction:column; align-items:flex-start;}
   }
-</style>
+  /* 初始加载遮罩 */
+  #initial-loading {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+  }
+  #initial-loading.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+  #initial-loading .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 14px;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  #initial-loading .loading-text {
+    color: var(--muted);
+    font-size: 14px;
+  }</style>
 <input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="chrome-extension://odphnbhiddhdpoccbialllejaajemdio/scripts/inspector.js"></script></head>
 <body>
+  <div id="initial-loading"><div class="spinner"></div><div class="loading-text">正在加载数据...</div></div>
+
 
 <header>
   <div class="h-inner">
@@ -44239,8 +44272,34 @@ document.querySelectorAll('.overlay').forEach(function(el) { el.classList.remove
 var toastEl = document.getElementById('toast');
 if (toastEl) { toastEl.classList.remove('show'); toastEl.textContent = ''; }
 
-renderGoods();
-setTimeout(() => { cloudAutoPull(); }, 2000);
+// 初始化策略：管理员直接渲染，游客等待云同步完成后再渲染（避免闪烁）
+(function initApp() {
+  var loadingEl = document.getElementById('initial-loading');
+  function showContent() {
+    renderGoods();
+    if (loadingEl) {
+      loadingEl.classList.add('hide');
+      setTimeout(function() { if (loadingEl.parentNode) loadingEl.remove(); }, 300);
+    }
+  }
+  if (isAdmin()) {
+    // 管理员：直接渲染本地数据
+    showContent();
+  } else {
+    // 游客：先尝试云同步，成功或失败后再渲染
+    cloudAutoPull().then(function() {
+      showContent();
+    }).catch(function() {
+      showContent();
+    });
+    // 兜底：超过 5 秒还没完成就直接显示
+    setTimeout(function() {
+      if (loadingEl && loadingEl.parentNode) {
+        showContent();
+      }
+    }, 5000);
+  }
+})();
 </script>
 
 
