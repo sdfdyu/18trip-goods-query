@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-06T17:39:33.773Z",
+  "timestamp": "2026-09-06T17:49:13.323Z",
   "goods": [
     {
       "id": 1858,
@@ -822,20 +822,40 @@
       "category": "徽章吧唧",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305213/",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305213/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898698_1_1762920314.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898698_1_1762920314.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898698_1_1762920314.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305213/"
+        }
+      ]
     },
     {
       "id": 1330,
@@ -973,7 +993,12 @@
       "category": "亚克力立牌",
       "series": "eeo Store グラフアート マスコット",
       "characters": [
-        "shumai",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede",
         "sonia",
         "mashiro",
         "kamoshika",
@@ -983,16 +1008,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
       "price": "￥5,610（税込）",
       "preorderDate": "2026年",
       "releaseDate": "順次発送",
       "shipDate": "順次発送",
-      "officialUrl": "https://eeo.today/store/101/products/detail/307416",
       "status": "发售中",
       "statusJp": "販売中",
       "description": "マスコット6種のグラフアートイラストぷちスタンド・コンプリートセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
+      "eeoUrl": "https://eeo.today/store/101/title/5345"
     },
     {
       "id": 268,
@@ -2470,20 +2504,40 @@
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305217/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305217/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898702_1_1762920320.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898702_1_1762920320.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898702_1_1762920320.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305217/"
+        }
+      ]
     },
     {
       "id": 1317,
@@ -3461,20 +3515,38 @@
       "category": "亚克力挂件",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305223/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305223/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898708_1_1762920319.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898708_1_1762920319.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898708_1_1762920319.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305223/"
+        }
+      ]
     },
     {
       "id": 995,
@@ -3627,26 +3699,35 @@
       "category": "徽章吧唧",
       "series": "eeo Store グラフアート マスコット",
       "characters": [
-        "shumai",
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
       "price": "￥3,300（税込）",
       "preorderDate": "2026年",
       "releaseDate": "順次発送",
       "shipDate": "順次発送",
-      "officialUrl": "https://eeo.today/store/101/products/detail/307417",
       "status": "发售中",
       "statusJp": "販売中",
       "description": "マスコット6種のグラフアートイラスト缶バッジ・コンプリートセット",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
+      "eeoUrl": "https://eeo.today/store/101/title/5345"
     },
     {
       "id": 309,
@@ -4925,24 +5006,32 @@
     {
       "id": 538,
       "name": "AGF2025 事後通販　 BIRTHDAY MEMORIAL BOOK",
-      "nameCn": "周边",
-      "category": "日常杂货",
-      "series": "AGF2025 事後通販",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "nameCn": "AGF2025 BIRTHDAY MEMORIAL",
+      "category": "杂志书籍",
+      "series": "AGF2025",
+      "characters": [],
+      "allTeams": true,
       "platform": "ムービック / Movic",
-      "platformUrl": "https://www.movic.jp/shop/g/g05377-00602-00001/",
       "price": "3,000 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00602-00001/",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "ムービック / Movic状況:受注終了(已结束)",
-      "image": "https://www.movic.jp/img/goods/L/05377-00602-00001.jpg"
+      "image": "https://www.movic.jp/img/goods/L/05377-00602-00001.jpg",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/05377-00602-00001.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00602-00001/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00602-00001/"
     },
     {
       "id": 978,
@@ -15483,26 +15572,35 @@
       "category": "亚克力立牌",
       "series": "eeo Store グラフアート マスコット",
       "characters": [
-        "shumai",
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
       "price": "各 ￥935（税込）",
       "preorderDate": "2026年",
       "releaseDate": "順次発送",
       "shipDate": "順次発送",
-      "officialUrl": "https://eeo.today/store/101/products/detail/307426",
       "status": "发售中",
       "statusJp": "販売中",
       "description": "マスコット6種のグラフアートイラストぷちスタンド・ブラインド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
+      "eeoUrl": "https://eeo.today/store/101/title/5345"
     },
     {
       "id": 1879,
@@ -15877,20 +15975,38 @@
       "category": "拍立得",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part2/pd/2962569/",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2025年1月中旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part2/pd/2962569/",
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433531_2_1726740521.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433531_2_1726740521.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433531_2_1726740521.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part2/pd/2962569/"
+        }
+      ]
     },
     {
       "id": 1622,
@@ -23275,7 +23391,7 @@
     {
       "id": 1192,
       "name": "18TRIP しゅうまいのヘアバンド",
-      "nameCn": "杂货 烧卖",
+      "nameCn": "烧麦发箍",
       "category": "日常杂货",
       "series": "その他",
       "characters": [
@@ -23284,17 +23400,29 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "2,200円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年5月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%98%E3%82%A2%E3%83%90%E3%83%B3%E3%83%89%E3%80%9118TRIP+%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%83%98%E3%82%A2%E3%83%90%E3%83%B3%E3%83%89/pd/3431148/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00668-00024/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626197_1_1773918307.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626197_1_1773918307.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626197_1_1773918307.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00668-00024/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 394,
@@ -23371,20 +23499,38 @@
       "category": "拍立得",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part1/pd/2962568/",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2025年1月中旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part1/pd/2962568/",
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433524_2_1726740458.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433524_2_1726740458.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776433524_2_1726740458.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E8%89%B2%E7%B4%99%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%BC%E3%83%88%E5%9E%8B%E8%89%B2%E7%B4%99+Part1/pd/2962568/"
+        }
+      ]
     },
     {
       "id": 988,
@@ -30056,20 +30202,38 @@
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B0%E3%83%AA%E3%83%83%E3%82%BF%E3%83%BC%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8+Part1/pd/2962566/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2025年1月中旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B0%E3%83%AA%E3%83%83%E3%82%BF%E3%83%BC%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8+Part1/pd/2962566/",
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776567915_2_1726740465.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776567915_2_1726740465.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776567915_2_1726740465.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B0%E3%83%AA%E3%83%83%E3%82%BF%E3%83%BC%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8+Part1/pd/2962566/"
+        }
+      ]
     },
     {
       "id": 845,
@@ -30459,20 +30623,38 @@
       "category": "亚克力挂件",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305221/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305221/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898706_1_1762920316.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898706_1_1762920316.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898706_1_1762920316.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305221/"
+        }
+      ]
     },
     {
       "id": 950,
@@ -30794,26 +30976,35 @@
       "category": "徽章吧唧",
       "series": "eeo Store グラフアート マスコット",
       "characters": [
-        "shumai",
-        "sonia",
-        "mashiro",
-        "kamoshika",
-        "zhaoyun",
-        "laika"
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
       "price": "各 ￥550（税込）",
       "preorderDate": "2026年",
       "releaseDate": "順次発送",
       "shipDate": "順次発送",
-      "officialUrl": "https://eeo.today/store/101/products/detail/307427",
       "status": "发售中",
       "statusJp": "販売中",
       "description": "マスコット6種（しゅうまい+ペットロボ5体）のグラフアートイラスト缶バッジ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
+      "eeoUrl": "https://eeo.today/store/101/title/5345"
     },
     {
       "id": 1885,
@@ -42919,24 +43110,38 @@
       "id": 2268,
       "name": "吊り下げポーチ（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "悬挂收纳袋（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "收纳·包袋",
+      "category": "",
       "series": "おもてなしライブ -Sparkle- 劇場版",
       "characters": [
         "shumai"
       ],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002295/",
       "price": "2,750円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002295/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png"
+      "image": "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://canime.jp/upload/product/%E5%90%8A%E3%82%8A%E4%B8%8B%E3%81%92%E3%83%9D%E3%83%BC%E3%83%81_sample.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002295/"
+        },
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/18trip_omotenashi_movie/"
+        }
+      ]
     },
     {
       "id": 2269,
@@ -43113,9 +43318,7 @@
       "nameCn": "HMR托特包／HAMA（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
       "category": "亚克力立牌",
       "series": "おもてなしライブ -Sparkle- 劇場版",
-      "characters": [
-        "shumai"
-      ],
+      "characters": [],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
       "canimeUrl": "https://canime.jp/product/BRZG000002300/",
