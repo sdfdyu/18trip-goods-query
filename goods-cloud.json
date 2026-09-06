@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-06T16:03:52.732Z",
+  "timestamp": "2026-09-06T16:27:04.353Z",
   "goods": [
     {
       "id": 1858,
@@ -34154,13 +34154,11 @@
     {
       "id": 411,
       "name": "ぱしゃこれ／vol.4",
-      "nameCn": "拍立得卡集 vol.4",
+      "nameCn": "拍立得 vol.4",
       "category": "拍立得",
       "series": "定番グッズ vol.4",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "Animate(オンライン通販) + Movic",
       "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%81%B1%E3%81%97%E3%82%83%E3%81%93%E3%82%8C%EF%BC%8Fvol.4/pd/3564683/",
       "price": "275 円(税込)",
@@ -34172,7 +34170,22 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00500-00011/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%81%B1%E3%81%97%E3%82%83%E3%81%93%E3%82%8C%EF%BC%8Fvol.4/pd/3564683/"
+        }
+      ]
     },
     {
       "id": 251,
