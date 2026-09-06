@@ -18,6 +18,7 @@
     --st-pre:#2f6fd8; --st-pre-bg:rgba(231,240,255,.95);
     --st-on:#1a9155; --st-on-bg:rgba(226,247,236,.95);
     --st-soon:#c96f14; --st-soon-bg:rgba(253,240,226,.95);
+    --st-shipped:#7c3aed; --st-shipped-bg:rgba(237,233,254,.95);
     --st-end:#69737f; --st-end-bg:rgba(238,241,245,.95);
     --shadow-soft:rgba(43,52,64,.07); --overlay-bg:rgba(30,40,55,.45);
     --toast-bg:#2b3440; --toast-text:#ffffff;
@@ -35,6 +36,7 @@
     --st-pre:#8ab8ff; --st-pre-bg:rgba(18,35,60,.92);
     --st-on:#57d68d; --st-on-bg:rgba(15,42,28,.92);
     --st-soon:#f5c451; --st-soon-bg:rgba(47,35,13,.92);
+    --st-shipped:#a78bfa; --st-shipped-bg:rgba(46,16,101,.92);
     --st-end:#9ca3af; --st-end-bg:rgba(31,41,55,.92);
     --shadow-soft:rgba(0,0,0,.35); --overlay-bg:rgba(0,0,0,.65);
     --toast-bg:#e5e7eb; --toast-text:#0d1117;
@@ -145,6 +147,7 @@
   .st-pre{background:var(--st-pre-bg); color:var(--st-pre);}
   .st-on{background:var(--st-on-bg); color:var(--st-on);}
   .st-soon{background:var(--st-soon-bg); color:var(--st-soon);}
+  .st-shipped{background:var(--st-shipped-bg); color:var(--st-shipped);}
   .st-end{background:var(--st-end-bg); color:var(--st-end);}
   /* ===== 详情子界面 ===== */
   .detail-modal{max-width:600px; padding:0; overflow:hidden; position:relative;}
@@ -206,6 +209,7 @@
   .dcard-val .st-pill.st-pre{background:#2f6fd8;}
   .dcard-val .st-pill.st-on{background:#1a9155;}
   .dcard-val .st-pill.st-soon{background:#c96f14;}
+  .dcard-val .st-pill.st-shipped{background:#7c3aed;}
   .dcard-val .st-pill.st-end{background:#69737f;}
   .dcard-val .st-pill-note{font-size:12.5px; color:var(--sub); margin-left:6px;}
   .dcard-empty{font-size:13px; color:var(--sub); opacity:.55;}
@@ -450,6 +454,7 @@
       <option>预约中</option>
       <option>发售中</option>
       <option>待出荷</option>
+      <option>已出荷</option>
       <option>已结束</option>
     </select>
     <select id="fSort" onchange="changeSort(this.value)">
@@ -537,6 +542,7 @@
           <option>发售中</option>
           <option>预约中</option>
           <option>待出荷</option>
+          <option>已出荷</option>
           <option>已结束</option>
         </select>
       </div>
@@ -42574,12 +42580,14 @@ const STATUS_CLS = {
   '预约中': 'st-pre',
   '发售中': 'st-on',
   '待出荷': 'st-soon',
+  '已出荷': 'st-shipped',
   '已结束': 'st-end'
 };
 const STATUS_ICON = {
   '预约中': '⏰',
   '发售中': '✅',
   '待出荷': '⏳',
+  '已出荷': '📦',
   '已结束': '🏁'
 };
 const TEAM_COLOR = {
@@ -43904,8 +43912,34 @@ function exportHTML() {
         throw new Error('找不到数据区块');
       }
       
-      const newArray = 'const defaultGoods = ' + dataStr + ';';
-      const newHtml = htmlText.substring(0, startIdx) + newArray + '\n' + htmlText.substring(endIdx);
+      let newHtml = htmlText.substring(0, startIdx) + 'const defaultGoods = ' + dataStr + ';\n' + htmlText.substring(endIdx);
+      
+      // 强制重置为游客视角：隐藏管理员按钮，避免导出后部署时游客看到管理界面
+      // 1. 隐藏「添加谷子」按钮
+      newHtml = newHtml.replace(
+        /<button[^>]*id="btnAdd"[^>]*>/g,
+        m => m.replace(/style="[^"]*"/, 'style="display:none"').replace(/style='[^']*'/g, "style='display:none'")
+      );
+      // 2. 隐藏「云同步」按钮
+      newHtml = newHtml.replace(
+        /<button[^>]*id="btnSync"[^>]*>/g,
+        m => m.replace(/style="[^"]*"/, 'style="display:none;position:relative;"').replace(/style='[^']*'/g, "style='display:none;position:relative;'")
+      );
+      // 3. 隐藏「数据管理」按钮
+      newHtml = newHtml.replace(
+        /<button[^>]*id="btnMore"[^>]*>/g,
+        m => m.replace(/style="[^"]*"/, 'style="display:none"').replace(/style='[^']*'/g, "style='display:none'")
+      );
+      // 4. 登录按钮改为「🔑 登录」
+      newHtml = newHtml.replace(
+        /(<button[^>]*id="btnAdmin"[^>]*>)([^<]*)(<\/button>)/g,
+        '$1🔑 登录$3'
+      );
+      // 5. 数据管理面板默认隐藏
+      newHtml = newHtml.replace(
+        /id="moreBox"[^>]*style="[^"]*"/g,
+        'id="moreBox" style="display:none;"'
+      );
       
       download('18trip-goods-query-' + dateTag() + '.html', newHtml, 'text/html;charset=utf-8');
       toast('HTML 备份已下载，共 ' + goodsData.length + ' 条数据');
