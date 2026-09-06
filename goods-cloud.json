@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-06T17:25:38.816Z",
+  "timestamp": "2026-09-06T17:39:33.773Z",
   "goods": [
     {
       "id": 1858,
@@ -2664,12 +2664,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年5月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%81%A1%E3%82%85%E3%81%82%E3%82%B9%E3%82%BF%E3%80%80%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.2/pd/3430529/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00311/",
       "status": "已结束",
       "statusJp": "販売終了",
@@ -19833,24 +19831,48 @@
     {
       "id": 412,
       "name": "証明写真館／vol.2（トレーディング）",
-      "nameCn": "证件照收藏 vol.2(盲袋)",
+      "nameCn": "vol.2 证件照（含向导烧麦）",
       "category": "相卡",
       "series": "定番グッズ vol.2",
-      "characters": [],
-      "allTeams": true,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "shumai"
+      ],
+      "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E8%A8%BC%E6%98%8E%E5%86%99%E7%9C%9F%E9%A4%A8%EF%BC%8Fvol.2%EF%BC%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%89/pd/3564684/",
       "price": "275 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E8%A8%BC%E6%98%8E%E5%86%99%E7%9C%9F%E9%A4%A8%EF%BC%8Fvol.2%EF%BC%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%89/pd/3564684/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1",
       "isStage": false,
-      "teamScope": 24,
+      "teamScope": 0,
       "imgs": [
         "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1"
       ],
@@ -21364,12 +21386,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,100円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年5月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%BF%E3%82%AA%E3%83%AB%E3%80%9118TRIP+%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%83%8F%E3%83%B3%E3%83%89%E3%82%BF%E3%82%AA%E3%83%AB/pd/3431147/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00401-00022/",
       "status": "已结束",
       "statusJp": "販売終了",
@@ -21387,10 +21407,6 @@
         {
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/sphone/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%BF%E3%82%AA%E3%83%AB%E3%80%9118TRIP%20%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%83%8F%E3%83%B3%E3%83%89%E3%82%BF%E3%82%AA%E3%83%AB/pd/3431147/?srsltid=AfmBOooXZoIBYG_mNBV9nBBYyM-6PY3Zd3rdm8rH7_twdMjRIXoFx9c7"
-        },
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
       ]
     },
@@ -21666,24 +21682,42 @@
     {
       "id": 485,
       "name": "ホログラムクリアカードB【まねきねこコラボ第2弾】",
-      "nameCn": "周边 第2弹",
-      "category": "日常杂货",
+      "nameCn": "镭射透明卡B【招财猫联动第二弹】/《18TRIP Cassette #01~05》磁带小卡",
+      "category": "卡片",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305227/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305227/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898712_1_1762920308.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898712_1_1762920308.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898712_1_1762920308.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305227/"
+        }
+      ]
     },
     {
       "id": 1833,
@@ -23384,24 +23418,42 @@
     {
       "id": 483,
       "name": "ホログラムクリアカードA【まねきねこコラボ第2弾】",
-      "nameCn": "周边 第2弹",
-      "category": "日常杂货",
+      "nameCn": "镭射透明卡A【招财猫联动第二弹】/《18TRIP Cassette #01~05》磁带小卡",
+      "category": "卡片",
       "series": "まねきねこコラボ",
       "characters": [
-        "shumai"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305225/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305225/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898710_1_1762920306.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898710_1_1762920306.jpg",
+      "isStage": false,
+      "teamScope": 0,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898710_1_1762920306.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305225/"
+        }
+      ]
     },
     {
       "id": 803,
@@ -34548,25 +34600,24 @@
       "name": "ぱしゃこれ／vol.4",
       "nameCn": "拍立得 vol.4",
       "category": "拍立得",
-      "series": "定番グッズ vol.4",
+      "series": "ぱしゃこれ vol.4",
       "characters": [],
       "allTeams": true,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%81%B1%E3%81%97%E3%82%83%E3%81%93%E3%82%8C%EF%BC%8Fvol.4/pd/3564683/",
       "price": "275 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年12月11日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E3%81%B1%E3%81%97%E3%82%83%E3%81%93%E3%82%8C%EF%BC%8Fvol.4/pd/3564683/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00500-00011/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg&width=400&height=400&square=1",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_3_1786359913.jpg",
       "isStage": false,
       "teamScope": 20,
       "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg&width=400&height=400&square=1"
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_3_1786359913.jpg",
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621761102_1_1786359908.jpg"
       ],
       "shopLinks": [
         {
@@ -42837,26 +42888,23 @@
       "id": 2267,
       "name": "ネームボードタオル（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "姓名牌毛巾（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "",
+      "category": "亚克力立牌",
       "series": "おもてなしライブ -Sparkle- 劇場版",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002272/",
       "price": "1,320円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002272/",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
       "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png",
       "isStage": false,
-      "teamScope": 0,
+      "teamScope": 20,
       "imgs": [
         "https://canime.jp/upload/product/18trip_omolive-goods-fmt%20%281%29_1.png"
       ],
@@ -42864,10 +42912,6 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000002272/"
-        },
-        {
-          "name": "きゃにめ",
-          "url": "https://canime.jp/18trip_omotenashi_movie/"
         }
       ]
     },
@@ -42898,24 +42942,32 @@
       "id": 2269,
       "name": "チケットファイル（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "票夹（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "文具·纸品",
+      "category": "",
       "series": "おもてなしライブ -Sparkle- 劇場版",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002271/",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002271/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
-      "image": "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png",
+      "isStage": false,
+      "teamScope": 20,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000002271/org/1639502113_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000002271/"
+        }
+      ]
     },
     {
       "id": 2270,
@@ -43059,21 +43111,20 @@
       "id": 2274,
       "name": "HMRトートバッグ／HAMA（劇場版『HAMAツアーズpresents \"おもてなしライブ\" -Sparkle-』）",
       "nameCn": "HMR托特包／HAMA（剧场版 HAMA巡演 presents \"招待演唱会\" -Sparkle-）",
-      "category": "",
+      "category": "亚克力立牌",
       "series": "おもてなしライブ -Sparkle- 劇場版",
       "characters": [
         "shumai"
       ],
       "allTeams": false,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000002300/",
       "price": "1,980円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000002300/",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "きゃにめ 劇場版事後通販",
       "image": "https://canime.jp/upload/product/sample_18trip_omolive-goods.png",
@@ -43086,10 +43137,6 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000002300/"
-        },
-        {
-          "name": "きゃにめ",
-          "url": "https://canime.jp/18trip_omotenashi_movie/"
         }
       ]
     },
@@ -43162,25 +43209,33 @@
     {
       "id": 2277,
       "name": "社員証カード(18TRIP presents \"HAMAツアーズ全体会議\")",
-      "nameCn": "员工证卡片(18TRIP presents \"HAMA巡演全体会议\")",
-      "category": "相卡·写真",
+      "nameCn": "社员证 (18TRIP presents \"HAMA巡演全体会议\")",
+      "category": "卡片",
       "series": "HAMAツアーズ全体会議",
-      "characters": [
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/18trip_omotenashi_movie/",
       "canimeUrl": "https://canime.jp/product/BRZG000001523/",
       "price": "550円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年7月下旬以降、順次発送予定",
       "shipDate": "",
       "officialUrl": "https://canime.jp/product/BRZG000001523/",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "きゃにめ HAMAツアーズ全体会議",
-      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt2_2.png"
+      "image": "https://canime.jp/upload/product/18trip_omolive-goods-fmt2_2.png",
+      "isStage": false,
+      "teamScope": 24,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip_omolive-goods-fmt2_2.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001523/"
+        }
+      ]
     },
     {
       "id": 2278,
