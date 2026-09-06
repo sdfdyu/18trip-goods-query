@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-05T20:14:32.674Z",
+  "timestamp": "2026-09-06T02:38:40.564Z",
   "goods": [
     {
       "id": 1858,
@@ -1173,7 +1173,7 @@
       "series": "vol.10",
       "characters": [],
       "allTeams": true,
-      "teamScope": 10,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
@@ -1182,10 +1182,14 @@
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8FVol.10%E3%80%80%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3523921/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00117/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "vol.10",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621649097_1_1782731118.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621649097_1_1782731118.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621649097_1_1782731118.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1870,
@@ -5849,10 +5853,14 @@
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%97%E3%83%AC%E3%83%BC%E3%83%8803/%E3%83%88%E3%82%B5%E3%82%AB/pd/3537891/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "アクリルスタンドプレート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826536_1_1784001918.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826536_1_1784001918.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4570215826536_1_1784001918.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1061,
@@ -6012,10 +6020,14 @@
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/3558322/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00010/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760983_1_1785755113.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760983_1_1785755113.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760983_1_1785755113.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1243,
@@ -7212,7 +7224,7 @@
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+Ev3ns%28%E5%A4%95%E7%8F%AD%29/pd/3559077/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934699_1_1785841505.jpg",
@@ -7455,9 +7467,16 @@
       "nameCn": "その他",
       "category": "日常杂货",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307415",
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
@@ -7469,7 +7488,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661133_1_1780459504.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661133_1_1780459504.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661133_1_1780459504.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 847,
@@ -8100,9 +8123,16 @@
       "nameCn": "涂鸦风迷你立牌 09",
       "category": "亚克力立牌",
       "series": "グラフアート ぷちスタンド",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 6,
+      "characters": [
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307426",
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
@@ -8114,7 +8144,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "グラフアートイラスト ぷちスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661126_2_1780459506.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 1815,
@@ -9663,9 +9697,16 @@
       "nameCn": "その他",
       "category": "徽章吧唧",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 6,
+      "characters": [
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi",
+        "hamasaki-momiji",
+        "hamasaki-kaede"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "eeoUrl": "https://eeo.today/store/101/products/detail/307427",
       "platform": "Animate(オンライン通販)",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
@@ -9677,7 +9718,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 222,
@@ -11623,10 +11668,14 @@
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3537715/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00399/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690709_1_1784001913.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690709_1_1784001913.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690709_1_1784001913.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 533,
@@ -11819,7 +11868,7 @@
       "releaseDate": "2026年9月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B7%E3%83%BC%E3%83%AB%E3%80%9118TRIP+Cherigem+Stciker+R1ze/pd/3482952/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550432333000_1_1778731504.jpg&width=400&height=400&square=1",
@@ -13684,7 +13733,7 @@
       "id": 1426,
       "name": "18TRIP アクリルキーホルダー／vol.3　叢雲 添",
       "nameCn": "挂件 丛云添",
-      "category": "亚克力挂件",
+      "category": "",
       "series": "定番グッズ vol.3",
       "characters": [
         "murakumo-ten"
@@ -13699,10 +13748,14 @@
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.3%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3537676/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00204/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "定番グッズ vol.3",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621678073_1_1784001905.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621678073_1_1784001905.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621678073_1_1784001905.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 333,
@@ -27552,10 +27605,14 @@
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3537714/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00398/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690693_1_1784001917.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690693_1_1784001917.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690693_1_1784001917.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 898,
@@ -27835,9 +27892,11 @@
       "nameCn": "vol.10",
       "category": "亚克力立牌",
       "series": "vol.10",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "fuefuki-yachiyo"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
       "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
@@ -27849,7 +27908,11 @@
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.10",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621669453_1_1782446705.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621669453_1_1782446705.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621669453_1_1782446705.jpg&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 966,
@@ -28914,7 +28977,7 @@
       "id": 1650,
       "name": "【アルバム】PSP版 GRAN TURISMO オリジナル・サウンドコレクション",
       "nameCn": "GT赛车 原声集",
-      "category": "磁带/CD",
+      "category": "套装书籍",
       "series": "GRAN TURISMO",
       "characters": [],
       "allTeams": false,
@@ -28929,7 +28992,11 @@
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "GRAN TURISMO",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=&width=400&height=400&square=1"
+      ]
     },
     {
       "id": 119,
@@ -33333,7 +33400,7 @@
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日より順次発送",
       "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%80%9118TRIP+%E3%81%8A%E3%81%BE%E3%82%93%E3%81%98%E3%82%85%E3%81%86%E3%81%AB%E3%81%8E%E3%81%AB%E3%81%8E%E3%83%9E%E3%82%B9%E3%82%B3%E3%83%83%E3%83%882+R1ze%28%E6%9C%9D%E7%8F%AD%29/pd/3559075/",
-      "status": "已结束",
+      "status": "待出荷",
       "statusJp": "販売終了",
       "description": "その他",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381934651_1_1785841505.jpg",
