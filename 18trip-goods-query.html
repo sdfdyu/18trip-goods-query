@@ -292,6 +292,11 @@
   .gnamecn{font-size:12.5px; color:var(--sub); line-height:1.45; word-break:break-all; margin-top:-3px;}
   .gchar{font-size:12.5px; color:var(--sub);}
   .gchar .dot{margin:0 4px; opacity:.5;}
+  .gchar .dchar-chip{padding:3px 10px; font-size:11.5px;}
+  .gchar .dchar-chips{display:flex; flex-wrap:wrap; gap:5px; max-height:25px; overflow:hidden;}
+  .gchar.expanded .dchar-chips{max-height:none;}
+  .gchar-toggle{display:inline-flex; align-items:center; gap:3px; padding:3px 10px; background:var(--surface-2); border:1px solid var(--line); border-radius:99px; font-size:11.5px; color:var(--sub); font-weight:600; cursor:pointer; margin-top:5px;}
+  .gchar-toggle:hover{background:var(--surface-3);}
   .meta{display:flex; flex-wrap:wrap; gap:5px 14px; font-size:12.5px; color:var(--sub); margin-top:auto;}
   .meta .item{display:flex; align-items:center; gap:4px;}
   .price-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
@@ -377,6 +382,9 @@
     .form-grid{grid-template-columns:1fr;}
     .ratebox{margin-left:0;}
     .toolbar select{max-width:none; flex:1;}
+    .gchar .dchar-chip{padding:3px 10px; font-size:11.5px;}
+    .gchar .dchar-chips{gap:5px; max-height:25px;}
+    .gchar-toggle{padding:3px 10px; font-size:11.5px; margin-top:5px;}
   }
   @media (max-width:400px){
     .imgpick{flex-direction:column; align-items:flex-start;}
@@ -842,6 +850,26 @@ const characters = [
 
 function getCharById(id) { return characters.find(c => c.id === id); }
 function getCharsByTeam(team) { return characters.filter(c => c.team === team); }
+
+// 根据全员向 scope 返回对应角色列表
+function getAllTeamCharsByScope(scope) {
+  scope = scope || 0;
+  const r1ze = getCharsByTeam('r1ze');
+  const day2 = getCharsByTeam('day2');
+  const ev3ns = getCharsByTeam('ev3ns');
+  const l4mps = getCharsByTeam('l4mps');
+  const conductors = getCharsByTeam('conductors');
+  const protagonist = getCharsByTeam('protagonist');
+  const special = getCharsByTeam('special');
+  const shumai = special.filter(c => c.id === 'shumai');
+  const fourTeams = [...r1ze, ...day2, ...ev3ns, ...l4mps];
+  if (scope === 20 || scope === 22) return fourTeams;
+  if (scope === 24) return [...fourTeams, ...conductors];
+  if (scope === 25) return [...fourTeams, ...conductors, ...shumai];
+  if (scope === 26) return [...fourTeams, ...conductors, ...protagonist];
+  if (scope === 27) return [...fourTeams, ...conductors, ...protagonist, ...shumai];
+  return [];
+}
 
 // ==================== 数据存储 ====================
 const STORAGE_GOODS = '18trip_goods_v2';
@@ -42669,6 +42697,7 @@ const TEAM_COLOR = {
   protagonist: 'var(--protagonist)',
   special: 'var(--special)',
   mixed: 'linear-gradient(90deg,var(--r1ze),var(--day2),var(--ev3ns),var(--l4mps))',
+  multi: 'linear-gradient(90deg,#BC95C6,#7DC4CC)',
   all: 'var(--all)',
   staff: 'var(--staff)',
   other: 'var(--other)',
@@ -42865,6 +42894,13 @@ function loadFavorites() {
 function toggleStarOnly() {
   starOnly = !starOnly;
   renderGoods();
+}
+
+function toggleGchar(btn) {
+  const gchar = btn.parentElement;
+  if (!gchar) return;
+  const expanded = gchar.classList.toggle('expanded');
+  btn.textContent = expanded ? '收起 ∧' : '展开 ∨';
 }
 
 // ==================== 搜索/筛选 ====================
@@ -43216,19 +43252,17 @@ function getTeamBarClass(item) {
     return sorted.join('-');
   }
   
-  return 'mixed';
+  return 'multi';
 }
 
 function getTeamDisplayName(item) {
   if (item.allTeams) {
     const scope = (item.teamScope !== undefined && item.teamScope !== null) ? item.teamScope : 20;
-    if (scope === 0) return '烧卖';
-    if (scope === 5) return '夜班机器人5种';
-    if (scope >= 27) return '全27种(含向导主任&烧卖)';
-    if (scope >= 26) return '全26种(含向导主任)';
-    if (scope >= 25) return '全25种(含向导烧卖)';
-    if (scope >= 24) return '全24种(含向导)';
     if (scope === 22) return '全区长';
+    if (scope === 24) return '全24种(含向导)';
+    if (scope === 25) return '全25种(含向导烧卖)';
+    if (scope === 26) return '全26种(含向导主任)';
+    if (scope === 27) return '全27种(含向导主任&烧卖)';
     return '全20种(4班)';
   }
   if (!item.characters || item.characters.length === 0) return '其他';
@@ -43307,7 +43341,7 @@ function getTeamDisplayName(item) {
     return sorted.map(t => teamShortNames[t]).join('');
   }
   
-  return '多队伍';
+  return '多角色';
 }
 
 // ==================== 价格解析 ====================
@@ -43600,16 +43634,28 @@ function getCardHtml(item) {
   const stCls = STATUS_CLS[item.status] || 'st-on';
   const isFav = favorites.has(item.id);
 
-  const charChips = (item.characters || []).slice(0, 4).map(cid => {
-    const c = getCharById(cid);
-    if (!c) return '';
-    const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
-    return '<span class="dchar-chip" title="' + esc(c.jpName) + '"' + colorStyle + '>' + esc(c.name) + '</span>';
-  }).join('');
-  const moreChars = (item.characters || []).length > 4
-    ? '<span class="dchar-chip">+' + (item.characters.length - 4) + '</span>' : '';
-  const allTag = item.allTeams ? '<span class="dchar-chip">' + (item.teamScope === 0 ? '烧卖' : item.teamScope === 5 ? '夜班机器人5种' : item.teamScope >= 26 ? '全26种' : item.teamScope >= 24 ? '全24种' : '全20种') + '</span>' : '';
-  const charDisplay = allTag + charChips + moreChars;
+  let charChips;
+  if (item.allTeams) {
+    const allChars = getAllTeamCharsByScope(item.teamScope || 0);
+    charChips = allChars.map(c => {
+      const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
+      return '<span class="dchar-chip" title="' + esc(c.jpName) + '"' + colorStyle + '>' + esc(c.name) + '</span>';
+    }).join('');
+  } else {
+    charChips = (item.characters || []).map(cid => {
+      const c = getCharById(cid);
+      if (!c) return '';
+      const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
+      return '<span class="dchar-chip" title="' + esc(c.jpName) + '"' + colorStyle + '>' + esc(c.name) + '</span>';
+    }).join('');
+  }
+  const allTag = item.allTeams ? '<span class="dchar-chip">' + (item.teamScope === 22 ? '全区长' : item.teamScope === 24 ? '全24种' : item.teamScope === 25 ? '全25种' : item.teamScope === 26 ? '全26种' : item.teamScope === 27 ? '全27种' : '全20种') + '</span>' : '';
+  const charDisplay = allTag + charChips;
+  const allCharsList = item.allTeams ? getAllTeamCharsByScope(item.teamScope || 0) : [];
+  const charCount = (item.allTeams ? 1 : 0) + (item.allTeams ? allCharsList.length : (item.characters || []).length);
+  const toggleBtn = charCount > 2
+    ? '<button class="gchar-toggle" onclick="event.stopPropagation();toggleGchar(this)">展开 ∨</button>'
+    : '';
 
   const priceYen = extractYenPrice(item.price);
   const priceRmb = priceYen > 0 ? '≈ ¥' + Math.round(priceYen * exchangeRate).toLocaleString('zh-CN') : '';
@@ -43635,7 +43681,7 @@ function getCardHtml(item) {
       '</div>' +
       '<div class="gname">' + esc(item.name) + '</div>' +
       (item.nameCn ? '<div class="gnamecn">' + esc(item.nameCn) + '</div>' : '') +
-      (charDisplay ? '<div class="gchar">' + charDisplay + '</div>' : '') +
+      (charDisplay ? '<div class="gchar"><div class="dchar-chips">' + charDisplay + '</div>' + toggleBtn + '</div>' : '') +
       '<div class="price-row">' +
         '<span class="' + priceClass + '">' + esc(priceText) + '</span>' +
         (priceRmb ? '<span class="price-rmb">' + esc(priceRmb) + '</span>' : '') +
@@ -43806,13 +43852,22 @@ function renderDetail() {
   const priceRmb = priceYen > 0 ? '≈ ¥' + Math.round(priceYen * exchangeRate).toLocaleString('zh-CN') + ' CNY' : '';
   const stCls = STATUS_CLS[item.status] || 'st-on';
 
-  const charChipsHtml = (item.characters || []).map(cid => {
-    const c = getCharById(cid);
-    if (!c) return '';
-    const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
-    return '<span class="dchar-chip" title="' + esc(c.jpName) + '｜' + esc(c.position) + '"' + colorStyle + '>' + esc(c.name) + '</span>';
-  }).join('');
-  const allTag = item.allTeams ? '<span class="dchar-chip">👥 ' + (item.teamScope === 0 ? '烧卖' : item.teamScope === 5 ? '夜班机器人5种' : item.teamScope >= 26 ? '全26种(含全员)' : item.teamScope >= 24 ? '全24种(含向导)' : '全20种(4班)') + '</span>' : '';
+  let charChipsHtml;
+  if (item.allTeams) {
+    const allChars = getAllTeamCharsByScope(item.teamScope || 0);
+    charChipsHtml = allChars.map(c => {
+      const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
+      return '<span class="dchar-chip" title="' + esc(c.jpName) + '｜' + esc(c.position || '') + '"' + colorStyle + '>' + esc(c.name) + '</span>';
+    }).join('');
+  } else {
+    charChipsHtml = (item.characters || []).map(cid => {
+      const c = getCharById(cid);
+      if (!c) return '';
+      const colorStyle = c.color ? ' style="background:' + c.color + '18;border-color:' + c.color + '55;color:' + c.color + '"' : '';
+      return '<span class="dchar-chip" title="' + esc(c.jpName) + '｜' + esc(c.position) + '"' + colorStyle + '>' + esc(c.name) + '</span>';
+    }).join('');
+  }
+  const allTag = item.allTeams ? '<span class="dchar-chip">👥 ' + (item.teamScope === 22 ? '全区长' : item.teamScope === 24 ? '全24种(含向导)' : item.teamScope === 25 ? '全25种(含向导烧卖)' : item.teamScope === 26 ? '全26种(含向导主任)' : item.teamScope === 27 ? '全27种(含向导主任&烧卖)' : '全20种(4班)') + '</span>' : '';
 
   document.getElementById('detailBody').innerHTML =
     (imgs.length
