@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-07T04:42:17.704Z",
+  "timestamp": "2026-09-07T06:20:12.536Z",
   "goods": [
     {
       "id": 1858,
@@ -3768,20 +3768,28 @@
       "category": "磁带/CD",
       "series": "Cassette シリーズ",
       "characters": [],
-      "allTeams": false,
-      "teamScope": 0,
+      "allTeams": true,
+      "teamScope": 20,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "canimeUrl": "https://canime.jp/product/PCTG000000314/",
       "price": "8,800円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年11月25日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E9%82%84%E5%85%83%E7%89%88%2820%25%29%E3%83%BB%E7%89%B9%E5%85%B8%E3%81%AA%E3%81%97%E3%80%91%E3%80%90%E3%82%AB%E3%82%BB%E3%83%83%E3%83%88%E3%80%91%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B2%E3%83%BC%E3%83%A0+18TRIP+Cassette+%2314+%E2%80%98What%E2%80%99s+good%3F%E2%80%99/pd/3404079/",
       "status": "待出荷",
       "statusJp": "発売日以降出荷",
       "description": "Cassette シリーズ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952aea10eac.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952aea10eac.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952aea10eac.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1681,
@@ -6678,20 +6686,49 @@
       "nameCn": "磁带 #14",
       "category": "磁带/CD",
       "series": "Cassette シリーズ",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "8,800円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年11月25日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%AB%E3%82%BB%E3%83%83%E3%83%88%E3%80%91%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B2%E3%83%BC%E3%83%A0+18TRIP+Cassette+%2314+%E2%80%98What%E2%80%99s+good%3F%E2%80%99/pd/3403822/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Cassette シリーズ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952ad09fd6e.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952ad09fd6e.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952ad09fd6e.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 499,
@@ -20352,36 +20389,10 @@
       "id": 412,
       "name": "証明写真館／vol.2（トレーディング）",
       "nameCn": "vol.2 证件照（含向导烧麦）",
-      "category": "相卡",
+      "category": "",
       "series": "定番グッズ vol.2",
-      "characters": [
-        "nishizono-renga",
-        "oguro-kafuka",
-        "murakumo-ten",
-        "kamina-yukikaze",
-        "shika-reiko",
-        "isotake-akuta",
-        "kinugawa-kiroku",
-        "naname-shichiki",
-        "kiya-muneuji",
-        "kugura-mio",
-        "kitakata-raito",
-        "azekawa-ikinari",
-        "natsuyaki-chihiro",
-        "kinouchi-tao",
-        "domeki-kuguri",
-        "hachinoya-nagi",
-        "shiromitsu-toi",
-        "shiromitsu-rui",
-        "natsume-yodaka",
-        "yowa-kotaro",
-        "fuefuki-yachiyo",
-        "karigane-sakujiro",
-        "kitakata-nayuki",
-        "iwabuchi-hiroshi",
-        "shumai"
-      ],
-      "allTeams": false,
+      "characters": [],
+      "allTeams": true,
       "platform": "Animate(オンライン通販)",
       "price": "275 円(税込)",
       "preorderDate": "予約受付中",
@@ -20392,7 +20403,7 @@
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1",
       "isStage": false,
-      "teamScope": 0,
+      "teamScope": 25,
       "imgs": [
         "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621771576_1_1787655917.jpg&width=400&height=400&square=1"
       ],
@@ -23003,27 +23014,6 @@
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695209_1_1786359911.jpg&width=400&height=400&square=1"
-    },
-    {
-      "id": 1784,
-      "name": "18TRIP 【Blu-ray】映画 アベンジャーズ：4ムービー・コレクション（ブルーレイ ＋ ＤＶＤ）",
-      "nameCn": "その他",
-      "category": "日常杂货",
-      "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
-      "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
-      "price": "15,290円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2026年10月28日",
-      "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90Blu-ray%E3%80%91%E6%98%A0%E7%94%BB+%E3%82%A2%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA%EF%BC%9A4%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%88%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4+%EF%BC%8B+%EF%BC%A4%EF%BC%B6%EF%BC%A4%EF%BC%89/pd/3567801/",
-      "status": "预约中",
-      "statusJp": "予約受付中",
-      "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08141100_6a7e76d9d9240.jpg&width=400&height=400&square=1"
     },
     {
       "id": 530,
