@@ -1,7 +1,75 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-07T14:47:25.945Z",
+  "timestamp": "2026-09-07T16:15:40.984Z",
   "goods": [
+    {
+      "name": "18TRIP ころつとコレクション Conductors 全4種",
+      "nameCn": "向导初始厚Q/向导初始麻将小人",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "ころつとコレクション",
+      "characters": [
+        "fuefuki-yachiyo",
+        "karigane-sakujiro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "movic",
+      "price": "770円(税込)",
+      "preorderDate": "2025年3月19日",
+      "releaseDate": "2025年5月31日",
+      "shipDate": "発売日より順次発送",
+      "status": "预约中",
+      "description": "",
+      "image": "https://pbs.twimg.com/media/HRoBhGVa8AApqhN?format=png&name=900x900",
+      "imgs": [
+        "https://pbs.twimg.com/media/HRoBhGVa8AApqhN?format=png&name=900x900"
+      ],
+      "shopLinks": [
+        {
+          "name": "movic(已下架)",
+          "url": "https://x.com/movic_jp/status/1902208427138674853"
+        }
+      ],
+      "movicUrl": "https://x.com/movic_jp/status/1902208427138674853",
+      "id": 1788796488770
+    },
+    {
+      "name": "18TRIP presents HAMA MEGURI ころっと アクリルフイギュアセット 主任",
+      "nameCn": "一周年主任初始厚Q/主任初始麻将小人",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18TRIP presents HAMA MEGURI",
+      "characters": [
+        "hamasaki-momiji",
+        "hamasaki-kaede"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "movic",
+      "price": "1540円(税込)",
+      "preorderDate": "场贩",
+      "releaseDate": "2025年11月5日~11月30日",
+      "shipDate": "2026年4月中旬頃より順次出荷予定",
+      "status": "已结束",
+      "description": "一周年18TRIP presents HAMA MEGURI 谷子",
+      "image": "https://pbs.twimg.com/media/HRoACw3aEAAgqvg?format=png&name=small",
+      "imgs": [
+        "https://pbs.twimg.com/media/HRoACw3aEAAgqvg?format=png&name=small"
+      ],
+      "shopLinks": [
+        {
+          "name": "movic(已下架)",
+          "url": "https://x.com/18TR_HAMAmeguri/status/1958831512222138525/photo/1"
+        }
+      ],
+      "movicUrl": "https://x.com/18TR_HAMAmeguri/status/1958831512222138525/photo/1",
+      "id": 1788795988883
+    },
     {
       "id": 1858,
       "name": "18TRIP アクリルキーホルダー04/ブラインド(全10種)(公式イラスト)",
@@ -787,7 +855,7 @@
     {
       "id": 279,
       "name": "ころっとアクリルフィギュアコレクション／vol.3 B夕班・夜班",
-      "nameCn": "立牌 vol.3 夕班夜班",
+      "nameCn": "一轮SSR厚Q/一轮SSR麻将小人 vol.3 B盒(夕班夜班)",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -796,26 +864,39 @@
         "natsuyaki-chihiro",
         "kinouchi-tao",
         "domeki-kuguri",
-        "shiromitsu-toi",
         "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
         "natsume-yodaka",
-        "yowa-kotaro",
-        "shiromitsu-rui"
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3523919/",
       "price": "770 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年9月4日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3523919/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00419/",
-      "status": "发售中",
+      "status": "已出荷",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694639_1_1782731123.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00419/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3523919/"
+        }
+      ]
     },
     {
       "id": 1302,
@@ -14184,24 +14265,48 @@
     {
       "id": 897,
       "name": "ころっとアクリルフィギュアコレクション／vol.2　B夕班・夜班",
-      "nameCn": "Q版立牌vol.2 B盒(夕班+夜班)",
+      "nameCn": "打歌服厚Q/打歌服麻将小人 vol.2 B盒(夕班夜班)",
       "category": "亚克力立牌",
       "series": "ころっとアクリルフィギュア vol.2",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月1日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.2%E3%80%80B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3149542/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00123/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ころっとアクリルフィギュアコレクション vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381720_1_1749528307.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381720_1_1749528307.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381720_1_1749528307.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00123/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1811,
@@ -27563,7 +27668,7 @@
     {
       "id": 278,
       "name": "ころっとアクリルフィギュアコレクション／vol.3 A朝班・昼班",
-      "nameCn": "立牌 vol.3 朝班昼班",
+      "nameCn": "一轮SSR厚Q/一轮SSR麻将小人 vol.3 A盒(朝班昼班)",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -27581,17 +27686,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3523918/",
       "price": "770 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年9月4日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3523918/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00418/",
-      "status": "发售中",
+      "status": "已出荷",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694622_1_1782731122.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00418/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.3%E3%80%80A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3523918/"
+        }
+      ]
     },
     {
       "id": 989,
@@ -29081,24 +29199,48 @@
     {
       "id": 898,
       "name": "ころっとアクリルフィギュアコレクション／vol.2　A朝班・昼班",
-      "nameCn": "Q版立牌vol.2 A盒(朝班+昼班)",
+      "nameCn": "打歌服厚Q/打歌服麻将小人 vol.2 A盒(朝班昼班)",
       "category": "亚克力立牌",
       "series": "ころっとアクリルフィギュア vol.2",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月1日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%81%93%E3%82%8D%E3%81%A3%E3%81%A8%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.2%E3%80%80A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3149541/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00122/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ころっとアクリルフィギュアコレクション vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381713_1_1749528303.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381713_1_1749528303.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621381713_1_1749528303.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00122/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 526,
@@ -43061,45 +43203,87 @@
     },
     {
       "id": 2184,
-      "name": "【再販分】18TRIP ころっとアクリルフィギュアコレクション／A朝班・昼班",
-      "nameCn": "【再贩】18TRIP ころっとアクリルフィギュアコレクション／A朝班·昼班",
+      "name": "18TRIP ころっとアクリルフィギュアコレクション／A朝班・昼班",
+      "nameCn": "初始厚Q/初始麻将小人 A盒(朝班昼班)",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
-      "price": "7,700円",
+      "price": "770円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90021/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00021-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00021-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00021-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2185,
       "name": "【再販分】18TRIP ころっとアクリルフィギュアコレクション／B夕班・夜班",
-      "nameCn": "【再贩】18TRIP ころっとアクリルフィギュアコレクション／B夕班·夜班",
+      "nameCn": "初始厚Q/初始麻将小人 B盒(夕班夜班)",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
-      "price": "7,700円",
+      "price": "700円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90022/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00022-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00022-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00022-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2186,
@@ -47095,33 +47279,43 @@
       "id": 2345,
       "name": "イベントTシャツ／ホワイト(18TRIP presents “HAMAツアーズ全体会議”)",
       "nameCn": "T恤·HAMA全体会议",
-      "category": "T恤",
+      "category": "",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
-      "platformUrl": "https://canime.jp/search/?keyword=18trip",
+      "platformUrl": "https://canime.jp/product/BRZG000001597/",
       "canimeUrl": "https://canime.jp/product/BRZG000001547/",
-      "price": "",
+      "price": "4,400(税込)",
       "preorderDate": "",
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ全体会議 / T恤",
-      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000001547/org/1591002026_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/product/BRZG000001597/"
+        }
+      ]
     },
     {
       "id": 2346,
       "name": "スティックバルーン(18TRIP presents “HAMAツアーズ全体会議”)",
       "nameCn": "应援物·HAMA全体会议",
-      "category": "应援物",
+      "category": "",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001549/",
@@ -47129,11 +47323,21 @@
       "preorderDate": "",
       "releaseDate": "2026/7 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ全体会議 / 应援物",
-      "image": "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png"
+      "image": "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/BRZG000001549/org/1591002028_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2347,
