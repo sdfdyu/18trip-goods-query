@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-07T18:34:10.274Z",
+  "timestamp": "2026-09-07T19:06:25.471Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -1846,14 +1846,13 @@
     {
       "id": 579,
       "name": "イベントTシャツ／ホワイトXLサイズ",
-      "nameCn": "全体会议 周边",
+      "nameCn": "全体会议T恤 白",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001597",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
@@ -1862,7 +1861,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001597"
+        }
+      ]
     },
     {
       "id": 895,
@@ -5505,7 +5515,7 @@
       "description": "ムービック / Movic状況:受注終了(已结束)",
       "image": "https://www.movic.jp/img/goods/L/05377-00602-00001.jpg",
       "isStage": false,
-      "teamScope": 20,
+      "teamScope": 22,
       "imgs": [
         "https://www.movic.jp/img/goods/L/05377-00602-00001.jpg"
       ],
@@ -5515,7 +5525,8 @@
           "url": "https://www.movic.jp/shop/g/g05377-00602-00001/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00602-00001/"
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00602-00001/",
+      "isCollab": false
     },
     {
       "id": 978,
@@ -7680,14 +7691,19 @@
     {
       "id": 572,
       "name": "ブロマイドセット",
-      "nameCn": "全体会议 卡片",
+      "nameCn": "全体会议正比小卡/西装小卡",
       "category": "拍立得",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001553",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -7696,7 +7712,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001553.png"
+      "image": "https://canime.jp/upload/product/BRZG000001553.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001553.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001553"
+        }
+      ]
     },
     {
       "id": 1732,
@@ -9958,14 +9985,15 @@
     {
       "id": 563,
       "name": "主任ボディバッグ／ライトグレー",
-      "nameCn": "全体会议 周边",
+      "nameCn": "主任腰包 灰",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "hamasaki-momiji"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001564",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -9974,7 +10002,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001564.png"
+      "image": "https://canime.jp/upload/product/BRZG000001564.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001564.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001564"
+        }
+      ]
     },
     {
       "id": 1142,
@@ -10161,14 +10200,13 @@
     {
       "id": 566,
       "name": "ミニキャラブロマイド【全24種／ランダム2枚入り】",
-      "nameCn": "全体会议 卡片",
-      "category": "拍立得",
+      "nameCn": "全体会议QQ人相卡/西装QQ人相卡",
+      "category": "相卡",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
       "allTeams": true,
       "teamScope": 20,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001559",
       "price": "400 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -10177,7 +10215,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001559.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001559.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001559.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001559"
+        }
+      ]
     },
     {
       "id": 753,
