@@ -419,8 +419,9 @@
   .fab-top{bottom:80px; background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-color:var(--brand); color:#333;}
   .fab-top.confirming{border-color:var(--brand-dark); background:var(--brand); color:#14210a; font-size:11px; font-weight:700;}
   .fab-search{bottom:24px; background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-color:var(--brand); color:#333;}
-  .fab-search-panel{position:fixed; bottom:80px; right:20px; width:300px; max-width:calc(100vw - 40px); background:rgba(255,255,255,.75); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border:1px solid var(--border); border-radius:12px; padding:14px; z-index:201; box-shadow:0 4px 16px rgba(0,0,0,.3); display:none;}
+  .fab-search-panel{position:fixed; bottom:80px; right:20px; width:260px; max-width:calc(100vw - 40px); background:rgba(255,255,255,.75); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border:1px solid var(--border); border-radius:12px; padding:12px; z-index:201; box-shadow:0 4px 16px rgba(0,0,0,.3); display:none;}
   .fab-search-panel.show{display:block; left:auto; right:72px;}
+  @media(max-width:600px){.fab-search-panel.show{right:8px; left:8px; width:auto;}}
   .fab-search-panel .fsp-row{display:flex; gap:8px; align-items:center;}
   .fab-search-panel input{flex:1; padding:8px 12px; border:1px solid var(--border); border-radius:8px; font-size:13px; background:#fff; color:var(--text);}
   .fab-search-panel input:focus{outline:none; border-color:var(--blue);}
@@ -967,12 +968,12 @@ function refreshCategorySelects() {
     // 联动周边（特殊）
     const collabOpt = document.createElement('option');
     collabOpt.value = '联动周边';
-    collabOpt.textContent = '🤝 联动周边';
+    collabOpt.textContent = '联动周边';
     fType.appendChild(collabOpt);
     // 舞台剧（特殊）
     const stageOpt = document.createElement('option');
     stageOpt.value = '舞台剧';
-    stageOpt.textContent = '🎭 舞台剧周边';
+    stageOpt.textContent = '舞台剧周边';
     fType.appendChild(stageOpt);
     fType.value = currentVal || 'all';
   }
@@ -44923,9 +44924,6 @@ if (toastEl) { toastEl.classList.remove('show'); toastEl.textContent = ''; }
 
   fabSearch.addEventListener('click',function(){
     fabPanel.classList.toggle('show');
-    if(fabPanel.classList.contains('show')){
-      setTimeout(function(){fabInput.focus();},100);
-    }
   });
 
   document.addEventListener('click',function(e){
