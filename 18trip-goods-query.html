@@ -7,7 +7,7 @@
   :root{
     --blue:#3d8bfd; --ink:#2b3440; --sub:#6b7684; --bg:#f2f6fb;
     --card:#ffffff; --line:#e3e9f1; --accent:#ff8a3d;
-    --r1ze:#4a9eff; --day2:#f5b942; --ev3ns:#ff7a59; --l4mps:#8b6fd8; --conductors:#4caf7d; --all:#8a919f; --staff:#CCFF00;
+    --r1ze:#4a9eff; --day2:#f5b942; --ev3ns:#ff7a59; --l4mps:#8b6fd8; --conductors:#4caf7d; --all:#8a919f; --staff:#CCFF00; --other:#b0b4bc;
     /* 18TRIP 品牌荧光黄绿 */
     --brand:#a5f901; --brand-dark:#81eb00; --brand-light:#c8ff4d;
     --header-text:#14210a; --header-badge-bg:rgba(20,33,10,.12); --header-badge-border:rgba(20,33,10,.35);
@@ -86,15 +86,38 @@
   .search{flex:2 1 220px; position:relative;}
   .search input{
     width:100%; padding:10px 12px 10px 36px; border:1.5px solid var(--line); border-radius:10px;
-    font-size:14px; background:var(--surface-3); color:var(--ink); outline:none; transition:border .15s;
+    font-size:13px; background:var(--surface-3); color:var(--ink); outline:none; transition:border .15s; min-height:42px; box-sizing:border-box; font-family:inherit; line-height:1.2;
   }
   .search input:focus{border-color:var(--blue); background:var(--surface);}
   .search .icon{position:absolute; left:11px; top:50%; transform:translateY(-50%); font-size:14px; opacity:.5;}
   .toolbar select{
     padding:10px 8px; border:1.5px solid var(--line); border-radius:10px; font-size:13px; background:var(--surface-3);
-    outline:none; cursor:pointer; color:var(--ink); max-width:150px;
+    outline:none; cursor:pointer; color:var(--ink); max-width:150px; min-height:42px; box-sizing:border-box; font-family:inherit; line-height:1.2;
   }
   .toolbar select:focus{border-color:var(--blue);}
+  .custom-dropdown{position:relative; max-width:150px; min-width:120px;}
+  .cd-header{
+    padding:10px 24px 10px 8px; border:1.5px solid var(--line); border-radius:10px; font-size:13px;
+    background:var(--surface-3); cursor:pointer; color:var(--ink); position:relative; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    min-height:42px; box-sizing:border-box; display:flex; align-items:center; font-family:inherit; -webkit-appearance:none; line-height:1.2;
+  }
+  .cd-header::after{content:'▾'; position:absolute; right:8px; top:50%; transform:translateY(-50%); font-size:11px; opacity:.6; pointer-events:none;}
+  .cd-list{
+    display:none; position:absolute; top:calc(100% + 4px); left:0; min-width:100%; width:max-content; max-width:250px;
+    background:#fff; border:1.5px solid var(--line); border-radius:10px;
+    max-height:calc(42px * 5); overflow-y:auto; overflow-x:hidden; z-index:200; box-shadow:0 4px 12px rgba(0,0,0,.12);
+  }
+  .cd-list.open{display:block;}
+  .cd-item{
+    padding:10px 12px; font-size:13px; cursor:pointer; color:var(--ink);
+    background:#fff; border-bottom:0.5px solid var(--line); white-space:nowrap;
+    font-family:inherit;
+  }
+  .cd-item:last-child{border-bottom:none;}
+  .cd-item:hover{background:var(--surface-3);}
+  .cd-item.active{background:var(--blue); color:#fff; font-weight:600;}
+  .cd-item.cd-collab{border-left:3px solid #c084fc; padding-left:9px;}
+  .cd-item.cd-stage{border-left:3px solid #8B4513; padding-left:9px;}
   .ratebox{
     margin-left:auto; display:flex; align-items:center; gap:6px; font-size:12px; color:var(--sub);
     background:var(--surface-2); border-radius:9px; padding:6px 10px;
@@ -256,6 +279,8 @@
   .tag{font-size:11px; padding:2.5px 9px; border-radius:99px; font-weight:600; letter-spacing:.3px;}
   .tag.unit{color:#fff;}
   .tag.type{background:var(--type-tag-bg); color:var(--type-tag-text);}
+  .tag.collab{background:linear-gradient(135deg,#ff6b9d,#c084fc); color:#fff; font-weight:700;}
+  .tag.stage{background:linear-gradient(135deg,#8B4513,#D2691E); color:#fff; font-weight:700;}
   .tag.box{background:var(--box-tag-bg); color:var(--box-tag-text); border:1px solid var(--box-tag-bd);}
   .tag.box.single{--box-tag-bg:rgba(16,150,90,.12); --box-tag-text:#0e8a54; --box-tag-bd:rgba(16,150,90,.35);}
   .tag.box.double{--box-tag-bg:rgba(30,110,220,.12); --box-tag-text:#1c6fd6; --box-tag-bd:rgba(30,110,220,.35);}
@@ -387,7 +412,23 @@
   #initial-loading .loading-text {
     color: var(--muted);
     font-size: 14px;
-  }</style>
+  }  .fab{position:fixed; right:20px; width:40px; height:40px; border-radius:50%; border:2px solid var(--brand); background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); color:#333; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:18px; z-index:200; box-shadow:0 2px 8px rgba(0,0,0,.25); transition:opacity .3s, transform .3s; opacity:0; pointer-events:none; transform:translateY(10px);}
+  .fab.show{opacity:1; pointer-events:auto; transform:translateY(0);}
+  .fab:hover{transform:scale(1.1);}
+  .fab:active{transform:scale(.95);}
+  .fab-top{bottom:80px; background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-color:var(--brand); color:#333;}
+  .fab-top.confirming{border-color:var(--brand-dark); background:var(--brand); color:#14210a; font-size:11px; font-weight:700;}
+  .fab-search{bottom:24px; background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-color:var(--brand); color:#333;}
+  .fab-search-panel{position:fixed; bottom:80px; right:20px; width:300px; max-width:calc(100vw - 40px); background:rgba(255,255,255,.75); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border:1px solid var(--border); border-radius:12px; padding:14px; z-index:201; box-shadow:0 4px 16px rgba(0,0,0,.3); display:none;}
+  .fab-search-panel.show{display:block; left:auto; right:72px;}
+  .fab-search-panel .fsp-row{display:flex; gap:8px; align-items:center;}
+  .fab-search-panel input{flex:1; padding:8px 12px; border:1px solid var(--border); border-radius:8px; font-size:13px; background:#fff; color:var(--text);}
+  .fab-search-panel input:focus{outline:none; border-color:var(--blue);}
+  .fab-search-panel .fsp-btn{padding:8px 14px; border:none; border-radius:8px; background:var(--accent); color:#fff; font-size:13px; font-weight:600; cursor:pointer; white-space:nowrap;}
+  .fab-search-panel .fsp-btn:hover{opacity:.85;}
+  .fab-search-panel .fsp-hint{font-size:11px; color:var(--text-3); margin-top:8px; text-align:center;}
+  [data-theme="dark"] .fab-search-panel input{background:#fff; color:#333;}
+</style>
 <input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="chrome-extension://odphnbhiddhdpoccbialllejaajemdio/scripts/inspector.js"></script></head>
 <body>
   <div id="initial-loading"><div class="spinner"></div><div class="loading-text">正在加载数据...</div></div>
@@ -436,7 +477,11 @@
       <span class="icon">🔍</span>
       <input id="q" type="text" placeholder="搜索日文名 / 中文名 / 角色 / 渠道…" oninput="onSearch()">
     </div>
-    <select id="fType" onchange="onCategoryChange()">
+    <div class="custom-dropdown" id="fTypeWrap">
+      <div class="cd-header" onclick="toggleFDropdown('fType')" id="fTypeHeader">全部分类</div>
+      <div class="cd-list" id="fTypeList"></div>
+    </div>
+    <select id="fType" onchange="onCategoryChange()" style="display:none">
       <option value="all">全部分类</option>
       <option value="亚克力立牌">亚克力立牌</option>
       <option value="徽章吧唧">徽章/吧唧</option>
@@ -444,19 +489,27 @@
       <option value="磁带/CD">磁带/CD</option>
       <option value="卡片相卡">卡片/相卡</option>
       <option value="日常杂货">日常杂货</option>
-      <option value="联动谷子">联动谷子</option>
+      <option value="联动周边">联动周边</option>
       <option value="套装书籍">套装/书籍</option>
-      <option value="舞台剧">🎭 舞台剧周边</option>
+      <option value="舞台剧">舞台剧周边</option>
     </select>
-    <select id="fStatus" onchange="onStatusChange()" title="按贩售状态筛选">
+    <div class="custom-dropdown" id="fStatusWrap">
+      <div class="cd-header" onclick="toggleFDropdown('fStatus')" id="fStatusHeader">全部状态</div>
+      <div class="cd-list" id="fStatusList"></div>
+    </div>
+    <select id="fStatus" onchange="onStatusChange()" style="display:none">
       <option value="all">全部状态</option>
-      <option>预约中</option>
-      <option>发售中</option>
-      <option>待出荷</option>
-      <option>已出荷</option>
-      <option>已结束</option>
+      <option value="预约中">预约中</option>
+      <option value="发售中">发售中</option>
+      <option value="待出荷">待出荷</option>
+      <option value="已出荷">已出荷</option>
+      <option value="已结束">已结束</option>
     </select>
-    <select id="fSort" onchange="changeSort(this.value)">
+    <div class="custom-dropdown" id="fSortWrap">
+      <div class="cd-header" onclick="toggleFDropdown('fSort')" id="fSortHeader">发售时间 新→旧</div>
+      <div class="cd-list" id="fSortList"></div>
+    </div>
+    <select id="fSort" onchange="changeSort(this.value)" style="display:none">
       <option value="date-desc">发售时间 新→旧</option>
       <option value="date-asc">发售时间 旧→新</option>
       <option value="price-desc">价格 高→低</option>
@@ -523,7 +576,6 @@
           <option>磁带/CD</option>
           <option>拍立得</option>
           <option>日常杂货</option>
-          <option>联动谷子</option>
           <option>杂志书籍</option>
         </select>
         <button type="button" class="link-btn" onclick="openCatManager()">+ 管理分类</button>
@@ -533,6 +585,13 @@
         <select id="f_isStage">
           <option value="false">否（常规谷子）</option>
           <option value="true">是（舞台剧周边）</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>🤝 联动周边</label>
+        <select id="f_isCollab">
+          <option value="false">否</option>
+          <option value="true">是（联动周边）</option>
         </select>
       </div>
       <div class="field">
@@ -589,6 +648,7 @@
           </div>
           <select id="teamScopeSelect" style="padding:8px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);font-size:14px; width:100%; box-sizing:border-box;">
             <option value="20">20种(4班)</option>
+            <option value="22">全区长</option>
             <option value="24">24种(含向导)</option>
             <option value="25">25种(含向导烧卖)</option>
             <option value="26">26种(含向导主任)</option>
@@ -796,7 +856,7 @@ const FAV_KEY = '18trip_favs';
 const ADMIN_PASS = '18trip&yiximumu&sdfdyu';
 
 // 预设分类列表（不含舞台剧，舞台剧是特殊分类）
-const defaultCategories = ['亚克力立牌', '徽章吧唧', '毛绒玩偶', '磁带/CD', '拍立得', '贴纸', '亚克力挂件', '日常杂货', '联动谷子', '杂志书籍'];
+const defaultCategories = ['亚克力立牌', '徽章吧唧', '毛绒玩偶', '磁带/CD', '拍立得', '贴纸', '亚克力挂件', '日常杂货', '杂志书籍'];
 let customCategories = [];
 let categoryOrder = []; // 所有分类的显示顺序（预设 + 自定义）
 const STORAGE_CAT_ORDER = '18trip_cat_order';
@@ -904,6 +964,11 @@ function refreshCategorySelects() {
       opt.textContent = cat;
       fType.appendChild(opt);
     });
+    // 联动周边（特殊）
+    const collabOpt = document.createElement('option');
+    collabOpt.value = '联动周边';
+    collabOpt.textContent = '🤝 联动周边';
+    fType.appendChild(collabOpt);
     // 舞台剧（特殊）
     const stageOpt = document.createElement('option');
     stageOpt.value = '舞台剧';
@@ -931,6 +996,9 @@ function refreshCategorySelects() {
     }
     fCat.value = currentVal || '亚克力立牌';
   }
+  buildFDropdown('fType', onCategoryChange);
+  buildFDropdown('fStatus', onStatusChange);
+  buildFDropdown('fSort', function(){ changeSort(document.getElementById('fSort').value); });
 }
 
 // 打开分类管理弹窗
@@ -42602,6 +42670,7 @@ const TEAM_COLOR = {
   mixed: 'linear-gradient(90deg,var(--r1ze),var(--day2),var(--ev3ns),var(--l4mps))',
   all: 'var(--all)',
   staff: 'var(--staff)',
+  other: 'var(--other)',
   'r1ze-day2': 'linear-gradient(90deg,var(--r1ze),var(--day2))',
   'r1ze-ev3ns': 'linear-gradient(90deg,var(--r1ze),var(--ev3ns))',
   'r1ze-l4mps': 'linear-gradient(90deg,var(--r1ze),var(--l4mps))',
@@ -42807,6 +42876,59 @@ function onCategoryChange() {
   currentCategory = document.getElementById('fType').value;
   renderGoods();
 }
+
+function toggleFDropdown(id) {
+  var list = document.getElementById(id + 'List');
+  var allLists = document.querySelectorAll('.cd-list.open');
+  allLists.forEach(function(l) { if (l !== list) l.classList.remove('open'); });
+  list.classList.toggle('open');
+  if (list.classList.contains('open')) {
+    var sel = document.getElementById(id);
+    var val = sel.value;
+    var items = list.querySelectorAll('.cd-item');
+    items.forEach(function(it) {
+      it.classList.toggle('active', it.dataset.value === val);
+    });
+    var activeItem = list.querySelector('.cd-item.active');
+    if (activeItem) {
+      activeItem.scrollIntoView({block: 'nearest', behavior: 'auto'});
+    }
+  }
+}
+
+function buildFDropdown(id, onChange) {
+  var sel = document.getElementById(id);
+  var list = document.getElementById(id + 'List');
+  var header = document.getElementById(id + 'Header');
+  list.innerHTML = '';
+  var opts = sel.querySelectorAll('option');
+  opts.forEach(function(opt) {
+    var div = document.createElement('div');
+    div.className = 'cd-item';
+    if (opt.value === '联动周边') div.classList.add('cd-collab');
+    if (opt.value === '舞台剧') div.classList.add('cd-stage');
+    div.dataset.value = opt.value;
+    div.textContent = opt.textContent;
+    div.onclick = function() {
+      sel.value = opt.value;
+      header.textContent = opt.textContent;
+      list.classList.remove('open');
+      if (onChange) onChange();
+    };
+    list.appendChild(div);
+  });
+  header.textContent = sel.options[sel.selectedIndex].textContent;
+}
+
+document.addEventListener('click', function(e) {
+  var wraps = document.querySelectorAll('.custom-dropdown');
+  wraps.forEach(function(wrap) {
+    if (!wrap.contains(e.target)) {
+      var list = wrap.querySelector('.cd-list');
+      if (list) list.classList.remove('open');
+    }
+  });
+});
 
 function onStatusChange() {
   currentStatus = document.getElementById('fStatus').value;
@@ -43051,6 +43173,7 @@ function getTeamWithExtras(charIds) {
 
 function getTeamBarClass(item) {
   if (item.allTeams) return 'mixed';
+  if (!item.characters || item.characters.length === 0) return 'other';
   const t = getTeamFromChars(item.characters || []);
   if (t !== 'mixed') return t;
   
@@ -43104,8 +43227,10 @@ function getTeamDisplayName(item) {
     if (scope >= 26) return '全26种(含向导主任)';
     if (scope >= 25) return '全25种(含向导烧卖)';
     if (scope >= 24) return '全24种(含向导)';
+    if (scope === 22) return '全区长';
     return '全20种(4班)';
   }
+  if (!item.characters || item.characters.length === 0) return '其他';
   const t = getTeamFromChars(item.characters || []);
   if (t !== 'mixed') return teams[t] ? teams[t].name : t;
   
@@ -43247,7 +43372,8 @@ function getFiltered() {
       if (item.isStage) return false;
     }
     if (starOnly && !favorites.has(item.id)) return false;
-    if (currentCategory !== 'all' && currentCategory !== '舞台剧' && item.category !== currentCategory) return false;
+    if (currentCategory !== 'all' && currentCategory !== '舞台剧' && currentCategory !== '联动周边' && item.category !== currentCategory) return false;
+    if (currentCategory === '联动周边' && !item.isCollab) return false;
     if (currentStatus !== 'all' && item.status !== currentStatus) return false;
     if (searchKeyword) {
       const kw = searchKeyword.toLowerCase();
@@ -43501,6 +43627,8 @@ function getCardHtml(item) {
     '<div class="card-body">' +
       '<div class="tags">' +
         '<span class="tag unit" style="background:' + teamColor + '">' + esc(getTeamDisplayName(item)) + '</span>' +
+        (item.isCollab ? '<span class="tag collab">联动周边</span>' : '') +
+        (item.isStage ? '<span class="tag stage">舞台剧周边</span>' : '') +
         '<span class="tag type">' + esc(item.category || '其他') + '</span>' +
         '<button class="star' + (isFav ? ' on' : '') + '" title="星标" onclick="event.stopPropagation();toggleStar(' + item.id + ')">' + (isFav ? '⭐' : '☆') + '</button>' +
       '</div>' +
@@ -43704,6 +43832,8 @@ function renderDetail() {
     '<div class="detail-body">' +
       '<div class="tags">' +
         '<span class="tag unit" style="background:' + teamColor + '">' + esc(getTeamDisplayName(item)) + '</span>' +
+        (item.isCollab ? '<span class="tag collab">联动周边</span>' : '') +
+        (item.isStage ? '<span class="tag stage">舞台剧周边</span>' : '') +
         '<span class="tag type">' + esc(item.category || '其他') + '</span>' +
         '<button class="star' + (isFav ? ' on' : '') + '" title="星标" onclick="toggleStar(' + item.id + ');renderDetail()">' + (isFav ? '⭐' : '☆') + '</button>' +
       '</div>' +
@@ -43788,6 +43918,7 @@ function editGoods(id) {
   document.getElementById('f_nameCn').value = item.nameCn || '';
   document.getElementById('f_category').value = item.category || '亚克力立牌';
   document.getElementById('f_isStage').value = item.isStage ? 'true' : 'false';
+  document.getElementById('f_isCollab').value = item.isCollab ? 'true' : 'false';
   document.getElementById('f_series').value = item.series || '';
   document.getElementById('f_status').value = item.status || '预约中';
   document.getElementById('f_platform').value = item.platform || '';
@@ -43855,6 +43986,7 @@ function clearForm() {
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
   document.getElementById('f_category').value = '亚克力立牌';
   document.getElementById('f_isStage').value = 'false';
+  document.getElementById('f_isCollab').value = 'false';
   document.getElementById('f_status').value = '预约中';
   document.getElementById('imgList').innerHTML = '';
   renderShopLinks([]);
@@ -43985,6 +44117,7 @@ function submitGoodsForm() {
   const item = {
     name, nameCn, category,
     isStage: document.getElementById('f_isStage').value === 'true',
+    isCollab: document.getElementById('f_isCollab').value === 'true',
     series: document.getElementById('f_series').value.trim(),
     characters: chars, allTeams, teamScope: teamScope || 0,
     platform,
@@ -44737,6 +44870,93 @@ if (toastEl) { toastEl.classList.remove('show'); toastEl.textContent = ''; }
 })();
 </script>
 
+<button class="fab fab-top" id="fabTop" title="返回顶部">↑</button>
+<button class="fab fab-search" id="fabSearch" title="快速搜索">🔍</button>
+<div class="fab-search-panel" id="fabSearchPanel">
+  <div class="fsp-row">
+    <input type="text" id="fabSearchInput" placeholder="输入谷子名称搜索..." />
+    <button class="fsp-btn" id="fabSearchBtn">搜索</button>
+  </div>
+  <div class="fsp-hint">输入完点击搜索按钮或按回车</div>
+</div>
+<script>
+(function(){
+  var fabTop=document.getElementById('fabTop');
+  var fabSearch=document.getElementById('fabSearch');
+  var fabPanel=document.getElementById('fabSearchPanel');
+  var fabInput=document.getElementById('fabSearchInput');
+  var scrollTimer=null;
+
+  window.addEventListener('scroll',function(){
+    if(scrollTimer) return;
+    scrollTimer=setTimeout(function(){
+      scrollTimer=null;
+      var sy=window.scrollY||document.documentElement.scrollTop;
+      if(sy>300){
+        fabTop.classList.add('show');
+        fabSearch.classList.add('show');
+      } else {
+        fabTop.classList.remove('show');
+        fabSearch.classList.remove('show');
+      }
+    },100);
+  },{passive:true});
+
+  fabTop.addEventListener('click',function(){
+    if(fabTop.classList.contains('confirming')){
+      fabTop.classList.remove('confirming');
+      fabTop.textContent='↑';
+      if(fabTop._timer){clearTimeout(fabTop._timer);fabTop._timer=null;}
+      var el=document.getElementById('list')||document.querySelector('.goods-grid');
+      if(el){el.scrollIntoView({behavior:'smooth',block:'start'});}
+      else{window.scrollTo({top:0,behavior:'smooth'});}
+    }else{
+      fabTop.classList.add('confirming');
+      fabTop.textContent='确认?';
+      fabTop._timer=setTimeout(function(){
+        fabTop.classList.remove('confirming');
+        fabTop.textContent='↑';
+        fabTop._timer=null;
+      },2000);
+    }
+  });
+
+  fabSearch.addEventListener('click',function(){
+    fabPanel.classList.toggle('show');
+    if(fabPanel.classList.contains('show')){
+      setTimeout(function(){fabInput.focus();},100);
+    }
+  });
+
+  document.addEventListener('click',function(e){
+    if(!fabPanel.contains(e.target)&&!fabSearch.contains(e.target)){
+      fabPanel.classList.remove('show');
+    }
+  });
+
+  function doSearch(){
+    var q=fabInput.value.trim();
+    if(!q) return;
+    var mainSearch=document.getElementById('q');
+    if(mainSearch){
+      mainSearch.value=q;
+      if(typeof onSearch==='function'){onSearch();}
+      else{mainSearch.dispatchEvent(new Event('input'));}
+    }
+    fabPanel.classList.remove('show');
+    fabInput.value='';
+    var grid=document.getElementById('list')||document.querySelector('.goods-grid');
+    if(grid){grid.scrollIntoView({behavior:'smooth',block:'start'});}
+  }
+
+  fabInput.addEventListener('keydown',function(e){
+    if(e.key==='Enter'){e.preventDefault(); doSearch();}
+  });
+
+  var fabBtn=document.getElementById('fabSearchBtn');
+  if(fabBtn){fabBtn.addEventListener('click',doSearch);}
+})();
+</script>
 
 </body></html>
 
