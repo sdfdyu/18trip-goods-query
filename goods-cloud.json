@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-07T11:30:32.164Z",
+  "timestamp": "2026-09-07T14:47:25.945Z",
   "goods": [
     {
       "id": 1858,
@@ -10,18 +10,27 @@
       "series": "その他",
       "characters": [],
       "allTeams": true,
-      "teamScope": 10,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC04/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3395322/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610506_2_1770264309.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610506_2_1770264309.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610506_2_1770264309.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 609,
@@ -310,21 +319,45 @@
       "nameCn": "vol.6",
       "category": "徽章吧唧",
       "series": "vol.6",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年11月22日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.6%E3%80%80%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3215544/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00054/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.6",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281046_68afb4ddb67d2.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281046_68afb4ddb67d2.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281046_68afb4ddb67d2.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00054/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1838,
@@ -1471,20 +1504,40 @@
       "nameCn": "旅先报告挂件盲盒",
       "category": "亚克力挂件",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年8月9日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E6%97%85%E5%85%88%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88+B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/2915563/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176517_2_1720779052.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176517_2_1720779052.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176517_2_1720779052.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 153,
@@ -1892,21 +1945,45 @@
       "nameCn": "vol.6",
       "category": "徽章吧唧",
       "series": "vol.6",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年11月22日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.6%E3%80%80%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3215545/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00055/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.6",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281045_68afb4b37023a.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281045_68afb4b37023a.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08281045_68afb4b37023a.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00055/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 503,
@@ -2235,20 +2312,35 @@
       "nameCn": "vol.1",
       "category": "日常杂货",
       "series": "vol.1",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "616円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+Vol.1/pd/3114024/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.1",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216750_2_1744635910.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216750_2_1744635910.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216750_2_1744635910.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1150,
@@ -2735,20 +2827,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+20.%E5%A4%9C%E5%8D%8A%E5%AD%90%E3%82%BF%E3%82%8D/pd/3013526/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693046_1_1732680323.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693046_1_1732680323.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693046_1_1732680323.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1883,
@@ -3798,30 +3901,9 @@
       "nameCn": "磁带 #14",
       "category": "磁带/CD",
       "series": "Cassette シリーズ",
-      "characters": [
-        "nishizono-renga",
-        "oguro-kafuka",
-        "murakumo-ten",
-        "kamina-yukikaze",
-        "shika-reiko",
-        "isotake-akuta",
-        "kinugawa-kiroku",
-        "naname-shichiki",
-        "kiya-muneuji",
-        "kugura-mio",
-        "kitakata-raito",
-        "azekawa-ikinari",
-        "natsuyaki-chihiro",
-        "kinouchi-tao",
-        "domeki-kuguri",
-        "hachinoya-nagi",
-        "shiromitsu-toi",
-        "shiromitsu-rui",
-        "natsume-yodaka",
-        "yowa-kotaro"
-      ],
-      "allTeams": false,
-      "teamScope": 0,
+      "characters": [],
+      "allTeams": true,
+      "teamScope": 22,
       "platform": "Animate(オンライン通販)",
       "canimeUrl": "https://canime.jp/product/PCTG000000314/",
       "price": "8,800円(税込)",
@@ -3841,7 +3923,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 1681,
@@ -3849,20 +3932,40 @@
       "nameCn": "vol.2",
       "category": "徽章吧唧",
       "series": "vol.2",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/vol.2+%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/2955865/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201264_1_1725962840.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201264_1_1725962840.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201264_1_1725962840.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 620,
@@ -4451,20 +4554,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+1.%E8%A5%BF%E5%9C%92%E7%B7%B4%E7%89%99/pd/3013507/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692858_1_1732680334.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692858_1_1732680334.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692858_1_1732680334.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1128,
@@ -6762,30 +6876,9 @@
       "nameCn": "磁带 #14",
       "category": "磁带/CD",
       "series": "Cassette シリーズ",
-      "characters": [
-        "nishizono-renga",
-        "oguro-kafuka",
-        "murakumo-ten",
-        "kamina-yukikaze",
-        "shika-reiko",
-        "isotake-akuta",
-        "kinugawa-kiroku",
-        "naname-shichiki",
-        "kiya-muneuji",
-        "kugura-mio",
-        "kitakata-raito",
-        "azekawa-ikinari",
-        "natsuyaki-chihiro",
-        "kinouchi-tao",
-        "domeki-kuguri",
-        "hachinoya-nagi",
-        "shiromitsu-toi",
-        "shiromitsu-rui",
-        "natsume-yodaka",
-        "yowa-kotaro"
-      ],
-      "allTeams": false,
-      "teamScope": 0,
+      "characters": [],
+      "allTeams": true,
+      "teamScope": 22,
       "platform": "Animate(オンライン通販)",
       "price": "8,800円(税込)",
       "preorderDate": "",
@@ -6804,7 +6897,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 499,
@@ -6845,20 +6939,35 @@
       "nameCn": "vol.3",
       "category": "日常杂货",
       "series": "vol.3",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "616円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年9月1日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+Vol.3/pd/3114026/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.3",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216798_2_1744635906.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216798_2_1744635906.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216798_2_1744635906.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 660,
@@ -10073,20 +10182,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+16.%E8%9C%82%E4%B9%83%E5%B1%8B%E5%87%AA/pd/3013522/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693008_1_1732680421.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693008_1_1732680421.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693008_1_1732680421.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1146,
@@ -10360,20 +10480,40 @@
       "nameCn": "旅先报告挂件盲盒",
       "category": "亚克力挂件",
       "series": "旅先レポート",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年8月9日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E6%97%85%E5%85%88%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88+A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/2915562/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176500_2_1720779120.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176500_2_1720779120.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621176500_2_1720779120.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 934,
@@ -10404,20 +10544,40 @@
       "nameCn": "vol.3",
       "category": "徽章吧唧",
       "series": "vol.3",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/vol.3+%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3071199/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.3",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309229_1_1740488973.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309229_1_1740488973.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309229_1_1740488973.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 940,
@@ -10727,18 +10887,27 @@
       "series": "その他",
       "characters": [],
       "allTeams": true,
-      "teamScope": 20,
+      "teamScope": 22,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "220円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年10月25日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%80%E3%82%A4%E3%82%AB%E3%83%83%E3%83%88%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%28%E3%83%91%E3%83%83%E3%82%AF%29/pd/2916025/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10091104_6705e4a0d0cfb.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10091104_6705e4a0d0cfb.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10091104_6705e4a0d0cfb.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 547,
@@ -10929,20 +11098,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "oguro-kafuka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+2.%E5%A4%A7%E9%BB%92%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3013508/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692865_1_1732680513.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692865_1_1732680513.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692865_1_1732680513.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1559,
@@ -12049,20 +12229,33 @@
       "nameCn": "B's-LOG",
       "category": "徽章吧唧",
       "series": "B's-LOG",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "2,339円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年6月20日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E9%9B%91%E8%AA%8C%E3%80%91B%27s-LOG+2024%E5%B9%B48%E6%9C%88%E5%8F%B7+%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%A4%E3%83%88%E9%99%90%E5%AE%9A%E3%82%BB%E3%83%83%E3%83%88%E3%80%90%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B83%E7%A8%AE%E3%82%BB%E3%83%83%E3%83%88%2818TRIP%E3%80%90%E8%A5%BF%E5%9C%92%E7%B7%B4%E7%89%99%EF%BC%86%E5%A4%A7%E9%BB%92%E5%8F%AF%E4%B8%8D%E5%8F%AF%EF%BC%86%E4%BA%94%E5%8D%81%E7%AB%B9%E3%81%82%E3%81%8F%E5%A4%AA%E3%80%91%29%E4%BB%98%E3%81%8D%E3%80%91/pd/2567046/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "B's-LOG",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05211522_664c3dab5c680.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05211522_664c3dab5c680.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05211522_664c3dab5c680.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1311,
@@ -12978,20 +13171,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+15.%E7%99%BE%E7%9B%AE%E9%AC%BC%E6%BD%9C/pd/3013521/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692995_1_1732680309.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692995_1_1732680309.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692995_1_1732680309.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1099,
@@ -13386,20 +13590,40 @@
       "nameCn": "vol.4",
       "category": "日常杂货",
       "series": "vol.4",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "330円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年10月3日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/vol.4+%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3184152/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.4",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6d3c83ff.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6d3c83ff.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6d3c83ff.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1826,
@@ -13407,20 +13631,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "murakumo-ten"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+3.%E5%8F%A2%E9%9B%B2%E6%B7%BB/pd/3013509/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692872_1_1732680379.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692872_1_1732680379.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692872_1_1732680379.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 193,
@@ -14370,27 +14605,6 @@
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524691_1_1773140711.jpg&width=1200&height=630"
-    },
-    {
-      "id": 1718,
-      "name": "18TRIP 【Blu-ray】映画 アベンジャーズ／インフィニティ・ウォー 4K UHD 3D ＋ ブルーレイ セット",
-      "nameCn": "その他",
-      "category": "日常杂货",
-      "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
-      "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
-      "price": "8,800円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2025年11月12日",
-      "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90Blu-ray%E3%80%91%E6%98%A0%E7%94%BB+%E3%82%A2%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA%EF%BC%8F%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC+4K+UHD+3D+%EF%BC%8B+%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4+%E3%82%BB%E3%83%83%E3%83%88/pd/3271204/",
-      "status": "待出荷",
-      "statusJp": "通常1～2日以内に入荷",
-      "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10021346_68de039a49077.jpg&width=400&height=400&square=1"
     },
     {
       "id": 1013,
@@ -17224,20 +17438,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+10.%E4%B9%85%E6%A5%BD%E9%96%93%E6%BD%AE/pd/3013516/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692940_1_1732680482.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692940_1_1732680482.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692940_1_1732680482.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 270,
@@ -17650,20 +17875,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+11.%E5%8C%97%E7%89%87%E4%BE%86%E4%BA%BA/pd/3013517/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692957_1_1732680389.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692957_1_1732680389.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692957_1_1732680389.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1766,
@@ -18234,21 +18470,45 @@
       "nameCn": "vol.4",
       "category": "徽章吧唧",
       "series": "vol.4",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月15日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.4%E3%80%80%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3149543/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00045/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.4",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621385926_1_1749528306.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621385926_1_1749528306.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621385926_1_1749528306.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00045/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1865,
@@ -18934,21 +19194,45 @@
       "nameCn": "vol.5",
       "category": "徽章吧唧",
       "series": "vol.5",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年10月3日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.5%E3%80%80%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3198613/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00053/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.5",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419478_1_1754539506.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419478_1_1754539506.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419478_1_1754539506.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00053/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 133,
@@ -24483,20 +24767,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "naname-shichiki"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+8.%E6%96%9C%E6%9C%A8%E4%B8%83%E5%9F%BA/pd/3013514/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692926_1_1732680393.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692926_1_1732680393.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692926_1_1732680393.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 755,
@@ -25627,20 +25922,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kiya-muneuji"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+9.%E8%BC%9D%E7%9F%A2%E5%AE%97%E6%B0%8F/pd/3013515/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692933_1_1732680370.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692933_1_1732680370.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692933_1_1732680370.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 512,
@@ -25863,27 +26169,6 @@
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776571172_2_1748264704.jpg&width=400&height=400&square=1"
     },
     {
-      "id": 1717,
-      "name": "18TRIP 【セール対象】【Blu-ray】映画 アベンジャーズ/インフィニティ・ウォー ブルーレイ ＋ DVD セット",
-      "nameCn": "その他",
-      "category": "日常杂货",
-      "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
-      "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
-      "price": "4,620円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2025年11月12日",
-      "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%BB%E3%83%BC%E3%83%AB%E5%AF%BE%E8%B1%A1%E3%80%91%E3%80%90Blu-ray%E3%80%91%E6%98%A0%E7%94%BB+%E3%82%A2%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC+%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4+%EF%BC%8B+DVD+%E3%82%BB%E3%83%83%E3%83%88/pd/3319348/",
-      "status": "待出荷",
-      "statusJp": "通常1～2日以内に入荷",
-      "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=200003959_1_1764155109.jpg&width=400&height=400&square=1"
-    },
-    {
       "id": 1560,
       "name": "18TRIP キラキラアクリルブロック 木ノ内 太緒",
       "nameCn": "杂货 木之内太绪",
@@ -25936,20 +26221,35 @@
       "nameCn": "主视觉图周边",
       "category": "日常杂货",
       "series": "キービジュアル",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年9月13日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/%E3%82%AD%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/2899786/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "キービジュアル",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631282_1_1718877943.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631282_1_1718877943.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631282_1_1718877943.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1510,
@@ -26348,20 +26648,33 @@
       "category": "日常杂货",
       "series": "ボールペン",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年9月13日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9A%E3%83%B3%E3%80%9118TRIP+HAMA%E3%83%84%E3%82%A2%E3%83%BC%E3%82%BA%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9A%E3%83%B3%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/2899791/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00680-90001/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "ボールペン",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631287_1_1718878034.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631287_1_1718878034.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631287_1_1718878034.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00680-90001/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 319,
@@ -27070,20 +27383,40 @@
       "nameCn": "vol.4",
       "category": "日常杂货",
       "series": "vol.4",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "330円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年10月3日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B7%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/vol.4+%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3184151/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.4",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6ad6fb53.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6ad6fb53.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07241221_6881a6ad6fb53.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1635,
@@ -27855,20 +28188,35 @@
       "nameCn": "vol.2",
       "category": "日常杂货",
       "series": "vol.2",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "616円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年8月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+Vol.2/pd/3114025/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.2",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216774_2_1744635911.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216774_2_1744635911.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216774_2_1744635911.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 165,
@@ -30171,7 +30519,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 1650,
@@ -33811,20 +34160,40 @@
       "nameCn": "18TRIP グッズ(三次受注)",
       "category": "徽章吧唧",
       "series": "18TRIP グッズ(三次受注)",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "495円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年9月13日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/A%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD%E3%80%90%E4%B8%89%E6%AC%A1%E5%8F%97%E6%B3%A8%E3%80%91/pd/2899777/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "18TRIP グッズ(三次受注)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631273_1_1718877955.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631273_1_1718877955.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631273_1_1718877955.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 110,
@@ -34303,20 +34672,40 @@
       "nameCn": "その他",
       "category": "亚克力挂件",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC03/%E3%83%96%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%28%E5%85%A810%E7%A8%AE%29%28%E5%85%AC%E5%BC%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%29/pd/3395321/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610490_2_1770264308.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610490_2_1770264308.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843610490_2_1770264308.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 812,
@@ -34483,20 +34872,40 @@
       "nameCn": "18TRIP グッズ(三次受注)",
       "category": "徽章吧唧",
       "series": "18TRIP グッズ(三次受注)",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "495円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年9月13日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/B%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%90%E4%B8%89%E6%AC%A1%E5%8F%97%E6%B3%A8%E3%80%91/pd/2899778/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "18TRIP グッズ(三次受注)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631274_1_1718878017.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631274_1_1718878017.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=10631274_1_1718878017.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1523,
@@ -34527,21 +34936,45 @@
       "nameCn": "vol.5",
       "category": "徽章吧唧",
       "series": "vol.5",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年10月3日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.5%E3%80%80%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/3198612/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00052/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.5",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419461_1_1754539508.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419461_1_1754539508.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621419461_1_1754539508.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00052/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1041,
@@ -35130,20 +35563,35 @@
       "nameCn": "vol.4",
       "category": "日常杂货",
       "series": "vol.4",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "616円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年9月1日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89%E3%80%9118TRIP+%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3+Vol.4/pd/3114027/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.4",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216811_2_1744635904.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216811_2_1744635904.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216811_2_1744635904.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1587,
@@ -36526,20 +36974,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kinouchi-tao"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+14.%E6%9C%A8%E3%83%8E%E5%86%85%E5%A4%AA%E7%B7%92/pd/3013520/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692988_1_1732680391.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692988_1_1732680391.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692988_1_1732680391.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1577,
@@ -36991,20 +37450,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "shiromitsu-toi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+17.%E7%99%BD%E5%85%89%E7%B3%96%E8%A1%A3/pd/3013523/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693015_1_1732680397.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693015_1_1732680397.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381693015_1_1732680397.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1726,
@@ -37074,20 +37544,31 @@
       "nameCn": "その他",
       "category": "贴纸",
       "series": "その他",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "natsuyaki-chihiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年4月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC+13.%E5%A4%8F%E7%84%BC%E5%8D%83%E5%BC%A5/pd/3013519/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692971_1_1732680452.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692971_1_1732680452.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4970381692971_1_1732680452.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 258,
@@ -38863,20 +39344,40 @@
       "nameCn": "带支架挂件 旅先报告 朝班昼班",
       "category": "亚克力挂件",
       "series": "旅先レポート コレクション",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "770円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E4%BB%98%E3%81%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/%E6%97%85%E5%85%88%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88+%E6%9C%9D%E7%8F%AD%E3%83%BB%E6%98%BC%E7%8F%AD/pd/2955817/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "スタンド付きアクリルキーホルダーコレクション 旅先レポート",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200786_1_1726135971.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200786_1_1726135971.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621200786_1_1726135971.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 539,
@@ -39055,21 +39556,45 @@
       "nameCn": "vol.7",
       "category": "徽章吧唧",
       "series": "vol.7",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "440円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8Fvol.7%E3%80%80%E5%A4%95%E7%8F%AD%E3%83%BB%E5%A4%9C%E7%8F%AD/pd/3284819/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00063/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621460005_1_1760673911.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621460005_1_1760673911.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621460005_1_1760673911.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00063/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1890,
@@ -46834,11 +47359,13 @@
       "id": 2357,
       "name": "18TRIP Good Luck しゅうまいネックピロー",
       "nameCn": "日用品·Good Luck",
-      "category": "日用品",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015516/",
@@ -46846,21 +47373,31 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 日用品",
-      "image": "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg"
+      "image": "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2358,
       "name": "18TRIP Cassette #01 'グッドラック'",
       "nameCn": "音乐CD",
-      "category": "音乐CD",
+      "category": "",
       "series": "Cassette 系列",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/PCTG000000300/",
@@ -46868,11 +47405,21 @@
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Cassette 系列 / 音乐CD",
-      "image": "https://canime.jp/upload/jacket/PCTG000000300/org/1533601001_0000002.jpg"
+      "image": "https://canime.jp/upload/jacket/PCTG000000300/org/1533601001_0000002.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/jacket/PCTG000000300/org/1533601001_0000002.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2359,
@@ -47374,11 +47921,17 @@
       "id": 2380,
       "name": "18TRIP Good Luck アクリルブロック(18is)",
       "nameCn": "亚克力块·Good Luck",
-      "category": "亚克力块",
+      "category": "亚克力立牌",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015519/",
@@ -47386,21 +47939,37 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "预约中",
       "statusJp": "",
       "description": "Good Luck 系列 / 亚克力块",
-      "image": "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png"
+      "image": "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2381,
       "name": "18TRIP Good Luck トレーディングカードコンプリートセット(18is)",
       "nameCn": "相卡·Good Luck",
-      "category": "相卡",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015518/",
@@ -47408,21 +47977,37 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 相卡",
-      "image": "https://canime.jp/upload/product/37_18trip-casette1_trc-.png"
+      "image": "https://canime.jp/upload/product/37_18trip-casette1_trc-.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/37_18trip-casette1_trc-.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2382,
       "name": "18TRIP Good Luck 缶バッジコンプリートセット(18is)",
       "nameCn": "徽章·Good Luck",
-      "category": "徽章",
+      "category": "",
       "series": "Good Luck 系列",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015517/",
@@ -47430,11 +48015,21 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Good Luck 系列 / 徽章",
-      "image": "https://canime.jp/upload/product/36_18trip-casette1_canset-.png"
+      "image": "https://canime.jp/upload/product/36_18trip-casette1_canset-.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/36_18trip-casette1_canset-.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2383,
@@ -47699,11 +48294,11 @@
       "id": 2394,
       "name": "18TRIP Cassette #01~05 ポストカード5枚セット",
       "nameCn": "相卡",
-      "category": "相卡",
+      "category": "",
       "series": "Cassette 系列",
       "characters": [],
       "allTeams": true,
-      "teamScope": 24,
+      "teamScope": 22,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZP000015490/",
@@ -47711,11 +48306,21 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Cassette 系列 / 相卡",
-      "image": "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png"
+      "image": "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/18trip-casette1-5_postcard-.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2395,
@@ -47765,11 +48370,11 @@
       "id": 2397,
       "name": "18TRIP HAMAツアーズスクラップブック",
       "nameCn": "书籍/杂志",
-      "category": "书籍/杂志",
+      "category": "",
       "series": "HAMAツアーズ",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 24,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ",
       "platformUrl": "https://canime.jp/search/?keyword=18trip",
       "canimeUrl": "https://canime.jp/product/BRZG000001197/",
@@ -47777,11 +48382,21 @@
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "HAMAツアーズ / 书籍/杂志",
-      "image": "https://canime.jp/upload/product/BRZG01197.png"
+      "image": "https://canime.jp/upload/product/BRZG01197.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG01197.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "きゃにめ",
+          "url": "https://canime.jp/search/?keyword=18trip"
+        }
+      ]
     },
     {
       "id": 2398,
@@ -48315,20 +48930,41 @@
       "nameCn": "带底座亚克力板 夕班·夜班",
       "category": "亚克力立牌",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2743593/",
-      "price": "",
+      "price": "景品",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
-      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2743593.jpg/250w_250h.jpg"
+      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2743593.jpg/250w_250h.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2743593.jpg/250w_250h.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Banpresto",
+          "url": "https://bsp-prize.jp/item/2743593/"
+        }
+      ]
     },
     {
       "id": 2417,
@@ -48336,20 +48972,41 @@
       "nameCn": "带底座亚克力板 朝班·昼班",
       "category": "亚克力立牌",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 10,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2740796/",
-      "price": "",
+      "price": "景品",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
-      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2740796.jpg/250w_250h.jpg"
+      "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2740796.jpg/250w_250h.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2740796.jpg/250w_250h.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Banpresto",
+          "url": "https://bsp-prize.jp/item/2740796/"
+        }
+      ]
     },
     {
       "id": 2418,
