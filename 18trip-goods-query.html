@@ -43100,9 +43100,9 @@ function getTeamDisplayName(item) {
     const scope = (item.teamScope !== undefined && item.teamScope !== null) ? item.teamScope : 20;
     if (scope === 0) return '烧卖';
     if (scope === 5) return '夜班机器人5种';
-    if (scope >= 27) return '27种(含向导烧卖主任)';
-    if (scope >= 26) return '26种(含向导主任)';
-    if (scope >= 25) return '25种(含向导烧卖)';
+    if (scope >= 27) return '全27种(含向导主任&烧卖)';
+    if (scope >= 26) return '全26种(含向导主任)';
+    if (scope >= 25) return '全25种(含向导烧卖)';
     if (scope >= 24) return '全24种(含向导)';
     return '全20种(4班)';
   }
