@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T03:42:19.779Z",
+  "timestamp": "2026-09-08T03:44:03.531Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -2788,7 +2788,7 @@
     {
       "id": 329,
       "name": "サインステッカーセット Vol.1 2.大黒 可不可",
-      "nameCn": "签名贴纸 vol.1 大黑可不可",
+      "nameCn": "一轮SSR签名贴纸 vol.1 大黑可不可",
       "category": "贴纸",
       "series": "定番グッズ vol.1",
       "characters": [
@@ -2797,16 +2797,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+2.%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3551373/",
       "price": "1,540 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+2.%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3551373/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253205_1_1784865909.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253205_1_1784865909.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253205_1_1784865909.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+2.%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3551373/"
+        }
+      ]
     },
     {
       "id": 477,
@@ -22071,7 +22080,7 @@
     {
       "id": 328,
       "name": "サインステッカーセット Vol.1 1.西園 練牙",
-      "nameCn": "签名贴纸 vol.1 西园练牙",
+      "nameCn": "一轮SSR签名贴纸 vol.1 西园练牙",
       "category": "贴纸",
       "series": "定番グッズ vol.1",
       "characters": [
@@ -22080,16 +22089,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+1.%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3551372/",
       "price": "1,540 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月中旬",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+1.%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3551372/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253199_1_1784865915.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253199_1_1784865915.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273253199_1_1784865915.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BB%E3%83%83%E3%83%88+Vol.1+1.%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3551372/"
+        }
+      ]
     },
     {
       "id": 426,
