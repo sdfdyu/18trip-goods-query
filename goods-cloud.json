@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T08:47:15.002Z",
+  "timestamp": "2026-09-08T08:53:08.072Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -570,7 +570,7 @@
     {
       "id": 727,
       "name": "アクリルスタンド／vol.7 大黒 可不可",
-      "nameCn": "立牌 vol.7 大黑可不可",
+      "nameCn": "一轮SSR花后立牌 vol.7 大黑可不可",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -579,17 +579,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3284799/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00194/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459801_1_1760673907.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459801_1_1760673907.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459801_1_1760673907.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00194/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 744,
@@ -2925,7 +2938,7 @@
     {
       "id": 716,
       "name": "アクリルスタンド／vol.7 白光 琉衣",
-      "nameCn": "立牌 vol.7 白光琉衣",
+      "nameCn": "一轮SSR花后立牌 vol.7 白光琉衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -2934,17 +2947,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3284815/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00210/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459962_1_1760673909.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459962_1_1760673909.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459962_1_1760673909.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00210/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 733,
@@ -4016,7 +4042,7 @@
     {
       "id": 721,
       "name": "アクリルスタンド／vol.7 北片 來人",
-      "nameCn": "立牌 vol.7 北片来人",
+      "nameCn": "一轮SSR花后立牌 vol.7 北片来人",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -4025,17 +4051,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3284808/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00203/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459894_1_1760673911.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459894_1_1760673911.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459894_1_1760673911.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00203/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 844,
@@ -6056,7 +6095,7 @@
     {
       "id": 726,
       "name": "アクリルスタンド／vol.7 叢雲 添",
-      "nameCn": "立牌 vol.7 丛云添",
+      "nameCn": "一轮SSR花后立牌 vol.7 丛云添",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -6065,17 +6104,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3284800/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00195/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459818_1_1760673905.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459818_1_1760673905.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459818_1_1760673905.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00195/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 919,
@@ -14243,7 +14295,7 @@
     {
       "id": 720,
       "name": "アクリルスタンド／vol.7 夏焼 千弥",
-      "nameCn": "立牌 vol.7 夏烧千弥",
+      "nameCn": "一轮SSR花后立牌 vol.7 夏烧千弥",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -14252,17 +14304,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5/pd/3284810/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00205/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459917_1_1760673906.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459917_1_1760673906.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459917_1_1760673906.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00205/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 585,
@@ -14431,7 +14496,7 @@
     {
       "id": 715,
       "name": "アクリルスタンド／vol.7 棗 夜鷹",
-      "nameCn": "立牌 vol.7 枣夜鹰",
+      "nameCn": "一轮SSR花后立牌 vol.7 枣夜鹰",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -14440,17 +14505,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3284816/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00211/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459979_1_1760673910.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459979_1_1760673910.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459979_1_1760673910.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00211/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 233,
@@ -14735,7 +14813,7 @@
     {
       "id": 724,
       "name": "アクリルスタンド／vol.7 衣川 季肋",
-      "nameCn": "立牌 vol.7 衣川季肋",
+      "nameCn": "一轮SSR花后立牌 vol.7 衣川季肋",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -14744,17 +14822,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3284804/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00199/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459856_1_1760673905.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459856_1_1760673905.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459856_1_1760673905.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00199/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1513,
@@ -15755,7 +15846,7 @@
     {
       "id": 725,
       "name": "アクリルスタンド／vol.7 神名 雪風",
-      "nameCn": "立牌 vol.7 神名雪风",
+      "nameCn": "一轮SSR花后立牌 vol.7 神名雪风",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -15764,17 +15855,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3284801/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00196/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459825_1_1760673908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459825_1_1760673908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459825_1_1760673908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00196/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 487,
@@ -16818,7 +16922,7 @@
     {
       "id": 719,
       "name": "アクリルスタンド／vol.7 百目鬼 潜",
-      "nameCn": "立牌 vol.7 百目鬼潜",
+      "nameCn": "一轮SSR花后立牌 vol.7 百目鬼潜",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -16827,17 +16931,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/3284812/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00207/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459931_1_1760673911.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459931_1_1760673911.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459931_1_1760673911.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00207/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 224,
@@ -17564,7 +17681,7 @@
     {
       "id": 723,
       "name": "アクリルスタンド／vol.7 斜木 七基",
-      "nameCn": "立牌 vol.7 斜木七基",
+      "nameCn": "一轮SSR花后立牌 vol.7 斜木七基",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -17573,17 +17690,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/3284805/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00200/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459863_1_1760673910.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459863_1_1760673910.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459863_1_1760673910.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00200/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 811,
@@ -25773,7 +25903,7 @@
     {
       "id": 718,
       "name": "アクリルスタンド／vol.7 蜂乃屋 凪",
-      "nameCn": "立牌 vol.7 蜂乃屋凪",
+      "nameCn": "一轮SSR花后立牌 vol.7 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -25782,17 +25912,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3284813/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00208/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459948_1_1760673908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459948_1_1760673908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459948_1_1760673908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00208/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1825,
@@ -28812,7 +28955,7 @@
     {
       "id": 717,
       "name": "アクリルスタンド／vol.7 白光 糖衣",
-      "nameCn": "立牌 vol.7 白光糖衣",
+      "nameCn": "一轮SSR花后立牌 vol.7 白光糖衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -28821,17 +28964,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3284814/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00209/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459955_1_1760673904.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459955_1_1760673904.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459955_1_1760673904.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00209/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1119,
@@ -33538,7 +33694,7 @@
     {
       "id": 728,
       "name": "アクリルスタンド／vol.7 西園 練牙",
-      "nameCn": "立牌 vol.7 西园练牙",
+      "nameCn": "一轮SSR花后立牌 vol.7 西园练牙",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -33547,17 +33703,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3284798/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00193/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459795_1_1760673908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459795_1_1760673908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459795_1_1760673908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00193/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 866,
@@ -37887,7 +38056,7 @@
     {
       "id": 722,
       "name": "アクリルスタンド／vol.7 輝矢 宗氏",
-      "nameCn": "立牌 vol.7 辉矢宗氏",
+      "nameCn": "一轮SSR花后立牌 vol.7 辉矢宗氏",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -37896,17 +38065,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年1月16日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.7+%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/3284806/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00201/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.7",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459870_1_1760673905.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459870_1_1760673905.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621459870_1_1760673905.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00201/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1567,
@@ -42358,7 +42540,7 @@
     {
       "id": 1939,
       "name": "アクリルスタンド／vol.7 鹿 礼光",
-      "nameCn": "亚克力立牌／vol.7 鹿礼光",
+      "nameCn": "一轮SSR花后立牌／vol.7 鹿礼光",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -42367,21 +42549,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00197/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00197-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00197-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00197-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1940,
       "name": "アクリルスタンド／vol.7 五十竹 あく太",
-      "nameCn": "亚克力立牌／vol.7 五十竹恶太",
+      "nameCn": "一轮SSR花后立牌／vol.7 五十竹恶太",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -42390,44 +42582,64 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00198/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00198-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00198-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00198-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1941,
       "name": "アクリルスタンド／vol.7 久楽間 潮",
-      "nameCn": "亚克力立牌／vol.7 久乐间潮",
+      "nameCn": "一轮SSR花后立牌／vol.7 久乐间潮",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
-        "kuguruma-ushio"
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00202/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00202-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00202-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00202-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1942,
       "name": "アクリルスタンド／vol.7 畔川 幾成",
-      "nameCn": "亚克力立牌／vol.7 畔川几成",
+      "nameCn": "一轮SSR花后立牌／vol.7 畔川几成",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -42436,21 +42648,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00204/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00204-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00204-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00204-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1943,
       "name": "アクリルスタンド／vol.7 木ノ内 太緒",
-      "nameCn": "亚克力立牌／vol.7 木之内太绪",
+      "nameCn": "一轮SSR花后立牌／vol.7 木之内太绪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -42459,21 +42681,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00206/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00206-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00206-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00206-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1944,
       "name": "アクリルスタンド／vol.7 夜半 子タろ",
-      "nameCn": "亚克力立牌／vol.7 夜半子太郎",
+      "nameCn": "一轮SSR花后立牌／vol.7 夜半子太郎",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.7",
       "characters": [
@@ -42482,16 +42714,26 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2026年1月16日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00212/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00212-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00212-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00212-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1945,
