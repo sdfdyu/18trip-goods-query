@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T10:05:59.554Z",
+  "timestamp": "2026-09-08T10:12:22.196Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -2168,7 +2168,7 @@
     {
       "id": 627,
       "name": "アクリルスタンド/vol.2 畔川 幾成",
-      "nameCn": "立牌 vol.2 畔川几成",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 畔川几成",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -2177,12 +2177,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90/pd/2955856/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -2191,8 +2189,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00036/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201172_1_1725962848.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00036/"
     },
     {
       "id": 1591,
@@ -8934,7 +8942,7 @@
     {
       "id": 628,
       "name": "アクリルスタンド/vol.2 久楽間 潮",
-      "nameCn": "立牌 vol.2 久乐间潮",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 久乐间潮",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -8943,12 +8951,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/2955854/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -8957,8 +8963,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00034/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201158_1_1725962768.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00034/"
     },
     {
       "id": 513,
@@ -9989,7 +10005,7 @@
     {
       "id": 625,
       "name": "アクリルスタンド/vol.2 蜂乃屋 凪",
-      "nameCn": "立牌 vol.2 蜂乃屋凪",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -9998,12 +10014,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/2955860/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -10012,8 +10026,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00040/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201219_1_1725962874.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00040/"
     },
     {
       "id": 614,
@@ -11256,7 +11280,7 @@
     {
       "id": 634,
       "name": "アクリルスタンド/vol.2 大黒 可不可",
-      "nameCn": "立牌 vol.2 大黑可不可",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 大黑可不可",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -11265,12 +11289,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/2955846/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -11279,8 +11301,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00026/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201073_1_1725962889.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00026/"
     },
     {
       "id": 1149,
@@ -11961,7 +11993,7 @@
     {
       "id": 632,
       "name": "アクリルスタンド/vol.2 神名 雪風",
-      "nameCn": "立牌 vol.2 神名雪风",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 神名雪风",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -11970,12 +12002,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/2955848/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -11984,8 +12014,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00028/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201097_1_1725962868.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00028/"
     },
     {
       "id": 459,
@@ -15297,7 +15337,7 @@
     {
       "id": 624,
       "name": "アクリルスタンド/vol.2 白光 糖衣",
-      "nameCn": "立牌 vol.2 白光糖衣",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 白光糖衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -15306,12 +15346,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/2955861/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -15320,8 +15358,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00041/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201226_1_1725962735.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00041/"
     },
     {
       "id": 1426,
@@ -18795,7 +18843,7 @@
     {
       "id": 631,
       "name": "アクリルスタンド/vol.2 衣川 季肋",
-      "nameCn": "立牌 vol.2 衣川季肋",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 衣川季肋",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -18804,12 +18852,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/2955851/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -18818,8 +18864,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00031/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201127_1_1725962771.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00031/"
     },
     {
       "id": 421,
@@ -21246,7 +21302,7 @@
     {
       "id": 635,
       "name": "アクリルスタンド/vol.2 西園 練牙",
-      "nameCn": "立牌 vol.2 西园练牙",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 西园练牙",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -21255,12 +21311,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/2955845/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -21269,8 +21323,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00025/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201066_1_1725962821.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00025/"
     },
     {
       "id": 522,
@@ -24490,7 +24554,7 @@
     {
       "id": 630,
       "name": "アクリルスタンド/vol.2 斜木 七基",
-      "nameCn": "立牌 vol.2 斜木七基",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 斜木七基",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -24499,12 +24563,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/2955852/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -24513,8 +24575,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00032/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201134_1_1725962803.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00032/"
     },
     {
       "id": 680,
@@ -29540,7 +29612,7 @@
     {
       "id": 626,
       "name": "アクリルスタンド/vol.2 百目鬼 潜",
-      "nameCn": "立牌 vol.2 百目鬼潜",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 百目鬼潜",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -29549,12 +29621,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/2955859/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -29563,8 +29633,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00039/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201202_1_1725962825.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00039/"
     },
     {
       "id": 1624,
@@ -33925,7 +34005,7 @@
     {
       "id": 633,
       "name": "アクリルスタンド/vol.2 叢雲 添",
-      "nameCn": "立牌 vol.2 丛云添",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 丛云添",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -33934,12 +34014,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/2955847/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -33948,8 +34026,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00027/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201080_1_1725962777.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00027/"
     },
     {
       "id": 289,
@@ -34534,7 +34622,7 @@
     {
       "id": 629,
       "name": "アクリルスタンド/vol.2 輝矢 宗氏",
-      "nameCn": "立牌 vol.2 辉矢宗氏",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 辉矢宗氏",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -34543,12 +34631,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/2955853/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -34557,8 +34643,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00033/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201141_1_1725962836.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00033/"
     },
     {
       "id": 1542,
@@ -37011,7 +37107,7 @@
     {
       "id": 623,
       "name": "アクリルスタンド/vol.2 白光 琉衣",
-      "nameCn": "立牌 vol.2 白光琉衣",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 白光琉衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -37020,12 +37116,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2024年11月30日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.2+%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/2955862/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.2",
@@ -37034,8 +37128,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00042/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621201233_1_1725962791.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00042/"
     },
     {
       "id": 365,
@@ -44307,7 +44411,7 @@
     {
       "id": 2125,
       "name": "アクリルスタンド／vol.2 鹿 礼光",
-      "nameCn": "亚克力立牌／vol.2 鹿礼光",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 鹿礼光",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -44316,21 +44420,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00029/",
-      "status": "预约中",
+      "status": "已结束",
       "statusJp": "残りわずか",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00029-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00029-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00029-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2126,
       "name": "アクリルスタンド／vol.2 五十竹 あく太",
-      "nameCn": "亚克力立牌／vol.2 五十竹恶太",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 五十竹恶太",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -44339,67 +44453,97 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00030/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00030-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00030-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00030-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2131,
       "name": "アクリルスタンド／vol.2 北片 來人",
-      "nameCn": "亚克力立牌／vol.2 北片来人",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 北片来人",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
-        "kitakata-rai"
+        "kitakata-raito"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00035/",
-      "status": "预约中",
+      "status": "已结束",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00035-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00035-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00035-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2133,
       "name": "アクリルスタンド／vol.2 夏焼 千弥",
-      "nameCn": "亚克力立牌／vol.2 夏烧千弥",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 夏烧千弥",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
-        "natsuyaki-chinya"
+        "natsuyaki-chihiro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00037/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00037-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00037-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00037-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2134,
       "name": "アクリルスタンド／vol.2 木ノ内 太緒",
-      "nameCn": "亚克力立牌／vol.2 木之内太绪",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 木之内太绪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -44408,21 +44552,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00038/",
-      "status": "预约中",
+      "status": "已结束",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00038-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00038-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00038-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2139,
       "name": "アクリルスタンド／vol.2 棗 夜鷹",
-      "nameCn": "亚克力立牌／vol.2 枣夜鹰",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 枣夜鹰",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -44431,21 +44585,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00043/",
-      "status": "预约中",
+      "status": "已结束",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00043-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00043-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00043-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2140,
       "name": "アクリルスタンド／vol.2 夜半 子タろ",
-      "nameCn": "亚克力立牌／vol.2 夜半子太郎",
+      "nameCn": "初始SR半身立牌/初始SR花前立牌 vol.2 夜半子太郎",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [
@@ -44454,16 +44618,26 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年11月30日",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00044/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00044-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00044-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00044-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2141,
