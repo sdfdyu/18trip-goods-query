@@ -203,8 +203,10 @@
       flex-direction:row;
       padding:0;
       flex:1;
-      overflow:visible;
+      overflow-y:auto;
+      overflow-x:hidden;
       align-items:flex-start;
+      min-height:0;
     }
     /* 左右两列独立，高度由内容决定，不对齐 */
     #formOverlay .form-col{
@@ -43339,7 +43341,7 @@ function updateAdminUI() {
 function openOverlay(id) { document.getElementById(id).classList.add('show'); }
 function closeOverlay(id) { document.getElementById(id).classList.remove('show'); }
 function closeForm() { closeOverlay('formOverlay'); pendingImgs = []; }
-function closeDetail() { detailId = null; closeOverlay('detailOverlay'); }
+function closeDetail() { detailId = null; closeOverlay('detailOverlay'); document.body.style.overflow = ''; }
 function closeFeedback() { closeOverlay('fbOverlay'); }
 function closeSync() { closeOverlay('syncOverlay'); }
 
@@ -44378,6 +44380,7 @@ function showDetail(id) {
   detailId = id;
   renderDetail();
   openOverlay('detailOverlay');
+  document.body.style.overflow = 'hidden';
 }
 
 function renderDetail() {
