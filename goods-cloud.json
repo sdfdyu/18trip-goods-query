@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T08:59:53.077Z",
+  "timestamp": "2026-09-08T10:05:59.554Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -3155,7 +3155,7 @@
     {
       "id": 652,
       "name": "アクリルスタンド/vol.3 神名 雪風",
-      "nameCn": "立牌 vol.3 神名雪风",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 神名雪风",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -3164,12 +3164,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3071157/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -3178,8 +3176,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00050/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308857_1_1740488707.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00050/"
     },
     {
       "id": 687,
@@ -3904,7 +3912,7 @@
     {
       "id": 388,
       "name": "アクリルキーホルダー／vol.4 棗 夜鷹",
-      "nameCn": "亚克力挂件 vol.4 枣夜鹰",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 枣夜鹰",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -3913,17 +3921,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564660/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564660/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00247/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695049_1_1786359915.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695049_1_1786359915.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695049_1_1786359915.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00247/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564660/"
+        }
+      ]
     },
     {
       "id": 1740,
@@ -7081,7 +7102,7 @@
     {
       "id": 641,
       "name": "アクリルスタンド/vol.3 百目鬼 潜",
-      "nameCn": "立牌 vol.3 百目鬼潜",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 百目鬼潜",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -7090,12 +7111,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/3071168/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -7104,8 +7123,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00061/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308963_1_1740488975.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00061/"
     },
     {
       "id": 1014,
@@ -10516,7 +10545,7 @@
     {
       "id": 653,
       "name": "アクリルスタンド/vol.3 叢雲 添",
-      "nameCn": "立牌 vol.3 丛云添",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 丛云添",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -10525,12 +10554,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3071156/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -10539,8 +10566,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00049/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308840_1_1740489154.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00049/"
     },
     {
       "id": 144,
@@ -11754,7 +11791,7 @@
     {
       "id": 651,
       "name": "アクリルスタンド/vol.3 鹿 礼光",
-      "nameCn": "立牌 vol.3 鹿礼光",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 鹿礼光",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -11763,12 +11800,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3071158/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -11777,8 +11812,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00051/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308864_1_1740488720.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00051/"
     },
     {
       "id": 252,
@@ -12307,7 +12352,7 @@
     {
       "id": 654,
       "name": "アクリルスタンド/vol.3 大黒 可不可",
-      "nameCn": "立牌 vol.3 大黑可不可",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 大黑可不可",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -12316,12 +12361,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3071155/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -12330,8 +12373,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00048/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308833_1_1740488868.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00048/"
     },
     {
       "id": 502,
@@ -12609,7 +12662,7 @@
     {
       "id": 636,
       "name": "アクリルスタンド/vol.3 夜半 子タろ",
-      "nameCn": "立牌 vol.3 夜半子太郎",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 夜半子太郎",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -12618,12 +12671,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3071173/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -12632,8 +12683,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00066/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309014_1_1740489124.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00066/"
     },
     {
       "id": 1042,
@@ -13066,7 +13127,7 @@
     {
       "id": 646,
       "name": "アクリルスタンド/vol.3 久楽間 潮",
-      "nameCn": "立牌 vol.3 久乐间潮",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 久乐间潮",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -13075,12 +13136,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/3071163/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -13089,8 +13148,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00056/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308918_1_1740488983.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00056/"
     },
     {
       "id": 1631,
@@ -16230,7 +16299,7 @@
     {
       "id": 382,
       "name": "アクリルキーホルダー／vol.4 夏焼 千弥",
-      "nameCn": "亚克力挂件 vol.4 夏烧千弥",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 夏烧千弥",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -16239,17 +16308,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5/pd/3564654/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5/pd/3564654/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00241/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694981_1_1786359908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694981_1_1786359908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694981_1_1786359908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00241/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5/pd/3564654/"
+        }
+      ]
     },
     {
       "id": 212,
@@ -16822,7 +16904,7 @@
     {
       "id": 644,
       "name": "アクリルスタンド/vol.3 畔川 幾成",
-      "nameCn": "立牌 vol.3 畔川几成",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 畔川几成",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -16831,12 +16913,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90/pd/3071165/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -16845,8 +16925,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00058/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308932_1_1740488981.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00058/"
     },
     {
       "id": 1509,
@@ -17764,7 +17854,7 @@
     {
       "id": 378,
       "name": "アクリルキーホルダー／vol.4 輝矢 宗氏",
-      "nameCn": "亚克力挂件 vol.4 辉矢宗氏",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 辉矢宗氏",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -17773,17 +17863,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/3564650/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/3564650/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00237/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694943_1_1786359907.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694943_1_1786359907.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694943_1_1786359907.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00237/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/3564650/"
+        }
+      ]
     },
     {
       "id": 157,
@@ -17916,7 +18019,7 @@
     {
       "id": 645,
       "name": "アクリルスタンド/vol.3 北片 來人",
-      "nameCn": "立牌 vol.3 北片来人",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 北片来人",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -17925,12 +18028,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3071164/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -17939,8 +18040,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00057/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308925_1_1740489137.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00057/"
     },
     {
       "id": 1270,
@@ -18125,7 +18236,7 @@
     {
       "id": 637,
       "name": "アクリルスタンド/vol.3 棗 夜鷹",
-      "nameCn": "立牌 vol.3 枣夜鹰",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 枣夜鹰",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -18134,12 +18245,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3071172/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -18148,8 +18257,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00065/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621309007_1_1740488899.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00065/"
     },
     {
       "id": 677,
@@ -19143,7 +19262,7 @@
     {
       "id": 384,
       "name": "アクリルキーホルダー／vol.4 百目鬼 潜",
-      "nameCn": "亚克力挂件 vol.4 百目鬼潜",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 百目鬼潜",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -19152,17 +19271,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/3564656/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/3564656/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00243/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695001_1_1786359909.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695001_1_1786359909.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695001_1_1786359909.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00243/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C/pd/3564656/"
+        }
+      ]
     },
     {
       "id": 226,
@@ -19621,7 +19753,7 @@
     {
       "id": 642,
       "name": "アクリルスタンド/vol.3 木ノ内 太緒",
-      "nameCn": "立牌 vol.3 木之内太绪",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 木之内太绪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -19630,12 +19762,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E6%9C%A8%E3%83%8E%E5%86%85+%E5%A4%AA%E7%B7%92/pd/3071167/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -19644,8 +19774,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00060/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308956_1_1740489297.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00060/"
     },
     {
       "id": 582,
@@ -20082,7 +20222,7 @@
     {
       "id": 385,
       "name": "アクリルキーホルダー／vol.4 蜂乃屋 凪",
-      "nameCn": "亚克力挂件 vol.4 蜂乃屋凪",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 蜂乃屋凪",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -20091,17 +20231,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564657/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564657/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00244/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695018_1_1786359905.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695018_1_1786359905.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695018_1_1786359905.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00244/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564657/"
+        }
+      ]
     },
     {
       "id": 147,
@@ -20331,7 +20484,7 @@
     {
       "id": 647,
       "name": "アクリルスタンド/vol.3 輝矢 宗氏",
-      "nameCn": "立牌 vol.3 辉矢宗氏",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 辉矢宗氏",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -20340,12 +20493,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F/pd/3071162/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -20354,8 +20505,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00055/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308901_1_1740488770.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00055/"
     },
     {
       "id": 839,
@@ -20467,7 +20628,7 @@
     {
       "id": 380,
       "name": "アクリルキーホルダー／vol.4 北片 來人",
-      "nameCn": "亚克力挂件 vol.4 北片来人",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 北片来人",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -20476,17 +20637,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3564652/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3564652/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00239/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694967_1_1786359907.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694967_1_1786359907.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694967_1_1786359907.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00239/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA/pd/3564652/"
+        }
+      ]
     },
     {
       "id": 1098,
@@ -20787,7 +20961,7 @@
     {
       "id": 643,
       "name": "アクリルスタンド/vol.3 夏焼 千弥",
-      "nameCn": "立牌 vol.3 夏烧千弥",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 夏烧千弥",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -20796,12 +20970,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5/pd/3071166/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -20810,8 +20982,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00059/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308949_1_1740488766.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00059/"
     },
     {
       "id": 321,
@@ -20959,7 +21141,7 @@
     {
       "id": 377,
       "name": "アクリルキーホルダー／vol.4 斜木 七基",
-      "nameCn": "亚克力挂件 vol.4 斜木七基",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 斜木七基",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -20968,17 +21150,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/3564649/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/3564649/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00236/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694936_1_1786359906.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694936_1_1786359906.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694936_1_1786359906.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00236/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/3564649/"
+        }
+      ]
     },
     {
       "id": 395,
@@ -21825,7 +22020,7 @@
     {
       "id": 655,
       "name": "アクリルスタンド/vol.3 西園 練牙",
-      "nameCn": "立牌 vol.3 西园练牙",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 西园练牙",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -21834,12 +22029,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3071154/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -21848,8 +22041,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00047/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308826_1_1740489004.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00047/"
     },
     {
       "id": 711,
@@ -22968,7 +23171,7 @@
     {
       "id": 648,
       "name": "アクリルスタンド/vol.3 斜木 七基",
-      "nameCn": "立牌 vol.3 斜木七基",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 斜木七基",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -22977,12 +23180,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA/pd/3071161/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -22991,8 +23192,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00054/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308895_1_1740489252.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00054/"
     },
     {
       "id": 1096,
@@ -23712,7 +23923,7 @@
     {
       "id": 639,
       "name": "アクリルスタンド/vol.3 白光 糖衣",
-      "nameCn": "立牌 vol.3 白光糖衣",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 白光糖衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -23721,12 +23932,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3071170/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -23735,8 +23944,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00063/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308987_1_1740489169.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00063/"
     },
     {
       "id": 601,
@@ -24927,7 +25146,7 @@
     {
       "id": 370,
       "name": "アクリルキーホルダー／vol.4 西園 練牙",
-      "nameCn": "亚克力挂件 vol.4 西园练牙",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 西园练牙",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -24936,17 +25155,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3564642/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3564642/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00229/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694868_1_1786359910.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694868_1_1786359910.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694868_1_1786359910.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00229/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3564642/"
+        }
+      ]
     },
     {
       "id": 1025,
@@ -28247,7 +28479,7 @@
     {
       "id": 387,
       "name": "アクリルキーホルダー／vol.4 白光 琉衣",
-      "nameCn": "亚克力挂件 vol.4 白光琉衣",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 白光琉衣",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -28256,17 +28488,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564659/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564659/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00246/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695032_1_1786359909.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695032_1_1786359909.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695032_1_1786359909.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00246/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564659/"
+        }
+      ]
     },
     {
       "id": 330,
@@ -28370,7 +28615,7 @@
     {
       "id": 640,
       "name": "アクリルスタンド/vol.3 蜂乃屋 凪",
-      "nameCn": "立牌 vol.3 蜂乃屋凪",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -28379,12 +28624,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3071169/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -28393,8 +28636,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00062/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308970_1_1740488814.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00062/"
     },
     {
       "id": 681,
@@ -28606,7 +28859,7 @@
     {
       "id": 371,
       "name": "アクリルキーホルダー／vol.4 大黒 可不可",
-      "nameCn": "亚克力挂件 vol.4 大黑可不可",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 大黑可不可",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -28615,17 +28868,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3564643/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3564643/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00230/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694875_1_1786359915.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694875_1_1786359915.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694875_1_1786359915.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00230/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3564643/"
+        }
+      ]
     },
     {
       "id": 1714,
@@ -29437,7 +29703,7 @@
     {
       "id": 375,
       "name": "アクリルキーホルダー／vol.4 五十竹 あく太",
-      "nameCn": "亚克力挂件 vol.4 五十竹芥太",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 五十竹芥太",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -29446,17 +29712,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3564647/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3564647/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00234/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694912_1_1786359912.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694912_1_1786359912.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694912_1_1786359912.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00234/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3564647/"
+        }
+      ]
     },
     {
       "id": 1850,
@@ -30089,7 +30368,7 @@
     {
       "id": 381,
       "name": "アクリルキーホルダー／vol.4 畔川 幾成",
-      "nameCn": "亚克力挂件 vol.4 畔川几成",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 畔川几成",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -30098,17 +30377,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90/pd/3564653/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90/pd/3564653/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00240/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694974_1_1786359913.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694974_1_1786359913.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694974_1_1786359913.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00240/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90/pd/3564653/"
+        }
+      ]
     },
     {
       "id": 262,
@@ -30532,7 +30824,7 @@
     {
       "id": 649,
       "name": "アクリルスタンド/vol.3 衣川 季肋",
-      "nameCn": "立牌 vol.3 衣川季肋",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 衣川季肋",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -30541,12 +30833,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3071160/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -30555,8 +30845,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00053/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308888_1_1740488970.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00053/"
     },
     {
       "id": 299,
@@ -31101,7 +31401,7 @@
     {
       "id": 650,
       "name": "アクリルスタンド/vol.3 五十竹 あく太",
-      "nameCn": "立牌 vol.3 五十竹恶太",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 五十竹芥太",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -31110,12 +31410,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3071159/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -31124,8 +31422,18 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00052/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308871_1_1740489307.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00052/"
     },
     {
       "id": 1805,
@@ -32177,7 +32485,7 @@
     {
       "id": 638,
       "name": "アクリルスタンド/vol.3 白光 琉衣",
-      "nameCn": "立牌 vol.3 白光琉衣",
+      "nameCn": "半周年半身立牌/半周年SR花前立牌 vol.3 白光琉衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.3",
       "characters": [
@@ -32186,12 +32494,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年5月31日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/vol.3+%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3071171/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.3",
@@ -32200,13 +32506,23 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00064/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621308994_1_1740488995.jpg&width=400&height=400&square=1"
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00064/"
     },
     {
       "id": 373,
       "name": "アクリルキーホルダー／vol.4 神名 雪風",
-      "nameCn": "亚克力挂件 vol.4 神名雪风",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 神名雪风",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -32215,17 +32531,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3564645/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3564645/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00232/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694899_1_1786359907.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694899_1_1786359907.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694899_1_1786359907.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00232/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3564645/"
+        }
+      ]
     },
     {
       "id": 282,
@@ -32398,7 +32727,7 @@
     {
       "id": 379,
       "name": "アクリルキーホルダー／vol.4 久楽間 潮",
-      "nameCn": "亚克力挂件 vol.4 久乐间潮",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 久乐间潮",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -32407,17 +32736,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/3564651/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/3564651/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00238/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694950_1_1786359913.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694950_1_1786359913.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694950_1_1786359913.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00238/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE/pd/3564651/"
+        }
+      ]
     },
     {
       "id": 281,
@@ -33435,7 +33777,7 @@
     {
       "id": 374,
       "name": "アクリルキーホルダー／vol.4 鹿 礼光",
-      "nameCn": "亚克力挂件 vol.4 鹿礼光",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 鹿礼光",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -33444,17 +33786,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3564646/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3564646/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00233/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694905_1_1786359907.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694905_1_1786359907.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694905_1_1786359907.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00233/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3564646/"
+        }
+      ]
     },
     {
       "id": 1674,
@@ -33623,7 +33978,7 @@
     {
       "id": 372,
       "name": "アクリルキーホルダー／vol.4 叢雲 添",
-      "nameCn": "亚克力挂件 vol.4 丛云添",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 丛云添",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -33632,17 +33987,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3564644/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3564644/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00231/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694882_1_1786359915.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694882_1_1786359915.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694882_1_1786359915.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00231/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3564644/"
+        }
+      ]
     },
     {
       "id": 1131,
@@ -35053,7 +35421,7 @@
     {
       "id": 383,
       "name": "アクリルキーホルダー／vol.4 木ノ内 太緒",
-      "nameCn": "亚克力挂件 vol.4 木之内太绪",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 木之内太绪",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -35062,17 +35430,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%9C%A8%E3%83%8E%E5%86%85+%E5%A4%AA%E7%B7%92/pd/3564655/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%9C%A8%E3%83%8E%E5%86%85+%E5%A4%AA%E7%B7%92/pd/3564655/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00242/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694998_1_1786359907.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694998_1_1786359907.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694998_1_1786359907.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00242/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E6%9C%A8%E3%83%8E%E5%86%85+%E5%A4%AA%E7%B7%92/pd/3564655/"
+        }
+      ]
     },
     {
       "id": 1324,
@@ -36052,7 +36433,7 @@
     {
       "id": 389,
       "name": "アクリルキーホルダー／vol.4 夜半 子タろ",
-      "nameCn": "亚克力挂件 vol.4 夜半子太郎",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 夜半子太郎",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -36061,17 +36442,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564661/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564661/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00248/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695056_1_1786359907.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695056_1_1786359907.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695056_1_1786359907.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00248/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564661/"
+        }
+      ]
     },
     {
       "id": 489,
@@ -36402,7 +36796,7 @@
     {
       "id": 386,
       "name": "アクリルキーホルダー／vol.4 白光 糖衣",
-      "nameCn": "亚克力挂件 vol.4 白光糖衣",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 白光糖衣",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -36411,17 +36805,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564658/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564658/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00245/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695025_1_1786359908.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695025_1_1786359908.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695025_1_1786359908.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00245/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564658/"
+        }
+      ]
     },
     {
       "id": 140,
@@ -39054,7 +39461,7 @@
     {
       "id": 376,
       "name": "アクリルキーホルダー／vol.4 衣川 季肋",
-      "nameCn": "亚克力挂件 vol.4 衣川季肋",
+      "nameCn": "二轮SSR花前亚克力挂件 vol.4 衣川季肋",
       "category": "亚克力挂件",
       "series": "定番グッズ vol.4",
       "characters": [
@@ -39063,17 +39470,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3564648/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3564648/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00235/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694929_1_1786359913.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694929_1_1786359913.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694929_1_1786359913.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00235/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%EF%BC%8Fvol.4%E3%80%80%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B/pd/3564648/"
+        }
+      ]
     },
     {
       "id": 693,
