@@ -1,13 +1,13 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T15:58:12.960Z",
+  "timestamp": "2026-09-08T16:28:28.408Z",
   "goods": [
     {
       "name": "アクリルステッキ／畔川 幾成×こぎみゅん　サンリオキャラクターズ",
       "nameCn": "三丽鸥亚克力魔法棒 畔川几成×小麦云",
       "category": "日常杂货",
       "isStage": false,
-      "isCollab": false,
+      "isCollab": true,
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
         "azekawa-ikinari"
@@ -1648,17 +1648,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419048/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年4月11日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419048/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00124/",
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524615_1_1773140711.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524615_1_1773140711.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524615_1_1773140711.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00124/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419048/"
+        }
+      ]
     },
     {
       "id": 799,
@@ -4736,7 +4749,7 @@
     {
       "id": 1749,
       "name": "18TRIP マスキングテープセット／朝・昼班　サンリオキャラクターズ",
-      "nameCn": "三丽鸥联动",
+      "nameCn": "三丽鸥QQ人胶带 朝班昼班",
       "category": "贴纸",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
@@ -5300,7 +5313,7 @@
     {
       "id": 143,
       "name": "ハート形キャラバッジコレクション／夕・夜班 サンリオキャラクターズ",
-      "nameCn": "三丽鸥心形吧唧收藏 夕班夜班",
+      "nameCn": "三丽鸥心形吧唧/三丽鸥QQ人吧唧/三丽鸥Q心 夕班夜班",
       "category": "徽章吧唧",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
@@ -5309,26 +5322,39 @@
         "natsuyaki-chihiro",
         "kinouchi-tao",
         "domeki-kuguri",
-        "shiromitsu-toi",
         "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
         "natsume-yodaka",
-        "yowa-kotaro",
-        "shiromitsu-rui"
+        "yowa-kotaro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%8F%E3%83%BC%E3%83%88%E5%BD%A2%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%95%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419089/",
       "price": "495 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年4月11日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%8F%E3%83%BC%E3%83%88%E5%BD%A2%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%95%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419089/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00071/",
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524653_1_1773140709.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524653_1_1773140709.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524653_1_1773140709.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00071/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%83%8F%E3%83%BC%E3%83%88%E5%BD%A2%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%90%E3%83%83%E3%82%B8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%95%E3%83%BB%E5%A4%9C%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419089/"
+        }
+      ]
     },
     {
       "id": 817,
@@ -6211,17 +6237,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419052/",
       "price": "440 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年4月11日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419052/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00240-00053/",
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524677_1_1773140710.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524677_1_1773140710.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621524677_1_1773140710.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00240-00053/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%80%9118TRIP+%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%8F%E6%98%BC%E7%8F%AD%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419052/"
+        }
+      ]
     },
     {
       "id": 765,
@@ -16909,16 +16948,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8%C3%97%E3%82%BF%E3%82%AD%E3%82%B7%E3%83%BC%E3%83%89%E3%82%B5%E3%83%A0%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419057/",
       "price": "1,320 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年4月11日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8%C3%97%E3%82%BF%E3%82%AD%E3%82%B7%E3%83%BC%E3%83%89%E3%82%B5%E3%83%A0%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419057/",
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520037_1_1773140706.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520037_1_1773140706.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520037_1_1773140706.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8%C3%97%E3%82%BF%E3%82%AD%E3%82%B7%E3%83%BC%E3%83%89%E3%82%B5%E3%83%A0%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419057/"
+        }
+      ]
     },
     {
       "id": 1140,
@@ -24131,16 +24179,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA%C3%97%E3%83%9E%E3%82%A4%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419058/",
       "price": "1,320 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年4月11日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA%C3%97%E3%83%9E%E3%82%A4%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419058/",
       "status": "发售中",
       "statusJp": "在庫あり",
       "description": "Animate(オンライン通販)状況:在庫あり(有现货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520044_1_1773140705.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520044_1_1773140705.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621520044_1_1773140705.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%81%9D%E3%81%AE%E4%BB%96%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%83%86%E3%83%83%E3%82%AD%EF%BC%8F%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA%C3%97%E3%83%9E%E3%82%A4%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E3%80%80%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BA/pd/3419058/"
+        }
+      ]
     },
     {
       "id": 1213,
@@ -24902,7 +24959,7 @@
     {
       "id": 113,
       "name": "アクリルキーホルダーコレクション／朝班 サンリオキャラクターズ",
-      "nameCn": "三丽鸥亚克力挂件 朝班",
+      "nameCn": "三丽鸥QQ人挂件 朝班",
       "category": "亚克力挂件",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
@@ -25162,7 +25219,7 @@
     {
       "id": 142,
       "name": "ハート形キャラバッジコレクション／朝・昼班 サンリオキャラクターズ",
-      "nameCn": "三丽鸥心形吧唧收藏 朝班昼班",
+      "nameCn": "三丽鸥心形吧唧/三丽鸥QQ人吧唧/三丽鸥Q心 朝班昼班",
       "category": "徽章吧唧",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
@@ -32020,7 +32077,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 180,
@@ -32336,7 +32394,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 1548,
@@ -34422,8 +34481,8 @@
     {
       "id": 119,
       "name": "ぺたコレクション／サンリオキャラクターズ",
-      "nameCn": "三丽鸥周边",
-      "category": "联动谷子",
+      "nameCn": "三丽鸥QQ人贴纸",
+      "category": "亚克力立牌",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [],
       "allTeams": true,
@@ -43001,7 +43060,7 @@
       "id": 1744,
       "name": "18TRIP フラットポーチ／昼班　サンリオキャラクターズ",
       "nameCn": "三丽鸥联动",
-      "category": "联动谷子",
+      "category": "",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
         "isotake-akuta",
@@ -43035,7 +43094,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 514,
@@ -43953,7 +44013,7 @@
     {
       "id": 141,
       "name": "缶バッジセット／サンリオキャラクターズ",
-      "nameCn": "三丽鸥吧唧 套装",
+      "nameCn": "三丽鸥正比吧唧套装【全4种】",
       "category": "徽章吧唧",
       "series": "サンリオキャラクターズ コラボ",
       "characters": [
