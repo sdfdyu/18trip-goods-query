@@ -193,11 +193,80 @@
   .detail-star:hover{background:rgba(43,52,64,.8);}
   .detail-star.on{background:rgba(255,200,0,.9); color:#fff;}
   .detail-img-block{position:relative;}
+
+  /* PC 端编辑表单左右分列（flexbox 双列独立布局） */
+  @media (min-width:900px){
+    #formOverlay .modal{max-width:960px; width:92vw; max-height:94vh; height:fit-content; padding:0; border-radius:12px; overflow:hidden; display:flex; flex-direction:column;}
+    #formOverlay .modal h2{padding:7px 16px; margin:0; border-bottom:1px solid var(--line); font-size:13.5px; flex:none;}
+    #formOverlay .form-grid{
+      display:flex;
+      flex-direction:row;
+      padding:0;
+      flex:1;
+      overflow:visible;
+      align-items:flex-start;
+    }
+    /* 左右两列独立，高度由内容决定，不对齐 */
+    #formOverlay .form-col{
+      display:flex;
+      flex-direction:column;
+      flex:1;
+      min-width:0;
+      gap:0;
+    }
+    #formOverlay .form-col-left{border-right:1px solid var(--line);}
+    #formOverlay .form-col .field{
+      padding:4px 10px;
+      margin:0;
+      border-bottom:1px solid var(--line);
+      width:100%;
+      box-sizing:border-box;
+    }
+    #formOverlay .form-col .field label{font-size:10.5px; margin-bottom:2px;}
+    #formOverlay .form-col .field input,
+    #formOverlay .form-col .field select,
+    #formOverlay .form-col .field textarea{padding:4px 7px; font-size:11.5px; border-radius:7px; border-width:1px;}
+    /* 角色选择区 */
+    #formOverlay .form-col .field:has(#charSelectArea) #charSelectArea{max-height:110px; padding:5px; overflow-y:auto; border-radius:7px;}
+    /* 图片区 */
+    #formOverlay .form-col .field:has(#imgList) .imglist{max-height:75px; overflow-y:auto;}
+    #formOverlay .form-col .field:has(#imgList) > div[style*="margin-top"]{margin-top:4px !important;}
+    #formOverlay .form-col .field:has(#imgList) .btn.small{padding:3px 9px; font-size:11px;}
+    #formOverlay .form-col .field:has(#imgList) #imgUrlInput{padding:4px 8px; font-size:11.5px; border-radius:7px;}
+    /* 购买渠道 */
+    #shopLinksList{max-height:65px; overflow-y:auto; gap:4px !important;}
+    #formOverlay .form-col .field:has(#shopLinksList) .btn{padding:3px 10px; font-size:11px;}
+    /* 全员向选择更紧凑 */
+    #formOverlay .form-col .field#allTeamsField > div{gap:5px !important;}
+    #formOverlay .form-col .field#allTeamsField select{padding:4px 8px !important; font-size:11.5px !important; border-radius:7px !important; border-width:1px !important;}
+    #formOverlay .form-col .field#allTeamsField label{font-size:10.5px !important;}
+    /* 备注字段缩小 */
+    #formOverlay .form-col .field:has(#f_desc) textarea{min-height:34px; height:34px; border-radius:7px;}
+    /* 变体配对更紧凑 */
+    #formOverlay .form-col .field:has(#variantPairArea) #variantPairArea{padding:5px; border-radius:7px;}
+    #formOverlay .form-col .field:has(#variantPairArea) #variantPairList{margin-bottom:5px;}
+    #formOverlay .form-col .field:has(#variantPairArea) #variantSearchInput{padding:4px 8px; font-size:11.5px; border-radius:6px;}
+    #formOverlay .form-col .field:has(#variantPairArea) .btn.small{padding:3px 9px; font-size:11px;}
+    #formOverlay .form-col .field:has(#variantPairArea) #variantSearchResults{max-height:80px; margin-top:4px;}
+    /* 底部操作栏 */
+    #formOverlay .modal-foot{
+      padding:7px 16px;
+      border-top:1px solid var(--line);
+      background:var(--surface-2);
+      display:flex;
+      justify-content:flex-end;
+      gap:8px;
+      flex:none;
+    }
+    #formOverlay .modal-foot .btn{padding:5px 12px; font-size:12px;}
+    /* 管理分类按钮更小 */
+    #formOverlay .link-btn{font-size:10.5px; padding:2px 0 0;}
+  }
   /* PC 端详情页（Instagram 风格） */
   @media (min-width:768px){
-    .detail-modal{max-width:1080px !important; width:calc(100vw - 100px) !important; margin:auto !important; border-radius:4px !important; overflow:hidden !important; background:var(--bg) !important; padding:0 !important; box-shadow:0 20px 60px rgba(0,0,0,.3) !important;}
-    .detail-layout{display:flex !important; width:100% !important; min-height:min(82vh, 600px) !important; max-height:min(82vh, 600px) !important;}
-    .detail-layout .detail-img-block{width:calc(100% - 350px) !important; flex:none !important; background:var(--surface-2) !important; position:relative !important; display:block !important; overflow:hidden !important;}
+    .detail-modal{max-width:1180px !important; width:calc(100vw - 80px) !important; margin:auto !important; border-radius:14px !important; overflow:hidden !important; background:var(--bg) !important; padding:0 !important; box-shadow:0 20px 60px rgba(0,0,0,.3) !important;}
+    .detail-layout{display:flex !important; width:100% !important; min-height:min(85vh, 680px) !important; max-height:min(85vh, 680px) !important;}
+    .detail-layout .detail-img-block{width:calc(100% - 380px) !important; flex:none !important; background:var(--surface-2) !important; position:relative !important; display:block !important; overflow:hidden !important;}
     .detail-layout .detail-img-block .dcar{width:100% !important; height:100% !important;}
     .detail-layout .detail-img-block .dcar-track{width:100% !important; height:100% !important;}
     .detail-layout .detail-img-block .dcar-item{width:100% !important; height:100% !important;}
@@ -211,7 +280,7 @@
     }
     .detail-layout .detail-img-block .detail-img{width:100%; height:100%; display:flex; align-items:center; justify-content:center;}
     .detail-layout .detail-img-block .detail-img .noimg{font-size:72px; padding:0; opacity:.3;}
-    .detail-layout .detail-body{width:350px !important; flex:none !important; display:flex; flex-direction:column; padding:0; max-height:none; overflow:hidden; border-left:1px solid var(--line); background:#fff !important;}
+    .detail-layout .detail-body{width:380px !important; flex:none !important; display:flex; flex-direction:column; padding:0; max-height:none; overflow:hidden; border-left:1px solid var(--line); background:#fff !important;}
     .detail-layout .detail-body .tags{padding:14px 18px 12px; margin:0; border-bottom:1px solid var(--line); flex:none; background:#fff;}
     .detail-scroll{flex:1; overflow-y:auto; min-height:0; padding:0 18px; background:#fff;}
     .detail-scroll .detail-name{padding:16px 0 6px; margin:0; font-size:15.5px; font-weight:800; line-height:1.6;}
@@ -401,6 +470,7 @@
   @keyframes pop{from{transform:translateY(14px) scale(.98); opacity:0;} to{transform:none; opacity:1;}}
   .modal h2{font-size:17px; margin-bottom:16px; display:flex; align-items:center; gap:8px;}
   .form-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .form-col{display:flex; flex-direction:column; gap:12px;}
   .field{display:flex; flex-direction:column; gap:5px;}
   .field.full{grid-column:1 / -1;}
   .field label{font-size:12px; color:var(--sub); font-weight:600;}
@@ -633,128 +703,132 @@
   <div class="modal">
     <h2 id="formTitle">＋ 添加谷子</h2>
     <div class="form-grid">
-      <div class="field full">
-        <label>名称 *（日文原名）</label>
-        <input id="f_name" type="text" placeholder="如：18TRIP Cassette #13 \'Funny day\' -L4mps-">
-      </div>
-      <div class="field full">
-        <label>中文名（副行显示，便于搜索）</label>
-        <input id="f_nameCn" type="text" placeholder="如：磁带 #13 夜班 Funny day">
-      </div>
-      <div class="field">
-        <label>分类</label>
-        <select id="f_category">
-          <option>亚克力立牌</option>
-          <option>徽章吧唧</option>
-          <option>毛绒玩偶</option>
-          <option>磁带/CD</option>
-          <option>拍立得</option>
-          <option>日常杂货</option>
-          <option>杂志书籍</option>
-        </select>
-        <button type="button" class="link-btn" onclick="openCatManager()">+ 管理分类</button>
-      </div>
-      <div class="field">
-        <label>🎭 舞台剧真人周边</label>
-        <select id="f_isStage">
-          <option value="false">否（常规谷子）</option>
-          <option value="true">是（舞台剧周边）</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>🤝 联动周边</label>
-        <select id="f_isCollab">
-          <option value="false">否</option>
-          <option value="true">是（联动周边）</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>贩售状态</label>
-        <select id="f_status">
-          <option>发售中</option>
-          <option>预约中</option>
-          <option>待出荷</option>
-          <option>已出荷</option>
-          <option>已结束</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>所属系列</label>
-        <input id="f_series" type="text" placeholder="如：Cassette シリーズ / GraffArt / 1周年">
-      </div>
-      <div class="field">
-        <label>发售平台</label>
-        <input id="f_platform" type="text" placeholder="如：animate / 官方通贩 / 联动café">
-      </div>
-      <div class="field">
-        <label>发售日期</label>
-        <input id="f_release" type="text" placeholder="2026-08-19 或 2026-08">
-      </div>
-      <div class="field">
-        <label>预购时间</label>
-        <input id="f_preorder" type="text" placeholder="予約受付中(Animate通販) 或 2026-08-17">
-      </div>
-      <div class="field">
-        <label>发货时间</label>
-        <input id="f_ship" type="text" placeholder="在庫あり、通常1週間以内に発送">
-      </div>
-      <div class="field">
-        <label>原价</label>
-        <input id="f_price" type="text" placeholder="3,080 円(税込)">
-      </div>
-      <div class="field full">
-        <label>🛒 购买渠道（可添加多个）</label>
-        <div id="shopLinksList" style="display:flex; flex-direction:column; gap:6px; margin-bottom:6px;"></div>
-        <button type="button" class="btn" style="width:100%;" onclick="addShopLink()">+ 添加购买渠道</button>
-      </div>
-      <div class="field full">
-        <label>关联角色（多选）</label>
-        <div id="charSelectArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px; max-height:180px; overflow-y:auto;"></div>
-      </div>
-      <div class="field full" id="allTeamsField">
-        <div style="display:flex; flex-direction:column; gap:8px;">
-          <div style="display:flex; align-items:center; gap:4px;">
-            <label style="margin:0; font-size:12px; color:var(--sub); font-weight:600;">全员向商品：</label>
-            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; font-size:12px; color:var(--sub); font-weight:600; white-space:nowrap;">
-              <input type="checkbox" id="allTeamsCheck" onchange="toggleAllTeams(this.checked)" style="width:12px; height:12px; padding:0; margin:0; vertical-align:middle;">
-              <span>启用全员向</span>
-            </label>
-          </div>
-          <select id="teamScopeSelect" style="padding:8px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);font-size:14px; width:100%; box-sizing:border-box;">
-            <option value="20">20种(4班)</option>
-            <option value="22">全区长</option>
-            <option value="24">24种(含向导)</option>
-            <option value="25">25种(含向导烧卖)</option>
-            <option value="26">26种(含向导主任)</option>
-            <option value="27">27种(含向导烧卖主任)</option>
+      <div class="form-col form-col-left">
+        <div class="field">
+          <label>名称 *（日文原名）</label>
+          <input id="f_name" type="text" placeholder="如：18TRIP Cassette #13 \'Funny day\' -L4mps-">
+        </div>
+        <div class="field">
+          <label>分类</label>
+          <select id="f_category">
+            <option>亚克力立牌</option>
+            <option>徽章吧唧</option>
+            <option>毛绒玩偶</option>
+            <option>磁带/CD</option>
+            <option>拍立得</option>
+            <option>日常杂货</option>
+            <option>杂志书籍</option>
+          </select>
+          <button type="button" class="link-btn" onclick="openCatManager()">+ 管理分类</button>
+        </div>
+        <div class="field">
+          <label>🤝 联动周边</label>
+          <select id="f_isCollab">
+            <option value="false">否</option>
+            <option value="true">是（联动周边）</option>
           </select>
         </div>
-      </div>
-      <div class="field full">
-        <label>图片（可添加多张；第一张为封面，详情页可左右滑动）</label>
-        <div class="imglist" id="imgList"></div>
-        <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;">
-          <button type="button" class="btn small" onclick="document.getElementById('imgFile').click()">📁 上传图片（可多选）</button>
+        <div class="field">
+          <label>所属系列</label>
+          <input id="f_series" type="text" placeholder="如：Cassette シリーズ / GraffArt / 1周年">
         </div>
-        <div style="display:flex; gap:6px; margin-top:8px;">
-          <input id="imgUrlInput" type="text" style="flex:1; padding:8px 10px; border:1.5px solid var(--line); border-radius:9px; font-size:13px; background:var(--surface-3); color:var(--ink); outline:none;" placeholder="或粘贴图片链接后点添加 https://…">
-          <button type="button" class="btn small" onclick="addImgUrl()">➕ 添加</button>
+        <div class="field">
+          <label>发售日期</label>
+          <input id="f_release" type="text" placeholder="2026-08-19 或 2026-08">
         </div>
-        <input type="file" id="imgFile" accept="image/*" multiple="" style="display:none" onchange="handleImgUpload(event)">
-      </div>
-      <div class="field full">
-        <label>备注</label>
-        <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
-      </div>
-      <div class="field full">
-        <label>🔗 变体配对（盲抽/抱盒合并显示）</label>
-        <div id="variantPairArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px;">
-          <div id="variantPairList" style="margin-bottom:8px;"></div>
-          <div style="display:flex; gap:6px;">
-            <input type="text" id="variantSearchInput" placeholder="搜索商品以添加配对…" oninput="searchVariantPair(this.value)" style="flex:1; padding:6px 10px; border:1px solid var(--line); border-radius:7px; font-size:12.5px; background:var(--bg); color:var(--text);">
-            <button class="btn small" onclick="openVariantPicker()">＋ 添加</button>
+        <div class="field">
+          <label>发货时间</label>
+          <input id="f_ship" type="text" placeholder="在庫あり、通常1週間以内に発送">
+        </div>
+        <div class="field full">
+          <label>关联角色（多选）</label>
+          <div id="charSelectArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px; max-height:180px; overflow-y:auto;"></div>
+        </div>
+        <div class="field full">
+          <label>图片（可添加多张；第一张为封面，详情页可左右滑动）</label>
+          <div class="imglist" id="imgList"></div>
+          <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;">
+            <button type="button" class="btn small" onclick="document.getElementById('imgFile').click()">📁 上传图片（可多选）</button>
           </div>
-          <div id="variantSearchResults" style="margin-top:6px; max-height:150px; overflow-y:auto; display:none;"></div>
+          <div style="display:flex; gap:6px; margin-top:8px;">
+            <input id="imgUrlInput" type="text" style="flex:1; padding:8px 10px; border:1.5px solid var(--line); border-radius:9px; font-size:13px; background:var(--surface-3); color:var(--ink); outline:none;" placeholder="或粘贴图片链接后点添加 https://…">
+            <button type="button" class="btn small" onclick="addImgUrl()">➕ 添加</button>
+          </div>
+          <input type="file" id="imgFile" accept="image/*" multiple="" style="display:none" onchange="handleImgUpload(event)">
+        </div>
+      </div>
+      <div class="form-col form-col-right">
+        <div class="field">
+          <label>中文名（副行显示，便于搜索）</label>
+          <input id="f_nameCn" type="text" placeholder="如：磁带 #13 夜班 Funny day">
+        </div>
+        <div class="field">
+          <label>🎭 舞台剧真人周边</label>
+          <select id="f_isStage">
+            <option value="false">否（常规谷子）</option>
+            <option value="true">是（舞台剧周边）</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>贩售状态</label>
+          <select id="f_status">
+            <option>发售中</option>
+            <option>预约中</option>
+            <option>待出荷</option>
+            <option>已出荷</option>
+            <option>已结束</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>发售平台</label>
+          <input id="f_platform" type="text" placeholder="如：animate / 官方通贩 / 联动café">
+        </div>
+        <div class="field">
+          <label>预购时间</label>
+          <input id="f_preorder" type="text" placeholder="予約受付中(Animate通販) 或 2026-08-17">
+        </div>
+        <div class="field">
+          <label>原价</label>
+          <input id="f_price" type="text" placeholder="3,080 円(税込)">
+        </div>
+        <div class="field full">
+          <label>🛒 购买渠道（可添加多个）</label>
+          <div id="shopLinksList" style="display:flex; flex-direction:column; gap:6px; margin-bottom:6px;"></div>
+          <button type="button" class="btn" style="width:100%;" onclick="addShopLink()">+ 添加购买渠道</button>
+        </div>
+        <div class="field full" id="allTeamsField">
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <div style="display:flex; align-items:center; gap:4px;">
+              <label style="margin:0; font-size:12px; color:var(--sub); font-weight:600;">全员向商品：</label>
+              <label style="display:flex; align-items:center; gap:4px; cursor:pointer; font-size:12px; color:var(--sub); font-weight:600; white-space:nowrap;">
+                <input type="checkbox" id="allTeamsCheck" onchange="toggleAllTeams(this.checked)" style="width:12px; height:12px; padding:0; margin:0; vertical-align:middle;">
+                <span>启用全员向</span>
+              </label>
+            </div>
+            <select id="teamScopeSelect" style="padding:8px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);font-size:14px; width:100%; box-sizing:border-box;">
+              <option value="20">20种(4班)</option>
+              <option value="22">全区长</option>
+              <option value="24">24种(含向导)</option>
+              <option value="25">25种(含向导烧卖)</option>
+              <option value="26">26种(含向导主任)</option>
+              <option value="27">27种(含向导烧卖主任)</option>
+            </select>
+          </div>
+        </div>
+        <div class="field full">
+          <label>备注</label>
+          <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
+        </div>
+        <div class="field full">
+          <label>🔗 变体配对（盲抽/抱盒合并显示）</label>
+          <div id="variantPairArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px;">
+            <div id="variantPairList" style="margin-bottom:8px;"></div>
+            <div style="display:flex; gap:6px;">
+              <input type="text" id="variantSearchInput" placeholder="搜索商品以添加配对…" oninput="searchVariantPair(this.value)" style="flex:1; padding:6px 10px; border:1px solid var(--line); border-radius:7px; font-size:12.5px; background:var(--bg); color:var(--text);">
+              <button class="btn small" onclick="openVariantPicker()">＋ 添加</button>
+            </div>
+            <div id="variantSearchResults" style="margin-top:6px; max-height:150px; overflow-y:auto; display:none;"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -44343,10 +44417,20 @@ function renderDetail() {
     (imgs.length
       ? '<div class="dcar">' +
           '<div class="dcar-track" id="dCarTrack">' +
+            (imgs.length > 1
+              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgs[imgs.length - 1]) + '\')">' +
+                  '<img src="' + esc(imgs[imgs.length - 1]) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.src=\'' + esc(placeholder) + '\'">' +
+                '</div>'
+              : '') +
             imgs.map((src, i) =>
               '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(src) + '\')">' +
                 '<img src="' + esc(src) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.src=\'' + esc(placeholder) + '\'">' +
               '</div>').join('') +
+            (imgs.length > 1
+              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgs[0]) + '\')">' +
+                  '<img src="' + esc(imgs[0]) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.src=\'' + esc(placeholder) + '\'">' +
+                '</div>'
+              : '') +
           '</div>' +
           (imgs.length > 1
             ? '<button class="dcar-btn prev" title="上一张" onclick="event.stopPropagation();dcarScroll(-1)">‹</button>' +
@@ -44407,18 +44491,53 @@ function dcard(label, val, isStatus, note) {
 function dcarScroll(dir) {
   const track = document.getElementById('dCarTrack');
   if (!track) return;
-  track.scrollBy({left: dir * track.clientWidth, behavior: 'smooth'});
+  const totalChildren = track.children.length;
+  const realCount = totalChildren > 2 ? totalChildren - 2 : totalChildren;
+  const w = track.clientWidth;
+  const rawIdx = Math.round(track.scrollLeft / Math.max(1, w));
+  const targetRaw = rawIdx + dir;
+  track.scrollTo({left: targetRaw * w, behavior: 'smooth'});
+  // 如果滑到了克隆区，动画结束后瞬间跳回真实位置
+  if (targetRaw <= 0 || targetRaw >= totalChildren - 1) {
+    setTimeout(() => {
+      const jumpIdx = targetRaw <= 0 ? realCount : 1;
+      track.scrollTo({left: jumpIdx * w, behavior: 'auto'});
+      // 手动更新指示器
+      const ind = document.getElementById('dCarInd');
+      if (ind) ind.textContent = (targetRaw <= 0 ? realCount : 1) + '/' + realCount;
+    }, 350);
+  }
 }
 
 function bindCarEvents() {
   const track = document.getElementById('dCarTrack');
   if (!track) return;
+  const totalChildren = track.children.length;
+  const realCount = totalChildren > 2 ? totalChildren - 2 : totalChildren;
+  // 延迟一帧确保弹窗渲染完成，宽度正确
+  requestAnimationFrame(() => {
+    const w = track.clientWidth;
+    if (totalChildren > 2 && w > 0) {
+      track.scrollTo({left: w, behavior: 'auto'});
+      // 手动更新指示器初始状态
+      const ind = document.getElementById('dCarInd');
+      if (ind) ind.textContent = '1/' + realCount;
+    }
+  });
   track.addEventListener('scroll', () => {
     const ind = document.getElementById('dCarInd');
     if (!ind) return;
-    const n = track.children.length;
-    const idx = Math.min(Math.round(track.scrollLeft / Math.max(1, track.clientWidth)), n - 1);
-    ind.textContent = (idx + 1) + '/' + n;
+    const w = track.clientWidth;
+    const rawIdx = Math.round(track.scrollLeft / Math.max(1, w));
+    let realIdx;
+    if (totalChildren > 2) {
+      if (rawIdx <= 0) realIdx = realCount;
+      else if (rawIdx >= totalChildren - 1) realIdx = 1;
+      else realIdx = rawIdx;
+    } else {
+      realIdx = Math.min(rawIdx, realCount - 1) + 1;
+    }
+    ind.textContent = realIdx + '/' + realCount;
   }, {passive: true});
 }
 
@@ -44549,7 +44668,7 @@ function renderCharSelect(selected, allTeams) {
   const allTeamsCheck = document.getElementById('allTeamsCheck');
   const teamScopeSelect = document.getElementById('teamScopeSelect');
   if (allTeamsCheck) allTeamsCheck.checked = allTeams;
-  if (teamScopeSelect) teamScopeSelect.style.opacity = allTeams ? '1' : '0.5';
+  if (teamScopeSelect) teamScopeSelect.style.display = allTeams ? '' : 'none';
 }
 
 function toggleSelectChar(el) {
@@ -44569,7 +44688,7 @@ function toggleAllTeams(checked) {
   const opts = document.querySelectorAll('.char-select-option');
   opts.forEach(o => o.style.opacity = checked ? '0.4' : '1');
   const scopeSelect = document.getElementById('teamScopeSelect');
-  if (scopeSelect) scopeSelect.style.opacity = checked ? '1' : '0.5';
+  if (scopeSelect) scopeSelect.style.display = checked ? '' : 'none';
 }
 
 // ==================== 自定义购买渠道 ====================
