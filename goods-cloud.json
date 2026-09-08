@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-07T19:06:25.471Z",
+  "timestamp": "2026-09-08T03:42:19.779Z",
   "goods": [
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
@@ -1010,7 +1010,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/pd/3305213/"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 1330,
@@ -1572,7 +1573,7 @@
     {
       "id": 557,
       "name": "Good Luck アクリルスタンド／鹿 礼光",
-      "nameCn": "全体会议 立牌 鹿礼光",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 鹿礼光",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -1581,7 +1582,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001571",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -1590,7 +1590,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001571.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001571.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001571.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001571"
+        }
+      ]
     },
     {
       "id": 1660,
@@ -1901,7 +1912,7 @@
     {
       "id": 552,
       "name": "Good Luck アクリルスタンド／久楽間 潮",
-      "nameCn": "全体会议 立牌 久乐间潮",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 久乐间潮",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -1910,7 +1921,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001576",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -1919,7 +1929,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001576.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001576.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001576.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001576"
+        }
+      ]
     },
     {
       "id": 1704,
@@ -2827,7 +2848,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/pd/3305217/"
         }
-      ]
+      ],
+      "isCollab": true
     },
     {
       "id": 1317,
@@ -3364,20 +3386,40 @@
       "nameCn": "招财猫迷你立牌 B盒",
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "8,800円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9F%E3%83%8B%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89+B+BOX+%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88%E3%82%BB%E3%83%83%E3%83%88%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91/pd/3127054/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ ミニアクリルスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071610_681b077ff2f01.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071610_681b077ff2f01.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071610_681b077ff2f01.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1371,
@@ -5893,16 +5935,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305229/",
       "price": "990 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305229/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898714_1_1762920317.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898714_1_1762920317.jpg",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898714_1_1762920317.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305229/"
+        }
+      ]
     },
     {
       "id": 1253,
@@ -6895,7 +6946,7 @@
     {
       "id": 561,
       "name": "Good Luck アクリルスタンド／西園 練牙",
-      "nameCn": "全体会议 立牌 西园练牙",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 西园练牙",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -6904,7 +6955,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001567",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -6913,7 +6963,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001567.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001567.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001567.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001567"
+        }
+      ]
     },
     {
       "id": 641,
@@ -6976,7 +7037,7 @@
     {
       "id": 408,
       "name": "アクリルスタンド／vol.13 棗 夜鷹",
-      "nameCn": "立牌 vol.13 枣夜鹰",
+      "nameCn": "二轮SSR花后立牌 vol.13 枣夜鹰",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.13",
       "characters": [
@@ -6985,17 +7046,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564680/",
       "price": "1,650 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564680/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00438/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694820_1_1786532703.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694820_1_1786532703.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694820_1_1786532703.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00438/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3564680/"
+        }
+      ]
     },
     {
       "id": 698,
@@ -7796,7 +7870,7 @@
     {
       "id": 838,
       "name": "アクリルスタンド／vol.12　白光 糖衣",
-      "nameCn": "立牌 vol.12 白光糖衣",
+      "nameCn": "二轮SSR花后立牌 vol.12 白光糖衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.12",
       "characters": [
@@ -7805,17 +7879,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年10月2日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3537730/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00414/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690853_1_1784001917.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690853_1_1784001917.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690853_1_1784001917.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00414/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1836,
@@ -9423,7 +9510,7 @@
     {
       "id": 407,
       "name": "アクリルスタンド／vol.13 白光 琉衣",
-      "nameCn": "立牌 vol.13 白光琉衣",
+      "nameCn": "二轮SSR花后立牌 vol.13 白光琉衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.13",
       "characters": [
@@ -9432,17 +9519,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564679/",
       "price": "1,650 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564679/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00437/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694813_1_1786532708.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694813_1_1786532708.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694813_1_1786532708.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00437/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3564679/"
+        }
+      ]
     },
     {
       "id": 1138,
@@ -10205,7 +10305,7 @@
       "series": "HAMAツアーズ全体会議",
       "characters": [],
       "allTeams": true,
-      "teamScope": 20,
+      "teamScope": 24,
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "400 円(税込)",
       "preorderDate": "予約終了(已发售)",
@@ -11777,10 +11877,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001596",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
@@ -11789,19 +11888,42 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001596"
+        }
+      ]
     },
     {
       "id": 571,
       "name": "ミニキャラアクリルスタンド／朝班・昼班【ランダム12種】",
-      "nameCn": "全体会议 立牌",
+      "nameCn": "全体会议QQ人立牌/西装Q立",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001554",
       "price": "800 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -11810,12 +11932,23 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001554.png"
+      "image": "https://canime.jp/upload/product/BRZG000001554.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001554.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001554"
+        }
+      ]
     },
     {
       "id": 553,
       "name": "Good Luck アクリルスタンド／輝矢 宗氏",
-      "nameCn": "全体会议 立牌 辉矢宗氏",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 辉矢宗氏",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -11824,7 +11957,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001575",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -11833,7 +11965,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001575.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001575.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001575.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001575"
+        }
+      ]
     },
     {
       "id": 1202,
@@ -12938,23 +13081,45 @@
     {
       "id": 480,
       "name": "ミニアクリルスタンドB コンプリートセット【まねきねこコラボ第2弾】",
-      "nameCn": "迷你立牌 第2弹 全套",
+      "nameCn": "招财猫联动第二弹QQ人立牌/猫耳QQ人立牌 B盒",
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro",
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305220/",
       "price": "10,560 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305220/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898705_1_1762920311.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898705_1_1762920311.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898705_1_1762920311.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305220/"
+        }
+      ]
     },
     {
       "id": 617,
@@ -13130,7 +13295,7 @@
     {
       "id": 405,
       "name": "アクリルスタンド／vol.13 蜂乃屋 凪",
-      "nameCn": "立牌 vol.13 蜂乃屋凪",
+      "nameCn": "二轮SSR花后立牌 vol.13 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.13",
       "characters": [
@@ -13139,17 +13304,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564677/",
       "price": "1,650 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564677/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00435/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694790_1_1786532710.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694790_1_1786532710.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694790_1_1786532710.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00435/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3564677/"
+        }
+      ]
     },
     {
       "id": 1382,
@@ -14664,7 +14842,7 @@
     {
       "id": 554,
       "name": "Good Luck アクリルスタンド／斜木 七基",
-      "nameCn": "全体会议 立牌 斜木七基",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 斜木七基",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -14673,7 +14851,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001574",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -14682,7 +14859,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001574.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001574.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001574.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001574"
+        }
+      ]
     },
     {
       "id": 1711,
@@ -14974,10 +15162,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001548",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -14986,7 +15173,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001548"
+        }
+      ]
     },
     {
       "id": 1141,
@@ -15674,7 +15872,7 @@
     {
       "id": 406,
       "name": "アクリルスタンド／vol.13 白光 糖衣",
-      "nameCn": "立牌 vol.13 白光糖衣",
+      "nameCn": "二轮SSR花后立牌 vol.13 白光糖衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.13",
       "characters": [
@@ -15683,17 +15881,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564678/",
       "price": "1,650 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564678/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00436/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694806_1_1786532705.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694806_1_1786532705.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694806_1_1786532705.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00436/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3/pd/3564678/"
+        }
+      ]
     },
     {
       "id": 1613,
@@ -18684,7 +18895,7 @@
     {
       "id": 836,
       "name": "アクリルスタンド／vol.12　棗 夜鷹",
-      "nameCn": "立牌 vol.12 枣夜鹰",
+      "nameCn": "二轮SSR花后立牌 vol.12 枣夜鹰",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.12",
       "characters": [
@@ -18693,17 +18904,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年10月2日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E6%A3%97+%E5%A4%9C%E9%B7%B9/pd/3537732/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00416/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690877_1_1784001909.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690877_1_1784001909.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690877_1_1784001909.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00416/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1568,
@@ -19117,14 +19341,15 @@
     {
       "id": 562,
       "name": "主任ボディバッグ／ヘザーブラック",
-      "nameCn": "全体会议 周边",
+      "nameCn": "主任腰包 黑",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "hamasaki-kaede"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001565",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -19133,7 +19358,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001565.png"
+      "image": "https://canime.jp/upload/product/BRZG000001565.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001565.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001565"
+        }
+      ]
     },
     {
       "id": 265,
@@ -19792,7 +20028,7 @@
     {
       "id": 839,
       "name": "アクリルスタンド／vol.12　蜂乃屋 凪",
-      "nameCn": "立牌 vol.12 蜂乃屋凪",
+      "nameCn": "二轮SSR花后立牌 vol.12 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.12",
       "characters": [
@@ -19801,17 +20037,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年10月2日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA/pd/3537729/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00413/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690846_1_1784001916.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690846_1_1784001916.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690846_1_1784001916.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00413/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 792,
@@ -20173,7 +20422,7 @@
     {
       "id": 558,
       "name": "Good Luck アクリルスタンド／神名 雪風",
-      "nameCn": "全体会议 立牌 神名雪风",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 神名雪风",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -20182,7 +20431,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001570",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -20191,7 +20439,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001570.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001570.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001570.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001570"
+        }
+      ]
     },
     {
       "id": 643,
@@ -23454,11 +23713,12 @@
       "nameCn": "全体会议 周边",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001522",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -23467,7 +23727,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/1591002001_1.png"
+      "image": "https://canime.jp/upload/product/1591002001_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/1591002001_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001522"
+        }
+      ]
     },
     {
       "id": 745,
@@ -24116,10 +24387,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001598",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
@@ -24128,7 +24398,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001548-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001598"
+        }
+      ]
     },
     {
       "id": 1000,
@@ -24162,14 +24443,26 @@
     {
       "id": 569,
       "name": "ミニキャラ缶バッジ／朝班・昼班【ランダム12種】",
-      "nameCn": "全体会议 吧唧",
+      "nameCn": "全体会议QQ人吧唧",
       "category": "徽章吧唧",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001556",
       "price": "400 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -24178,7 +24471,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/1591002035_1.png"
+      "image": "https://canime.jp/upload/product/1591002035_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/1591002035_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001556"
+        }
+      ]
     },
     {
       "id": 1255,
@@ -24450,10 +24754,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001549",
       "price": "990 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -24462,12 +24765,23 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001549_1.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001549_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001549_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001549"
+        }
+      ]
     },
     {
       "id": 560,
       "name": "Good Luck アクリルスタンド／大黒 可不可",
-      "nameCn": "全体会议 立牌 大黑可不可",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 大黑可不可",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -24476,7 +24790,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001568",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -24485,7 +24798,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001568.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001568.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001568.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001568"
+        }
+      ]
     },
     {
       "id": 1100,
@@ -24838,20 +25162,40 @@
       "nameCn": "周边 第2弹 全套",
       "category": "日常杂货",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305226/",
       "price": "6,600 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305226/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898711_1_1762920315.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898711_1_1762920315.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898711_1_1762920315.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305226/"
+        }
+      ]
     },
     {
       "id": 1192,
@@ -27023,14 +27367,13 @@
     {
       "id": 565,
       "name": "ミニキャラフレークシール",
-      "nameCn": "全体会议 贴纸",
+      "nameCn": "全体会议QQ人贴纸",
       "category": "贴纸",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
       "allTeams": true,
-      "teamScope": 20,
+      "teamScope": 24,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001562",
       "price": "990 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -27039,7 +27382,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001562.png"
+      "image": "https://canime.jp/upload/product/BRZG000001562.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001562.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001562"
+        }
+      ]
     },
     {
       "id": 218,
@@ -27233,7 +27587,7 @@
     {
       "id": 837,
       "name": "アクリルスタンド／vol.12　白光 琉衣",
-      "nameCn": "立牌 vol.12 白光琉衣",
+      "nameCn": "二轮SSR花后立牌 vol.12 白光琉衣",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.12",
       "characters": [
@@ -27242,17 +27596,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "1,650円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年10月2日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.12%E3%80%80%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3/pd/3537731/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00415/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "定番アクリルスタンド vol.12",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690860_1_1784113511.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690860_1_1784113511.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621690860_1_1784113511.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00415/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1646,
@@ -27356,7 +27723,7 @@
     {
       "id": 559,
       "name": "Good Luck アクリルスタンド／叢雲 添",
-      "nameCn": "全体会议 立牌 丛云添",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 丛云添",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -27365,7 +27732,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001569",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -27374,7 +27740,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001569.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001569.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001569.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001569"
+        }
+      ]
     },
     {
       "id": 607,
@@ -28921,10 +29298,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001547",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -28933,12 +29309,23 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001547-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001547"
+        }
+      ]
     },
     {
       "id": 555,
       "name": "Good Luck アクリルスタンド／衣川 季肋",
-      "nameCn": "全体会议 立牌 衣川季肋",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 衣川季肋",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -28947,7 +29334,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001573",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -28956,28 +29342,61 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001573.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001573.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001573.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001573"
+        }
+      ]
     },
     {
       "id": 478,
       "name": "ミニアクリルスタンドA コンプリートセット【まねきねこコラボ第2弾】",
-      "nameCn": "迷你立牌 第2弹 全套",
+      "nameCn": "招财猫联动第二弹QQ人立牌/猫耳立牌 全套",
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305218/",
       "price": "10,560 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305218/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898703_1_1762920314.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898703_1_1762920314.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898703_1_1762920314.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305218/"
+        }
+      ]
     },
     {
       "id": 1847,
@@ -30070,7 +30489,7 @@
     {
       "id": 409,
       "name": "アクリルスタンド／vol.13 夜半 子タろ",
-      "nameCn": "立牌 vol.13 夜半子太郎",
+      "nameCn": "二轮SSR花后立牌 vol.13 夜半子太郎",
       "category": "亚克力立牌",
       "series": "定番グッズ vol.13",
       "characters": [
@@ -30079,17 +30498,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564681/",
       "price": "1,650 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564681/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00439/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694837_1_1786532710.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694837_1_1786532710.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621694837_1_1786532710.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00439/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8Fvol.13%E3%80%80%E5%A4%9C%E5%8D%8A+%E5%AD%90%E3%82%BF%E3%82%8D/pd/3564681/"
+        }
+      ]
     },
     {
       "id": 1206,
@@ -31582,11 +32014,21 @@
       "nameCn": "全体会议 立牌",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001555",
       "price": "800 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -31595,7 +32037,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001555.png"
+      "image": "https://canime.jp/upload/product/BRZG000001555.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001555.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001555"
+        }
+      ]
     },
     {
       "id": 1768,
@@ -31940,11 +32393,16 @@
       "nameCn": "全体会议 周边",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001551",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -31953,12 +32411,23 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001551.png"
+      "image": "https://canime.jp/upload/product/BRZG000001551.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001551.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001551"
+        }
+      ]
     },
     {
       "id": 556,
       "name": "Good Luck アクリルスタンド／五十竹 あく太",
-      "nameCn": "全体会议 立牌 五十竹芥太",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 五十竹芥太",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -31967,7 +32436,6 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001572",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -31976,7 +32444,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001572.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001572.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001572.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001572"
+        }
+      ]
     },
     {
       "id": 871,
@@ -34631,23 +35110,43 @@
     {
       "id": 858,
       "name": "ミニアクリルスタンド A BOX【まねきねこコラボ】",
-      "nameCn": "招财猫迷你立牌 A盒",
+      "nameCn": "招财猫联动迷你立牌 A盒",
       "category": "亚克力立牌",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年7月中旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9D%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9F%E3%83%8B%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89+A+BOX%E3%80%90%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93%E3%82%B3%E3%83%A9%E3%83%9C%E3%80%91/pd/3127051/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "まねきねこコラボ ミニアクリルスタンド",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071612_681b07ccaed75.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071612_681b07ccaed75.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=05071612_681b07ccaed75.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 306,
@@ -35062,20 +35561,40 @@
       "nameCn": "挂件 BOX 再贩",
       "category": "亚克力挂件",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3134507/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3134507/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a7cc8fd5.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a7cc8fd5.jpg",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a7cc8fd5.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3134507/"
+        }
+      ]
     },
     {
       "id": 416,
@@ -36456,11 +36975,12 @@
       "nameCn": "全体会议 周边",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "shumai"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001563",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -36469,7 +36989,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001563-01.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001563-01.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）BRZG000001563-01.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001563"
+        }
+      ]
     },
     {
       "id": 465,
@@ -39052,20 +39583,40 @@
       "nameCn": "挂件 BOX 再贩",
       "category": "亚克力挂件",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3134508/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3134508/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a69221b2.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a69221b2.jpg",
+      "isStage": false,
+      "isCollab": true,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/05161850_68270a69221b2.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3134508/"
+        }
+      ]
     },
     {
       "id": 504,
@@ -49251,7 +49802,7 @@
       "id": 2406,
       "name": "18TRIP ユニットキービジュアルクリアファイルセット",
       "nameCn": "文件夹·主视觉图",
-      "category": "",
+      "category": "亚克力立牌",
       "series": "ユニットキービジュアル",
       "characters": [
         "nishizono-renga",
@@ -49284,7 +49835,7 @@
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "ユニットキービジュアル / 文件夹",
       "image": "https://canime.jp/upload/product/BRZG01187_0.png",
@@ -49297,7 +49848,8 @@
           "name": "きゃにめ",
           "url": "https://canime.jp/search/?keyword=18trip"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 2407,
