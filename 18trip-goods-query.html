@@ -181,15 +181,75 @@
   .detail-close:hover{background:rgba(43,52,64,.8);}
   .detail-img{
     background:var(--surface-2); display:flex; align-items:center; justify-content:center;
-    max-height:min(46vh, 400px); position:relative;
+    max-height:min(38vh, 320px); position:relative;
   }
   .detail-img .noimg{font-size:52px; padding:44px 0; opacity:.4;}
+  .detail-star{
+    position:absolute; bottom:10px; left:10px; top:auto; z-index:5;
+    width:32px; height:32px; border-radius:50%;
+    border:none; background:rgba(43,52,64,.55); color:#fff; font-size:15px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; font-family:inherit;
+  }
+  .detail-star:hover{background:rgba(43,52,64,.8);}
+  .detail-star.on{background:rgba(255,200,0,.9); color:#fff;}
+  .detail-img-block{position:relative;}
+  /* PC 端详情页（Instagram 风格） */
+  @media (min-width:768px){
+    .detail-modal{max-width:1080px !important; width:calc(100vw - 100px) !important; margin:auto !important; border-radius:4px !important; overflow:hidden !important; background:var(--bg) !important; padding:0 !important; box-shadow:0 20px 60px rgba(0,0,0,.3) !important;}
+    .detail-layout{display:flex !important; width:100% !important; min-height:min(82vh, 600px) !important; max-height:min(82vh, 600px) !important;}
+    .detail-layout .detail-img-block{width:calc(100% - 350px) !important; flex:none !important; background:var(--surface-2) !important; position:relative !important; display:block !important; overflow:hidden !important;}
+    .detail-layout .detail-img-block .dcar{width:100% !important; height:100% !important;}
+    .detail-layout .detail-img-block .dcar-track{width:100% !important; height:100% !important;}
+    .detail-layout .detail-img-block .dcar-item{width:100% !important; height:100% !important;}
+    .detail-layout .detail-img-block .dcar-item img{
+      width:100% !important;
+      height:100% !important;
+      max-width:none !important;
+      max-height:none !important;
+      object-fit:contain !important;
+      display:block !important;
+    }
+    .detail-layout .detail-img-block .detail-img{width:100%; height:100%; display:flex; align-items:center; justify-content:center;}
+    .detail-layout .detail-img-block .detail-img .noimg{font-size:72px; padding:0; opacity:.3;}
+    .detail-layout .detail-body{width:350px !important; flex:none !important; display:flex; flex-direction:column; padding:0; max-height:none; overflow:hidden; border-left:1px solid var(--line); background:#fff !important;}
+    .detail-layout .detail-body .tags{padding:14px 18px 12px; margin:0; border-bottom:1px solid var(--line); flex:none; background:#fff;}
+    .detail-scroll{flex:1; overflow-y:auto; min-height:0; padding:0 18px; background:#fff;}
+    .detail-scroll .detail-name{padding:16px 0 6px; margin:0; font-size:15.5px; font-weight:800; line-height:1.6;}
+    .detail-scroll .detail-namecn{padding:0 0 6px; margin:0; font-size:12.5px; color:var(--sub); line-height:1.5;}
+    .detail-scroll .detail-price{padding:0 0 14px; margin:0; border-bottom:1px solid var(--line);}
+    .detail-scroll .detail-price .dp-main{font-size:22px; font-weight:800; color:#e0670c; letter-spacing:.3px;}
+    .detail-scroll .detail-price .dp-rmb{font-size:12px; color:var(--sub); margin-left:8px;}
+    .detail-scroll .dcard-grid{padding:14px 0; margin:0; gap:10px; border-bottom:1px solid var(--line);}
+    .detail-scroll .dcard{background:var(--surface-2); border:1px solid var(--line); border-radius:8px; padding:9px 11px; min-height:52px;}
+    .detail-scroll .dcard-label{font-size:11px; color:var(--sub); font-weight:600; letter-spacing:.2px; margin-bottom:4px;}
+    .detail-scroll .dcard-val{font-size:12.5px; color:var(--ink); line-height:1.5; word-break:break-word;}
+    .detail-scroll .dcard-val .st-pill{font-size:12px; padding:2px 10px;}
+    .detail-scroll .dchar-block{padding:14px 0; margin:0; border-bottom:1px solid var(--line);}
+    .detail-scroll .dchar-label{font-size:11.5px; color:var(--sub); font-weight:600; margin-bottom:8px;}
+    .detail-scroll .dchar-chips{gap:5px;}
+    .detail-scroll .dchar-chip{padding:3px 10px; font-size:11.5px;}
+    .detail-scroll .drow{padding:14px 0; border-top:none; border-bottom:1px solid var(--line); font-size:12.5px; line-height:1.7;}
+    .detail-scroll .drow .dk{width:68px;}
+    .detail-scroll .drow:last-child{border-bottom:none;}
+    .detail-layout .detail-body .detail-actions{margin:0 18px; padding:12px 0; border-top:1px solid var(--line); flex:none; gap:8px;}
+    .detail-layout .detail-body .detail-actions .btn{flex:1; font-size:12.5px; padding:8px 12px;}
+    .detail-close{top:12px; right:12px; left:auto; z-index:10; background:rgba(0,0,0,.5); width:30px; height:30px; font-size:14px;}
+    .detail-close:hover{background:rgba(0,0,0,.7);}
+    .detail-star{
+      position:absolute; top:12px; left:12px; z-index:10;
+      width:30px; height:30px; border-radius:50%;
+      border:none; background:rgba(0,0,0,.5); color:#fff; font-size:14px; cursor:pointer;
+      display:flex; align-items:center; justify-content:center; font-family:inherit;
+    }
+    .detail-star:hover{background:rgba(0,0,0,.7);}
+    .detail-star.on{background:rgba(255,200,0,.9); color:#fff;}
+  }
   /* ===== 详情多图轮播 ===== */
   .dcar{position:relative; background:var(--surface-2);}
   .dcar-track{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; -webkit-overflow-scrolling:touch;}
   .dcar-track::-webkit-scrollbar{display:none;}
   .dcar-item{flex:0 0 100%; scroll-snap-align:center; display:flex; align-items:center; justify-content:center; cursor:zoom-in;}
-  .dcar-item img{max-width:100%; max-height:min(46vh, 400px); object-fit:contain; display:block;}
+  .dcar-item img{max-width:100%; max-height:min(38vh, 320px); object-fit:contain; display:block;}
   .dcar-btn{
     position:absolute; top:50%; transform:translateY(-50%); width:34px; height:34px; border-radius:50%;
     border:none; background:rgba(43,52,64,.45); color:#fff; font-size:19px; cursor:pointer;
@@ -288,6 +348,11 @@
   .star{margin-left:auto; background:none; border:none; cursor:pointer; font-size:17px; line-height:1; filter:grayscale(1); opacity:.45; transition:transform .1s;}
   .star.on{filter:none; opacity:1;}
   .star:hover{transform:scale(1.25);}
+  .variant-btn{font-size:11px; padding:2.5px 8px; border-radius:99px; font-weight:600; cursor:pointer; background:linear-gradient(135deg,var(--brand),#7ed957); color:#1a2e0a; border:none; letter-spacing:.3px; transition:transform .1s;}
+  .variant-btn:hover{transform:scale(1.05);}
+  .variant-seg{display:flex; width:100%; background:var(--surface-2); border-radius:99px; padding:3px; font-size:12px; margin-bottom:6px; box-sizing:border-box;}
+  .variant-seg .seg-opt{flex:1; text-align:center; padding:4px 0; border-radius:99px; cursor:pointer; color:var(--sub); font-weight:500; transition:all .15s;}
+  .variant-seg .seg-opt.active{background:linear-gradient(135deg,var(--brand),#7ed957); color:#1a2e0a; font-weight:700;}
   .gname{font-size:15px; font-weight:700; line-height:1.45; word-break:break-all;}
   .gnamecn{font-size:12.5px; color:var(--sub); line-height:1.45; word-break:break-all; margin-top:-3px;}
   .gchar{font-size:12.5px; color:var(--sub);}
@@ -681,6 +746,17 @@
         <label>备注</label>
         <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
       </div>
+      <div class="field full">
+        <label>🔗 变体配对（盲抽/抱盒合并显示）</label>
+        <div id="variantPairArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px;">
+          <div id="variantPairList" style="margin-bottom:8px;"></div>
+          <div style="display:flex; gap:6px;">
+            <input type="text" id="variantSearchInput" placeholder="搜索商品以添加配对…" oninput="searchVariantPair(this.value)" style="flex:1; padding:6px 10px; border:1px solid var(--line); border-radius:7px; font-size:12.5px; background:var(--bg); color:var(--text);">
+            <button class="btn small" onclick="openVariantPicker()">＋ 添加</button>
+          </div>
+          <div id="variantSearchResults" style="margin-top:6px; max-height:150px; overflow-y:auto; display:none;"></div>
+        </div>
+      </div>
     </div>
     <div class="modal-foot">
       <button class="btn small" onclick="closeForm()">取消</button>
@@ -828,7 +904,7 @@ const characters = [
   // L4mps 夜班
   { id: 'hachinoya-nagi', color: '#716BE8', name: '蜂乃屋凪', jpName: '蜂乃屋 凪', team: 'l4mps', position: 'HAMA16区长' },
   { id: 'shiromitsu-toi', color: '#FEDB63', name: '白光糖衣', jpName: '白光 糖衣', team: 'l4mps', position: 'HAMA15区长' },
-  { id: 'shiromitsu-rui', color: '#FE507D', name: '白光琉衣', jpName: '白光 琉衣', team: 'l4mps', position: 'HAMA19区长' },
+  { id: 'shiromitsu-rui', color: '#FE507D', name: '白光琉衣', jpName: '白光 琉衣', team: 'l4mps', position: 'HAMA15区长' },
   { id: 'natsume-yodaka', color: '#EFE7A8', name: '枣夜鹰', jpName: '棗 夜鷹', team: 'l4mps', position: 'HAMA17区长' },
   { id: 'yowa-kotaro', color: '#FC33C5', name: '夜半子太郎', jpName: '夜半 子タろ', team: 'l4mps', position: 'HAMA18区长' },
   // Conductors 向导团队
@@ -42657,6 +42733,370 @@ const defaultGoods = [
 ];
 
 
+// ==================== 盲抽/抱盒变体合并 ====================
+let mergeVariantsEnabled = true;
+const VARIANTS_VERSION = 5; // 配对逻辑版本，升级后强制重建
+
+function getVariantType(item) {
+  const n = item.name;
+  if (n.includes('ブラインド')) return 'blind';
+  if (n.includes('BOX') || n.includes('コンプリート')) return 'box';
+  return 'single';
+}
+
+function getVariantLabel(type) {
+  return type === 'blind' ? '盲抽' : type === 'box' ? '抱盒' : '';
+}
+
+// 从 variantPairId 构建运行时的 _variants 数据
+function buildRuntimeVariants() {
+  if (!mergeVariantsEnabled) return;
+  goodsData.forEach(item => {
+    delete item._variants;
+    delete item._activeVariant;
+    delete item._variantPairOf;
+  });
+  
+  const processed = new Set();
+  goodsData.forEach(item => {
+    if (processed.has(item.id)) return;
+    if (!item.variantPairId) return;
+    
+    const pair = goodsData.find(g => g.id === item.variantPairId);
+    if (!pair) return;
+    
+    const myType = getVariantType(item);
+    const pairType = getVariantType(pair);
+    
+    item._variants = [
+      { type: myType, label: getVariantLabel(myType), id: item.id },
+      { type: pairType, label: getVariantLabel(pairType), id: pair.id }
+    ];
+    item._activeVariant = myType;
+    
+    pair._variants = [
+      { type: myType, label: getVariantLabel(myType), id: item.id },
+      { type: pairType, label: getVariantLabel(pairType), id: pair.id }
+    ];
+    pair._activeVariant = pairType;
+    pair._variantPairOf = item.id;
+    
+    processed.add(item.id);
+    processed.add(pair.id);
+  });
+  
+  goodsData._variantsBuilt = true;
+  goodsData._variantsVersion = VARIANTS_VERSION;
+}
+
+// 自动匹配（首次加载时作为建议写入 variantPairId）
+function autoSuggestVariantPairs() {
+  const map = {};
+  goodsData.forEach(item => {
+    const vt = getVariantType(item);
+    if (vt === 'single') return;
+    // 已经手动配对过的跳过
+    if (item.variantPairId) return;
+    
+    const name = item.name;
+    let base = name;
+    const patterns = ['/ブラインド', '/BOX', '/コンプリート'];
+    let minIdx = -1;
+    patterns.forEach(p => {
+      const idx = name.indexOf(p);
+      if (idx !== -1 && (minIdx === -1 || idx < minIdx)) minIdx = idx;
+    });
+    if (minIdx !== -1) base = name.substring(0, minIdx);
+    base = base.replace(/『18TRIP』\s*/g, '').replace(/18TRIP\s*/g, '').replace(/「\s*」/g, '').replace(/『\s*』/g, '').replace(/\s+/g, ' ').trim();
+    const key = (item.category || '') + '|' + base;
+    
+    if (!map[key]) map[key] = { blind: null, box: null };
+    if (vt === 'blind' && !map[key].blind) map[key].blind = item;
+    if (vt === 'box' && !map[key].box) map[key].box = item;
+  });
+  
+  let count = 0;
+  Object.values(map).forEach(pair => {
+    if (pair.blind && pair.box) {
+      pair.blind.variantPairId = pair.box.id;
+      pair.box.variantPairId = pair.blind.id;
+      count++;
+    }
+  });
+  return count;
+}
+
+function getActiveVariantItem(item) {
+  if (!item._variants) return item;
+  const active = item._variants.find(v => v.type === item._activeVariant);
+  if (!active) return item;
+  if (active.id === item.id) return item;
+  const other = goodsData.find(g => g.id === active.id);
+  return other || item;
+}
+
+function getMergedName(item) {
+  if (!item._variants) return item.name;
+  const name = item.name;
+  const patterns = ['/ブラインド', '/BOX', '/コンプリート'];
+  let minIdx = -1;
+  patterns.forEach(p => {
+    const idx = name.indexOf(p);
+    if (idx !== -1 && (minIdx === -1 || idx < minIdx)) minIdx = idx;
+  });
+  if (minIdx === -1) return name;
+  
+  const after = name.substring(minIdx);
+  // Try to extract illustration suffix (the last (...) part)
+  const illustMatch = after.match(/\([^)]+\)\s*$/);
+  // Check if it looks like an illustration type (not just 全N種)
+  let illust = '';
+  if (illustMatch) {
+    const part = illustMatch[0];
+    if (!part.match(/^\(全?\d+種\)$/)) {
+      illust = part;
+    }
+  }
+  const baseName = name.substring(0, minIdx);
+  return baseName + illust;
+}
+
+function toggleCardVariant(btn, itemId) {
+  event.stopPropagation();
+  const item = goodsData.find(g => g.id === itemId);
+  if (!item || !item._variants) return;
+  const currentIdx = item._variants.findIndex(v => v.type === item._activeVariant);
+  const nextIdx = (currentIdx + 1) % item._variants.length;
+  item._activeVariant = item._variants[nextIdx].type;
+  
+  const card = btn.closest('.card');
+  if (!card) return;
+  const activeItem = getActiveVariantItem(item);
+  
+  btn.textContent = item._variants[nextIdx].label + ' ↔';
+  
+  const priceEl = card.querySelector('.price-row .price');
+  if (priceEl && activeItem.price) priceEl.textContent = activeItem.price;
+  const rmbEl = card.querySelector('.price-row .price-rmb');
+  if (rmbEl) {
+    const yen = extractYenPrice(activeItem.price);
+    rmbEl.textContent = yen > 0 ? '≈ ¥' + Math.round(yen * exchangeRate).toLocaleString('zh-CN') : '';
+  }
+  
+  const stBadge = card.querySelector('.st-badge');
+  if (stBadge && activeItem.status) {
+    stBadge.className = 'st-badge ' + (STATUS_CLS[activeItem.status] || 'st-on');
+    stBadge.textContent = (STATUS_ICON[activeItem.status] || '') + ' ' + (activeItem.status || '发售中');
+  }
+  
+  const metaDate = card.querySelector('.meta .item');
+  if (metaDate && activeItem.releaseDate) {
+    metaDate.textContent = '📅 ' + activeItem.releaseDate;
+  }
+  
+  card.onclick = function() { showDetail(activeItem.id); };
+  
+  // 更新编辑和删除按钮的 id
+  const editBtn = card.querySelector('.card-edit-btn');
+  if (editBtn) editBtn.setAttribute('onclick', 'event.stopPropagation();editGoods(' + activeItem.id + ')');
+  const delBtn = card.querySelector('.card-del-btn');
+  if (delBtn) delBtn.setAttribute('onclick', 'event.stopPropagation();delGoods(' + activeItem.id + ')');
+  
+  // 更新平台标签
+  const channelEl = card.querySelector('.channel');
+  if (channelEl) {
+    channelEl.textContent = '🏷 ' + (activeItem.platform || '—');
+    channelEl.title = activeItem.platform || '';
+  }
+}
+
+
+function toggleCardVariantSeg(el, itemId) {
+  event.stopPropagation();
+  const item = goodsData.find(g => g.id === itemId);
+  if (!item || !item._variants) return;
+  const targetType = el.getAttribute('data-type');
+  if (item._activeVariant === targetType) return;
+  item._activeVariant = targetType;
+  
+  const card = el.closest('.card');
+  if (!card) return;
+  const activeItem = getActiveVariantItem(item);
+  
+  // 更新分段控件选中态
+  const seg = card.querySelector('.variant-seg');
+  if (seg) {
+    seg.querySelectorAll('.seg-opt').forEach(opt => {
+      opt.classList.toggle('active', opt.getAttribute('data-type') === targetType);
+    });
+  }
+  
+  const priceEl = card.querySelector('.price-row .price');
+  if (priceEl && activeItem.price) priceEl.textContent = activeItem.price;
+  const rmbEl = card.querySelector('.price-row .price-rmb');
+  if (rmbEl) {
+    const yen = extractYenPrice(activeItem.price);
+    rmbEl.textContent = yen > 0 ? '≈ ¥' + Math.round(yen * exchangeRate).toLocaleString('zh-CN') : '';
+  }
+  
+  const stBadge = card.querySelector('.st-badge');
+  if (stBadge && activeItem.status) {
+    stBadge.className = 'st-badge ' + (STATUS_CLS[activeItem.status] || 'st-on');
+    stBadge.textContent = (STATUS_ICON[activeItem.status] || '') + ' ' + (activeItem.status || '发售中');
+  }
+  
+  const metaDate = card.querySelector('.meta .item');
+  if (metaDate && activeItem.releaseDate) {
+    metaDate.textContent = '📅 ' + activeItem.releaseDate;
+  }
+  
+  card.onclick = function() { showDetail(activeItem.id); };
+  
+  const editBtn = card.querySelector('.card-edit-btn');
+  if (editBtn) editBtn.setAttribute('onclick', 'event.stopPropagation();editGoods(' + activeItem.id + ')');
+  const delBtn = card.querySelector('.card-del-btn');
+  if (delBtn) delBtn.setAttribute('onclick', 'event.stopPropagation();delGoods(' + activeItem.id + ')');
+  
+  const channelEl = card.querySelector('.channel');
+  if (channelEl) {
+    channelEl.textContent = '🏷 ' + (activeItem.platform || '—');
+    channelEl.title = activeItem.platform || '';
+  }
+}
+
+// ==================== 变体配对管理 ====================
+let variantPairWorkingId = null;
+
+function renderVariantPairList() {
+  const listEl = document.getElementById('variantPairList');
+  const item = goodsData.find(g => g.id === variantPairWorkingId);
+  if (!item || !item.variantPairId) {
+    listEl.innerHTML = '<div style="font-size:12px;color:var(--sub);text-align:center;padding:8px 0;">暂无配对商品</div>';
+    return;
+  }
+  const pair = goodsData.find(g => g.id === item.variantPairId);
+  if (!pair) {
+    listEl.innerHTML = '<div style="font-size:12px;color:var(--sub);text-align:center;padding:8px 0;">配对商品不存在</div>';
+    return;
+  }
+  const vt = getVariantType(pair);
+  listEl.innerHTML =
+    '<div style="display:flex;align-items:center;gap:8px;padding:6px 10px;background:var(--bg);border:1px solid var(--line);border-radius:7px;">' +
+      '<span style="font-size:11px;padding:2px 8px;border-radius:99px;background:linear-gradient(135deg,var(--brand),#7ed957);color:#1a2e0a;font-weight:700;">' + getVariantLabel(vt) + '</span>' +
+      '<span style="flex:1;font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="' + esc(pair.name) + '">' + esc(pair.name) + '</span>' +
+      '<button class="btn small" style="padding:3px 8px;font-size:11px;" onclick="removeVariantPair()">解除</button>' +
+    '</div>';
+}
+
+function searchVariantPair(kw) {
+  const resultsEl = document.getElementById('variantSearchResults');
+  kw = kw.trim();
+  if (!kw) { resultsEl.style.display = 'none'; return; }
+  
+  const currentId = variantPairWorkingId;
+  const kwLow = kw.toLowerCase();
+  const matches = goodsData.filter(g => {
+    if (g.id === currentId) return false;
+    if (g.variantPairId && g.variantPairId !== currentId) return false; // 已被别人配对的跳过
+    return g.name.toLowerCase().includes(kwLow) ||
+      (g.nameCn && g.nameCn.toLowerCase().includes(kwLow));
+  }).slice(0, 10);
+  
+  if (!matches.length) {
+    resultsEl.innerHTML = '<div style="font-size:12px;color:var(--sub);padding:8px;text-align:center;">没有找到匹配的商品</div>';
+    resultsEl.style.display = 'block';
+    return;
+  }
+  
+  resultsEl.innerHTML = matches.map(g => {
+    const vt = getVariantType(g);
+    const label = vt ? getVariantLabel(vt) : g.category;
+    return '<div style="display:flex;align-items:center;gap:6px;padding:6px 8px;cursor:pointer;border-radius:6px;" onmouseover="this.style.background=\'var(--surface-3)\'" onmouseout="this.style.background=\'transparent\'" onclick="addVariantPair(' + g.id + ')">' +
+      '<span style="font-size:10px;padding:1px 6px;border-radius:99px;background:var(--surface-3);color:var(--text);font-weight:600;flex-shrink:0;">' + esc(label) + '</span>' +
+      '<span style="font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(g.name) + '</span>' +
+    '</div>';
+  }).join('');
+  resultsEl.style.display = 'block';
+}
+
+function addVariantPair(pairId) {
+  const item = goodsData.find(g => g.id === variantPairWorkingId);
+  const pair = goodsData.find(g => g.id === pairId);
+  if (!item || !pair) return;
+  
+  // 如果对方已经有配对，先解除
+  if (pair.variantPairId && pair.variantPairId !== item.id) {
+    const oldPair = goodsData.find(g => g.id === pair.variantPairId);
+    if (oldPair) delete oldPair.variantPairId;
+  }
+  
+  item.variantPairId = pairId;
+  pair.variantPairId = item.id;
+  
+  document.getElementById('variantSearchInput').value = '';
+  document.getElementById('variantSearchResults').style.display = 'none';
+  renderVariantPairList();
+  try { saveGoods(); } catch(e) {}
+  buildRuntimeVariants(); // 重建运行时变体
+  renderGoods(); // 刷新列表
+  toast('已添加配对');
+}
+
+function removeVariantPair() {
+  const item = goodsData.find(g => g.id === variantPairWorkingId);
+  if (!item || !item.variantPairId) return;
+  const pair = goodsData.find(g => g.id === item.variantPairId);
+  if (pair) delete pair.variantPairId;
+  delete item.variantPairId;
+  renderVariantPairList();
+  try { saveGoods(); } catch(e) {}
+  buildRuntimeVariants();
+  renderGoods();
+  toast('已解除配对');
+}
+
+function openVariantPicker() {
+  const input = document.getElementById('variantSearchInput');
+  if (input.value.trim()) {
+    searchVariantPair(input.value);
+  } else {
+    // 显示最近的同分类商品
+    const item = goodsData.find(g => g.id === variantPairWorkingId);
+    if (item) {
+      const cat = item.category;
+      const resultsEl = document.getElementById('variantSearchResults');
+      const candidates = goodsData.filter(g => g.category === cat && g.id !== variantPairWorkingId && !g.variantPairId).slice(0, 10);
+      if (candidates.length) {
+        resultsEl.innerHTML = candidates.map(g => {
+          const vt = getVariantType(g);
+          const label = vt ? getVariantLabel(vt) : g.category;
+          return '<div style="display:flex;align-items:center;gap:6px;padding:6px 8px;cursor:pointer;border-radius:6px;" onmouseover="this.style.background=\'var(--surface-3)\'" onmouseout="this.style.background=\'transparent\'" onclick="addVariantPair(' + g.id + ')">' +
+            '<span style="font-size:10px;padding:1px 6px;border-radius:99px;background:var(--surface-3);color:var(--text);font-weight:600;flex-shrink:0;">' + esc(label) + '</span>' +
+            '<span style="font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(g.name) + '</span>' +
+          '</div>';
+        }).join('');
+        resultsEl.style.display = 'block';
+      }
+    }
+  }
+}
+
+function deduplicateVariants(filtered) {
+  if (!mergeVariantsEnabled) return filtered;
+  const seen = new Set();
+  const result = [];
+  filtered.forEach(item => {
+    if (item._variantPairOf !== undefined) {
+      // This is a secondary variant, skip it (the primary is in the list)
+      // But only skip if the primary is also in filtered results
+      const primaryInFiltered = filtered.some(f => f.id === item._variantPairOf);
+      if (primaryInFiltered) return;
+    }
+    result.push(item);
+  });
+  return result;
+}
+
 // ==================== 状态变量 ====================
 let goodsData = loadGoods();
 let feedbackData = loadFeedback();
@@ -43631,7 +44071,10 @@ function getCardHtml(item) {
   const placeholder = generatePlaceholderSVG(item.category, item.allTeams ? 'mixed' : teamBar, item.name);
   const imgs = getImgs(item);
   const cover = imgs.length ? imgs[0] : '';
-  const stCls = STATUS_CLS[item.status] || 'st-on';
+  
+  // 变体支持：用当前选中变体的数据显示价格/状态等
+  const activeItem = getActiveVariantItem(item);
+  const stCls = STATUS_CLS[activeItem.status] || 'st-on';
   const isFav = favorites.has(item.id);
 
   let charChips;
@@ -43657,20 +44100,33 @@ function getCardHtml(item) {
     ? '<button class="gchar-toggle" onclick="event.stopPropagation();toggleGchar(this)">展开 ∨</button>'
     : '';
 
-  const priceYen = extractYenPrice(item.price);
+  const priceYen = extractYenPrice(activeItem.price);
   const priceRmb = priceYen > 0 ? '≈ ¥' + Math.round(priceYen * exchangeRate).toLocaleString('zh-CN') : '';
-  const priceText = item.price || '价格待补';
+  const priceText = activeItem.price || '价格待补';
   const priceClass = priceYen > 0 ? 'price' : 'price na';
+  
+  // 变体切换按钮
+  const variantSeg = item._variants
+    ? '<div class="variant-seg" onclick="event.stopPropagation();" data-item-id="' + item.id + '">' +
+        item._variants.map((v, i) => {
+          const active = v.type === item._activeVariant;
+          return '<span class="seg-opt' + (active ? ' active' : '') + '" data-type="' + v.type + '" onclick="toggleCardVariantSeg(this,' + item.id + ')">' + v.label + '</span>';
+        }).join('') +
+      '</div>'
+    : '';
+  
+  // 合并后的商品名
+  const displayName = getMergedName(item);
 
   const admin = isAdmin();
 
-  return '<div class="card" onclick="showDetail(' + item.id + ')" title="点击查看详情">' +
+  return '<div class="card" onclick="showDetail(' + activeItem.id + ')" title="点击查看详情">' +
     '<div class="strip" style="background:' + teamColor + '"></div>' +
     (cover
       ? '<div class="gimg"><img src="' + esc(cover) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.parentNode.style.display=\'none\'">' +
-        '<span class="st-badge ' + stCls + '">' + (STATUS_ICON[item.status] || '') + ' ' + esc(item.status || '发售中') + '</span></div>'
+        '<span class="st-badge ' + stCls + '">' + (STATUS_ICON[activeItem.status] || '') + ' ' + esc(activeItem.status || '发售中') + '</span></div>'
       : '<div class="gimg"><img src="' + esc(placeholder) + '" alt="">' +
-        '<span class="st-badge ' + stCls + '">' + (STATUS_ICON[item.status] || '') + ' ' + esc(item.status || '发售中') + '</span></div>') +
+        '<span class="st-badge ' + stCls + '">' + (STATUS_ICON[activeItem.status] || '') + ' ' + esc(activeItem.status || '发售中') + '</span></div>') +
     '<div class="card-body">' +
       '<div class="tags">' +
         '<span class="tag unit" style="background:' + teamColor + '">' + esc(getTeamDisplayName(item)) + '</span>' +
@@ -43679,7 +44135,8 @@ function getCardHtml(item) {
         '<span class="tag type">' + esc(item.category || '其他') + '</span>' +
         '<button class="star' + (isFav ? ' on' : '') + '" title="星标" onclick="event.stopPropagation();toggleStar(' + item.id + ')">' + (isFav ? '⭐' : '☆') + '</button>' +
       '</div>' +
-      '<div class="gname">' + esc(item.name) + '</div>' +
+      variantSeg +
+      '<div class="gname">' + esc(displayName) + '</div>' +
       (item.nameCn ? '<div class="gnamecn">' + esc(item.nameCn) + '</div>' : '') +
       (charDisplay ? '<div class="gchar"><div class="dchar-chips">' + charDisplay + '</div>' + toggleBtn + '</div>' : '') +
       '<div class="price-row">' +
@@ -43687,18 +44144,18 @@ function getCardHtml(item) {
         (priceRmb ? '<span class="price-rmb">' + esc(priceRmb) + '</span>' : '') +
       '</div>' +
       '<div class="meta">' +
-        '<span class="item">📅 ' + esc(item.releaseDate || '日期待补') + '</span>' +
+        '<span class="item">📅 ' + esc(activeItem.releaseDate || '日期待补') + '</span>' +
         (item.series ? '<span class="item">🏷 ' + esc(item.series) + '</span>' : '') +
       '</div>' +
       (item.description ? '<div class="note">' + esc(item.description) + '</div>' : '') +
     '</div>' +
     '<div class="card-foot">' +
-      '<span class="channel" title="' + esc(item.platform) + '">🏷 ' + esc(item.platform || '—') + '</span>' +
-      buildCardLinkBtn(item) +
+      '<span class="channel" title="' + esc(activeItem.platform) + '">🏷 ' + esc(activeItem.platform || '—') + '</span>' +
+      buildCardLinkBtn(activeItem) +
       (admin
-        ? '<button class="icobtn" title="编辑" onclick="event.stopPropagation();editGoods(' + item.id + ')">✏️</button>' +
-          '<button class="icobtn del" title="删除" onclick="event.stopPropagation();delGoods(' + item.id + ')">🗑️</button>'
-        : '<button class="icobtn fb" title="数据有误？点此反馈" onclick="event.stopPropagation();feedbackFor(' + item.id + ')">🚩</button>') +
+        ? '<button class="icobtn card-edit-btn" title="编辑" onclick="event.stopPropagation();editGoods(' + activeItem.id + ')">✏️</button>' +
+          '<button class="icobtn card-del-btn del" title="删除" onclick="event.stopPropagation();delGoods(' + activeItem.id + ')">🗑️</button>'
+        : '<button class="icobtn fb" title="数据有误？点此反馈" onclick="event.stopPropagation();feedbackFor(' + activeItem.id + ')">🚩</button>') +
     '</div>' +
   '</div>';
 }
@@ -43780,7 +44237,17 @@ function renderVirtual() {
 }
 
 function renderGoods() {
+  // 首次或版本升级时：自动建议配对 + 构建运行时变体数据
+  if (!goodsData._variantsBuilt || goodsData._variantsVersion !== VARIANTS_VERSION) {
+    // 自动匹配建议（只给还没有 variantPairId 的商品加）
+    const suggested = autoSuggestVariantPairs();
+    if (suggested > 0) {
+      try { saveGoods(); } catch(e) {}
+    }
+    buildRuntimeVariants();
+  }
   let filtered = getFiltered();
+  filtered = deduplicateVariants(filtered);
   filtered = sortGoods(filtered, currentSort);
 
   const listEl = document.getElementById('list');
@@ -43870,6 +44337,9 @@ function renderDetail() {
   const allTag = item.allTeams ? '<span class="dchar-chip">👥 ' + (item.teamScope === 22 ? '全区长' : item.teamScope === 24 ? '全24种(含向导)' : item.teamScope === 25 ? '全25种(含向导烧卖)' : item.teamScope === 26 ? '全26种(含向导主任)' : item.teamScope === 27 ? '全27种(含向导主任&烧卖)' : '全20种(4班)') + '</span>' : '';
 
   document.getElementById('detailBody').innerHTML =
+    '<div class="detail-layout">' +
+    '<div class="detail-img-block">' +
+    '<button class="detail-star' + (isFav ? ' on' : '') + '" title="星标" onclick="event.stopPropagation();toggleStar(' + item.id + ');renderDetail()">' + (isFav ? '⭐' : '☆') + '</button>' +
     (imgs.length
       ? '<div class="dcar">' +
           '<div class="dcar-track" id="dCarTrack">' +
@@ -43885,14 +44355,15 @@ function renderDetail() {
             : '') +
         '</div>'
       : '<div class="detail-img"><span class="noimg">🚉</span></div>') +
+    '</div>' +
     '<div class="detail-body">' +
       '<div class="tags">' +
         '<span class="tag unit" style="background:' + teamColor + '">' + esc(getTeamDisplayName(item)) + '</span>' +
         (item.isCollab ? '<span class="tag collab">联动周边</span>' : '') +
         (item.isStage ? '<span class="tag stage">舞台剧周边</span>' : '') +
         '<span class="tag type">' + esc(item.category || '其他') + '</span>' +
-        '<button class="star' + (isFav ? ' on' : '') + '" title="星标" onclick="toggleStar(' + item.id + ');renderDetail()">' + (isFav ? '⭐' : '☆') + '</button>' +
       '</div>' +
+      '<div class="detail-scroll">' +
       '<div class="detail-name">' + esc(item.name) + '</div>' +
       (item.nameCn ? '<div class="detail-namecn">' + esc(item.nameCn) + '</div>' : '') +
       '<div class="detail-price"><span class="dp-main">' + esc(item.price || '价格待补') + '</span>' +
@@ -43909,6 +44380,7 @@ function renderDetail() {
         ? '<div class="dchar-block"><div class="dchar-label">关联角色</div><div class="dchar-chips">' + allTag + charChipsHtml + '</div></div>'
         : '') +
       (item.description ? '<div class="drow" style="border-top:none; padding:12px 0 2px;"><span class="dk">备注</span><span class="dv" style="color:var(--sub);">' + esc(item.description) + '</span></div>' : '') +
+      '</div>' +
       '<div class="detail-actions">' +
         buildShopButtons(item) +
         (admin
@@ -43916,7 +44388,7 @@ function renderDetail() {
             '<button class="btn danger" onclick="delGoods(' + item.id + ')">🗑️ 删除</button>'
           : '<button class="btn" onclick="feedbackFor(' + item.id + ')">🚩 信息有误？反馈</button>') +
       '</div>' +
-    '</div>';
+    '</div></div>';
   bindCarEvents();
 }
 
@@ -44034,6 +44506,10 @@ function editGoods(id) {
   }
   updateImgPreview();
   renderShopLinks(allShopLinks);
+  variantPairWorkingId = editingId;
+  renderVariantPairList();
+  document.getElementById('variantSearchInput').value = '';
+  document.getElementById('variantSearchResults').style.display = 'none';
   openOverlay('formOverlay');
 }
 
@@ -44254,6 +44730,11 @@ function delGoods(id) {
   const item = goodsData.find(g => g.id === id);
   if (!item) return;
   if (!confirm('确定删除「' + item.name + '」？')) return;
+  // 解除配对关系
+  if (item.variantPairId) {
+    const pair = goodsData.find(g => g.id === item.variantPairId);
+    if (pair) delete pair.variantPairId;
+  }
   goodsData = goodsData.filter(g => g.id !== id);
   saveGoods();
   renderGoods();
