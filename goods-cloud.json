@@ -1,7 +1,39 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T15:30:37.846Z",
+  "timestamp": "2026-09-08T15:52:49.895Z",
   "goods": [
+    {
+      "name": "18TRIP BIGホロ缶バッジ(木ノ内 太緒)",
+      "nameCn": "私服立绘吧唧 木之内太绪",
+      "category": "徽章吧唧",
+      "isStage": false,
+      "isCollab": false,
+      "series": "その他",
+      "characters": [
+        "kinouchi-tao"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Anime-store",
+      "price": "660円(税込)",
+      "preorderDate": "",
+      "releaseDate": "2025年2月下旬",
+      "shipDate": "発売日より順次発送",
+      "status": "已结束",
+      "description": "",
+      "image": "https://anime-store.jp/cdn/shop/files/4582757327990_001_0e43b412-f365-49af-bc6d-734eaa0cb1f6_703x.progressive.jpg?v=1734906458",
+      "imgs": [
+        "https://anime-store.jp/cdn/shop/files/4582757327990_001_0e43b412-f365-49af-bc6d-734eaa0cb1f6_703x.progressive.jpg?v=1734906458"
+      ],
+      "shopLinks": [
+        {
+          "name": "Anime-store",
+          "url": "https://anime-store.jp/products/4582757327990"
+        }
+      ],
+      "platformUrl": "https://anime-store.jp/products/4582757327990",
+      "id": 1788882764088
+    },
     {
       "name": "18TRIP ころつとコレクション Conductors 全4種",
       "nameCn": "向导初始厚Q/向导初始麻将小人",
@@ -410,7 +442,7 @@
     {
       "id": 1720,
       "name": "18TRIP キャラバッジコレクション／vol.6　朝班・昼班",
-      "nameCn": "vol.6",
+      "nameCn": "一轮SSR花前吧唧 vol.6 朝班昼班",
       "category": "徽章吧唧",
       "series": "vol.6",
       "characters": [
@@ -2276,7 +2308,7 @@
     {
       "id": 1719,
       "name": "18TRIP キャラバッジコレクション／vol.6　夕班・夜班",
-      "nameCn": "vol.6",
+      "nameCn": "一轮SSR花前吧唧 vol.6 夕班夜班",
       "category": "徽章吧唧",
       "series": "vol.6",
       "characters": [
@@ -3840,7 +3872,7 @@
     {
       "id": 1505,
       "name": "18TRIP BIGホロ缶バッジ(畔川 幾成)",
-      "nameCn": "吧唧 畔川几成",
+      "nameCn": "私服立绘吧唧 畔川几成",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -3849,16 +3881,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E7%95%94%E5%B7%9D+%E5%B9%BE%E6%88%90%29/pd/3011823/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327976_1_1732608303.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327976_1_1732608303.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327976_1_1732608303.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 158,
@@ -7907,7 +7948,7 @@
     {
       "id": 1508,
       "name": "18TRIP BIGホロ缶バッジ(輝矢 宗氏)",
-      "nameCn": "吧唧 辉矢宗氏",
+      "nameCn": "私服立绘吧唧 辉矢宗氏",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -7916,16 +7957,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E8%BC%9D%E7%9F%A2+%E5%AE%97%E6%B0%8F%29/pd/3011820/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327945_1_1732599720.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327945_1_1732599720.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327945_1_1732599720.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1533,
@@ -12764,7 +12814,7 @@
     {
       "id": 459,
       "name": "BIGホロ缶バッジ(五十竹 あく太)",
-      "nameCn": "吧唧 五十竹芥太",
+      "nameCn": "私服立绘吧唧 五十竹芥太",
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
@@ -12773,16 +12823,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA%29/pd/3011817/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2025年2月下旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA%29/pd/3011817/",
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327914_1_1732601190.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327914_1_1732601190.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327914_1_1732601190.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA%29/pd/3011817/"
+        }
+      ]
     },
     {
       "id": 182,
@@ -13519,7 +13578,7 @@
     {
       "id": 1501,
       "name": "18TRIP BIGホロ缶バッジ(白光 糖衣)",
-      "nameCn": "吧唧 白光糖衣",
+      "nameCn": "私服立绘吧唧 白光糖衣",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -13528,16 +13587,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E7%99%BD%E5%85%89+%E7%B3%96%E8%A1%A3%29/pd/3011828/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328027_1_1732601207.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328027_1_1732601207.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328027_1_1732601207.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 828,
@@ -13926,7 +13994,7 @@
     {
       "id": 1499,
       "name": "18TRIP BIGホロ缶バッジ(棗 夜鷹)",
-      "nameCn": "吧唧 枣夜鹰",
+      "nameCn": "私服立绘吧唧 枣夜鹰",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -13935,16 +14003,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E6%A3%97+%E5%A4%9C%E9%B7%B9%29/pd/3011830/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328041_1_1732608018.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328041_1_1732608018.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328041_1_1732608018.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 646,
@@ -15838,7 +15915,7 @@
     {
       "id": 1513,
       "name": "18TRIP BIGホロ缶バッジ(大黒 可不可)",
-      "nameCn": "吧唧 大黑可不可",
+      "nameCn": "私服立绘吧唧 大黑可不可",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -15847,16 +15924,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF%29/pd/3011813/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327877_1_1732598307.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327877_1_1732598307.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327877_1_1732598307.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 897,
@@ -16038,7 +16124,7 @@
     {
       "id": 568,
       "name": "ミニキャラ缶バッジ／夕班・夜班【ランダム12種】",
-      "nameCn": "全体会议Q版吧唧",
+      "nameCn": "全体会议QQ人吧唧/西装吧唧 夕班夜班【全12种】",
       "category": "徽章吧唧",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -17457,7 +17543,7 @@
     {
       "id": 1506,
       "name": "18TRIP BIGホロ缶バッジ(北片 來人)",
-      "nameCn": "吧唧 北片来人",
+      "nameCn": "私服立绘吧唧 北片来人",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -17466,16 +17552,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E5%8C%97%E7%89%87+%E4%BE%86%E4%BA%BA%29/pd/3011822/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327969_1_1732609320.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327969_1_1732609320.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327969_1_1732609320.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 108,
@@ -17960,7 +18055,7 @@
     {
       "id": 1509,
       "name": "18TRIP BIGホロ缶バッジ(斜木 七基)",
-      "nameCn": "吧唧 斜木七基",
+      "nameCn": "私服立绘吧唧 斜木七基",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -17969,16 +18064,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E6%96%9C%E6%9C%A8+%E4%B8%83%E5%9F%BA%29/pd/3011819/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327938_1_1732608507.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327938_1_1732608507.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327938_1_1732608507.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 216,
@@ -18529,7 +18633,7 @@
     {
       "id": 1504,
       "name": "18TRIP BIGホロ缶バッジ(夏焼 千弥)",
-      "nameCn": "吧唧 夏烧千弥",
+      "nameCn": "私服立绘吧唧 夏烧千弥",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -18538,16 +18642,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E5%A4%8F%E7%84%BC+%E5%8D%83%E5%BC%A5%29/pd/3011824/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327983_1_1732597552.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327983_1_1732597552.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327983_1_1732597552.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 176,
@@ -26630,7 +26743,7 @@
     {
       "id": 569,
       "name": "ミニキャラ缶バッジ／朝班・昼班【ランダム12種】",
-      "nameCn": "全体会议QQ人吧唧",
+      "nameCn": "全体会议QQ人吧唧/西装吧唧 朝班昼班【全12种】",
       "category": "徽章吧唧",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -26894,7 +27007,7 @@
     {
       "id": 458,
       "name": "BIGホロ缶バッジ(鹿 礼光)",
-      "nameCn": "吧唧 鹿礼光",
+      "nameCn": "私服立绘吧唧 鹿礼光",
       "category": "徽章吧唧",
       "series": "18TRIP グッズ",
       "characters": [
@@ -26903,16 +27016,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E9%B9%BF+%E7%A4%BC%E5%85%89%29/pd/3011816/",
       "price": "660 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2025年2月下旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E9%B9%BF+%E7%A4%BC%E5%85%89%29/pd/3011816/",
       "status": "发售中",
       "statusJp": "取り寄せ",
       "description": "Animate(オンライン通販)状況:取り寄せ(需仓库调货)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327907_1_1732596774.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327907_1_1732596774.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327907_1_1732596774.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E9%B9%BF+%E7%A4%BC%E5%85%89%29/pd/3011816/"
+        }
+      ]
     },
     {
       "id": 1563,
@@ -28999,7 +29121,7 @@
     {
       "id": 1500,
       "name": "18TRIP BIGホロ缶バッジ(白光 琉衣)",
-      "nameCn": "吧唧 白光琉衣",
+      "nameCn": "私服立绘吧唧 白光琉衣",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -29008,16 +29130,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E7%99%BD%E5%85%89+%E7%90%89%E8%A1%A3%29/pd/3011829/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328034_1_1732597108.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328034_1_1732597108.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328034_1_1732597108.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 510,
@@ -29441,7 +29572,7 @@
     {
       "id": 1510,
       "name": "18TRIP BIGホロ缶バッジ(衣川 季肋)",
-      "nameCn": "吧唧 衣川季肋",
+      "nameCn": "私服立绘吧唧 衣川季肋",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -29450,16 +29581,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E8%A1%A3%E5%B7%9D+%E5%AD%A3%E8%82%8B%29/pd/3011818/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327921_1_1732605811.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327921_1_1732605811.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327921_1_1732605811.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 112,
@@ -32514,7 +32654,7 @@
     {
       "id": 1512,
       "name": "18TRIP BIGホロ缶バッジ(叢雲 添)",
-      "nameCn": "吧唧 丛云添",
+      "nameCn": "私服立绘吧唧 丛云添",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -32523,16 +32663,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E5%8F%A2%E9%9B%B2+%E6%B7%BB%29/pd/3011814/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327884_1_1732595711.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327884_1_1732595711.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327884_1_1732595711.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 516,
@@ -34057,7 +34206,7 @@
     {
       "id": 1502,
       "name": "18TRIP BIGホロ缶バッジ(蜂乃屋 凪)",
-      "nameCn": "吧唧 蜂乃屋凪",
+      "nameCn": "私服立绘吧唧 蜂乃屋凪",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -34066,16 +34215,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E8%9C%82%E4%B9%83%E5%B1%8B+%E5%87%AA%29/pd/3011827/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328010_1_1732595385.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328010_1_1732595385.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328010_1_1732595385.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1556,
@@ -36350,43 +36508,6 @@
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4902273216637_1_1744290306.jpg&width=400&height=400&square=1"
     },
     {
-      "id": 619,
-      "name": "缶バッジ『18TRIP』10/ブラインド(6種)(グラフアートイラスト)",
-      "nameCn": "吧唧 盲盒 6种(吉祥物 涂鸦风)",
-      "category": "徽章吧唧",
-      "series": "eeo Store グラフアート マスコット",
-      "characters": [
-        "fuefuki-yachiyo",
-        "karigane-sakujiro",
-        "kitakata-nayuki",
-        "iwabuchi-hiroshi",
-        "hamasaki-momiji",
-        "hamasaki-kaede"
-      ],
-      "allTeams": false,
-      "teamScope": 0,
-      "platform": "eeo Store",
-      "price": "各 ￥550（税込）",
-      "preorderDate": "2026年",
-      "releaseDate": "順次発送",
-      "shipDate": "順次発送",
-      "status": "发售中",
-      "statusJp": "販売中",
-      "description": "マスコット6種（しゅうまい+ペットロボ5体）のグラフアートイラスト缶バッジ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1",
-      "isStage": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4580843661119_2_1780459507.jpg&width=400&height=400&square=1"
-      ],
-      "shopLinks": [
-        {
-          "name": "eeo Store",
-          "url": "https://eeo.today/store/101/title/5345"
-        }
-      ],
-      "eeoUrl": "https://eeo.today/store/101/title/5345"
-    },
-    {
       "id": 1885,
       "name": "18TRIP Cherigem Stciker Ev3ns",
       "nameCn": "その他",
@@ -36794,7 +36915,7 @@
     {
       "id": 1514,
       "name": "18TRIP BIGホロ缶バッジ(西園 練牙)",
-      "nameCn": "吧唧 西园练牙",
+      "nameCn": "私服立绘吧唧 西园练牙",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -36803,16 +36924,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99%29/pd/3011812/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327860_1_1732595703.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327860_1_1732595703.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327860_1_1732595703.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1562,
@@ -39633,7 +39763,7 @@
     {
       "id": 1503,
       "name": "18TRIP BIGホロ缶バッジ(百目鬼 潜)",
-      "nameCn": "吧唧 百目鬼潜",
+      "nameCn": "私服立绘吧唧 百目鬼潜",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -39642,16 +39772,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E7%99%BE%E7%9B%AE%E9%AC%BC+%E6%BD%9C%29/pd/3011826/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328003_1_1732609155.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328003_1_1732609155.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757328003_1_1732609155.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 1889,
@@ -39831,7 +39970,7 @@
     {
       "id": 1507,
       "name": "18TRIP BIGホロ缶バッジ(久楽間 潮)",
-      "nameCn": "吧唧 久乐间潮",
+      "nameCn": "私服立绘吧唧 久乐间潮",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -39840,16 +39979,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E4%B9%85%E6%A5%BD%E9%96%93+%E6%BD%AE%29/pd/3011821/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327952_1_1732603992.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327952_1_1732603992.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327952_1_1732603992.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 867,
@@ -43814,7 +43962,7 @@
     {
       "id": 1511,
       "name": "18TRIP BIGホロ缶バッジ(神名 雪風)",
-      "nameCn": "吧唧 神名雪风",
+      "nameCn": "私服立绘吧唧 神名雪风",
       "category": "徽章吧唧",
       "series": "その他",
       "characters": [
@@ -43823,16 +43971,25 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "660円(税込)",
       "preorderDate": "",
       "releaseDate": "2025年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+BIG%E3%83%9B%E3%83%AD%E7%BC%B6%E3%83%90%E3%83%83%E3%82%B8%28%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8%29/pd/3011815/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327891_1_1732594894.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327891_1_1732594894.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4582757327891_1_1732594894.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 685,
@@ -44327,7 +44484,7 @@
     {
       "id": 1724,
       "name": "18TRIP キャラバッジコレクション／vol.7　夕班・夜班",
-      "nameCn": "vol.7",
+      "nameCn": "一轮SSR花后吧唧 vol.7 夕班夜班",
       "category": "徽章吧唧",
       "series": "vol.7",
       "characters": [
@@ -44565,21 +44722,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "kuguruma-ushio"
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,700円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00142-2/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00142-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00142-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00142-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1899,
@@ -45102,21 +45269,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "kinugawa-kisoku"
+        "kinugawa-kiroku"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00227/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00227-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00227-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00227-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1919,
@@ -45125,21 +45302,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "nanameki-nanaki"
+        "naname-shichiki"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00228/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00228-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00228-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00228-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1920,
@@ -45148,21 +45335,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "kaguya-muneyoshi"
+        "kiya-muneuji"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00229/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00229-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00229-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00229-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1921,
@@ -45171,21 +45368,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "kuguruma-ushio"
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00230/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00230-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00230-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00230-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1922,
@@ -45194,21 +45401,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "kitakata-rai"
+        "kitakata-raito"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00231/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00231-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00231-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00231-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1923,
@@ -45240,21 +45457,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "natsuyaki-chinya"
+        "natsuyaki-chihiro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00233/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00233-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00233-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00233-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1925,
@@ -45286,21 +45513,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "domeki-mogu"
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,100円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00235/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00235-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00235-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00235-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1927,
@@ -45447,21 +45684,31 @@
       "category": "亚克力立牌",
       "series": "サンリオキャラクターズ",
       "characters": [
-        "nanameki-nanaki"
+        "naname-shichiki"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00242/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "サンリオキャラクターズ",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00242-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00242-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00242-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1934,
@@ -45512,44 +45759,86 @@
     {
       "id": 1936,
       "name": "キャラバッジコレクション／vol.8 Best Wishes Snap 朝班・昼班",
-      "nameCn": "角色吧唧收藏／vol.8 Best Wishes Snap 朝班·昼班",
+      "nameCn": "一轮生日花后吧唧 vol.8 朝班昼班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.8",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,400円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00072/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.8",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00072-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00072-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00072-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1937,
       "name": "キャラバッジコレクション／vol.8 Best Wishes Snap 夕班・夜班",
-      "nameCn": "角色吧唧收藏／vol.8 Best Wishes Snap 夕班·夜班",
+      "nameCn": "一轮生日花后吧唧 vol.8 夕班夜班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.8",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,400円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00073/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.8",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00073-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00073-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00073-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1938,
@@ -45775,23 +46064,44 @@
     {
       "id": 1945,
       "name": "キャラバッジコレクション／vol.7 朝班・昼班",
-      "nameCn": "角色吧唧收藏／vol.7 朝班·昼班",
+      "nameCn": "一轮SSR花后吧唧 vol.7 朝班昼班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.7",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,400円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00062/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.7",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00062-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00062-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00062-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 1946,
@@ -46495,20 +46805,36 @@
       "nameCn": "贴贴立牌／朝班",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "3,300円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00067/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00067-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00067-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00067-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2016,
@@ -46516,20 +46842,36 @@
       "nameCn": "贴贴立牌／昼班",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "3,300円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00068/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00068-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00068-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00068-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2017,
@@ -46537,20 +46879,36 @@
       "nameCn": "贴贴立牌／夕班",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "3,300円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00069/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00069-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00069-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00069-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2018,
@@ -46558,20 +46916,36 @@
       "nameCn": "贴贴立牌／夜班",
       "category": "亚克力立牌",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "3,300円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00070/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00070-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00070-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00070-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2019,
@@ -46580,92 +46954,151 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "fuebuki-ya",
+        "fuefuki-yachiyo",
         "karigane-sakujiro",
-        "kitakata-ikyu",
-        "iwabuchi-daniel-hiroshi"
+        "kitakata-nayuki",
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "3,080円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-00071/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00071.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2044,
       "name": "キャラバッジコレクション／vol.3 朝班・昼班",
-      "nameCn": "角色吧唧收藏／vol.3 朝班·昼班",
+      "nameCn": "初始SSR花后吧唧 vol.3 朝班昼班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.3",
-      "characters": [],
-      "allTeams": false,
-      "teamScope": 2,
-      "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
-      "price": "4,400円",
-      "preorderDate": "",
-      "releaseDate": "",
-      "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00037/",
-      "status": "已结束",
-      "statusJp": "売り切れ",
-      "description": "定番グッズ vol.3",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00037-s.jpg"
-    },
-    {
-      "id": 2045,
-      "name": "キャラバッジコレクション／vol.3 夕班・夜班",
-      "nameCn": "角色吧唧收藏／vol.3 夕班·夜班",
-      "category": "徽章吧唧",
-      "series": "定番グッズ vol.3",
-      "characters": [],
-      "allTeams": false,
-      "teamScope": 2,
-      "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
-      "price": "4,400円",
-      "preorderDate": "",
-      "releaseDate": "",
-      "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00038/",
-      "status": "已结束",
-      "statusJp": "売り切れ",
-      "description": "定番グッズ vol.3",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00038-s.jpg"
-    },
-    {
-      "id": 2046,
-      "name": "缶バッジセット／コンダクターズ",
-      "nameCn": "吧唧套装／Conductors",
-      "category": "徽章吧唧",
-      "series": "その他",
       "characters": [
-        "fuebuki-ya",
-        "karigane-sakujiro",
-        "kitakata-ikyu",
-        "iwabuchi-daniel-hiroshi"
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
+      "price": "4,400円",
+      "preorderDate": "",
+      "releaseDate": "",
+      "shipDate": "",
+      "status": "已结束",
+      "statusJp": "売り切れ",
+      "description": "定番グッズ vol.3",
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00037-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00037-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+    },
+    {
+      "id": 2045,
+      "name": "キャラバッジコレクション／vol.3 夕班・夜班",
+      "nameCn": "初始SSR花后吧唧 vol.3 夕班夜班",
+      "category": "徽章吧唧",
+      "series": "定番グッズ vol.3",
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "4,400円",
+      "preorderDate": "",
+      "releaseDate": "",
+      "shipDate": "",
+      "status": "已结束",
+      "statusJp": "売り切れ",
+      "description": "定番グッズ vol.3",
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00038-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00038-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+    },
+    {
+      "id": 2046,
+      "name": "缶バッジセット／コンダクターズ",
+      "nameCn": "向导初始立绘吧唧 Conductors",
+      "category": "徽章吧唧",
+      "series": "その他",
+      "characters": [
+        "karigane-sakujiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
       "price": "1,760円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00039/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00039.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2091,
@@ -47165,44 +47598,86 @@
     {
       "id": 2141,
       "name": "キャラバッジコレクション／vol.2 朝班・昼班",
-      "nameCn": "角色吧唧收藏／vol.2 朝班·昼班",
+      "nameCn": "初始SR花后吧唧 vol.2 朝班昼班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.2",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,400円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00009/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00009-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00009-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00009-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2142,
       "name": "キャラバッジコレクション／vol.2 夕班・夜班",
-      "nameCn": "角色吧唧收藏／vol.2 夕班·夜班",
+      "nameCn": "初始SR花后吧唧 vol.2 夕班夜班",
       "category": "徽章吧唧",
       "series": "定番グッズ vol.2",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,400円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-00010/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "定番グッズ vol.2",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00010-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00010-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00010-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2143,
@@ -47708,21 +48183,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "kinugawa-kisoku"
+        "kinugawa-kiroku"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90007/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00007-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00007-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00007-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2171,
@@ -47731,21 +48216,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "nanameki-nanaki"
+        "naname-shichiki"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90008/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00008-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00008-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00008-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2172,
@@ -47754,21 +48249,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "kaguya-muneyoshi"
+        "kiya-muneuji"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90009/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00009-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00009-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00009-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2173,
@@ -47777,21 +48282,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "kuguruma-ushio"
+        "kugura-mio"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90010/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00010-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00010-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00010-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2174,
@@ -47800,21 +48315,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "kitakata-rai"
+        "kitakata-raito"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90011/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00011-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00011-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00011-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2175,
@@ -47846,21 +48371,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "natsuyaki-chinya"
+        "natsuyaki-chihiro"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90013/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00013-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00013-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00013-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2177,
@@ -47892,21 +48427,31 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "domeki-mogu"
+        "domeki-kuguri"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "1,650円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00350-90015/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00350-00015-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00350-00015-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00350-00015-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2179,
@@ -48133,44 +48678,86 @@
     {
       "id": 2187,
       "name": "【再販分】18TRIP キャラバッジコレクション／A朝班・昼班",
-      "nameCn": "【再贩】18TRIP 角色吧唧收藏／A朝班·昼班",
+      "nameCn": "初始立绘吧唧 A盒・朝班昼班",
       "category": "徽章吧唧",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,950円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-90001/",
       "status": "已结束",
       "statusJp": "売り切れ",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00001-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00001-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00001-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2188,
       "name": "【再販分】18TRIP キャラバッジコレクション／B夕班・夜班",
-      "nameCn": "【再贩】18TRIP 角色吧唧收藏／B夕班·夜班",
+      "nameCn": "初始立绘吧唧 B盒・夕班夜班",
       "category": "徽章吧唧",
       "series": "その他",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
-      "teamScope": 2,
+      "teamScope": 0,
       "platform": "Movic(ムービック)",
-      "platformUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip",
       "price": "4,950円",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://www.movic.jp/shop/g/g05377-00603-90002/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "その他",
-      "image": "https://www.movic.jp/img/goods/S/05377-00603-00002-s.jpg"
+      "image": "https://www.movic.jp/img/goods/S/05377-00603-00002-s.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.movic.jp/img/goods/S/05377-00603-00002-s.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/goods/search.aspx?keyword=18trip"
     },
     {
       "id": 2189,
@@ -48220,22 +48807,46 @@
       "nameCn": "迷你亚克力立牌12 盲盒(10种)(官方插画)",
       "category": "亚克力立牌",
       "series": "官方插画系列",
-      "characters": [],
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
-      "eeoUrl": "https://eeo.today/store/101/products/detail/325907",
+      "eeoUrl": "https://eeo.today/store/101/title/5345",
       "price": "935円(税込)",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://eeo.today/store/101/products/detail/325907",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "雑貨 ＞ アクリルぷちスタンド",
       "image": "https://eeo.today/store/101/html/upload/save_image/6a4f70f8ade1d.jpg",
       "variantPairId": 2195,
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://eeo.today/store/101/html/upload/save_image/6a4f70f8ade1d.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/325907"
+        },
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
       "_variants": [
         {
           "type": "blind",
@@ -48256,22 +48867,46 @@
       "nameCn": "迷你亚克力立牌13 盲盒(10种)(官方插画)",
       "category": "亚克力立牌",
       "series": "官方插画系列",
-      "characters": [],
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "eeo Store",
-      "platformUrl": "https://eeo.today/store/101/title/5345",
-      "eeoUrl": "https://eeo.today/store/101/products/detail/325906",
+      "eeoUrl": "https://eeo.today/store/101/title/5345",
       "price": "935円(税込)",
       "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "officialUrl": "https://eeo.today/store/101/products/detail/325906",
-      "status": "已发售",
+      "status": "",
       "statusJp": "",
       "description": "雑貨 ＞ アクリルぷちスタンド",
       "image": "https://eeo.today/store/101/html/upload/save_image/6a4f70f687dfc.jpg",
       "variantPairId": 2196,
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://eeo.today/store/101/html/upload/save_image/6a4f70f687dfc.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/products/detail/325906"
+        },
+        {
+          "name": "eeo Store",
+          "url": "https://eeo.today/store/101/title/5345"
+        }
+      ],
       "_variants": [
         {
           "type": "blind",
