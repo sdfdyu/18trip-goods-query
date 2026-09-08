@@ -353,6 +353,18 @@
   .drow:first-of-type{border-top:none;}
   .drow .dk{flex:none; width:74px; color:var(--sub); font-weight:600;}
   .drow .dv{color:var(--ink); flex:1; word-break:break-word;}
+  /* 特殊说明模式备注高亮 */
+  .drow.note-highlight{
+    background:#fff8e1;
+    border-left:3px solid #ff9800;
+    border-right:3px solid #ff9800;
+    border-radius:6px;
+    padding:10px 12px;
+    margin:6px 0 2px;
+    border-top:none !important;
+  }
+  .drow.note-highlight .dk{color:#e65100; font-weight:700;}
+  .drow.note-highlight .dv{color:#bf360c; font-weight:500;}
   /* 详情页信息卡片网格 */
   .dcard-grid{display:grid; grid-template-columns:1fr 1fr; gap:9px; margin:6px 0 14px; align-items:stretch;}
   .dcard{background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; min-height:58px;}
@@ -440,6 +452,7 @@
   .price.na{font-size:14px; color:var(--sub); font-weight:600;}
   .price-rmb{font-size:12px; color:var(--sub);}
   .note{font-size:12px; color:var(--sub); background:var(--surface-2); border-radius:8px; padding:6px 9px; line-height:1.5;}
+  .note.note-hl{background:#fff8e1; color:#bf360c; border-left:3px solid #ff9800; border-right:3px solid #ff9800; padding-left:8px; padding-right:8px;}
   .card-foot{display:flex; gap:6px; padding:9px 13px; border-top:1px dashed var(--line); background:var(--surface); align-items:center; flex-wrap:wrap;}
   .channel{font-size:11.5px; color:var(--sub); margin-right:auto; max-width:60%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
   .icobtn{
@@ -818,7 +831,13 @@
           </div>
         </div>
         <div class="field full">
-          <label>备注</label>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+            <label style="margin:0;">备注</label>
+            <label style="display:flex; align-items:center; gap:4px; font-size:10.5px; color:var(--sub); cursor:pointer; user-select:none;">
+              <input type="checkbox" id="f_noteHighlight" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
+              特殊说明模式
+            </label>
+          </div>
           <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
         </div>
         <div class="field full">
@@ -42844,15 +42863,19 @@ function buildRuntimeVariants() {
     const myType = getVariantType(item);
     const pairType = getVariantType(pair);
     
+    // 统一顺序：盲抽在左，抱盒在右
+    const blindItem = myType === 'blind' ? item : pair;
+    const boxItem = myType === 'box' ? item : pair;
+    
     item._variants = [
-      { type: myType, label: getVariantLabel(myType), id: item.id },
-      { type: pairType, label: getVariantLabel(pairType), id: pair.id }
+      { type: 'blind', label: '盲抽', id: blindItem.id },
+      { type: 'box', label: '抱盒', id: boxItem.id }
     ];
     item._activeVariant = myType;
     
     pair._variants = [
-      { type: myType, label: getVariantLabel(myType), id: item.id },
-      { type: pairType, label: getVariantLabel(pairType), id: pair.id }
+      { type: 'blind', label: '盲抽', id: blindItem.id },
+      { type: 'box', label: '抱盒', id: boxItem.id }
     ];
     pair._activeVariant = pairType;
     pair._variantPairOf = item.id;
@@ -44223,7 +44246,7 @@ function getCardHtml(item) {
         '<span class="item">📅 ' + esc(activeItem.releaseDate || '日期待补') + '</span>' +
         (item.series ? '<span class="item">🏷 ' + esc(item.series) + '</span>' : '') +
       '</div>' +
-      (item.description ? '<div class="note">' + esc(item.description) + '</div>' : '') +
+      (item.description ? '<div class="note ' + (item.noteHighlight ? 'note-hl' : '') + '">' + esc(item.description) + '</div>' : '') +
     '</div>' +
     '<div class="card-foot">' +
       '<span class="channel" title="' + esc(activeItem.platform) + '">🏷 ' + esc(activeItem.platform || '—') + '</span>' +
@@ -44466,7 +44489,7 @@ function renderDetail() {
       (charChipsHtml || allTag
         ? '<div class="dchar-block"><div class="dchar-label">关联角色</div><div class="dchar-chips">' + allTag + charChipsHtml + '</div></div>'
         : '') +
-      (item.description ? '<div class="drow" style="border-top:none; padding:12px 0 2px;"><span class="dk">备注</span><span class="dv" style="color:var(--sub);">' + esc(item.description) + '</span></div>' : '') +
+      (item.description ? '<div class="drow ' + (item.noteHighlight ? 'note-highlight' : '') + '" style="border-top:none; padding:' + (item.noteHighlight ? '10px 12px' : '12px 0 2px') + ';"><span class="dk">备注</span><span class="dv" style="' + (item.noteHighlight ? '' : 'color:var(--sub);') + '">' + esc(item.description) + '</span></div>' : '') +
       '</div>' +
       '<div class="detail-actions">' +
         buildShopButtons(item) +
@@ -44577,6 +44600,7 @@ function editGoods(id) {
   document.getElementById('f_release').value = item.releaseDate || '';
   document.getElementById('f_ship').value = item.shipDate || '';
   document.getElementById('f_desc').value = item.description || '';
+  document.getElementById('f_noteHighlight').checked = !!item.noteHighlight;
   document.getElementById('imgUrlInput').value = '';
 
   // 整合所有购买渠道到 shopLinks 列表中统一编辑
@@ -44781,6 +44805,7 @@ function submitGoodsForm() {
     shipDate: document.getElementById('f_ship').value.trim(),
     status,
     description: document.getElementById('f_desc').value.trim(),
+    noteHighlight: document.getElementById('f_noteHighlight').checked || undefined,
     image: pendingImgs[0] || '',
     imgs: pendingImgs.length ? [...pendingImgs] : undefined,
     shopLinks: shopLinksData.length ? shopLinksData : undefined,
