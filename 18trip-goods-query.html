@@ -20,6 +20,7 @@
     --st-soon:#c96f14; --st-soon-bg:rgba(253,240,226,.95);
     --st-shipped:#7c3aed; --st-shipped-bg:rgba(237,233,254,.95);
     --st-end:#69737f; --st-end-bg:rgba(238,241,245,.95);
+    --st-reissue:#d6336c; --st-reissue-bg:rgba(255,228,241,.95);
     --shadow-soft:rgba(43,52,64,.07); --overlay-bg:rgba(30,40,55,.45);
     --toast-bg:#2b3440; --toast-text:#ffffff;
     /* 队伍颜色扩展 */
@@ -38,6 +39,7 @@
     --st-soon:#f5c451; --st-soon-bg:rgba(47,35,13,.92);
     --st-shipped:#a78bfa; --st-shipped-bg:rgba(46,16,101,.92);
     --st-end:#9ca3af; --st-end-bg:rgba(31,41,55,.92);
+    --st-reissue:#ff6b9d; --st-reissue-bg:rgba(50,20,35,.92);
     --shadow-soft:rgba(0,0,0,.35); --overlay-bg:rgba(0,0,0,.65);
     --toast-bg:#e5e7eb; --toast-text:#0d1117;
   }
@@ -171,6 +173,7 @@
   .st-soon{background:var(--st-soon-bg); color:var(--st-soon);}
   .st-shipped{background:var(--st-shipped-bg); color:var(--st-shipped);}
   .st-end{background:var(--st-end-bg); color:var(--st-end);}
+  .st-reissue{background:var(--st-reissue-bg); color:var(--st-reissue);}
   /* ===== 详情子界面 ===== */
   .detail-modal{max-width:600px; padding:0; overflow:hidden; position:relative;}
   .detail-close{
@@ -365,18 +368,58 @@
   }
   .drow.note-highlight .dk{color:#e65100; font-weight:700;}
   .drow.note-highlight .dv{color:#bf360c; font-weight:500;}
+  /* 贩售履历时间线 */
+  .reissue-timeline{padding:10px 0 12px; border-top:none; display:flex; align-items:center; gap:14px;}
+  .reissue-label{display:flex; flex-direction:row; align-items:center; gap:4px; flex:none; color:var(--sub); font-weight:600;}
+  .reissue-label .ri-main{display:flex; flex-direction:column; align-items:center; font-size:12px; line-height:1.5;}
+  .reissue-label .ri-hint{display:flex; flex-direction:column; align-items:center; font-size:9.5px; font-weight:400; opacity:.55; line-height:1.5;}
+  .reissue-tl{display:flex; flex-direction:column; gap:6px; flex:1;}
+  .reissue-item{display:flex; align-items:center; gap:6px; padding:5px 10px; border-radius:8px; background:rgba(255,255,255,.75); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border:1px solid rgba(0,0,0,.06); font-size:12px; cursor:pointer; transition:all .25s ease;}
+  .reissue-item:hover{border-color:rgba(47,111,216,.3); opacity:.85;}
+  .reissue-item.first{border-color:rgba(0,0,0,.06);}
+  .reissue-item.ri-active{border-color:rgba(47,111,216,.4); background:rgba(255,255,255,.75); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); opacity:1; transform:translateY(-1px); box-shadow:0 2px 12px rgba(47,111,216,.12);}
+  .reissue-item:not(.ri-active){opacity:.4;}
+  .ri-num{flex:none; width:18px; height:18px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:9.5px; font-weight:700; color:#fff; flex-shrink:0;}
+  .reissue-item.first .ri-num,
+  .reissue-item.first .ri-badge{background:linear-gradient(135deg,#d4a838,#e07a90,#5e94c8);}
+  .ri-badge{flex:none; padding:1px 7px; border-radius:99px; font-size:10.5px; font-weight:700; color:#fff; white-space:nowrap;}
+  .reissue-item.ri1 .ri-num,
+  .reissue-item.ri1 .ri-badge{background:linear-gradient(135deg,#8478c8,#6aa8c8,#5ec8a8);}
+  .reissue-item.ri2 .ri-num,
+  .reissue-item.ri2 .ri-badge{background:linear-gradient(135deg,#ff6b6b,#ee5a9c);}
+  .reissue-item.ri3 .ri-num,
+  .reissue-item.ri3 .ri-badge{background:linear-gradient(135deg,#f7b733,#fc4a1a);}
+  .reissue-item.ri4 .ri-num,
+  .reissue-item.ri4 .ri-badge{background:linear-gradient(135deg,#00b4db,#0083b0);}
+  .reissue-item.ri5 .ri-num,
+  .reissue-item.ri5 .ri-badge{background:linear-gradient(135deg,#834d9b,#d04ed6);}
+  .reissue-item.ri6 .ri-num,
+  .reissue-item.ri6 .ri-badge{background:linear-gradient(135deg,#11998e,#38ef7d);}
+  .reissue-item.ri7 .ri-num,
+  .reissue-item.ri7 .ri-badge{background:linear-gradient(135deg,#fc5c7d,#6a82fb);}
+  .reissue-item.ri8 .ri-num,
+  .reissue-item.ri8 .ri-badge{background:linear-gradient(135deg,#f7971e,#ffd200);}
+  .reissue-item.ri9 .ri-num,
+  .reissue-item.ri9 .ri-badge{background:linear-gradient(135deg,#c3ec52,#0ba29d);}
+  .ri-col-label{display:none;}
+  .ri-date{color:var(--ink); font-weight:700; min-width:0; word-break:break-word;}
+  .reissue-item.first .ri-date{font-weight:700;}
+  .ri-ship{color:var(--sub); font-size:11.5px; font-weight:700; min-width:0; word-break:break-word;}
+  .ri-sep{color:var(--sub); font-size:10px; opacity:.5;}
   /* 详情页信息卡片网格 */
   .dcard-grid{display:grid; grid-template-columns:1fr 1fr; gap:9px; margin:6px 0 14px; align-items:stretch;}
   .dcard{background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; min-height:58px;}
   .dcard-label{font-size:11.5px; color:var(--sub); font-weight:600; letter-spacing:.2px; margin-bottom:5px;}
   .dcard-val{font-size:13.5px; color:var(--ink); line-height:1.5; word-break:break-word;}
-  .dcard-val .st-pill{display:inline-flex; align-items:center; gap:5px; padding:2.5px 11px; border-radius:99px; color:#fff; font-weight:700; font-size:12.5px; letter-spacing:.3px; vertical-align:middle;}
+  .dcard-val.status-val{display:flex; align-items:center; flex-wrap:nowrap; gap:4px; overflow:hidden; white-space:nowrap;}
+  .dcard-val .st-pill{display:inline-flex; align-items:center; gap:5px; padding:2.5px 8px; border-radius:99px; color:#fff; font-weight:700; font-size:11.5px; letter-spacing:.3px; vertical-align:middle; flex-shrink:0;}
   .dcard-val .st-pill.st-pre{background:#2f6fd8;}
   .dcard-val .st-pill.st-on{background:#1a9155;}
   .dcard-val .st-pill.st-soon{background:#c96f14;}
   .dcard-val .st-pill.st-shipped{background:#7c3aed;}
   .dcard-val .st-pill.st-end{background:#69737f;}
-  .dcard-val .st-pill-note{font-size:12.5px; color:var(--sub); margin-left:6px;}
+  .dcard-val .st-pill.st-reissue{background:#d6336c;}
+  .dcard-val .st-pill-note{font-size:11.5px; color:var(--sub); margin-left:2px; flex-shrink:0; overflow:hidden; text-overflow:ellipsis;}
   .dcard-empty{font-size:13px; color:var(--sub); opacity:.55;}
   /* 详情页原价大字 */
   .detail-price{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin:2px 0 15px;}
@@ -659,8 +702,9 @@
     <select id="fStatus" onchange="onStatusChange()" style="display:none">
       <option value="all">全部状态</option>
       <option value="预约中">预约中</option>
-      <option value="发售中">发售中</option>
+      <option value="再贩中">再贩中</option>
       <option value="待出荷">待出荷</option>
+      <option value="发售中">发售中</option>
       <option value="已出荷">已出荷</option>
       <option value="已结束">已结束</option>
     </select>
@@ -787,9 +831,10 @@
         <div class="field">
           <label>贩售状态</label>
           <select id="f_status">
-            <option>发售中</option>
             <option>预约中</option>
+            <option>再贩中</option>
             <option>待出荷</option>
+            <option>发售中</option>
             <option>已出荷</option>
             <option>已结束</option>
           </select>
@@ -801,6 +846,17 @@
         <div class="field">
           <label>预购时间</label>
           <input id="f_preorder" type="text" placeholder="予約受付中(Animate通販) 或 2026-08-17">
+        </div>
+        <div class="field">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <label style="margin:0;">🔄 再贩记录</label>
+            <label style="display:flex; align-items:center; gap:4px; font-size:10.5px; color:var(--sub); cursor:pointer; user-select:none;">
+              <input type="checkbox" id="reissueToggle" onchange="toggleReissueField(this.checked)" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
+              有再贩
+            </label>
+          </div>
+          <div id="reissueList" style="display:flex; flex-direction:column; gap:4px; margin-bottom:4px;"></div>
+          <button type="button" class="btn small" id="reissueAddBtn" onclick="addReissueRow()" style="display:none;">+ 添加再贩</button>
         </div>
         <div class="field">
           <label>原价</label>
@@ -43218,14 +43274,16 @@ const STATUS_CLS = {
   '发售中': 'st-on',
   '待出荷': 'st-soon',
   '已出荷': 'st-shipped',
-  '已结束': 'st-end'
+  '已结束': 'st-end',
+  '再贩中': 'st-reissue'
 };
 const STATUS_ICON = {
   '预约中': '⏰',
   '发售中': '✅',
   '待出荷': '⏳',
   '已出荷': '📦',
-  '已结束': '🏁'
+  '已结束': '🏁',
+  '再贩中': '🔄'
 };
 const TEAM_COLOR = {
   r1ze: 'var(--r1ze)',
@@ -44481,11 +44539,34 @@ function renderDetail() {
       '<div class="dcard-grid">' +
         dcard('所属系列', item.series) +
         dcard('发售平台', item.platform) +
-        dcard('预购时间', item.preorderDate) +
-        dcard('发售时间', item.releaseDate || '待补') +
+        '<div class="dcard" id="dcard-preorder"><div class="dcard-label">预购时间</div><div class="dcard-val" id="dval-preorder">' + (item.preorderDate ? esc(item.preorderDate) : '<span class="dcard-empty">—</span>') + '</div></div>' +
+        '<div class="dcard" id="dcard-release"><div class="dcard-label">发售时间</div><div class="dcard-val" id="dval-release">' + (item.releaseDate ? esc(item.releaseDate) : '<span class="dcard-empty">—</span>') + '</div></div>' +
         dcard('发货时间', item.shipDate) +
         dcard('当前状态', item.status || '发售中', true, item.statusJp) +
       '</div>' +
+      (item.reissues && item.reissues.length
+        ? '<div class="drow reissue-timeline">' +
+            '<div class="reissue-label"><div class="ri-main"><span>贩</span><span>售</span><span>履</span><span>历</span></div><div class="ri-hint"><span>点</span><span>击</span><span>切</span><span>换</span></div></div>' +
+            '<div class="reissue-tl">' +
+              '<div class="reissue-item first ri-active" onclick="switchReissue(this)" data-preorder="' + esc(item.preorderDate || '') + '" data-release="' + esc(item.releaseDate || '') + '">' +
+                '<span class="ri-num">1</span>' +
+                '<span class="ri-badge">初贩</span>' +
+                '<span class="ri-date">' + esc(item.preorderDate || '待补') + '</span>' +
+                '<span class="ri-sep">→</span>' +
+                '<span class="ri-ship">' + (item.releaseDate ? esc(item.releaseDate) : '待补') + '</span>' +
+              '</div>' +
+              item.reissues.map((r, i) => {
+                return '<div class="reissue-item ri' + ((i % 9) + 1) + '" onclick="switchReissue(this)" data-preorder="' + esc(r.releaseDate || '') + '" data-release="' + esc(r.shipDate || '') + '">' +
+                  '<span class="ri-num">' + (i + 2) + '</span>' +
+                  '<span class="ri-badge reissue">再贩</span>' +
+                  '<span class="ri-date">' + esc(r.releaseDate || '待补') + '</span>' +
+                  '<span class="ri-sep">→</span>' +
+                  '<span class="ri-ship">' + (r.shipDate ? esc(r.shipDate) : '待补') + '</span>' +
+                '</div>';
+              }).join('') +
+            '</div>' +
+          '</div>'
+        : '') +
       (charChipsHtml || allTag
         ? '<div class="dchar-block"><div class="dchar-label">关联角色</div><div class="dchar-chips">' + allTag + charChipsHtml + '</div></div>'
         : '') +
@@ -44502,6 +44583,18 @@ function renderDetail() {
   bindCarEvents();
 }
 
+function switchReissue(el) {
+  var tl = el.parentNode;
+  tl.querySelectorAll('.reissue-item').forEach(function(item) { item.classList.remove('ri-active'); });
+  el.classList.add('ri-active');
+  var preorder = el.dataset.preorder || '';
+  var release = el.dataset.release || '';
+  var preorderEl = document.getElementById('dval-preorder');
+  var releaseEl = document.getElementById('dval-release');
+  if (preorderEl) preorderEl.innerHTML = preorder ? esc(preorder) : '<span class="dcard-empty">—</span>';
+  if (releaseEl) releaseEl.innerHTML = release ? esc(release) : '<span class="dcard-empty">—</span>';
+}
+
 function dcard(label, val, isStatus, note) {
   let inner;
   if (isStatus) {
@@ -44511,7 +44604,7 @@ function dcard(label, val, isStatus, note) {
   } else {
     inner = val ? esc(val) : '<span class="dcard-empty">—</span>';
   }
-  return '<div class="dcard"><div class="dcard-label">' + label + '</div><div class="dcard-val">' + inner + '</div></div>';
+  return '<div class="dcard"><div class="dcard-label">' + label + '</div><div class="dcard-val' + (isStatus ? ' status-val' : '') + '">' + inner + '</div></div>';
 }
 
 function dcarScroll(dir) {
@@ -44601,6 +44694,7 @@ function editGoods(id) {
   document.getElementById('f_ship').value = item.shipDate || '';
   document.getElementById('f_desc').value = item.description || '';
   document.getElementById('f_noteHighlight').checked = !!item.noteHighlight;
+  loadReissues(item);
   document.getElementById('imgUrlInput').value = '';
 
   // 整合所有购买渠道到 shopLinks 列表中统一编辑
@@ -44668,6 +44762,61 @@ function clearForm() {
   document.getElementById('f_status').value = '预约中';
   document.getElementById('imgList').innerHTML = '';
   renderShopLinks([]);
+  document.getElementById('reissueToggle').checked = false;
+  document.getElementById('reissueList').innerHTML = '';
+  document.getElementById('reissueAddBtn').style.display = 'none';
+}
+
+let reissueCounter = 0;
+function toggleReissueField(checked) {
+  document.getElementById('reissueAddBtn').style.display = checked ? '' : 'none';
+  if (checked && document.getElementById('reissueList').children.length === 0) {
+    addReissueRow();
+  }
+  if (!checked) {
+    document.getElementById('reissueList').innerHTML = '';
+  }
+}
+function addReissueRow(data) {
+  reissueCounter++;
+  const id = reissueCounter;
+  const d = data || {};
+  const row = document.createElement('div');
+  row.className = 'reissue-row';
+  row.dataset.rid = id;
+  row.style.cssText = 'display:flex; gap:4px; align-items:center;';
+  row.innerHTML =
+    '<input type="text" class="reissue-release" placeholder="预约时间" value="' + (d.releaseDate || '') + '" style="flex:1; padding:5px 8px; border:1px solid var(--line); border-radius:6px; font-size:12px; background:var(--surface-3); color:var(--ink);">' +
+    '<input type="text" class="reissue-ship" placeholder="发售时间" value="' + (d.shipDate || '') + '" style="flex:1; padding:5px 8px; border:1px solid var(--line); border-radius:6px; font-size:12px; background:var(--surface-3); color:var(--ink);">' +
+    '<button type="button" class="btn small" onclick="removeReissueRow(this)" style="padding:4px 8px; font-size:11px; flex:none;">✕</button>';
+  document.getElementById('reissueList').appendChild(row);
+}
+function removeReissueRow(btn) {
+  btn.closest('.reissue-row').remove();
+}
+function getReissues() {
+  const rows = document.querySelectorAll('#reissueList .reissue-row');
+  const result = [];
+  rows.forEach(row => {
+    const r = row.querySelector('.reissue-release').value.trim();
+    const s = row.querySelector('.reissue-ship').value.trim();
+    if (r || s) result.push({ releaseDate: r || '', shipDate: s || '' });
+  });
+  return result;
+}
+function loadReissues(item) {
+  const toggle = document.getElementById('reissueToggle');
+  const addBtn = document.getElementById('reissueAddBtn');
+  const list = document.getElementById('reissueList');
+  list.innerHTML = '';
+  if (item.reissues && item.reissues.length) {
+    toggle.checked = true;
+    addBtn.style.display = '';
+    item.reissues.forEach(r => addReissueRow(r));
+  } else {
+    toggle.checked = false;
+    addBtn.style.display = 'none';
+  }
 }
 
 function renderCharSelect(selected, allTeams) {
@@ -44806,6 +44955,7 @@ function submitGoodsForm() {
     status,
     description: document.getElementById('f_desc').value.trim(),
     noteHighlight: document.getElementById('f_noteHighlight').checked || undefined,
+    reissues: getReissues().length ? getReissues() : undefined,
     image: pendingImgs[0] || '',
     imgs: pendingImgs.length ? [...pendingImgs] : undefined,
     shopLinks: shopLinksData.length ? shopLinksData : undefined,
