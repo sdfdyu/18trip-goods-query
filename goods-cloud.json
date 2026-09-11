@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-11T06:52:45.051Z",
+  "timestamp": "2026-09-11T07:20:12.333Z",
   "goods": [
     {
       "name": "アクリルステッキ／畔川 幾成×こぎみゅん　サンリオキャラクターズ",
@@ -76,7 +76,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -1332,7 +1332,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi",
+        "iwabuchi-daniel-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -1371,7 +1371,8 @@
           "id": 622
         }
       ],
-      "_activeVariant": "box"
+      "_activeVariant": "box",
+      "isCollab": false
     },
     {
       "id": 268,
@@ -1510,7 +1511,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -4628,7 +4629,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi",
+        "iwabuchi-daniel-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -4667,7 +4668,8 @@
           "id": 620
         }
       ],
-      "_activeVariant": "box"
+      "_activeVariant": "box",
+      "isCollab": false
     },
     {
       "id": 309,
@@ -8949,7 +8951,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi",
+        "iwabuchi-daniel-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -8978,7 +8980,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 847,
@@ -14320,7 +14323,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -14604,7 +14607,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
@@ -16209,7 +16212,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -18492,7 +18495,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi",
+        "iwabuchi-daniel-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -18517,7 +18520,8 @@
           "url": "https://eeo.today/store/101/title/5345"
         }
       ],
-      "eeoUrl": "https://eeo.today/store/101/title/5345"
+      "eeoUrl": "https://eeo.today/store/101/title/5345",
+      "isCollab": false
     },
     {
       "id": 1879,
@@ -20311,7 +20315,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -20338,7 +20342,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 1656,
@@ -21226,12 +21231,11 @@
       "category": "拍立得",
       "series": "HAMAツアーズ全体会議",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001546",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -21240,7 +21244,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/1591002025_1.png"
+      "image": "https://canime.jp/upload/product/1591002025_1.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/1591002025_1.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001546"
+        }
+      ]
     },
     {
       "id": 562,
@@ -25781,22 +25796,35 @@
       "category": "贴纸",
       "series": "ドットイラスト",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年5月30日",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00133/",
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00133/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/"
+        }
+      ]
     },
     {
       "id": 485,
@@ -25889,22 +25917,35 @@
       "category": "徽章吧唧",
       "series": "ドットイラスト",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00143/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00143/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/"
+        }
+      ]
     },
     {
       "id": 257,
@@ -30906,22 +30947,35 @@
       "category": "贴纸",
       "series": "その他",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月3日",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E7%A7%B0%E5%8F%B7%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB/pd/3356740/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00105/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00105/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 371,
@@ -35145,7 +35199,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi",
+        "iwabuchi-daniel-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -35174,7 +35228,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 819,
@@ -35288,21 +35343,30 @@
       "category": "亚克力挂件",
       "series": "その他",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年2月下旬",
       "shipDate": "発売日より順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%81%86%E3%81%A1%E3%82%8F%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC+Part4+%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB/pd/3334315/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+        }
+      ]
     },
     {
       "id": 284,
@@ -36227,7 +36291,7 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -41327,16 +41391,14 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305219/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305219/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
@@ -41351,7 +41413,8 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/pd/3305219/"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 106,
@@ -44239,7 +44302,7 @@
       "category": "亚克力立牌",
       "series": "定番グッズ vol.11",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -44980,7 +45043,7 @@
       "category": "亚克力立牌",
       "series": "定番グッズ vol.10",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -45079,7 +45142,7 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -47063,7 +47126,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-hiroshi"
+        "iwabuchi-daniel-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
