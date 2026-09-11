@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-08T16:28:28.408Z",
+  "timestamp": "2026-09-11T06:52:45.051Z",
   "goods": [
     {
       "name": "アクリルステッキ／畔川 幾成×こぎみゅん　サンリオキャラクターズ",
@@ -1361,14 +1361,14 @@
       "variantPairId": 865,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 622
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 865
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 622
         }
       ],
       "_activeVariant": "box"
@@ -4657,14 +4657,14 @@
       "variantPairId": 1881,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 620
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 1881
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 620
         }
       ],
       "_activeVariant": "box"
@@ -9763,14 +9763,14 @@
       "variantPairId": 622,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 622
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 865
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 622
         }
       ],
       "_activeVariant": "blind",
@@ -10774,14 +10774,14 @@
       "variantPairId": 613,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 614
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 613
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 614
         }
       ],
       "_activeVariant": "box"
@@ -11599,14 +11599,14 @@
       "variantPairId": 620,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 620
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 1881
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 620
         }
       ],
       "_activeVariant": "blind",
@@ -18667,14 +18667,14 @@
       "variantPairId": 614,
       "_variants": [
         {
-          "type": "box",
-          "label": "抱盒",
-          "id": 614
-        },
-        {
           "type": "blind",
           "label": "盲抽",
           "id": 613
+        },
+        {
+          "type": "box",
+          "label": "抱盒",
+          "id": 614
         }
       ],
       "_activeVariant": "blind",
@@ -23540,16 +23540,31 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/",
       "price": "1,848 円(税込)",
-      "preorderDate": "予約受付中",
-      "releaseDate": "2026年11月28日",
+      "preorderDate": "2024年9月13日",
+      "releaseDate": "2024年11月30日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/",
-      "status": "预约中",
+      "status": "再贩中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "reissues": [
+        {
+          "releaseDate": "2026年8月26日",
+          "shipDate": "2026年11月28日"
+        }
+      ],
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/"
+        }
+      ]
     },
     {
       "id": 948,
