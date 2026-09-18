@@ -1,7 +1,75 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-11T07:20:12.333Z",
+  "timestamp": "2026-09-18T05:25:46.134Z",
   "goods": [
+    {
+      "name": "18TRIP みにコレ！ふわもこポーチコレクション(夕班)",
+      "nameCn": "18TRIP 迷你收藏！制服蓬松小袋收藏(夕班)",
+      "category": "日常杂货",
+      "isStage": false,
+      "isCollab": false,
+      "series": "みにコレ！蓬松小袋扭蛋",
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "SK JAPAN 扭蛋",
+      "price": "500円(税込)/回",
+      "preorderDate": "",
+      "releaseDate": "2026年9月24日",
+      "shipDate": "",
+      "status": "预约中",
+      "description": "扭蛋/全6种/500円/回 全国游戏中心扭蛋机",
+      "image": "https://pbs.twimg.com/media/HQxbAPdbwAAZTDr?format=jpg&name=medium",
+      "imgs": [
+        "https://pbs.twimg.com/media/HQxbAPdbwAAZTDr?format=jpg&name=medium"
+      ],
+      "id": 1789622378821
+    },
+    {
+      "name": "18TRIP True wireless earphones ANIMA AOWO4 ワイヤレスイヤホン(全20種)",
+      "nameCn": "18TRIP×onkyo direct联动蓝牙无线耳机",
+      "category": "日常杂货",
+      "isStage": false,
+      "isCollab": true,
+      "series": "ワイヤレスイヤホン wireless earphones",
+      "characters": [],
+      "allTeams": true,
+      "teamScope": 20,
+      "platform": "onkyo direct",
+      "price": "各18,000 円(税・送料込)",
+      "preorderDate": "2025年5月27日",
+      "releaseDate": "2025年5月27日～7月23日",
+      "shipDate": "",
+      "status": "再贩中",
+      "description": "受注販売：2026年9月18日(金)15:00～10月20日(火)15:00",
+      "noteHighlight": true,
+      "reissues": [
+        {
+          "releaseDate": "2026年9月18日",
+          "shipDate": "2026年10月20日"
+        }
+      ],
+      "image": "https://pbs.twimg.com/media/HSY-MhZbkAAA3ue?format=jpg&name=large",
+      "imgs": [
+        "https://pbs.twimg.com/media/HSY-MhZbkAAA3ue?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HSY-MihbwAAcMlR?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HSY-MiNaoAAXXx4?format=jpg&name=large"
+      ],
+      "shopLinks": [
+        {
+          "name": "onkyo direct",
+          "url": "https://onkyodirect.jp/shop/pages/18TRIP2.aspx"
+        }
+      ],
+      "platformUrl": "https://onkyodirect.jp/shop/pages/18TRIP2.aspx",
+      "id": 1789621641819
+    },
     {
       "name": "アクリルステッキ／畔川 幾成×こぎみゅん　サンリオキャラクターズ",
       "nameCn": "三丽鸥亚克力魔法棒 畔川几成×小麦云",
@@ -76,7 +144,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -1332,7 +1400,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi",
+        "iwabuchi-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -1371,8 +1439,7 @@
           "id": 622
         }
       ],
-      "_activeVariant": "box",
-      "isCollab": false
+      "_activeVariant": "box"
     },
     {
       "id": 268,
@@ -1511,7 +1578,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -2987,7 +3054,7 @@
     {
       "id": 349,
       "name": "クッション／大黒 可不可",
-      "nameCn": "抱枕 大黑可不可",
+      "nameCn": "磁带抱枕 大黑可不可",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -2996,17 +3063,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3558314/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3558314/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00002/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760907_1_1785755107.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00002/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%A4%A7%E9%BB%92+%E5%8F%AF%E4%B8%8D%E5%8F%AF/pd/3558314/"
+        }
+      ]
     },
     {
       "id": 1053,
@@ -3156,8 +3236,8 @@
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
       "price": "880 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
@@ -4629,7 +4709,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi",
+        "iwabuchi-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -4668,8 +4748,7 @@
           "id": 620
         }
       ],
-      "_activeVariant": "box",
-      "isCollab": false
+      "_activeVariant": "box"
     },
     {
       "id": 309,
@@ -8951,7 +9030,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi",
+        "iwabuchi-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -8980,8 +9059,7 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ],
-      "isCollab": false
+      ]
     },
     {
       "id": 847,
@@ -14323,7 +14401,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -14607,7 +14685,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販) + Movic",
@@ -15695,7 +15773,7 @@
     {
       "id": 350,
       "name": "クッション／叢雲 添",
-      "nameCn": "抱枕 丛云添",
+      "nameCn": "磁带抱枕 丛云添",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -15704,17 +15782,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3558315/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3558315/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00003/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760914_1_1785755123.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00003/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E5%8F%A2%E9%9B%B2+%E6%B7%BB/pd/3558315/"
+        }
+      ]
     },
     {
       "id": 125,
@@ -16212,7 +16303,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -18495,7 +18586,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi",
+        "iwabuchi-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -18520,8 +18611,7 @@
           "url": "https://eeo.today/store/101/title/5345"
         }
       ],
-      "eeoUrl": "https://eeo.today/store/101/title/5345",
-      "isCollab": false
+      "eeoUrl": "https://eeo.today/store/101/title/5345"
     },
     {
       "id": 1879,
@@ -19226,7 +19316,7 @@
     {
       "id": 353,
       "name": "クッション／五十竹 あく太",
-      "nameCn": "抱枕 五十竹芥太",
+      "nameCn": "磁带抱枕 五十竹芥太",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -19235,17 +19325,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3558318/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3558318/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00006/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760945_1_1785755118.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00006/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E4%BA%94%E5%8D%81%E7%AB%B9+%E3%81%82%E3%81%8F%E5%A4%AA/pd/3558318/"
+        }
+      ]
     },
     {
       "id": 355,
@@ -20315,7 +20418,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -20342,8 +20445,7 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ],
-      "isCollab": false
+      ]
     },
     {
       "id": 1656,
@@ -21231,11 +21333,12 @@
       "category": "拍立得",
       "series": "HAMAツアーズ全体会議",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
+      "platformUrl": "https://canime.jp/product/BRZG000001546",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -21244,18 +21347,7 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/1591002025_1.png",
-      "isStage": false,
-      "isCollab": false,
-      "imgs": [
-        "https://canime.jp/upload/product/1591002025_1.png"
-      ],
-      "shopLinks": [
-        {
-          "name": "官方",
-          "url": "https://canime.jp/product/BRZG000001546"
-        }
-      ]
+      "image": "https://canime.jp/upload/product/1591002025_1.png"
     },
     {
       "id": 562,
@@ -23555,31 +23647,16 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/",
       "price": "1,848 円(税込)",
-      "preorderDate": "2024年9月13日",
-      "releaseDate": "2024年11月30日",
+      "preorderDate": "予約受付中",
+      "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "status": "再贩中",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/",
+      "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1",
-      "isStage": false,
-      "isCollab": false,
-      "reissues": [
-        {
-          "releaseDate": "2026年8月26日",
-          "shipDate": "2026年11月28日"
-        }
-      ],
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
-      ],
-      "shopLinks": [
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97%E3%80%9118TRIP+%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97/%E3%81%97%E3%82%85%E3%81%86%E3%81%BE%E3%81%84%E3%80%90%E5%86%8D%E8%B2%A9%E3%80%91/pd/3571160/"
-        }
-      ]
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191256_6a852988a1487.jpg&width=400&height=400&square=1"
     },
     {
       "id": 948,
@@ -25768,7 +25845,7 @@
     {
       "id": 352,
       "name": "クッション／鹿 礼光",
-      "nameCn": "抱枕 鹿礼光",
+      "nameCn": "磁带抱枕 鹿礼光",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -25777,17 +25854,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3558317/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3558317/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00005/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760938_1_1785755127.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00005/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E9%B9%BF+%E7%A4%BC%E5%85%89/pd/3558317/"
+        }
+      ]
     },
     {
       "id": 175,
@@ -25796,35 +25886,22 @@
       "category": "贴纸",
       "series": "ドットイラスト",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/",
       "price": "550 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "2026年5月30日",
       "shipDate": "順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00133/",
       "status": "发售中",
       "statusJp": "残りわずか",
       "description": "Animate(オンライン通販)状況:残りわずか(仅剩少量库存)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630",
-      "isStage": false,
-      "isCollab": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630"
-      ],
-      "shopLinks": [
-        {
-          "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00340-00133/"
-        },
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3431118/"
-        }
-      ]
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621626166_1_1773918309.jpg&width=1200&height=630"
     },
     {
       "id": 485,
@@ -25917,35 +25994,22 @@
       "category": "徽章吧唧",
       "series": "ドットイラスト",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
+      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/",
       "price": "715 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00143/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630",
-      "isStage": false,
-      "isCollab": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630"
-      ],
-      "shopLinks": [
-        {
-          "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00603-00143/"
-        },
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%83%81%E3%80%9118TRIP+%E3%81%8A%E5%90%8D%E5%89%8D%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB%E3%80%80%E3%83%89%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/pd/3564710/"
-        }
-      ]
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621695292_1_1786359905.jpg&width=1200&height=630"
     },
     {
       "id": 257,
@@ -28426,7 +28490,7 @@
     {
       "id": 348,
       "name": "クッション／西園 練牙",
-      "nameCn": "抱枕 西园练牙",
+      "nameCn": "磁带抱枕 西园练牙",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -28435,17 +28499,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3558313/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3558313/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00001/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760891_1_1785755113.jpg&width=400&height=400&square=1"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00001/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E8%A5%BF%E5%9C%92+%E7%B7%B4%E7%89%99/pd/3558313/"
+        }
+      ]
     },
     {
       "id": 1106,
@@ -30947,35 +31024,22 @@
       "category": "贴纸",
       "series": "その他",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
+      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "385円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年4月3日",
       "shipDate": "発売日より順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%80%9118TRIP+%E7%A7%B0%E5%8F%B7%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%EF%BC%8F%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB/pd/3356740/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00105/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1",
-      "isStage": false,
-      "isCollab": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1"
-      ],
-      "shopLinks": [
-        {
-          "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00340-00105/"
-        },
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
-        }
-      ]
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621560828_1_1766117113.jpg&width=400&height=400&square=1"
     },
     {
       "id": 371,
@@ -34276,7 +34340,7 @@
     {
       "id": 351,
       "name": "クッション／神名 雪風",
-      "nameCn": "抱枕 神名雪风",
+      "nameCn": "磁带抱枕 神名雪风",
       "category": "日常杂货",
       "series": "18TRIP グッズ",
       "characters": [
@@ -34285,17 +34349,30 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販) + Movic",
-      "platformUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3558316/",
       "price": "2,750 円(税込)",
       "preorderDate": "予約受付中",
       "releaseDate": "2026年11月28日",
       "shipDate": "発売日以降、順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3558316/",
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00243-00004/",
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Animate(オンライン通販)状況:予約受付中(预约受理中)",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630"
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621760921_1_1785755107.jpg&width=1200&height=630"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00243-00004/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%9118TRIP+%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%8F%E7%A5%9E%E5%90%8D+%E9%9B%AA%E9%A2%A8/pd/3558316/"
+        }
+      ]
     },
     {
       "id": 1029,
@@ -35199,7 +35276,7 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi",
+        "iwabuchi-hiroshi",
         "hamasaki-momiji",
         "hamasaki-kaede"
       ],
@@ -35228,8 +35305,7 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
         }
-      ],
-      "isCollab": false
+      ]
     },
     {
       "id": 819,
@@ -35343,30 +35419,21 @@
       "category": "亚克力挂件",
       "series": "その他",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/animetitle/?aid=18970",
       "price": "880円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年2月下旬",
       "shipDate": "発売日より順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%9118TRIP+%E3%81%86%E3%81%A1%E3%82%8F%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC+Part4+%E5%B2%A9%E6%B8%95+%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB+%E6%AF%94%E5%91%82%E5%A3%AB/pd/3334315/",
       "status": "已结束",
       "statusJp": "販売終了",
       "description": "その他",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1",
-      "isStage": false,
-      "isCollab": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1"
-      ],
-      "shopLinks": [
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
-        }
-      ]
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4522776279702_1_1764327925.jpg&width=400&height=400&square=1"
     },
     {
       "id": 284,
@@ -36291,7 +36358,7 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -38182,7 +38249,7 @@
           "id": 2207
         }
       ],
-      "_activeVariant": "blind"
+      "_activeVariant": "box"
     },
     {
       "id": 1312,
@@ -41391,14 +41458,16 @@
         "natsume-yodaka",
         "yowa-kotaro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
+      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305219/",
       "price": "880 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
+      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305219/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
@@ -41413,8 +41482,7 @@
           "name": "Animate",
           "url": "https://www.animate-onlineshop.jp/pd/3305219/"
         }
-      ],
-      "isCollab": false
+      ]
     },
     {
       "id": 106,
@@ -44302,7 +44370,7 @@
       "category": "亚克力立牌",
       "series": "定番グッズ vol.11",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -45043,7 +45111,7 @@
       "category": "亚克力立牌",
       "series": "定番グッズ vol.10",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -45142,7 +45210,7 @@
       "category": "亚克力立牌",
       "series": "その他",
       "characters": [
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -47126,7 +47194,7 @@
         "fuefuki-yachiyo",
         "karigane-sakujiro",
         "kitakata-nayuki",
-        "iwabuchi-daniel-hiroshi"
+        "iwabuchi-hiroshi"
       ],
       "allTeams": false,
       "teamScope": 0,
@@ -51393,29 +51461,36 @@
       "id": 2266,
       "name": "18TRIP みにコレ！しゅうまいふわもこポーチコレクション(昼班)",
       "nameCn": "18TRIP 迷你收藏！制服蓬松小袋收藏(昼班)",
-      "category": "收纳·包袋",
+      "category": "",
       "series": "みにコレ！蓬松小袋扭蛋",
-      "characters": [
-        "igarashi-akuta",
-        "kinugawa-sueoke",
-        "nanaki-nanamoto",
-        "kagaya-soshi",
-        "kurama-mashio"
-      ],
+      "characters": [],
       "allTeams": false,
-      "teamScope": 1,
+      "teamScope": 0,
       "platform": "SK JAPAN 扭蛋",
-      "platformUrl": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripr1ze",
-      "skJapanUrl": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripday2",
+      "skJapanUrl": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripr1ze",
       "price": "500円(税込)/回",
       "preorderDate": "",
       "releaseDate": "2026年8月",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripday2",
-      "status": "已发售",
+      "status": "发售中",
       "statusJp": "",
       "description": "扭蛋/全6种/500円/回 全国游戏中心扭蛋机",
-      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_ふわもこポーチコレクション_2_昼班_DPPOP_0727_キャラとる-scaled.jpg"
+      "image": "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_ふわもこポーチコレクション_2_昼班_DPPOP_0727_キャラとる-scaled.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://www.sk-japan.co.jp/wp-content/uploads/2026/08/18TRIP_ふわもこポーチコレクション_2_昼班_DPPOP_0727_キャラとる-scaled.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripday2"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/capsule-toy/archive/2608-18tripr1ze"
+        }
+      ]
     },
     {
       "id": 2267,
