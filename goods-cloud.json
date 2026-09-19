@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-19T15:42:23.687Z",
+  "timestamp": "2026-09-19T15:53:34.156Z",
   "goods": [
     {
       "name": "18TRIP みにコレ！ふわもこポーチコレクション(夕班)",
@@ -4640,37 +4640,6 @@
       "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4550621588679_1_1773374720.jpg&width=400&height=400&square=1"
     },
     {
-      "id": 1785,
-      "name": "【ポイント還元版(20%)・特典なし】【カセット】アプリゲーム 18TRIP Cassette #14 ‘What’s good?’",
-      "nameCn": "磁带 #14",
-      "category": "磁带/CD",
-      "series": "Cassette シリーズ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 22,
-      "platform": "Animate(オンライン通販)",
-      "canimeUrl": "https://canime.jp/product/PCTG000000314/",
-      "price": "8,800円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2026年11月25日",
-      "shipDate": "発売日より順次発送",
-      "status": "待出荷",
-      "statusJp": "発売日以降出荷",
-      "description": "Cassette シリーズ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952aea10eac.jpg&width=400&height=400&square=1",
-      "isStage": false,
-      "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952aea10eac.jpg&width=400&height=400&square=1"
-      ],
-      "shopLinks": [
-        {
-          "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
-        }
-      ],
-      "isCollab": false
-    },
-    {
       "id": 1681,
       "name": "18TRIP キャラバッジコレクション/vol.2 朝班・昼班",
       "nameCn": "初始SR花后吧唧 vol.2 (朝班昼班)",
@@ -7923,7 +7892,7 @@
       "characters": [],
       "allTeams": true,
       "teamScope": 22,
-      "platform": "Animate(オンライン通販)",
+      "platform": "Animate、amazon、canime、gamers、rakuten",
       "price": "8,800円(税込)",
       "preorderDate": "",
       "releaseDate": "2026年11月25日",
@@ -7931,15 +7900,31 @@
       "status": "预约中",
       "statusJp": "予約受付中",
       "description": "Cassette シリーズ",
-      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952ad09fd6e.jpg&width=400&height=400&square=1",
+      "image": "https://18trip.jp/wp-content/uploads/2026/08/260713_18trip_cassette14_KV_RGB-1448x2048.jpg",
       "isStage": false,
       "imgs": [
-        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02181158_69952ad09fd6e.jpg&width=400&height=400&square=1"
+        "https://18trip.jp/wp-content/uploads/2026/08/260713_18trip_cassette14_KV_RGB-1448x2048.jpg"
       ],
       "shopLinks": [
         {
           "name": "Animate",
-          "url": "https://www.animate-onlineshop.jp/animetitle/?aid=18970"
+          "url": "https://www.animate-onlineshop.jp/pn/pd/3403822/"
+        },
+        {
+          "name": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B0GNZ46W73?tag=digitalaudio_roppongi08-22&ie=UTF8&linkCode=as2&ascsubtag=88a37ccaaa499b4f7c1f33b706e58bfd&ref=dmm_acq_soc_jp_u_lfire_lp_x_88a37ccaaa499b4f7c1f33b706e58bfd"
+        },
+        {
+          "name": "canime",
+          "url": "https://canime.jp/product/PCTG000000314/"
+        },
+        {
+          "name": "gamers",
+          "url": "https://www.gamers.co.jp/pn/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%80%9118TRIP+Cassette+%2314+%E2%80%98What%E2%80%99s+good%3F%E2%80%99%28%E3%82%AB%E3%82%BB%E3%83%83%E3%83%88%29/pd/10875902/"
+        },
+        {
+          "name": "rakuten",
+          "url": "https://books.rakuten.co.jp/rb/18538343/?l-id=search-c-item-img-01"
         }
       ],
       "isCollab": false
@@ -8635,24 +8620,24 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
+      "price": "1,100 円(税込)",
       "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://canime.jp/product/BRZG000001553",
+      "officialUrl": "https://18trip.jp/event/1195/",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001553.png",
+      "image": "https://18trip.jp/wp-content/uploads/2025/03/18trip_hamatours_meeting_goods_sample-32-scaled.jpg",
       "isStage": false,
       "isCollab": false,
       "imgs": [
-        "https://canime.jp/upload/product/BRZG000001553.png"
+        "https://18trip.jp/wp-content/uploads/2025/03/18trip_hamatours_meeting_goods_sample-32-scaled.jpg"
       ],
       "shopLinks": [
         {
           "name": "官方",
-          "url": "https://canime.jp/product/BRZG000001553"
+          "url": "https://18trip.jp/event/1195/"
         }
       ]
     },
@@ -13196,22 +13181,22 @@
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "800 円(税込)",
       "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://canime.jp/product/BRZG000001554",
+      "officialUrl": "https://18trip.jp/event/1195/",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001554.png",
+      "image": "https://18trip.jp/wp-content/uploads/2025/03/18trip_hamatours_meeting_goods_sample-33-scaled.jpg",
       "isStage": false,
       "isCollab": false,
       "imgs": [
-        "https://canime.jp/upload/product/BRZG000001554.png"
+        "https://18trip.jp/wp-content/uploads/2025/03/18trip_hamatours_meeting_goods_sample-33-scaled.jpg"
       ],
       "shopLinks": [
         {
           "name": "官方",
-          "url": "https://canime.jp/product/BRZG000001554"
+          "url": "https://18trip.jp/event/1195/"
         }
       ]
     },
@@ -14495,8 +14480,8 @@
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "price": "10,560 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
@@ -16034,9 +16019,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
+      "price": "2750 円(税込)",
       "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001552",
       "status": "已结束",
@@ -19050,9 +19035,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,100 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001550",
       "status": "已结束",
@@ -22605,8 +22590,8 @@
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "price": "6,600 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
@@ -27154,8 +27139,8 @@
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "400 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001556",
       "status": "已结束",
@@ -32577,8 +32562,8 @@
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "price": "10,560 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
