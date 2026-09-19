@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-09-18T05:25:46.134Z",
+  "timestamp": "2026-09-19T15:42:23.687Z",
   "goods": [
     {
       "name": "18TRIP みにコレ！ふわもこポーチコレクション(夕班)",
@@ -1228,8 +1228,8 @@
       "allTeams": false,
       "platform": "Animate(オンライン通販)",
       "price": "550 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
@@ -1896,9 +1896,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001571",
       "status": "已结束",
@@ -1914,6 +1914,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001571"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -2274,9 +2280,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001576",
       "status": "已结束",
@@ -2292,6 +2298,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001576"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -6001,7 +6013,7 @@
     {
       "id": 550,
       "name": "Good Luck アクリルスタンド／畔川 幾成",
-      "nameCn": "全体会议 立牌 畔川几成",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 畔川几成",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -6010,16 +6022,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001578",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001578",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001578.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001578.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001578.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001578"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 1806,
@@ -6619,8 +6647,8 @@
       "teamScope": 0,
       "platform": "Animate(オンライン通販)",
       "price": "990 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "发售日未定",
+      "preorderDate": "2026年01月04日",
+      "releaseDate": "2026年03月中",
       "shipDate": "順次発送",
       "status": "已结束",
       "statusJp": "在庫なし",
@@ -7136,7 +7164,7 @@
     {
       "id": 548,
       "name": "Good Luck アクリルスタンド／木ノ内 太緒",
-      "nameCn": "全体会议 立牌 木之内太绪",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 木之内太绪",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -7145,16 +7173,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001580",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001580",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001580.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001580.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001580.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001580"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 877,
@@ -7704,8 +7748,8 @@
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "1,650 円(税込)",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001567",
       "status": "已结束",
@@ -7721,6 +7765,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001567"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -8224,7 +8274,7 @@
     {
       "id": 542,
       "name": "Good Luck アクリルスタンド／夜半 子タろ",
-      "nameCn": "全体会议 立牌 夜半子太郎",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 夜半子太郎",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -8233,16 +8283,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001586",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001586",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001586.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001586.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001586.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001586"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 1602,
@@ -11311,7 +11377,7 @@
       "id": 566,
       "name": "ミニキャラブロマイド【全24種／ランダム2枚入り】",
       "nameCn": "全体会议QQ人相卡/西装QQ人相卡",
-      "category": "相卡",
+      "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
       "allTeams": true,
@@ -11319,9 +11385,9 @@
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "400 円(税込)",
       "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
-      "officialUrl": "https://canime.jp/product/BRZG000001559",
+      "officialUrl": "https://18trip.jp/event/1032/",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
@@ -11334,7 +11400,7 @@
       "shopLinks": [
         {
           "name": "官方",
-          "url": "https://canime.jp/product/BRZG000001559"
+          "url": "https://18trip.jp/event/1032/"
         }
       ]
     },
@@ -12334,7 +12400,7 @@
     {
       "id": 547,
       "name": "Good Luck アクリルスタンド／百目鬼 潜",
-      "nameCn": "全体会议 立牌 百目鬼潜",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 百目鬼潜",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -12343,16 +12409,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001581",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001581",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001581.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001581.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001581.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001581"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 497,
@@ -13145,9 +13227,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001575",
       "status": "已结束",
@@ -13163,6 +13245,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001575"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -15591,7 +15679,7 @@
     {
       "id": 546,
       "name": "Good Luck アクリルスタンド／蜂乃屋 凪",
-      "nameCn": "全体会议 立牌 蜂乃屋凪",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 蜂乃屋凪",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -15600,16 +15688,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001582",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001582",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001582.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001582.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001582.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001582"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 152,
@@ -16271,10 +16375,9 @@
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
       "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001599",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
@@ -16283,7 +16386,15 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": ""
+      "image": "",
+      "isStage": false,
+      "isCollab": false,
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001599"
+        }
+      ]
     },
     {
       "id": 568,
@@ -16341,9 +16452,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001574",
       "status": "已结束",
@@ -16359,6 +16470,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001574"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -18923,11 +19040,16 @@
       "nameCn": "全体会议 周边",
       "category": "日常杂货",
       "series": "HAMAツアーズ全体会議",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "isotake-akuta",
+        "kitakata-raito",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001550",
       "price": "価格未定",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "4月上旬以降、順次発送予定",
@@ -18936,7 +19058,18 @@
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/BRZG000001550.png"
+      "image": "https://canime.jp/upload/product/BRZG000001550.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/BRZG000001550.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001550"
+        }
+      ]
     },
     {
       "id": 960,
@@ -21705,14 +21838,14 @@
       "teamScope": 24,
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "事前限定发售",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "preorderDate": "2025年2月8日-2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001558",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "",
+      "image": "https://pbs.twimg.com/media/HRb6NlJa0AAs6WE?format=png&name=900x900",
       "isStage": false,
       "isCollab": false,
       "shopLinks": [
@@ -21720,12 +21853,17 @@
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001558"
         }
+      ],
+      "imgs": [
+        "https://pbs.twimg.com/media/HRb6NlJa0AAs6WE?format=png&name=900x900",
+        "https://pbs.twimg.com/media/GjQNCx3bAAAwrLn?format=jpg&name=4096x4096",
+        "https://pbs.twimg.com/media/GjQNSEpasAACB4J?format=jpg&name=small"
       ]
     },
     {
       "id": 549,
       "name": "Good Luck アクリルスタンド／夏焼 千弥",
-      "nameCn": "全体会议 立牌 夏烧千弥",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 夏烧千弥",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -21734,16 +21872,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001579",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001579",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001579.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001579.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001579.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001579"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 956,
@@ -22433,20 +22587,42 @@
       "nameCn": "吧唧 第2弹 全套",
       "category": "徽章吧唧",
       "series": "まねきねこコラボ",
-      "characters": [],
-      "allTeams": true,
-      "teamScope": 20,
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio",
+        "fuefuki-yachiyo",
+        "karigane-sakujiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
       "platform": "Animate(オンライン通販)",
-      "platformUrl": "https://www.animate-onlineshop.jp/pd/3305214/",
       "price": "6,600 円(税込)",
       "preorderDate": "予約終了(已发售)",
       "releaseDate": "发售日未定",
       "shipDate": "順次発送",
-      "officialUrl": "https://www.animate-onlineshop.jp/pd/3305214/",
       "status": "已结束",
       "statusJp": "在庫なし",
       "description": "Animate(オンライン通販)状況:在庫なし(已结束)",
-      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898699_1_1762920309.jpg"
+      "image": "https://tc-animate.techorus-cdn.com/upload/save_image/10898699_1_1762920309.jpg",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/upload/save_image/10898699_1_1762920309.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3305214/"
+        }
+      ]
     },
     {
       "id": 1771,
@@ -22528,9 +22704,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001570",
       "status": "已结束",
@@ -22546,6 +22722,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001570"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -27333,9 +27515,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001568",
       "status": "已结束",
@@ -27351,6 +27533,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001568"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -30163,7 +30351,7 @@
       "platform": "きゃにめ / ポニーキャニオン",
       "price": "990 円(税込)",
       "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001562",
       "status": "已结束",
@@ -30513,7 +30701,7 @@
     {
       "id": 544,
       "name": "Good Luck アクリルスタンド／白光 琉衣",
-      "nameCn": "全体会议 立牌 白光琉衣",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 白光琉衣",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -30522,16 +30710,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001584",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001584",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001584.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001584.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001584.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001584"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 559,
@@ -30545,9 +30749,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001569",
       "status": "已结束",
@@ -30563,6 +30767,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001569"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -32316,9 +32526,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001573",
       "status": "已结束",
@@ -32334,6 +32544,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001573"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -35666,9 +35882,9 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001572",
       "status": "已结束",
@@ -35684,6 +35900,12 @@
         {
           "name": "官方",
           "url": "https://canime.jp/product/BRZG000001572"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
         }
       ]
     },
@@ -36025,7 +36247,7 @@
     {
       "id": 551,
       "name": "Good Luck アクリルスタンド／北片 來人",
-      "nameCn": "全体会议 立牌 北片来人",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 北片来人",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -36034,16 +36256,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001577",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001577",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001577.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001577.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001577.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001577"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 1733,
@@ -38249,7 +38487,7 @@
           "id": 2207
         }
       ],
-      "_activeVariant": "box"
+      "_activeVariant": "blind"
     },
     {
       "id": 1312,
@@ -38382,7 +38620,7 @@
     {
       "id": 545,
       "name": "Good Luck アクリルスタンド／白光 糖衣",
-      "nameCn": "全体会议 立牌 白光糖衣",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 白光糖衣",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -38391,16 +38629,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001583",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001583",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001583.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001583.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001583.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001583"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 264,
@@ -40943,7 +41197,7 @@
     {
       "id": 543,
       "name": "Good Luck アクリルスタンド／棗 夜鷹",
-      "nameCn": "全体会议 立牌 枣夜鹰",
+      "nameCn": "全体会议全身立牌/Good Luck全身立牌 枣夜鹰",
       "category": "亚克力立牌",
       "series": "HAMAツアーズ全体会議",
       "characters": [
@@ -40952,16 +41206,32 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ / ポニーキャニオン",
-      "platformUrl": "https://canime.jp/product/BRZG000001585",
-      "price": "価格未定",
-      "preorderDate": "予約終了(已发售)",
-      "releaseDate": "4月上旬以降、順次発送予定",
+      "price": "1,650 円(税込)",
+      "preorderDate": "2025年2月8日〜2月11日",
+      "releaseDate": "2025年4月上旬",
       "shipDate": "順次発送",
       "officialUrl": "https://canime.jp/product/BRZG000001585",
       "status": "已结束",
       "statusJp": "受注終了",
       "description": "きゃにめ状況:受注終了(已结束)",
-      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001585.png"
+      "image": "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001585.png",
+      "isStage": false,
+      "isCollab": false,
+      "imgs": [
+        "https://canime.jp/upload/product/きゃにめ商品画像）-BRZG000001585.png"
+      ],
+      "shopLinks": [
+        {
+          "name": "官方",
+          "url": "https://canime.jp/product/BRZG000001585"
+        }
+      ],
+      "reissues": [
+        {
+          "releaseDate": "2026年3月25日〜4月1日",
+          "shipDate": "2026年7月下旬"
+        }
+      ]
     },
     {
       "id": 939,
@@ -53688,7 +53958,7 @@
       "id": 2357,
       "name": "18TRIP Good Luck しゅうまいネックピロー",
       "nameCn": "日用品·Good Luck",
-      "category": "",
+      "category": "日常杂货",
       "series": "Good Luck 系列",
       "characters": [
         "shumai"
@@ -53702,7 +53972,7 @@
       "preorderDate": "",
       "releaseDate": "2025/3 発売予定",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "Good Luck 系列 / 日用品",
       "image": "https://canime.jp/upload/product/35_18tr_neck-pillow.jpg",
@@ -54432,12 +54702,12 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ",
-      "platformUrl": "https://canime.jp/search/?keyword=18trip",
+      "platformUrl": "https://canime.jp/product/BRZP000015519/",
       "canimeUrl": "https://canime.jp/product/BRZP000015519/",
       "price": "1,650円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2025/3 発売予定",
-      "shipDate": "",
+      "preorderDate": "2024/12/09",
+      "releaseDate": "2025年3月下旬",
+      "shipDate": "順次発送予定",
       "status": "预约中",
       "statusJp": "",
       "description": "Good Luck 系列 / 亚克力块",
@@ -54445,12 +54715,13 @@
       "isStage": false,
       "isCollab": false,
       "imgs": [
-        "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png"
+        "https://canime.jp/upload/product/38_18trip-casette1_acblock-.png",
+        "https://canime.jp/upload/product/15519.jpg"
       ],
       "shopLinks": [
         {
           "name": "きゃにめ",
-          "url": "https://canime.jp/search/?keyword=18trip"
+          "url": "https://canime.jp/product/BRZP000015519/"
         }
       ]
     },
@@ -54458,7 +54729,7 @@
       "id": 2381,
       "name": "18TRIP Good Luck トレーディングカードコンプリートセット(18is)",
       "nameCn": "相卡·Good Luck",
-      "category": "",
+      "category": "相卡/小卡",
       "series": "Good Luck 系列",
       "characters": [
         "nishizono-renga",
@@ -54470,25 +54741,26 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ",
-      "platformUrl": "https://canime.jp/search/?keyword=18trip",
+      "platformUrl": "https://canime.jp/product/BRZP000015518/",
       "canimeUrl": "https://canime.jp/product/BRZP000015518/",
       "price": "2,000円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2025/3 発売予定",
-      "shipDate": "",
-      "status": "",
+      "preorderDate": "2024/12/09",
+      "releaseDate": "2025年3月下旬",
+      "shipDate": "順次発送予定",
+      "status": "预约中",
       "statusJp": "",
       "description": "Good Luck 系列 / 相卡",
       "image": "https://canime.jp/upload/product/37_18trip-casette1_trc-.png",
       "isStage": false,
       "isCollab": false,
       "imgs": [
-        "https://canime.jp/upload/product/37_18trip-casette1_trc-.png"
+        "https://canime.jp/upload/product/37_18trip-casette1_trc-.png",
+        "https://canime.jp/upload/product/15518.jpg"
       ],
       "shopLinks": [
         {
           "name": "きゃにめ",
-          "url": "https://canime.jp/search/?keyword=18trip"
+          "url": "https://canime.jp/product/BRZP000015518/"
         }
       ]
     },
@@ -54496,7 +54768,7 @@
       "id": 2382,
       "name": "18TRIP Good Luck 缶バッジコンプリートセット(18is)",
       "nameCn": "徽章·Good Luck",
-      "category": "",
+      "category": "徽章吧唧",
       "series": "Good Luck 系列",
       "characters": [
         "nishizono-renga",
@@ -54508,25 +54780,26 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "きゃにめ",
-      "platformUrl": "https://canime.jp/search/?keyword=18trip",
+      "platformUrl": "https://canime.jp/product/BRZP000015517/",
       "canimeUrl": "https://canime.jp/product/BRZP000015517/",
       "price": "2,750円(税込)",
-      "preorderDate": "",
-      "releaseDate": "2025/3 発売予定",
-      "shipDate": "",
-      "status": "",
+      "preorderDate": "2024/12/09",
+      "releaseDate": "2025年3月下旬",
+      "shipDate": "順次発送予定",
+      "status": "预约中",
       "statusJp": "",
       "description": "Good Luck 系列 / 徽章",
       "image": "https://canime.jp/upload/product/36_18trip-casette1_canset-.png",
       "isStage": false,
       "isCollab": false,
       "imgs": [
-        "https://canime.jp/upload/product/36_18trip-casette1_canset-.png"
+        "https://canime.jp/upload/product/36_18trip-casette1_canset-.png",
+        "https://canime.jp/upload/product/15517.jpg"
       ],
       "shopLinks": [
         {
           "name": "きゃにめ",
-          "url": "https://canime.jp/search/?keyword=18trip"
+          "url": "https://canime.jp/product/BRZP000015517/"
         }
       ]
     },
@@ -55184,8 +55457,14 @@
       "nameCn": "二弹努努 夜班",
       "category": "毛绒玩偶",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
+      "characters": [
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
       "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798580/",
@@ -55206,7 +55485,8 @@
           "name": "Banpresto",
           "url": "https://bsp-prize.jp/item/2798580/"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 2409,
@@ -55250,8 +55530,14 @@
       "nameCn": "二弹努努 昼班",
       "category": "毛绒玩偶",
       "series": "Banpresto 景品",
-      "characters": [],
-      "allTeams": true,
+      "characters": [
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
       "teamScope": 0,
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798578/",
@@ -55272,7 +55558,8 @@
           "name": "Banpresto",
           "url": "https://bsp-prize.jp/item/2798578/"
         }
-      ]
+      ],
+      "isCollab": false
     },
     {
       "id": 2411,
@@ -55551,9 +55838,9 @@
       "platformUrl": "https://bsp-prize.jp/item/2740795/",
       "price": "景品",
       "preorderDate": "",
-      "releaseDate": "",
+      "releaseDate": "2024年6月7日",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
       "image": "https://bsp-prize.jp/files_thumbnail/%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80/item/2024.06/2740795.jpg/250w_250h.jpg",
