@@ -161,6 +161,25 @@
   #dupPrompt{display:none; margin-top:8px; padding:9px 11px; border:1.5px solid var(--warn-bd); background:var(--warn-bg); color:var(--warn-fg); border-radius:8px; font-size:12.5px; line-height:1.6;}
   /* 角色选中态（此前只加了 class 却没有样式，编辑时看不出哪些已选） */
   .char-select-option.selected{background:var(--brand) !important; color:var(--header-text) !important; border-color:transparent !important; font-weight:700;}
+  /* ===== 批量粘贴 ===== */
+  .bulk-body{padding:14px 16px; overflow-y:auto; flex:1; min-height:0;}
+  .bulk-opts{display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:10px;}
+  .bulk-opts .bo{display:flex; flex-direction:column; gap:4px; font-size:11.5px; color:var(--sub);}
+  .bulk-opts .bo input,.bulk-opts .bo select{padding:6px 9px; border:1.5px solid var(--line); border-radius:7px; background:var(--surface); color:var(--ink); font-size:12.5px; font-family:inherit; outline:none;}
+  .bulk-opts .bo input:focus,.bulk-opts .bo select:focus{border-color:var(--blue);}
+  #bulkText{width:100%; min-height:130px; max-height:240px; resize:vertical; padding:10px 12px; border:1.5px solid var(--line); border-radius:9px; font-size:12.5px; line-height:1.7; font-family:inherit; background:var(--surface-3); color:var(--ink); outline:none; box-sizing:border-box;}
+  #bulkText:focus{border-color:var(--blue);}
+  #bulkHint{font-size:11.5px; color:var(--sub); line-height:1.6; margin-top:6px;}
+  .bulk-list{margin-top:12px; border-top:1px solid var(--line); padding-top:10px; max-height:340px; overflow-y:auto;}
+  .bulk-row{display:flex; gap:8px; align-items:flex-start; padding:6px 4px; border-bottom:1px dashed var(--line); font-size:12.5px; line-height:1.5;}
+  .bulk-row:last-child{border-bottom:none;}
+  .bulk-row.off{opacity:.4;}
+  .bulk-row .br-name{flex:1; min-width:0; word-break:break-all;}
+  .bulk-row .br-meta{flex:none; font-size:11px; color:var(--sub); white-space:nowrap;}
+  .bulk-row .br-price{flex:none; font-weight:700; color:#e0670c; white-space:nowrap;}
+  .bulk-row .br-chk{margin-top:3px;}
+  .sale-venue{background:linear-gradient(135deg,#ffb347,#ff8c42); color:#fff;}
+  .sale-after{background:linear-gradient(135deg,#8ec5fc,#6a9fe8); color:#fff;}
   /* ===== 筛选 chips ===== */
   .filterbar{display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin:-4px 4px 10px;}
   .fb-label{font-size:12px; font-weight:700; color:var(--sub); margin-right:2px;}
@@ -203,6 +222,9 @@
     backdrop-filter:blur(3px); -webkit-backdrop-filter:blur(3px);
   }
   .st-pre{background:var(--st-pre-bg); color:var(--st-pre);}
+  /* 场贩角标：放左上角，和右上角的状态角标左右对称 */
+  .st-badge.st-sale{left:10px; right:auto; background:linear-gradient(135deg,#ffb347,#ff8c42); color:#fff; letter-spacing:.3px;}
+  .st-badge.st-sale-after{left:10px; right:auto; background:linear-gradient(135deg,#8ec5fc,#6a9fe8); color:#fff; letter-spacing:.3px;}
   .st-on{background:var(--st-on-bg); color:var(--st-on);}
   .st-soon{background:var(--st-soon-bg); color:var(--st-soon);}
   .st-shipped{background:var(--st-shipped-bg); color:var(--st-shipped);}
@@ -216,6 +238,13 @@
     display:flex; align-items:center; justify-content:center;
   }
   .detail-close:hover{background:rgba(43,52,64,.8);}
+  .detail-share{
+    position:absolute; top:10px; right:52px; z-index:6;
+    width:32px; height:32px; border-radius:50%; border:none;
+    background:rgba(43,52,64,.55); color:#fff; font-size:14px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; font-family:inherit;
+  }
+  .detail-share:hover{background:rgba(43,52,64,.8);}
   .detail-img{
     background:var(--surface-2); display:flex; align-items:center; justify-content:center;
     max-height:min(38vh, 320px); position:relative;
@@ -693,6 +722,7 @@
     </div>
     <div style="display:flex;gap:8px;flex-wrap:wrap;">
       <button class="btn primary" id="btnAdd" onclick="openAddModal()" style="">＋ 添加谷子</button>
+      <button class="btn ghost" id="btnBulk" onclick="openBulkModal()" style="display:none">📚 批量导入</button>
       <button class="btn ghost" id="btnAdmin" onclick="openAdminLogin()">🚪 退出</button>
       <button class="btn ghost" id="btnSync" style="position: relative;" onclick="openCloudModal()" title="云端同步（仅管理员）：一处修改，全员更新">☁️ 云同步<span id="syncDot"></span></button>
       <button class="btn ghost" id="btnMore" onclick="toggleMore()" style="">数据管理</button>
@@ -918,6 +948,21 @@
           <div style="font-size:11px; color:var(--sub); margin-top:4px; line-height:1.5;">留空 = 不知道。售空请选「完售」，不要改状态。</div>
         </div>
         <div class="field">
+          <label>销售方式（可多选）</label>
+          <div style="display:flex; gap:14px; flex-wrap:wrap; font-size:12.5px; padding-top:3px;">
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
+              <input type="checkbox" class="f-sale" value="事前通贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">事前通贩
+            </label>
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
+              <input type="checkbox" class="f-sale" value="场贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">场贩
+            </label>
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
+              <input type="checkbox" class="f-sale" value="事后通贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">事后通贩
+            </label>
+          </div>
+          <div style="font-size:11px; color:var(--sub); margin-top:4px; line-height:1.5;">都不勾 = 普通通贩商品。</div>
+        </div>
+        <div class="field">
           <label>预购时间（开始 ～ 截止）</label>
           <div style="display:flex; gap:6px; align-items:center;">
             <input id="f_preorderStart" type="text" placeholder="预购开始 2026/08/17" style="flex:1; min-width:0;">
@@ -1067,6 +1112,7 @@
 <div class="overlay" id="detailOverlay">
   <div class="modal detail-modal">
     <button class="detail-close" onclick="closeDetail()" title="关闭">✕</button>
+    <button class="detail-share" id="detailShareBtn" onclick="shareDetail()" title="复制这条的链接">🔗</button>
     <div id="detailBody"></div>
   </div>
 </div>
@@ -1082,6 +1128,57 @@
     <div class="modal-foot">
       <button class="btn small" onclick="closeOverlay('loginOverlay')">取消</button>
       <button class="btn primary" onclick="adminLogin()">登录</button>
+    </div>
+  </div>
+</div>
+
+<!-- 批量导入弹窗 -->
+<div class="overlay" id="bulkOverlay">
+  <div class="modal" style="max-width:840px;">
+    <h2>📚 批量导入</h2>
+    <div class="bulk-body">
+      <textarea id="bulkText" placeholder="每行一条：名字 | 价格（竖线或制表符分隔，价格可留空）
+例：
+アクリルスタンド／西園 練牙 | 1650
+クリアポーチ／BLUE FANG | 990
+クリア色紙／ノーブル・フェニックス"></textarea>
+      <div id="bulkHint">💡 可以直接从 Excel 复制两列粘贴；价格里的「円 / ¥ / (税込)」会自动去掉。分类、角色、中文名会用现有规则自动推断。</div>
+      <div class="bulk-opts" style="margin-top:12px;">
+        <div class="bo" style="gap:2px;">销售方式（这批）
+          <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:12px; padding:4px 0;">
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer;">
+              <input type="checkbox" class="b-sale" value="事前通贩" style="margin:0;width:13px;height:13px;accent-color:#ff9800;">事前通贩
+            </label>
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer;">
+              <input type="checkbox" class="b-sale" value="场贩" style="margin:0;width:13px;height:13px;accent-color:#ff9800;">场贩
+            </label>
+            <label style="display:flex; align-items:center; gap:4px; cursor:pointer;">
+              <input type="checkbox" class="b-sale" value="事后通贩" style="margin:0;width:13px;height:13px;accent-color:#ff9800;">事后通贩
+            </label>
+          </div>
+        </div>
+        <label class="bo">发售平台
+          <input id="bulkPlatform" type="text" placeholder="如：アニメイト横浜ビブレ" style="width:190px;">
+        </label>
+        <label class="bo">系列（可选）
+          <input id="bulkSeries" type="text" placeholder="如：2周年展示会" style="width:150px;">
+        </label>
+        <label class="bo">发售日（可选）
+          <input id="bulkRelease" type="text" placeholder="2026年11月7日" style="width:130px;">
+        </label>
+        <label class="bo" style="flex-direction:row; align-items:center; gap:5px; padding-bottom:6px; font-size:12px;">
+          <input type="checkbox" id="bulkSkipDup" checked style="width:13px;height:13px;margin:0;accent-color:#ff9800;">
+          跳过已存在的
+        </label>
+        <button type="button" class="btn small primary" onclick="parseBulkText()">解析</button>
+      </div>
+      <div id="bulkSummary" style="font-size:12px;color:var(--sub);margin-top:8px;min-height:16px;"></div>
+      <div class="bulk-list" id="bulkList" style="display:none;"></div>
+    </div>
+    <div class="modal-foot">
+      <span id="bulkCount" style="margin-right:auto;font-size:12px;color:var(--sub);"></span>
+      <button class="btn" onclick="closeBulkModal()">取消</button>
+      <button class="btn primary" onclick="saveBulkDrafts()">保存勾选的条目</button>
     </div>
   </div>
 </div>
@@ -43127,9 +43224,9 @@ function toggleCardVariant(btn, itemId) {
     rmbEl.textContent = yen > 0 ? '≈ ¥' + Math.round(yen * exchangeRate).toLocaleString('zh-CN') : '';
   }
   
-  const stBadge = card.querySelector('.st-badge');
+  const stBadge = card.querySelector('.st-status');
   if (stBadge && activeItem.status) {
-    stBadge.className = 'st-badge ' + (STATUS_CLS[activeItem.status] || 'st-on');
+    stBadge.className = 'st-badge st-status ' + (STATUS_CLS[activeItem.status] || 'st-on');
     stBadge.textContent = (STATUS_ICON[activeItem.status] || '') + ' ' + (activeItem.status || '发售中');
   }
   
@@ -43183,9 +43280,9 @@ function toggleCardVariantSeg(el, itemId) {
     rmbEl.textContent = yen > 0 ? '≈ ¥' + Math.round(yen * exchangeRate).toLocaleString('zh-CN') : '';
   }
   
-  const stBadge = card.querySelector('.st-badge');
+  const stBadge = card.querySelector('.st-status');
   if (stBadge && activeItem.status) {
-    stBadge.className = 'st-badge ' + (STATUS_CLS[activeItem.status] || 'st-on');
+    stBadge.className = 'st-badge st-status ' + (STATUS_CLS[activeItem.status] || 'st-on');
     stBadge.textContent = (STATUS_ICON[activeItem.status] || '') + ' ' + (activeItem.status || '发售中');
   }
   
@@ -43566,6 +43663,8 @@ async function adminLogin() {
 function updateAdminUI() {
   const adm = isAdmin();
   document.getElementById('btnAdd').style.display = adm ? '' : 'none';
+  const bb = document.getElementById('btnBulk');
+  if (bb) bb.style.display = adm ? '' : 'none';
   document.getElementById('btnSync').style.display = adm ? '' : 'none';
   document.getElementById('btnMore').style.display = adm ? '' : 'none';
   document.getElementById('btnAdmin').textContent = adm ? '🚪 退出' : '🔑 登录';
@@ -43576,7 +43675,44 @@ function updateAdminUI() {
 function openOverlay(id) { document.getElementById(id).classList.add('show'); }
 function closeOverlay(id) { document.getElementById(id).classList.remove('show'); }
 function closeForm() { closeOverlay('formOverlay'); pendingImgs = []; }
-function closeDetail() { detailId = null; closeOverlay('detailOverlay'); document.body.style.overflow = ''; }
+function closeDetail() {
+  detailId = null;
+  closeOverlay('detailOverlay');
+  document.body.style.overflow = '';
+  setDetailHash(null);
+}
+
+// 深链：打开详情时把 #g<id> 写进地址栏，复制出去就能直达这一条
+function setDetailHash(id) {
+  try {
+    const base = location.pathname + location.search;
+    const url = id ? (base + '#g' + id) : base;
+    if (history && history.replaceState) history.replaceState(null, '', url);
+    else location.hash = id ? ('g' + id) : '';
+  } catch (e) { /* file:// 下个别浏览器不允许改地址，忽略 */ }
+}
+
+function openDetailFromHash() {
+  const m = String(location.hash || '').match(/^#g(\d+)$/);
+  if (!m) return false;
+  const idNum = Number(m[1]);
+  const item = goodsData.find(g => String(g.id) === m[1]);
+  if (!item) return false;
+  detailId = item.id;
+  renderDetail();
+  openOverlay('detailOverlay');
+  document.body.style.overflow = 'hidden';
+  return true;
+}
+
+function shareDetail() {
+  if (!detailId) return;
+  const base = location.origin + location.pathname + location.search;
+  const url = (location.protocol === 'file:')
+    ? (SITE_URL + '#g' + detailId)
+    : (base + '#g' + detailId);
+  copyText(url, '链接已复制，可以发给朋友了');
+}
 function closeFeedback() { closeOverlay('fbOverlay'); }
 function closeSync() { closeOverlay('syncOverlay'); }
 
@@ -44154,8 +44290,33 @@ function sortGoods(list, sortType) {
 }
 
 // ==================== 筛选逻辑 ====================
-// 搜索能命中角色名（中文名和日文名都算，忽略空格与全角空格）。
-// 注意：只匹配"这件谷子明确关联的角色"；全员向商品请用上方的角色筛选按钮。
+// 搜索归一化：全角转半角、片假名转平假名、去掉空白与分隔符
+// 这样「サンリオ」能搜到「さんりお」，「ＶＯＬ．４」能搜到「vol.4」
+function searchNorm(s) {
+  if (!s) return '';
+  var t = String(s);
+  if (t.normalize) { try { t = t.normalize('NFKC'); } catch (e) { /* 老浏览器忽略 */ } }
+  t = t.toLowerCase();
+  // 片假名 → 平假名（U+30A1-U+30F6 → U+3041-U+3096）
+  t = t.replace(/[\u30a1-\u30f6]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); });
+  // 去掉空白、中点、括号、斜杠、长音等
+  t = t.replace(/[\s\u3000・･、。，,／\/(（)）「」『』【】\[\]．.\-ー－‐―_~〜]/g, '');
+  return t;
+}
+
+// 每条的搜索文本只算一次，缓存在对象上（保存/导出时 _ 开头的字段会被剥掉）
+function itemSearchText(it) {
+  if (it._sNorm) return it._sNorm;
+  const parts = [it.name, it.nameCn, it.series, it.platform, it.description];
+  (it.characters || []).forEach(function (id) {
+    const c = getCharById(id);
+    if (c) { parts.push(c.name); parts.push(c.jpName); }
+  });
+  it._sNorm = searchNorm(parts.join(' '));
+  return it._sNorm;
+}
+
+// 搜索能命中角色名（保留给旧调用，逻辑已并入 itemSearchText）
 function matchCharName(item, kwTight) {
   const ids = item.characters;
   if (!ids || !ids.length || !kwTight) return false;
@@ -44182,15 +44343,8 @@ function getFiltered() {
     if (currentCategory === '联动周边' && !item.isCollab) return false;
     if (currentStatus !== 'all' && item.status !== currentStatus) return false;
     if (searchKeyword) {
-      const kw = searchKeyword.toLowerCase();
-      const kwTight = kw.replace(/[\s\u3000]/g, '');
-      const match = item.name.toLowerCase().includes(kw) ||
-        (item.nameCn && item.nameCn.toLowerCase().includes(kw)) ||
-        (item.series && item.series.toLowerCase().includes(kw)) ||
-        (item.platform && item.platform.toLowerCase().includes(kw)) ||
-        (item.description && item.description.toLowerCase().includes(kw)) ||
-        matchCharName(item, kwTight);
-      if (!match) return false;
+      const kw = searchNorm(searchKeyword);
+      if (kw && itemSearchText(item).indexOf(kw) === -1) return false;
     }
     if (selectedChars.size > 0) {
       if (item.allTeams) {
@@ -44453,8 +44607,9 @@ function getCardHtml(item) {
 
   const admin = isAdmin();
 
-  // 状态角标 + 库存角标（库存显示在状态下面）
-  const stBadgeHtml = '<span class="st-badge ' + stCls + '">' + (STATUS_ICON[activeItem.status] || '') + ' ' + esc(activeItem.status || '发售中') + '</span>' +
+  // 角标：左上=销售方式，右上=状态，状态下面=库存
+  const stBadgeHtml = saleBadgeHtml(activeItem) +
+    '<span class="st-badge st-status ' + stCls + '">' + (STATUS_ICON[activeItem.status] || '') + ' ' + esc(activeItem.status || '发售中') + '</span>' +
     stockBadgeHtml(activeItem);
 
   return '<div class="card" onclick="showDetail(' + activeItem.id + ')" title="点击查看详情">' +
@@ -44662,6 +44817,7 @@ function showDetail(id) {
   renderDetail();
   openOverlay('detailOverlay');
   document.body.style.overflow = 'hidden';
+  setDetailHash(id);
 }
 
 function renderDetail() {
@@ -44729,6 +44885,7 @@ function renderDetail() {
         '<span class="tag unit" style="background:' + teamColor + '">' + esc(getTeamDisplayName(item)) + '</span>' +
         (item.isCollab ? '<span class="tag collab">联动周边</span>' : '') +
         (item.isStage ? '<span class="tag stage">舞台剧周边</span>' : '') +
+        saleTypeTagHtml(item) +
         '<span class="tag type">' + esc(item.category || '其他') + '</span>' +
         stockTagHtml(item) +
       '</div>' +
@@ -44920,6 +45077,40 @@ function stockBadgeHtml(item) {
   const cls = (st === '完售') ? 'st-stock-sold'
     : (st === '剩少量' ? 'st-stock-low' : 'st-stock-in');
   return '<span class="st-badge st-stock ' + cls + '" title="库存：' + esc(st) + '">' + esc(st) + '</span>';
+}
+
+// 销售方式角标：放左上角（和状态角标对称）
+// 三者可并存：事前通贩 → 场贩 → 事后通贩。角标只显示"现在最有用"的那一个。
+function saleBadgeHtml(item) {
+  const t = (item && item.saleTypes) || [];
+  if (!t.length) return '';
+  let label = '', cls = '';
+  if (t.indexOf('事后通贩') !== -1) { label = '🛒 事后通贩'; cls = 'st-sale-after'; }
+  else if (t.indexOf('场贩') !== -1) { label = '🎪 场贩'; cls = 'st-sale'; }
+  else if (t.indexOf('事前通贩') !== -1) { label = '🛒 事前通贩'; cls = 'st-sale-after'; }
+  if (!label) return '';
+  return '<span class="st-badge ' + cls + '" title="销售方式：' + esc(t.join(' / ')) + '">' + label + '</span>';
+}
+
+// 销售方式标签（详情页用）：全部列出
+function saleTypeTagHtml(item) {
+  const t = (item && item.saleTypes) || [];
+  return t.map(s => {
+    const cls = s === '场贩' ? 'sale-venue' : 'sale-after';
+    const icon = s === '场贩' ? '🎪 ' : '🛒 ';
+    return '<span class="tag ' + cls + '" title="销售方式">' + icon + esc(s) + '</span>';
+  }).join('');
+}
+
+function getFormSaleTypes() {
+  const out = [];
+  document.querySelectorAll('.f-sale:checked').forEach(el => out.push(el.value));
+  return out;
+}
+
+function setFormSaleTypes(arr) {
+  const set = new Set(arr || []);
+  document.querySelectorAll('.f-sale').forEach(el => { el.checked = set.has(el.value); });
 }
 
 // 库存标签（详情页/标签行用）：只有真的知道才显示；已结束/已出荷的条目没有库存概念
@@ -45715,13 +45906,26 @@ function nameSimilarity(a, b) {
   return uni > 0 ? inter / uni : 0;
 }
 
-function findSimilarItem(name) {
+// 结构化吻合：分类相同 + 角色集合相同 → 即使名字写法不同也认定为同一件
+function structMatch(meta, it) {
+  if (!meta || !it) return false;
+  if ((meta.category || '') !== (it.category || '')) return false;
+  const a = meta.characters || [], b = it.characters || [];
+  if (!a.length || !b.length) return !!(meta.allTeams && it.allTeams);
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) if (b.indexOf(a[i]) === -1) return false;
+  return true;
+}
+
+function findSimilarItem(name, meta) {
   const sig = volumeSignature(name);
   let best = null, bestScore = 0;
   for (let i = 0; i < goodsData.length; i++) {
     const it = goodsData[i];
     if (sig && volumeSignature(it.name) && sig !== volumeSignature(it.name)) continue;
-    const s = nameSimilarity(name, it.name);
+    let s = nameSimilarity(name, it.name);
+    // 名字写法差异大时，靠「分类 + 角色」这套结构化信号补上（要求名字还有一点相似度）
+    if (s < 0.82 && s >= 0.45 && structMatch(meta, it)) s = 0.82;
     if (s > bestScore) { bestScore = s; best = it; }
   }
   return (best && bestScore >= 0.82) ? { item: best, score: bestScore } : null;
@@ -45765,21 +45969,40 @@ function appendChannelToExisting() {
   if (!p || !id) return;
   const item = goodsData.find(g => g.id === id);
   if (!item) { hideDupPrompt(); return; }
+  const added = [];
+
   const links = (item.shopLinks || []).slice();
   (p.shopLinks || []).forEach(sl => {
-    if (sl.url && !links.some(l => l.url === sl.url)) links.push(sl);
+    if (sl.url && !links.some(l => l.url === sl.url)) { links.push(sl); added.push('链接'); }
   });
   if (links.length) item.shopLinks = links;
+
   const shortName = p.channelShort || p.channel || '';
   const cur = item.platform || '';
-  if (shortName && cur.indexOf(shortName) === -1) item.platform = cur ? (cur + ' + ' + shortName) : shortName;
-  if (!item.preorderStart && p.preorderStart) item.preorderStart = p.preorderStart;
-  if (!item.preorderEnd && p.preorderEnd) item.preorderEnd = p.preorderEnd;
+  if (shortName && cur.indexOf(shortName) === -1) {
+    item.platform = cur ? (cur + ' + ' + shortName) : shortName;
+    added.push('平台');
+  }
+
+  // 场贩记录后来有了通贩 → 补图、补受注期间、补上「事后通贩」标记
+  if ((!item.image || !(item.imgs && item.imgs.length)) && p.images && p.images.length) {
+    item.image = p.images[0];
+    item.imgs = p.images.slice(0, 6);
+    added.push('图片');
+  }
+  if (p.shopLinks && p.shopLinks.length && item.saleTypes && item.saleTypes.indexOf('场贩') !== -1 && item.saleTypes.indexOf('事后通贩') === -1) {
+    item.saleTypes = item.saleTypes.concat(['事后通贩']);
+    added.push('事后通贩');
+  }
+  if (!item.preorderStart && p.preorderStart) { item.preorderStart = p.preorderStart; added.push('预购开始'); }
+  if (!item.preorderEnd && p.preorderEnd) { item.preorderEnd = p.preorderEnd; added.push('预购截止'); }
+  if (!item.stock && p.stock) { item.stock = p.stock; added.push('库存'); }
+
   try { saveGoods(); } catch (e) {}
   hideDupPrompt();
   closeForm();
   renderGoods();
-  toast('已给已有记录追加渠道：' + (shortName || '未知渠道'));
+  toast('已合并：' + (added.length ? added.join('、') : '无新增内容'));
 }
 
 function applyParsedProduct(p) {
@@ -45872,7 +46095,7 @@ function handleProductPaste(e) {
       pasteStatus('没能识别出商品信息。请确认是在商品详情页按 Ctrl+A 全选后再复制。', 'err');
       return true;
     }
-    const dup = findSimilarItem(p.name);
+    const dup = findSimilarItem(p.name, { category: p.category, characters: p.characters, allTeams: p.allTeams });
     if (dup) {
       renderDupPrompt(dup, p);
       pasteStatus('这件可能已经录过了，请在下方选择怎么处理。');
@@ -45887,6 +46110,214 @@ function handleProductPaste(e) {
     pasteStatus('解析失败：' + (err && err.message ? err.message : err), 'err');
     return true;
   }
+}
+
+// ==================== 批量导入（文本粘贴） ====================
+// 用法：每行一条「名字 | 价格」（竖线或制表符分隔，价格可空）。
+// 分类/角色/中文名用现有规则自动推断，解析后勾选确认再保存。
+let _bulkDrafts = [];
+
+function openBulkModal() {
+  if (!isAdmin()) return;
+  _bulkDrafts = [];
+  const t = document.getElementById('bulkText');
+  if (t) t.value = '';
+  const listEl = document.getElementById('bulkList');
+  if (listEl) { listEl.innerHTML = ''; listEl.style.display = 'none'; }
+  const s = document.getElementById('bulkSummary');
+  if (s) s.textContent = '';
+  const c = document.getElementById('bulkCount');
+  if (c) c.textContent = '';
+  openOverlay('bulkOverlay');
+}
+
+function closeBulkModal() { closeOverlay('bulkOverlay'); }
+
+// 判断一行是不是"纯价格"（用于「名字一行、价格一行」这种从页面直接复制的格式）
+function isPriceLine(s) {
+  let t = String(s || '').replace(/[（(]\s*税込\s*[）)]/g, '').replace(/^価格\s*[：:]?/, '').replace(/^各/, '').trim();
+  if (!t || t.length > 24) return false;
+  return /^[¥￥]?\s*[\d,]{2,}\s*円?$/.test(t);
+}
+
+function parseBulkLines(text) {
+  const NAV_WORDS = /^(goods|top|about|news|menu|home|ticket|contact|event|search|login|cart|pr|info|shop|index)$/i;
+  const explicit = [], paired = [], bare = [];
+  const lines = String(text || '').split(/\r?\n/);
+  for (let i = 0; i < lines.length; i++) {
+    let raw = lines[i].replace(/\u3000/g, ' ').trim();
+    if (!raw) continue;
+    if (/^(名字|名称|name)\s*[\t|｜]/i.test(raw)) continue;   // 跳过表头
+    if (NAV_WORDS.test(raw)) continue;                        // 跳过导航菜单
+
+    // ① 制表符 / 竖线分隔（Excel 复制常见）
+    const parts = raw.split(/[\t|｜]/);
+    if (parts.length >= 2) {
+      const priceRaw = parts.pop().trim();
+      const name = parts.join(' ').trim();
+      if (name) explicit.push({ name: name, yen: priceRaw ? extractYenPrice(priceRaw) : 0 });
+      continue;
+    }
+
+    // ② 孤立的价签行：跳过
+    if (isPriceLine(raw)) continue;
+
+    // ③ 名字一行、价格一行（从网页直接复制常见）
+    if (i + 1 < lines.length && isPriceLine(lines[i + 1])) {
+      paired.push({ name: raw, yen: extractYenPrice(lines[i + 1]) });
+      i++;
+      continue;
+    }
+
+    // ④ 裸名字：先存着，后面看有没有价格再决定收不收
+    bare.push({ name: raw, yen: 0 });
+  }
+  // 只要文本里有"能配上价格"的条目，就认为这是带价格的清单，
+  // 裸名字多半是导航菜单（GOODS / TOP / ABOUT…），丢掉。
+  const clean = (arr) => arr.filter(x => x.name && x.name.trim() && !NAV_WORDS.test(x.name.trim()));
+  const priced = clean(explicit).concat(clean(paired));
+  return priced.length ? priced : clean(bare);
+}
+
+function parseBulkText() {
+  const el = document.getElementById('bulkText');
+  const rows = parseBulkLines(el ? el.value : '');
+  const sumEl = document.getElementById('bulkSummary');
+  if (!rows.length) {
+    if (sumEl) sumEl.textContent = '没有解析到任何行。格式：名字 | 价格';
+    return;
+  }
+  const seriesEl = document.getElementById('bulkSeries');
+  const seriesOverride = seriesEl ? seriesEl.value.trim() : '';
+  _bulkDrafts = rows.map(r => {
+    const title = cleanTitle(r.name);
+    const cat = detectCategory(title);
+    const matched = detectChars(title);
+    const teams = detectTeams(title);
+    let charIds = matched;
+    // 标题只写了队伍（朝班・昼班）时展开成该队成员
+    if (!charIds.length && teams.length) {
+      charIds = [];
+      teams.forEach(t => {
+        getCharsByTeam(t).forEach(c => { if (charIds.indexOf(c.id) === -1) charIds.push(c.id); });
+      });
+    }
+    const scope = detectScope(title, charIds);
+    return {
+      name: title,
+      priceText: r.yen > 0 ? (r.yen.toLocaleString('ja-JP') + '円(税込)') : '',
+      category: cat.cat,
+      characters: charIds,
+      allTeams: scope.allTeams,
+      teamScope: scope.teamScope,
+      series: seriesOverride || detectSeries(title),
+      nameCn: buildNameCn(title, cat.cn, matched, teams),
+      checked: true,
+      dupId: null,
+      dupName: ''
+    };
+  });
+
+  // 逐条查重（分类 + 角色 + 名称相似），已存在的默认不勾选
+  const skipDup = document.getElementById('bulkSkipDup') ? document.getElementById('bulkSkipDup').checked : true;
+  let dupCount = 0;
+  _bulkDrafts.forEach(d => {
+    const dup = findSimilarItem(d.name, { category: d.category, characters: d.characters, allTeams: d.allTeams });
+    if (dup) {
+      d.dupId = dup.item.id;
+      d.dupName = dup.item.name;
+      dupCount++;
+      if (skipDup) d.checked = false;
+    }
+  });
+
+  renderBulkDrafts();
+  if (sumEl) {
+    sumEl.textContent = '解析到 ' + _bulkDrafts.length + ' 条' +
+      (dupCount ? ('，其中 ' + dupCount + ' 条可能已存在' + (skipDup ? '（已自动取消勾选）' : '')) : '') +
+      '。请核对后保存。';
+  }
+}
+
+function renderBulkDrafts() {
+  const listEl = document.getElementById('bulkList');
+  if (!listEl) return;
+  if (!_bulkDrafts.length) { listEl.style.display = 'none'; return; }
+  listEl.innerHTML = _bulkDrafts.map((d, i) =>
+    '<label class="bulk-row' + (d.checked ? '' : ' off') + '">' +
+      '<input type="checkbox" class="br-chk" ' + (d.checked ? 'checked' : '') + ' onchange="toggleBulkDraft(' + i + ', this.checked)">' +
+      '<span class="br-name">' + esc(d.name) +
+        '<br><span style="font-size:11px;color:var(--sub);">' + esc(d.nameCn) + '</span></span>' +
+      '<span class="br-meta">' + esc(d.category) +
+        (d.characters.length ? ' · ' + d.characters.length + '角色' : (d.allTeams ? ' · 全员向' : '')) + '</span>' +
+      '<span class="br-price">' + (d.priceText || '—') + '</span>' +
+      (d.dupId ? '<span class="br-meta" style="color:#c96f14;" title="已有：' + esc(d.dupName) + '">⚠️ 已存在</span>' : '') +
+    '</label>'
+  ).join('');
+  listEl.style.display = 'block';
+  updateBulkCount();
+}
+
+function toggleBulkDraft(i, on) {
+  if (!_bulkDrafts[i]) return;
+  _bulkDrafts[i].checked = !!on;
+  const rows = document.querySelectorAll('#bulkList .bulk-row');
+  if (rows[i]) rows[i].classList.toggle('off', !on);
+  updateBulkCount();
+}
+
+function updateBulkCount() {
+  const c = document.getElementById('bulkCount');
+  if (!c) return;
+  const sel = _bulkDrafts.filter(d => d.checked).length;
+  c.textContent = _bulkDrafts.length ? ('已选 ' + sel + ' / 共 ' + _bulkDrafts.length + ' 条') : '';
+}
+
+function saveBulkDrafts() {
+  const skipDup = document.getElementById('bulkSkipDup') ? document.getElementById('bulkSkipDup').checked : true;
+  let picked = _bulkDrafts.filter(d => d.checked);
+  if (skipDup) picked = picked.filter(d => !d.dupId);
+  if (!picked.length) { toast('没有可保存的条目'); return; }
+  const platform = ((document.getElementById('bulkPlatform') || {}).value || '').trim();
+  if (!platform) { toast('请填写发售平台'); return; }
+  const saleTypes = (function () {
+    const a = [];
+    document.querySelectorAll('.b-sale:checked').forEach(el => a.push(el.value));
+    return a;
+  })();
+  const releaseDate = ((document.getElementById('bulkRelease') || {}).value || '').trim();
+  const st = resolveStatus({ releaseDate: releaseDate, preorderEnd: '' }, '预约中') || '预约中';
+
+  const base = Date.now();
+  const newItems = picked.map((d, i) => {
+    const item = {
+      name: d.name,
+      nameCn: d.nameCn,
+      category: d.category,
+      isStage: false,
+      isCollab: false,
+      series: d.series,
+      characters: d.characters,
+      allTeams: d.allTeams,
+      teamScope: d.teamScope,
+      platform: platform,
+      price: d.priceText,
+      releaseDate: releaseDate,
+      status: st,
+      statusSource: 'auto',
+      description: '',
+      image: '',
+      id: base + i
+    };
+    if (saleTypes.length) item.saleTypes = saleTypes.slice();
+    return item;
+  });
+
+  goodsData.unshift.apply(goodsData, newItems);
+  try { saveGoods(); } catch (e) {}
+  closeBulkModal();
+  renderGoods();
+  toast('已添加 ' + newItems.length + ' 条');
 }
 
 function openAddModal() {
@@ -45917,6 +46348,7 @@ function editGoods(id) {
   document.getElementById('f_series').value = item.series || '';
   document.getElementById('f_status').value = item.status || '预约中';
   document.getElementById('f_stock').value = item.stock || '';
+  setFormSaleTypes(item.saleTypes || []);
   const autoEl = document.getElementById('f_statusAuto');
   if (autoEl) autoEl.checked = (statusSourceOf(item) === 'auto');
   onStatusAutoChange();
@@ -46004,6 +46436,7 @@ function editGoods(id) {
 function clearForm() {
   ['f_name','f_nameCn','f_series','f_platform','f_price','f_stock','f_preorderStart','f_preorderEnd','f_release','f_ship','f_desc','imgUrlInput']
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
+  setFormSaleTypes([]);
   legacyPreorder = '';
   const wsEl2 = document.getElementById('f_preorderWhileStock');
   if (wsEl2) wsEl2.checked = false;
@@ -46221,6 +46654,10 @@ function submitGoodsForm() {
     status,
     statusSource: statusAuto ? 'auto' : 'manual',
     stock: document.getElementById('f_stock').value || undefined,
+    saleTypes: (function () {
+      const a = getFormSaleTypes();
+      return a.length ? a : undefined;
+    })(),
     description: document.getElementById('f_desc').value.trim(),
     noteHighlight: document.getElementById('f_noteHighlight').checked || undefined,
     reissues: getReissues().length ? getReissues() : undefined,
@@ -46266,6 +46703,7 @@ function submitGoodsForm() {
     if (i !== -1) {
       // 先合并基础数据
       goodsData[i] = { ...goodsData[i], ...item };
+      delete goodsData[i]._sNorm;   // 改了内容，搜索缓存要失效
       // 显式删除平台专用字段（如果 shopLinks 中已不存在），确保删除渠道生效
       // （对象展开时 undefined 不会覆盖已有属性，所以需要手动删除）
       const platformFields = ['platformUrl', 'movicUrl', 'eeoUrl', 'enskyUrl', 'skJapanUrl', 'officialUrl'];
@@ -47023,6 +47461,11 @@ if (toastEl) { toastEl.classList.remove('show'); toastEl.textContent = ''; }
       }
     }
     renderGoods();
+    // 地址栏带 #g<id> 时（分享链接），数据就绪后直接打开那一条
+    if (!window._hashDetailOpened) {
+      window._hashDetailOpened = true;
+      try { openDetailFromHash(); } catch (e) {}
+    }
   }
   if (isAdmin()) {
     // 管理员：直接渲染本地数据
