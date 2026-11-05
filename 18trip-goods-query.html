@@ -161,6 +161,16 @@
   #dupPrompt{display:none; margin-top:8px; padding:9px 11px; border:1.5px solid var(--warn-bd); background:var(--warn-bg); color:var(--warn-fg); border-radius:8px; font-size:12.5px; line-height:1.6;}
   /* 角色选中态（此前只加了 class 却没有样式，编辑时看不出哪些已选） */
   .char-select-option.selected{background:var(--brand) !important; color:var(--header-text) !important; border-color:transparent !important; font-weight:700;}
+  /* 队伍整队选 / 取消 */
+  .team-sel-btn{
+    font-size:10.5px; font-weight:700; padding:2px 9px; border-radius:99px; cursor:pointer; user-select:none;
+    white-space:nowrap; border:1px solid #c6d6f0; background:#f0f5fd; color:#3866be; line-height:1.5;
+  }
+  .team-sel-btn:hover{background:#e3ecfb;}
+  .team-sel-btn.on{background:#ffecd6; border-color:#ffb057; color:#c86e14;}
+  .team-sel-btn.on:hover{background:#ffe0bd;}
+  .team-count{font-size:10.5px; color:var(--sub); white-space:nowrap;}
+  @media (max-width:480px){ .team-count{display:none;} }
   /* ===== 批量粘贴 ===== */
   .bulk-body{padding:14px 16px; overflow-y:auto; flex:1; min-height:0;}
   .bulk-opts{display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:10px;}
@@ -46752,16 +46762,22 @@ function renderCharSelect(selected, allTeams) {
     const team = teams[teamKey];
     const chars = getCharsByTeam(teamKey);
     if (!chars.length) continue;
+    let on = 0;
+    chars.forEach(c => { if (selected.indexOf(c.id) !== -1) on++; });
+    const allOn = on === chars.length;
     html += '<div style="margin-bottom:8px;">' +
-      '<div style="font-size:12px;font-weight:700;margin-bottom:4px;color:' + team.color + ';">' + team.emoji + ' ' + team.name + '</div>' +
+      '<div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">' +
+        '<span style="font-size:12px;font-weight:700;color:' + team.color + ';">' + team.emoji + ' ' + team.name + '</span>' +
+        '<span class="team-count" data-team="' + teamKey + '" style="margin-left:auto;">已选 ' + on + '/' + chars.length + '</span>' +
+        '<span class="team-sel-btn' + (allOn ? ' on' : '') + '" data-team="' + teamKey + '" onclick="toggleTeamChars(\'' + teamKey + '\')" title="' + (allOn ? '取消本队全部' : '选上本队全部') + '">' + (allOn ? '取消全选' : '全选') + '</span>' +
+      '</div>' +
       '<div style="display:flex;flex-wrap:wrap;gap:5px;">' +
         chars.map(c => {
           const sel = selected.includes(c.id) ? 'selected' : '';
-          return '<span class="char-select-option ' + sel + '" data-char-id="' + c.id + '" onclick="toggleSelectChar(this)" style="padding:3px 10px;border:1.5px solid var(--line);border-radius:99px;font-size:11.5px;cursor:pointer;user-select:none;">' + c.name + '</span>';
+          return '<span class="char-select-option ' + sel + '" data-char-id="' + c.id + '" data-team="' + teamKey + '" onclick="toggleSelectChar(this)" style="padding:3px 10px;border:1.5px solid var(--line);border-radius:99px;font-size:11.5px;cursor:pointer;user-select:none;">' + c.name + '</span>';
         }).join('') +
       '</div></div>';
   }
-  html += '';
   container.innerHTML = html;
   
   // 设置全员向字段状态
@@ -46771,9 +46787,10 @@ function renderCharSelect(selected, allTeams) {
   if (teamScopeSelect) teamScopeSelect.style.display = allTeams ? '' : 'none';
 }
 
-function toggleSelectChar(el) {
-  el.classList.toggle('selected');
-  if (el.classList.contains('selected')) {
+function setCharSel(el, on) {
+  if (!el) return;
+  el.classList.toggle('selected', !!on);
+  if (on) {
     el.style.background = 'var(--brand)';
     el.style.color = 'var(--header-text)';
     el.style.borderColor = 'transparent';
@@ -46784,9 +46801,42 @@ function toggleSelectChar(el) {
   }
 }
 
+function toggleSelectChar(el) {
+  setCharSel(el, !el.classList.contains('selected'));
+  updateTeamSelState(el.getAttribute('data-team'));
+}
+
+// 队伍整队开关：全部已选 → 取消；否则 → 补上（不动其他队伍、不清掉手选的人）
+function toggleTeamChars(teamKey) {
+  const chips = document.querySelectorAll('.char-select-option[data-team="' + teamKey + '"]');
+  if (!chips.length) return;
+  let on = 0;
+  chips.forEach(c => { if (c.classList.contains('selected')) on++; });
+  const makeOn = on !== chips.length;
+  chips.forEach(c => setCharSel(c, makeOn));
+  updateTeamSelState(teamKey);
+}
+
+function updateTeamSelState(teamKey) {
+  const chips = document.querySelectorAll('.char-select-option[data-team="' + teamKey + '"]');
+  if (!chips.length) return;
+  let on = 0;
+  chips.forEach(c => { if (c.classList.contains('selected')) on++; });
+  const cnt = document.querySelector('.team-count[data-team="' + teamKey + '"]');
+  if (cnt) cnt.textContent = '已选 ' + on + '/' + chips.length;
+  const btn = document.querySelector('.team-sel-btn[data-team="' + teamKey + '"]');
+  if (btn) {
+    const all = on === chips.length;
+    btn.textContent = all ? '取消全选' : '全选';
+    btn.classList.toggle('on', all);
+    btn.title = all ? '取消本队全部' : '选上本队全部';
+  }
+}
+
 function toggleAllTeams(checked) {
   const opts = document.querySelectorAll('.char-select-option');
   opts.forEach(o => o.style.opacity = checked ? '0.4' : '1');
+  document.querySelectorAll('.team-sel-btn').forEach(b => { b.style.opacity = checked ? '0.4' : '1'; });
   const scopeSelect = document.getElementById('teamScopeSelect');
   if (scopeSelect) scopeSelect.style.display = checked ? '' : 'none';
 }
