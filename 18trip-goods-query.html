@@ -1294,6 +1294,18 @@ function getAllTeamCharsByScope(scope) {
 // ==================== 数据存储 ====================
 // 线上部署地址（Cloudflare Pages 会去掉 .html 后缀，所以是这个路径）
 const SITE_URL = 'https://18trip-goods-query.pages.dev/18trip-goods-query';
+// 图片代理（Cloudflare Worker）。日本站点的图国内直连会被拦，走这个中转。
+// 留空 = 不代理，直接用原始地址（本地已归档的 img/xxx 永远不受影响）
+const IMG_PROXY = 'https://18trip-goods-query.pages.dev/p?u=';
+// 判断是否外部图片，并套上代理前缀
+function imgSrc(u) {
+  if (!u) return u;
+  if (!IMG_PROXY) return u;
+  if (u.indexOf('img/') === 0) return u;          // 已归档到站内
+  if (!/^https?:\/\//i.test(u)) return u;         // data: / 相对路径
+  if (u.indexOf(IMG_PROXY) === 0) return u;       // 已经是代理地址
+  return IMG_PROXY + encodeURIComponent(u);
+}
 const STORAGE_GOODS = '18trip_goods_v2';
 const STORAGE_FEEDBACK = '18trip_feedback_v2';
 const STORAGE_ADMIN = '18trip_admin_pwd';
@@ -44506,7 +44518,7 @@ function updateImgPreview() {
   const c = document.getElementById('imgList');
   if (!pendingImgs.length) { c.innerHTML = ''; return; }
   c.innerHTML = pendingImgs.map((src, i) => '<div class="imgthumb">' +
-    '<img src="' + esc(src) + '" alt="图片' + (i+1) + '" onerror="this.style.opacity=0.2">' +
+    '<img src="' + esc(imgSrc(src)) + '" alt="图片' + (i+1) + '" onerror="this.style.opacity=0.2">' +
     '<button class="imgthumb-del" onclick="removePendingImg(' + i + ')">&times;</button>' +
     '<span class="imgthumb-n">' + (i+1) + '</span></div>').join('');
 }
@@ -44628,7 +44640,7 @@ function getCardHtml(item) {
   return '<div class="card" onclick="showDetail(' + activeItem.id + ')" title="点击查看详情">' +
     '<div class="strip" style="background:' + teamColor + '"></div>' +
     (cover
-      ? '<div class="gimg"><img src="' + esc(cover) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\';this.parentNode.classList.add(\'imgfail\')">' +
+      ? '<div class="gimg"><img src="' + esc(imgSrc(cover)) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\';this.parentNode.classList.add(\'imgfail\')">' +
         stBadgeHtml + '</div>'
       : '<div class="gimg"><img src="' + esc(placeholder) + '" alt="">' +
         stBadgeHtml + '</div>') +
@@ -44871,17 +44883,17 @@ function renderDetail() {
       ? '<div class="dcar">' +
           '<div class="dcar-track" id="dCarTrack">' +
             (imgs.length > 1
-              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgs[imgs.length - 1]) + '\')">' +
-                  '<img src="' + esc(imgs[imgs.length - 1]) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
+              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgSrc(imgs[imgs.length - 1])) + '\')">' +
+                  '<img src="' + esc(imgSrc(imgs[imgs.length - 1])) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
                 '</div>'
               : '') +
             imgs.map((src, i) =>
-              '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(src) + '\')">' +
-                '<img src="' + esc(src) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
+              '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgSrc(src)) + '\')">' +
+                '<img src="' + esc(imgSrc(src)) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
               '</div>').join('') +
             (imgs.length > 1
-              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgs[0]) + '\')">' +
-                  '<img src="' + esc(imgs[0]) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
+              ? '<div class="dcar-item" title="点击放大" onclick="openLightbox(\'' + esc(imgSrc(imgs[0])) + '\')">' +
+                  '<img src="' + esc(imgSrc(imgs[0])) + '" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.onerror=null;this.src=\'' + esc(placeholder) + '\'">' +
                 '</div>'
               : '') +
           '</div>' +
