@@ -1142,7 +1142,7 @@
 アクリルスタンド／西園 練牙 | 1650
 クリアポーチ／BLUE FANG | 990
 クリア色紙／ノーブル・フェニックス"></textarea>
-      <div id="bulkHint">💡 可以直接从 Excel 复制两列粘贴；价格里的「円 / ¥ / (税込)」会自动去掉。分类、角色、中文名会用现有规则自动推断。</div>
+      <div id="bulkHint">💡 从商品列表页整页复制粘贴时，会连**图片和购买链接**一起抓（有网页结构就用结构，没有就退回纯文本）。也支持 Excel 两列、或「名字一行价格一行」。分类、角色、中文名用现有规则自动推断。</div>
       <div class="bulk-opts" style="margin-top:12px;">
         <div class="bo" style="gap:2px;">销售方式（这批）
           <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:12px; padding:4px 0;">
@@ -1165,6 +1165,9 @@
         </label>
         <label class="bo">发售日（可选）
           <input id="bulkRelease" type="text" placeholder="2026年11月7日" style="width:130px;">
+        </label>
+        <label class="bo">原页面网址（可选）
+          <input id="bulkBase" type="text" placeholder="补全相对链接用" style="width:170px;">
         </label>
         <label class="bo" style="flex-direction:row; align-items:center; gap:5px; padding-bottom:6px; font-size:12px;">
           <input type="checkbox" id="bulkSkipDup" checked style="width:13px;height:13px;margin:0;accent-color:#ff9800;">
@@ -46116,12 +46119,32 @@ function handleProductPaste(e) {
 // 用法：每行一条「名字 | 价格」（竖线或制表符分隔，价格可空）。
 // 分类/角色/中文名用现有规则自动推断，解析后勾选确认再保存。
 let _bulkDrafts = [];
+let _bulkPasteHtml = '';   // 粘贴时顺手抓到的网页结构（有的话优先用，能带图带链接）
+let _bulkPasteAt = 0;
+let _bulkPasteBound = false;
 
 function openBulkModal() {
   if (!isAdmin()) return;
   _bulkDrafts = [];
+  _bulkPasteHtml = '';
   const t = document.getElementById('bulkText');
-  if (t) t.value = '';
+  if (t) {
+    t.value = '';
+    if (!_bulkPasteBound) {
+      _bulkPasteBound = true;
+      // 粘贴时抓 text/html：浏览器复制网页会同时给纯文本和 HTML 两份
+      t.addEventListener('paste', function (e) {
+        let h = '';
+        try { h = (e.clipboardData && e.clipboardData.getData('text/html')) || ''; } catch (err) { h = ''; }
+        _bulkPasteHtml = h;
+        _bulkPasteAt = Date.now();
+      });
+      // 粘贴之后手动改字 → 手里的 HTML 就和内容对不上了，作废
+      t.addEventListener('input', function () {
+        if (Date.now() - _bulkPasteAt > 300) _bulkPasteHtml = '';
+      });
+    }
+  }
   const listEl = document.getElementById('bulkList');
   if (listEl) { listEl.innerHTML = ''; listEl.style.display = 'none'; }
   const s = document.getElementById('bulkSummary');
@@ -46138,6 +46161,177 @@ function isPriceLine(s) {
   let t = String(s || '').replace(/[（(]\s*税込\s*[）)]/g, '').replace(/^価格\s*[：:]?/, '').replace(/^各/, '').trim();
   if (!t || t.length > 24) return false;
   return /^[¥￥]?\s*[\d,]{2,}\s*円?$/.test(t);
+}
+
+// ==================== 列表页解析（从网页结构里连图带链接一起拿） ====================
+function absUrl(u, base) {
+  u = String(u || '').trim();
+  if (!u) return '';
+  if (/^https?:\/\//i.test(u)) return u;
+  if (/^(javascript:|#|mailto:)/i.test(u)) return '';
+  if (!base) return '';
+  try { return new URL(u, base).href; } catch (e) { return ''; }
+}
+
+function pickBlockName(block, priceText) {
+  const good = (v) => {
+    v = String(v || '').replace(/\s+/g, ' ').trim();
+    return v.length >= 4 && v.length <= 160 && !isPriceLine(v) ? v : '';
+  };
+  let best = '';
+  block.querySelectorAll('a[title]').forEach(a => { const v = good(a.getAttribute('title')); if (v.length > best.length) best = v; });
+  if (best) return best;
+  block.querySelectorAll('img[title],img[alt]').forEach(im => {
+    const v = good(im.getAttribute('title') || im.getAttribute('alt'));
+    if (v.length > best.length) best = v;
+  });
+  if (best) return best;
+  block.querySelectorAll('h1,h2,h3,h4').forEach(h => {
+    const v = good(h.textContent);
+    if (v.length > best.length) best = v;
+  });
+  if (best) return best;
+  let t = String(block.textContent || '').replace(/\s+/g, ' ').trim();
+  if (priceText) t = t.split(priceText).join(' ').replace(/\s+/g, ' ').trim();
+  return good(t);
+}
+
+function pickBlockImage(block) {
+  const imgs = block.querySelectorAll('img');
+  for (let i = 0; i < imgs.length; i++) {
+    const im = imgs[i];
+    const src = im.getAttribute('src') || im.getAttribute('data-src') || im.getAttribute('data-original') || '';
+    if (!src || /^data:/i.test(src)) continue;
+    const w = parseInt(im.getAttribute('width') || '0', 10);
+    if (w && w < 60) continue;   // 跳过小图标
+    return src;
+  }
+  return '';
+}
+
+function pickBlockLink(block, base) {
+  const as = block.querySelectorAll('a[href]');
+  for (let i = 0; i < as.length; i++) {
+    const href = absUrl(as[i].getAttribute('href'), base);
+    if (href) return href;
+  }
+  return '';
+}
+
+// 通用列表页解析：按文档顺序收集「名字 / 图片 / 价格」三种令牌，
+// 遇到价格就往前找最近的名字和图（消费掉），这样能同时兼容
+//   · Animate：<a title=名字><img> + <p class=price>
+//   · 官网新闻页：<p><strong>・名字</strong><br>…<img>…価格：¥550</p>（一个 p 里好几个商品）
+function tokenizeProductList(root) {
+  const toks = [];
+  const SKIP = /^(script|style|noscript|select|option|nav|header|footer|datalist|button|svg)$/i;
+  const pushName = (v, href) => {
+    v = String(v || '').replace(/\s+/g, ' ').replace(/^[・･▼■□●○\-–—\s]+/, '').trim();
+    if (isHeadingNoise(v)) return;
+    if (v.length >= 4 && v.length <= 90) toks.push({ t: 'name', v: v, href: href || '' });
+  };
+  const walk = function (node) {
+    for (let n = node.firstChild; n; n = n.nextSibling) {
+      if (n.nodeType === 1) {
+        const tag = n.tagName.toLowerCase();
+        if (SKIP.test(tag)) continue;
+        if (tag === 'img') {
+          const src = n.getAttribute('src') || n.getAttribute('data-src') || n.getAttribute('data-original') || '';
+          const w = parseInt(n.getAttribute('width') || '0', 10);
+          if (src && !/^data:/i.test(src) && (!w || w >= 60)) toks.push({ t: 'img', v: src });
+          continue;
+        }
+        // 整个元素就是一行价格（Animate 的 <p class=price><font>275</font>円(税込)</p>）
+        const whole = String(n.textContent || '').replace(/\s+/g, ' ').trim();
+        if (whole.length <= 26 && /[円¥￥]/.test(whole) && isPriceLine(whole)) { toks.push({ t: 'price', v: whole }); continue; }
+        if (tag === 'a' && n.getAttribute('title')) {
+          pushName(n.getAttribute('title'), n.getAttribute('href') || '');
+          walk(n);
+          continue;
+        }
+        if (tag === 'strong' || tag === 'b' || /^h[1-4]$/.test(tag)) {
+          pushName(n.textContent, '');
+          walk(n);
+          continue;
+        }
+        if (n.getAttribute) {
+          const alt = n.getAttribute('alt');
+          const ttl = n.getAttribute('title');
+          if (tag !== 'a' && (ttl || alt) && String(ttl || alt).length >= 6) pushName(ttl || alt, '');
+        }
+        walk(n);
+        continue;
+      }
+      if (n.nodeType === 3) {
+        const raw = String(n.nodeValue || '');
+        const s = raw.replace(/\s+/g, ' ').trim();
+        if (!s) continue;
+        // 一段文字里可能夹着价格（"価格：¥550(税込)"）
+        const re = /価格\s*[:：]\s*[¥￥]?\s*[\d,]{2,}\s*円?|[¥￥]?\s*[\d,]{2,}\s*円\s*[（(]\s*税込\s*[）)]/g;
+        let m, found = false;
+        while ((m = re.exec(raw)) !== null) { found = true; toks.push({ t: 'price', v: m[0] }); }
+        if (!found && s.length >= 4 && s.length <= 120) toks.push({ t: 'text', v: s });
+      }
+    }
+  };
+  walk(root);
+  return toks;
+}
+
+// 区块小标题（"記念商品""商品一覧"）不是商品名
+function isHeadingNoise(v) {
+  return /^(記念商品|商品一覧|新商品|グッズ|グッズ情報|商品情報|ラインナップ|特典|注意事項|販売商品|開催概要|お知らせ)$/.test(v);
+}
+
+function looksLikeName(v) {
+  if (!v) return false;
+  if (v.length < 4 || v.length > 90) return false;
+  if (isHeadingNoise(v)) return false;
+  if (/価格|材質|サイズ|税込|送料|※|お買い上げ|ポイント/.test(v)) return false;
+  if (/お気に入り|カート|ログイン|会員登録|もっと見る|詳細を見る|在庫|レビュー|シェア|ツイート/.test(v)) return false;
+  if (/[。！？]/.test(v) && v.length > 30) return false;
+  return true;
+}
+
+function parseListHtml(html, baseUrl) {
+  let doc = null;
+  try { doc = new DOMParser().parseFromString(String(html || ''), 'text/html'); } catch (e) { return []; }
+  if (!doc || !doc.body) return [];
+  const NAV = /^(goods|top|about|news|menu|home|ticket|contact|event|search|login|cart|pr|info|shop|index)$/i;
+  const toks = tokenizeProductList(doc.body);
+  const out = [];
+  const seen = {};
+  let lastName = '', lastImg = '', lastHref = '';
+  for (let i = 0; i < toks.length; i++) {
+    const k = toks[i];
+    if (k.t === 'name') {
+      lastName = k.v;
+      if (k.href) lastHref = k.href;
+    } else if (k.t === 'img') {
+      lastImg = absUrl(k.v, baseUrl) || k.v;
+    } else if (k.t === 'price') {
+      // 名字没抓到（页面上名字只是普通文字）→ 往回找最近一段像名字的文本
+      // 取"最长的那个"而不是"最近的那个"：商品名通常比小标题长
+      if (!lastName) {
+        let best = '';
+        for (let j = i - 1; j >= 0 && j > i - 14; j--) {
+          if (toks[j].t === 'price') break;
+          if (toks[j].t === 'text' && looksLikeName(toks[j].v) && toks[j].v.length > best.length) best = toks[j].v;
+        }
+        lastName = best;
+      }
+      const yen = extractYenPrice(k.v);
+      if (lastName && yen && !NAV.test(lastName) && looksLikeName(lastName)) {
+        const key = lastName + '|' + yen;
+        if (!seen[key]) {
+          seen[key] = 1;
+          out.push({ name: lastName, yen: yen, image: lastImg || '', link: absUrl(lastHref, baseUrl) });
+        }
+      }
+      lastName = ''; lastImg = ''; lastHref = '';
+    }
+  }
+  return out;
 }
 
 function parseBulkLines(text) {
@@ -46181,7 +46375,36 @@ function parseBulkLines(text) {
 
 function parseBulkText() {
   const el = document.getElementById('bulkText');
-  const rows = parseBulkLines(el ? el.value : '');
+  const rawText = el ? el.value : '';
+  const baseEl = document.getElementById('bulkBase');
+  const baseUrl = baseEl ? baseEl.value.trim() : '';
+
+  // ① 两条通道都跑；HTML 条数不少于文本就全用它，否则以文本为主、把 HTML 的图/链接按名字合进去
+  const textRows = parseBulkLines(rawText);
+  let domRows = [];
+  if (_bulkPasteHtml && _bulkPasteHtml.length > 200) {
+    domRows = parseListHtml(_bulkPasteHtml, baseUrl);
+  }
+  let rows = textRows, fromHtml = false;
+  if (domRows.length >= 2 && domRows.length >= textRows.length) {
+    rows = domRows;
+    fromHtml = true;
+  } else if (domRows.length >= 2 && textRows.length > domRows.length) {
+    // 文本条数更多（有些商品没写价格，HTML 抓不到）→ 以文本为准，补图补链接
+    rows = textRows.map(r => {
+      let hit = null;
+      for (let i = 0; i < domRows.length; i++) {
+        if (domRows[i].name === r.name) { hit = domRows[i]; break; }
+      }
+      if (!hit) {
+        for (let i = 0; i < domRows.length; i++) {
+          if (nameSimilarity(domRows[i].name, r.name) >= 0.85) { hit = domRows[i]; break; }
+        }
+      }
+      return hit ? { name: r.name, yen: r.yen, image: hit.image, link: hit.link } : r;
+    });
+  }
+
   const sumEl = document.getElementById('bulkSummary');
   if (!rows.length) {
     if (sumEl) sumEl.textContent = '没有解析到任何行。格式：名字 | 价格';
@@ -46212,6 +46435,8 @@ function parseBulkText() {
       teamScope: scope.teamScope,
       series: seriesOverride || detectSeries(title),
       nameCn: buildNameCn(title, cat.cn, matched, teams),
+      image: r.image || '',
+      link: r.link || '',
       checked: true,
       dupId: null,
       dupName: ''
@@ -46233,9 +46458,12 @@ function parseBulkText() {
 
   renderBulkDrafts();
   if (sumEl) {
-    sumEl.textContent = '解析到 ' + _bulkDrafts.length + ' 条' +
-      (dupCount ? ('，其中 ' + dupCount + ' 条可能已存在' + (skipDup ? '（已自动取消勾选）' : '')) : '') +
-      '。请核对后保存。';
+    const withImg = _bulkDrafts.filter(d => d.image).length;
+    const withLink = _bulkDrafts.filter(d => d.link).length;
+    let msg = '解析到 ' + _bulkDrafts.length + ' 条';
+    if (fromHtml) msg = '从网页结构解析到 ' + _bulkDrafts.length + ' 条（带图 ' + withImg + ' 条' + (withLink ? '、带链接 ' + withLink + ' 条' : '') + '）';
+    if (dupCount) msg += '，其中 ' + dupCount + ' 条可能已存在' + (skipDup ? '（已自动取消勾选）' : '');
+    sumEl.textContent = msg + '。请核对后保存。';
   }
 }
 
@@ -46251,6 +46479,8 @@ function renderBulkDrafts() {
       '<span class="br-meta">' + esc(d.category) +
         (d.characters.length ? ' · ' + d.characters.length + '角色' : (d.allTeams ? ' · 全员向' : '')) + '</span>' +
       '<span class="br-price">' + (d.priceText || '—') + '</span>' +
+      (d.image ? '<span class="br-meta" title="带图片" style="color:#1a9155;">🖼</span>' : '') +
+      (d.link ? '<span class="br-meta" title="' + esc(d.link) + '" style="color:#1a9155;">🔗</span>' : '') +
       (d.dupId ? '<span class="br-meta" style="color:#c96f14;" title="已有：' + esc(d.dupName) + '">⚠️ 已存在</span>' : '') +
     '</label>'
   ).join('');
@@ -46310,6 +46540,11 @@ function saveBulkDrafts() {
       id: base + i
     };
     if (saleTypes.length) item.saleTypes = saleTypes.slice();
+    if (d.image) { item.image = d.image; item.imgs = [d.image]; }
+    if (d.link) {
+      item.platformUrl = d.link;
+      item.shopLinks = [{ name: platform, url: d.link }];
+    }
     return item;
   });
 
