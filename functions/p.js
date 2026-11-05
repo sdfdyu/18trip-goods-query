@@ -1,4 +1,15 @@
-
+const ALLOW_HOSTS = [
+  'movic.jp',
+  'canime.jp',
+  'animate-onlineshop.jp',
+  'techorus-cdn.com',
+  '18trip.jp',
+  'eeo.jp',
+  'sk-japan.co.jp',
+  'doubaocdn.com',
+  'pbs.twimg.com',
+  'st-hatena.com',
+  'hatenablog.com'
 ];
 
 const BROWSER_HEADERS = {
@@ -32,7 +43,6 @@ export async function onRequestGet(context) {
   if (target.protocol !== 'https:' && target.protocol !== 'http:') return text('协议不支持', 400);
   if (!allowed(target.hostname)) return text('域名不在白名单: ' + target.hostname, 403);
 
-  // 边缘缓存：同一张图只回源一次
   const cache = caches.default;
   const cacheKey = new Request(url.toString(), { method: 'GET' });
   const hit = await cache.match(cacheKey);
@@ -60,6 +70,6 @@ export async function onRequestGet(context) {
   headers.set('Access-Control-Allow-Origin', '*');
 
   const res = new Response(upstream.body, { status: 200, headers });
-  try { await cache.put(cacheKey, res.clone()); } catch (e) { /* 缓存失败不影响返回 */ }
+  try { await cache.put(cacheKey, res.clone()); } catch (e) { }
   return res;
 }
