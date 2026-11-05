@@ -1,0 +1,6 @@
+# Cloudflare Pages 响应头配置
+# 文件名按内容哈希生成（img/157b05a79f840d7d.webp），内容不会变，可以永久缓存。
+# 新增图片会得到新文件名，所以不受这条影响。
+
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
