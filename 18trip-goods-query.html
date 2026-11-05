@@ -299,6 +299,34 @@
       gap:0;
     }
     #formOverlay .form-col-left{border-right:1px solid var(--line);}
+  /* ===== 表单重排：两列等高 + 列内两两并排 ===== */
+  #formOverlay .form-grid{display:grid !important; grid-template-columns:1fr 1fr; align-items:stretch;}
+  #formOverlay .field-row{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  #formOverlay .field-row .field{min-width:0; margin-bottom:12px;}
+  #formOverlay .cat-row{display:flex; gap:6px; align-items:center;}
+  #formOverlay .cat-row select{flex:1; min-width:0;}
+  #formOverlay .cat-icon-btn{flex:none; width:33px; height:33px; border-radius:8px;
+    border:1.5px solid var(--line); background:var(--surface-3); color:var(--blue);
+    font-size:15px; cursor:pointer; line-height:1; display:flex; align-items:center;
+    justify-content:center; padding:0; font-family:inherit;}
+  #formOverlay .cat-icon-btn:hover{background:var(--surface-2); border-color:var(--blue);}
+  #formOverlay .field#allTeamsField > .mark-checks{display:block !important; font-size:12.5px;
+    line-height:2.1; padding-top:1px;}
+  #formOverlay .mark-checks label{display:inline-flex !important; align-items:center; gap:4px;
+    margin:0 14px 0 0; cursor:pointer; user-select:none; white-space:nowrap; vertical-align:middle;
+    font-size:12.5px !important; color:var(--ink) !important;}
+  #formOverlay .mark-checks input{margin:0; width:13px; height:13px; accent-color:#ff9800; flex:none;}
+  #formOverlay .sale-checks{line-height:1.9;}
+  #formOverlay .sale-checks label{font-size:11.5px !important; margin:0 8px 0 0;}
+  #formOverlay #teamScopeSelect{margin-top:6px; padding:6px 9px; border-radius:8px;
+    border:1.5px solid var(--line); background:var(--surface-3); color:var(--ink);
+    font-size:12px !important; width:100%; box-sizing:border-box;}
+  #formOverlay .form-col-left{display:flex; flex-direction:column;}
+  #formOverlay .form-col-left .field.char-field{flex:1.25 1 0; min-height:0; display:flex; flex-direction:column;}
+  #formOverlay .form-col-left .field.char-field #charSelectArea{flex:1; min-height:150px; max-height:none !important;}
+  #formOverlay .form-col-left .field.img-field{flex:1 1 0; min-height:0; display:flex; flex-direction:column;}
+  #formOverlay .form-col-left .field.img-field > .imglist{flex:1; min-height:70px; max-height:none !important; overflow-y:auto;}
+  @media (max-width:680px){ #formOverlay .field-row{grid-template-columns:1fr;} }
     #formOverlay .form-col .field{
       padding:4px 10px;
       margin:0;
@@ -486,8 +514,8 @@
   .ri-ship{color:var(--sub); font-size:11.5px; font-weight:700; min-width:0; word-break:break-word;}
   .ri-sep{color:var(--sub); font-size:10px; opacity:.5;}
   /* 详情页信息卡片网格 */
-  .dcard-grid{display:grid; grid-template-columns:1fr 1fr; gap:9px; margin:6px 0 14px; align-items:stretch;}
-  .dcard{background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; min-height:58px;}
+  .dcard-grid{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:9px; margin:6px 0 14px; align-items:stretch;}
+  .dcard{background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; min-height:58px; min-width:0; overflow-wrap:anywhere;}
   .dcard-label{font-size:11.5px; color:var(--sub); font-weight:600; letter-spacing:.2px; margin-bottom:5px;}
   .dcard-val{font-size:13.5px; color:var(--ink); line-height:1.5; word-break:break-word;}
   .dcard-val.status-val{display:flex; align-items:center; flex-wrap:nowrap; gap:4px; overflow:hidden; white-space:nowrap;}
@@ -498,7 +526,21 @@
   .dcard-val .st-pill.st-shipped{background:#7c3aed;}
   .dcard-val .st-pill.st-end{background:#69737f;}
   .dcard-val .st-pill.st-reissue{background:#d6336c;}
+  /* 详情页状态：改成纯彩色文字。胶囊是列表卡片的语言，详情页其余 7 格都是纯文字，
+     这里再画一个实心胶囊会显得突兀；颜色已经足够区分六种状态。 */
+  .dcard-val .st-pill{background:none !important; padding:0 !important; border-radius:0 !important;
+    color:var(--ink); font-size:13.5px; letter-spacing:0;}
+  .dcard-val .st-pill.st-pre{color:var(--st-pre);}
+  .dcard-val .st-pill.st-on{color:var(--st-on);}
+  .dcard-val .st-pill.st-soon{color:var(--st-soon);}
+  .dcard-val .st-pill.st-shipped{color:var(--st-shipped);}
+  .dcard-val .st-pill.st-end{color:var(--st-end);}
+  .dcard-val .st-pill.st-reissue{color:var(--st-reissue);}
   .dcard-val .st-pill-note{font-size:11.5px; color:var(--sub); margin-left:2px; flex-shrink:0; overflow:hidden; text-overflow:ellipsis;}
+  .st-pill-note.note-auto{color:#1a9155; font-weight:700;}
+  .st-pill-note.note-manual{color:#9aa3b0;}
+  :root[data-theme="dark"] .st-pill-note.note-auto{color:#57d68d;}
+  :root[data-theme="dark"] .st-pill-note.note-manual{color:#7c8798;}
   .dcard-empty{font-size:13px; color:var(--sub); opacity:.55;}
   /* 详情页原价大字 */
   .detail-price{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin:2px 0 15px;}
@@ -871,45 +913,54 @@
       <div class="form-col form-col-left">
         <div class="field">
           <label>名称 *（日文原名）</label>
-          <input id="f_name" type="text" placeholder="如：18TRIP Cassette #13 \'Funny day\' -L4mps-">
+          <input id="f_name" type="text" placeholder="如：18TRIP Cassette #13 'Funny day' -L4mps-">
         </div>
         <div class="field">
-          <label>分类</label>
-          <select id="f_category">
-            <option>亚克力立牌</option>
-            <option>徽章吧唧</option>
-            <option>毛绒玩偶</option>
-            <option>磁带/CD</option>
-            <option>拍立得</option>
-            <option>日常杂货</option>
-            <option>杂志书籍</option>
+          <label>中文名（副行显示，便于搜索）</label>
+          <input id="f_nameCn" type="text" placeholder="如：磁带 #13 夜班 Funny day">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>分类</label>
+            <div class="cat-row">
+              <select id="f_category">
+                <option>亚克力立牌</option>
+                <option>徽章吧唧</option>
+                <option>毛绒玩偶</option>
+                <option>磁带/CD</option>
+                <option>拍立得</option>
+                <option>日常杂货</option>
+                <option>杂志书籍</option>
+              </select>
+              <button type="button" class="cat-icon-btn" onclick="openCatManager()" title="管理自定义分类">⚙</button>
+            </div>
+          </div>
+          <div class="field">
+            <label>所属系列</label>
+            <input id="f_series" type="text" placeholder="如：Cassette シリーズ / GraffArt / 1周年">
+          </div>
+        </div>
+        <div class="field" id="allTeamsField">
+          <label>商品标记（可多选）</label>
+          <div class="mark-checks">
+            <label><input type="checkbox" id="f_isCollab">🤝 联动周边</label>
+            <label><input type="checkbox" id="f_isStage">🎭 舞台剧真人周边</label>
+            <label><input type="checkbox" id="allTeamsCheck" onchange="toggleAllTeams(this.checked)">全员向商品</label>
+          </div>
+          <select id="teamScopeSelect">
+            <option value="20">20种(4班)</option>
+            <option value="22">全区长</option>
+            <option value="24">24种(含向导)</option>
+            <option value="25">25种(含向导烧卖)</option>
+            <option value="26">26种(含向导主任)</option>
+            <option value="27">27种(含向导烧卖主任)</option>
           </select>
-          <button type="button" class="link-btn" onclick="openCatManager()">+ 管理分类</button>
         </div>
-        <div class="field">
-          <label>🤝 联动周边</label>
-          <select id="f_isCollab">
-            <option value="false">否</option>
-            <option value="true">是（联动周边）</option>
-          </select>
-        </div>
-        <div class="field">
-          <label>所属系列</label>
-          <input id="f_series" type="text" placeholder="如：Cassette シリーズ / GraffArt / 1周年">
-        </div>
-        <div class="field">
-          <label>发售日期</label>
-          <input id="f_release" type="text" placeholder="2026-08-19 或 2026-08" oninput="onStatusAutoChange()">
-        </div>
-        <div class="field">
-          <label>发货时间</label>
-          <input id="f_ship" type="text" placeholder="在庫あり、通常1週間以内に発送">
-        </div>
-        <div class="field full">
+        <div class="field full char-field">
           <label>关联角色（多选）</label>
-          <div id="charSelectArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px; max-height:180px; overflow-y:auto;"></div>
+          <div id="charSelectArea" style="background:var(--surface-2); border:1px solid var(--line); border-radius:9px; padding:10px; overflow-y:auto;"></div>
         </div>
-        <div class="field full">
+        <div class="field full img-field">
           <label>图片（可添加多张；第一张为封面，详情页可左右滑动）</label>
           <div class="imglist" id="imgList"></div>
           <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;">
@@ -923,73 +974,78 @@
         </div>
       </div>
       <div class="form-col form-col-right">
-        <div class="field">
-          <label>中文名（副行显示，便于搜索）</label>
-          <input id="f_nameCn" type="text" placeholder="如：磁带 #13 夜班 Funny day">
-        </div>
-        <div class="field">
-          <label>🎭 舞台剧真人周边</label>
-          <select id="f_isStage">
-            <option value="false">否（常规谷子）</option>
-            <option value="true">是（舞台剧周边）</option>
-          </select>
-        </div>
-        <div class="field">
-          <label>贩售状态</label>
-          <select id="f_status">
-            <option>预约中</option>
-            <option>再贩中</option>
-            <option>待出荷</option>
-            <option>发售中</option>
-            <option>已出荷</option>
-            <option>已结束</option>
-          </select>
-          <label style="display:flex; align-items:center; gap:5px; font-size:11px; color:var(--sub); margin-top:5px; cursor:pointer; user-select:none;">
-            <input type="checkbox" id="f_statusAuto" onchange="onStatusAutoChange()" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
-            按日期自动判断（<span id="statusAutoHint">—</span>）
-          </label>
-        </div>
-        <div class="field">
-          <label>发售平台</label>
-          <input id="f_platform" type="text" placeholder="如：animate / 官方通贩 / 联动café">
-        </div>
-        <div class="field">
-          <label>库存</label>
-          <select id="f_stock">
-            <option value="">（未填写）</option>
-            <option value="有货">有货</option>
-            <option value="剩少量">剩少量</option>
-            <option value="完售">完售</option>
-          </select>
-          <div style="font-size:11px; color:var(--sub); margin-top:4px; line-height:1.5;">留空 = 不知道。售空请选「完售」，不要改状态。</div>
-        </div>
-        <div class="field">
-          <label>销售方式（可多选）</label>
-          <div style="display:flex; gap:14px; flex-wrap:wrap; font-size:12.5px; padding-top:3px;">
-            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
-              <input type="checkbox" class="f-sale" value="事前通贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">事前通贩
-            </label>
-            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
-              <input type="checkbox" class="f-sale" value="场贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">场贩
-            </label>
-            <label style="display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none;">
-              <input type="checkbox" class="f-sale" value="事后通贩" style="margin:0; width:13px; height:13px; accent-color:#ff9800;">事后通贩
-            </label>
+        <div class="field-row">
+          <div class="field">
+            <label>销售方式（可多选）</label>
+            <div class="mark-checks sale-checks">
+              <label><input type="checkbox" class="f-sale" value="事前通贩">事前通贩</label>
+              <label><input type="checkbox" class="f-sale" value="场贩">场贩</label>
+              <label><input type="checkbox" class="f-sale" value="事后通贩">事后通贩</label>
+            </div>
           </div>
-          <div style="font-size:11px; color:var(--sub); margin-top:4px; line-height:1.5;">都不勾 = 普通通贩商品。</div>
+          <div class="field">
+            <label>发售平台</label>
+            <input id="f_platform" type="text" placeholder="如：animate / 官方通贩 / 联动café">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>原价</label>
+            <input id="f_price" type="text" placeholder="3,080 円(税込)">
+          </div>
+          <div class="field">
+            <label>尺寸</label>
+            <input id="f_size" type="text" placeholder="如：約φ57mm / W97×H61mm">
+          </div>
         </div>
         <div class="field">
           <label>预购时间（开始 ～ 截止）</label>
           <div style="display:flex; gap:6px; align-items:center;">
-            <input id="f_preorderStart" type="text" placeholder="预购开始 2026/08/17" style="flex:1; min-width:0;">
+            <input id="f_preorderStart" type="text" placeholder="开始 2026/08/17" style="flex:1; min-width:0;">
             <span style="color:var(--sub); flex:none;">～</span>
-            <input id="f_preorderEnd" type="text" placeholder="预购截止 2026/09/15" style="flex:1; min-width:0;" oninput="onStatusAutoChange()">
+            <input id="f_preorderEnd" type="text" placeholder="截止 2026/09/15" style="flex:1; min-width:0;" oninput="onStatusAutoChange()">
           </div>
           <label style="display:flex; align-items:center; gap:5px; font-size:11px; color:var(--sub); margin-top:5px; cursor:pointer; user-select:none;">
             <input type="checkbox" id="f_preorderWhileStock" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
-            截止之后「售完即止」（なくなり次第 / 上限数に達し次第）
+            截止之后「售完即止」
           </label>
           <div id="f_preorderLegacy" style="display:none; font-size:11px; color:var(--sub); margin-top:4px;"></div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>发售日期</label>
+            <input id="f_release" type="text" placeholder="2026-08-19 或 2026-08" oninput="onStatusAutoChange()">
+          </div>
+          <div class="field">
+            <label>出荷时间</label>
+            <input id="f_ship" type="text" placeholder="在庫あり、通常1週間以内に発送">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>贩售状态</label>
+            <select id="f_status">
+              <option>预约中</option>
+              <option>再贩中</option>
+              <option>待出荷</option>
+              <option>发售中</option>
+              <option>已出荷</option>
+              <option>已结束</option>
+            </select>
+            <label style="display:flex; align-items:center; gap:5px; font-size:11px; color:var(--sub); margin-top:5px; cursor:pointer; user-select:none;">
+              <input type="checkbox" id="f_statusAuto" onchange="onStatusAutoChange()" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
+              按日期自动判断（<span id="statusAutoHint">—</span>）
+            </label>
+          </div>
+          <div class="field">
+            <label>库存</label>
+            <select id="f_stock">
+              <option value="">（未填写）</option>
+              <option value="有货">有货</option>
+              <option value="剩少量">剩少量</option>
+              <option value="完售">完售</option>
+            </select>
+          </div>
         </div>
         <div class="field">
           <div style="display:flex; justify-content:space-between; align-items:center;">
@@ -1002,43 +1058,10 @@
           <div id="reissueList" style="display:flex; flex-direction:column; gap:4px; margin-bottom:4px;"></div>
           <button type="button" class="btn small" id="reissueAddBtn" onclick="addReissueRow()" style="display:none;">+ 添加再贩</button>
         </div>
-        <div class="field">
-          <label>原价</label>
-          <input id="f_price" type="text" placeholder="3,080 円(税込)">
-        </div>
         <div class="field full">
           <label>🛒 购买渠道（可添加多个）</label>
           <div id="shopLinksList" style="display:flex; flex-direction:column; gap:6px; margin-bottom:6px;"></div>
           <button type="button" class="btn" style="width:100%;" onclick="addShopLink()">+ 添加购买渠道</button>
-        </div>
-        <div class="field full" id="allTeamsField">
-          <div style="display:flex; flex-direction:column; gap:8px;">
-            <div style="display:flex; align-items:center; gap:4px;">
-              <label style="margin:0; font-size:12px; color:var(--sub); font-weight:600;">全员向商品：</label>
-              <label style="display:flex; align-items:center; gap:4px; cursor:pointer; font-size:12px; color:var(--sub); font-weight:600; white-space:nowrap;">
-                <input type="checkbox" id="allTeamsCheck" onchange="toggleAllTeams(this.checked)" style="width:12px; height:12px; padding:0; margin:0; vertical-align:middle;">
-                <span>启用全员向</span>
-              </label>
-            </div>
-            <select id="teamScopeSelect" style="padding:8px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface-2);color:var(--ink);font-size:14px; width:100%; box-sizing:border-box;">
-              <option value="20">20种(4班)</option>
-              <option value="22">全区长</option>
-              <option value="24">24种(含向导)</option>
-              <option value="25">25种(含向导烧卖)</option>
-              <option value="26">26种(含向导主任)</option>
-              <option value="27">27种(含向导烧卖主任)</option>
-            </select>
-          </div>
-        </div>
-        <div class="field full">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-            <label style="margin:0;">备注</label>
-            <label style="display:flex; align-items:center; gap:4px; font-size:10.5px; color:var(--sub); cursor:pointer; user-select:none;">
-              <input type="checkbox" id="f_noteHighlight" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
-              特殊说明模式
-            </label>
-          </div>
-          <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
         </div>
         <div class="field full">
           <label>🔗 变体配对（盲抽/抱盒合并显示）</label>
@@ -1051,6 +1074,18 @@
             <div id="variantSearchResults" style="margin-top:6px; max-height:150px; overflow-y:auto; display:none;"></div>
           </div>
         </div>
+        <div class="field full">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+            <label style="margin:0;">备注</label>
+            <label style="display:flex; align-items:center; gap:4px; font-size:10.5px; color:var(--sub); cursor:pointer; user-select:none;">
+              <input type="checkbox" id="f_noteHighlight" style="margin:0; width:12px; height:12px; accent-color:#ff9800;">
+              特殊说明模式
+            </label>
+          </div>
+          <textarea id="f_desc" placeholder="特典、满赠、盲抽/盒、预约截止等…"></textarea>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
     <div class="modal-foot">
@@ -44925,6 +44960,12 @@ function renderDetail() {
   }
   const allTag = item.allTeams ? '<span class="dchar-chip">👥 ' + (item.teamScope === 22 ? '全区长' : item.teamScope === 24 ? '全24种(含向导)' : item.teamScope === 25 ? '全25种(含向导烧卖)' : item.teamScope === 26 ? '全26种(含向导主任)' : item.teamScope === 27 ? '全27种(含向导主任&烧卖)' : '全20种(4班)') + '</span>' : '';
 
+  // 状态来源：仅管理员可见，用颜色区分（绿=按日期自动，灰=手动），不写「自动」二字
+  const _dtAuto = statusSourceOf(item) === 'auto';
+  const _jp = showStatusJp(item.statusJp) ? item.statusJp : '';
+  const dtNoteText  = isAdmin() ? (_jp || (_dtAuto ? '●' : '')) : _jp;
+  const dtNoteCls   = isAdmin() ? (_dtAuto ? 'note-auto' : 'note-manual') : '';
+  const dtNoteTitle = isAdmin() ? (_dtAuto ? '按日期自动切换' : '手动设定') : '';
   document.getElementById('detailBody').innerHTML =
     '<div class="detail-layout">' +
     '<div class="detail-img-block">' +
@@ -44972,11 +45013,12 @@ function renderDetail() {
       '<div class="dcard-grid">' +
         dcard('所属系列', item.series) +
         dcard('发售平台', item.platform) +
-        '<div class="dcard" id="dcard-preorder"><div class="dcard-label">预购时间</div><div class="dcard-val" id="dval-preorder">' + (preorderRangeText(item) ? esc(preorderRangeText(item)) : '<span class="dcard-empty">—</span>') + '</div></div>' +
+        '<div class="dcard" id="dcard-preorder"><div class="dcard-label">预购时间</div><div class="dcard-val" id="dval-preorder">' + (preorderRangeText(item) ? preorderRangeHtml(item) : '<span class="dcard-empty">—</span>') + '</div></div>' +
         '<div class="dcard" id="dcard-release"><div class="dcard-label">发售时间</div><div class="dcard-val" id="dval-release">' + (item.releaseDate ? esc(item.releaseDate) : '<span class="dcard-empty">—</span>') + '</div></div>' +
-        dcard('发货时间', item.shipDate) +
-        dcard('当前状态', item.status || '发售中', true, (item.statusJp || '') + (statusSourceOf(item) === 'auto' ? (item.statusJp ? ' · ' : '') + '自动' : '')) +
-        (stockTagHtml(item) ? dcard('库存', item.stock, false, '') : '') +
+        dcard('出荷时间', item.shipDate) +
+        dcard('当前状态', item.status || '发售中', true, dtNoteText, dtNoteCls, dtNoteTitle) +
+        dcard('库存', item.stock || '', false, '') +
+        dcard('尺寸', item.size || '', false, '') +
       '</div>' +
       (item.reissues && item.reissues.length
         ? '<div class="drow reissue-timeline">' +
@@ -45029,12 +45071,24 @@ function switchReissue(el) {
   if (releaseEl) releaseEl.innerHTML = release ? esc(release) : '<span class="dcard-empty">—</span>';
 }
 
-function dcard(label, val, isStatus, note) {
+// 哪些日文原文不值得显示在状态旁边：
+//   与中文状态等价的（予約受付中/受注生産/販売中/販売終了）
+//   以及属于「库存」维度的（在庫あり/残りわずか/売り切れ/完売/在庫なし/取り寄せ）
+// 「受注終了」有歧义（可能待出荷也可能已结束），保留显示
+const STATUS_JP_HIDE = /^(予約受付中|受注生産|販売中|販売終了|在庫あり|残りわずか|売り切れ|完売|在庫なし|取り寄せ)$/;
+function showStatusJp(jp) {
+  const t = String(jp || '').trim();
+  if (!t) return false;
+  return !STATUS_JP_HIDE.test(t);
+}
+
+function dcard(label, val, isStatus, note, noteCls, noteTitle) {
   let inner;
   if (isStatus) {
     const cls = STATUS_CLS[val] || 'st-on';
     inner = '<span class="st-pill ' + cls + '">' + (STATUS_ICON[val] || '') + ' ' + esc(val) + '</span>' +
-      (note ? '<span class="st-pill-note">' + esc(note) + '</span>' : '');
+      (note ? '<span class="st-pill-note' + (noteCls ? ' ' + noteCls : '') + '"' +
+        (noteTitle ? ' title="' + esc(noteTitle) + '"' : '') + '>' + esc(note) + '</span>' : '');
   } else {
     inner = val ? esc(val) : '<span class="dcard-empty">—</span>';
   }
@@ -45209,13 +45263,31 @@ function preorderRangeText(item) {
   if (!item) return '';
   const a = item.preorderStart || '';
   const b = item.preorderEnd || '';
-  let base = '';
-  if (a && b) base = a + ' ～ ' + b;
-  else if (a) base = a + ' ～';
-  else if (b) base = '～ ' + b;
-  else base = item.preorderDate || '';
-  if (item.preorderWhileStock) return base ? (base + '（之后售完即止）') : '售完即止';
-  return base;
+  const ws = !!item.preorderWhileStock;
+  let base = '', tail = '';
+  if (a && b) {
+    base = a + ' ～ ' + b;
+    if (ws) tail = '，之后售完即止';
+  } else if (a) {
+    // 只有开始日：说「起」，不留孤零零的波浪号；等有截止日再补
+    base = a + '起';
+    if (ws) tail = '，售完即止';
+  } else if (b) {
+    // 只有截止日：不能说成「～ 11月8日」，改成「至 11月8日」
+    base = '至 ' + b;
+    if (ws) tail = '，之后售完即止';
+  } else {
+    base = item.preorderDate || '';
+    if (ws) tail = base ? '，售完即止' : '售完即止';
+  }
+  return base + tail;
+}
+
+// 详情页用：在第一个逗号处换行，避免像「（之后售完即止）」那样被硬折成两行
+function preorderRangeHtml(item) {
+  const t = preorderRangeText(item);
+  if (!t) return '';
+  return esc(t).replace('，', '，<br>');
 }
 
 function cleanTitle(s) {
@@ -45457,6 +45529,26 @@ function guessSalePeriod(doc, bodyText) {
 function detectWhileStock(doc, bodyText) {
   const body = bodyText || (doc.body ? doc.body.textContent : '');
   return /(なくなり次第|無くなり次第|上限数に達し次第|売り切れ次第|完売次第)/.test(body);
+}
+
+// 库存类日文 → 库存字段。取り寄せ = 能买到但要向厂商调货
+function detectStockFromText(bodyText) {
+  const t = String(bodyText || '');
+  if (/取り寄せ/.test(t)) return { stock: '有货', note: '需调货' };
+  if (/(売り切れ|完売|在庫なし|SOLD\s*OUT|OutOfStock|SoldOut)/i.test(t)) return { stock: '完售', note: '' };
+  if (/残りわずか/.test(t)) return { stock: '剩少量', note: '' };
+  if (/(在庫あり|在庫〇|在庫◎)/.test(t)) return { stock: '有货', note: '' };
+  return { stock: '', note: '' };
+}
+
+// 从商品页正文里抓「サイズ：約φ57mm」这一句，装进「尺寸」字段
+function detectSize(bodyText) {
+  const t = String(bodyText || '');
+  const m = t.match(/(?:サイズ|寸法|規格)\s*[：:]\s*([^\n]{1,40})/);
+  if (!m) return '';
+  let v = m[1].replace(/\s+/g, ' ').trim();
+  v = v.replace(/\s*(材質|素材|重量|注意|※|JAN|型番).*$/, '').trim();
+  return v.length <= 40 ? v : v.slice(0, 40);
 }
 
 // 把「种类」下拉框里的角色名映射成角色 id（精确匹配，避免误判）
@@ -45837,6 +45929,9 @@ function parseProductPayload(html, text) {
   const shopLinks = [];
   if (productUrl) shopLinks.push({ name: shopName, url: productUrl });
 
+  // 商品页正文里的库存字样（渠道结构化字段拿不到时兜底）
+  const _stk = detectStockFromText(bodyText);
+
   return {
     name: title,
     nameCn: buildNameCn(title, cat.cn, charIds, teams),
@@ -45848,6 +45943,7 @@ function parseProductPayload(html, text) {
     preorderStart: saleStart ? fmtDate(saleStart) : '',
     preorderEnd: saleEnd ? fmtDate(saleEnd) : '',
     preorderWhileStock: detectWhileStock(doc, bodyText),
+    size: detectSize(bodyText),
     characters: charIds,
     allTeams: scope.allTeams,
     teamScope: scope.teamScope,
@@ -45856,7 +45952,8 @@ function parseProductPayload(html, text) {
     shopLinks: shopLinks,
     channel: ch ? ch.short : (host || '未识别渠道'),
     channelShort: ch ? ch.short : '',
-    stock: raw.stock || ''
+    stock: raw.stock || _stk.stock,
+    stockNote: raw.stock ? '' : _stk.note
   };
 }
 
@@ -46093,6 +46190,13 @@ function applyParsedProduct(p) {
   setVal('f_preorderEnd', p.preorderEnd);
   const stockEl = document.getElementById('f_stock');
   if (stockEl) stockEl.value = p.stock || '';
+  setVal('f_size', p.size);
+  if (p.stockNote) {
+    const dEl = document.getElementById('f_desc');
+    if (dEl && dEl.value.indexOf(p.stockNote) === -1) {
+      dEl.value = dEl.value ? (p.stockNote + '｜' + dEl.value) : p.stockNote;
+    }
+  }
   const wsEl = document.getElementById('f_preorderWhileStock');
   if (wsEl) wsEl.checked = !!p.preorderWhileStock;
 
@@ -46663,11 +46767,12 @@ function editGoods(id) {
   document.getElementById('f_name').value = item.name || '';
   document.getElementById('f_nameCn').value = item.nameCn || '';
   document.getElementById('f_category').value = item.category || '亚克力立牌';
-  document.getElementById('f_isStage').value = item.isStage ? 'true' : 'false';
-  document.getElementById('f_isCollab').value = item.isCollab ? 'true' : 'false';
+  document.getElementById('f_isStage').checked = !!item.isStage;
+  document.getElementById('f_isCollab').checked = !!item.isCollab;
   document.getElementById('f_series').value = item.series || '';
   document.getElementById('f_status').value = item.status || '预约中';
   document.getElementById('f_stock').value = item.stock || '';
+  document.getElementById('f_size').value = item.size || '';
   setFormSaleTypes(item.saleTypes || []);
   const autoEl = document.getElementById('f_statusAuto');
   if (autoEl) autoEl.checked = (statusSourceOf(item) === 'auto');
@@ -46754,7 +46859,7 @@ function editGoods(id) {
 }
 
 function clearForm() {
-  ['f_name','f_nameCn','f_series','f_platform','f_price','f_stock','f_preorderStart','f_preorderEnd','f_release','f_ship','f_desc','imgUrlInput']
+  ['f_name','f_nameCn','f_series','f_platform','f_price','f_stock','f_size','f_preorderStart','f_preorderEnd','f_release','f_ship','f_desc','imgUrlInput']
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
   setFormSaleTypes([]);
   legacyPreorder = '';
@@ -46763,8 +46868,8 @@ function clearForm() {
   const legacyEl = document.getElementById('f_preorderLegacy');
   if (legacyEl) { legacyEl.style.display = 'none'; legacyEl.textContent = ''; }
   document.getElementById('f_category').value = '亚克力立牌';
-  document.getElementById('f_isStage').value = 'false';
-  document.getElementById('f_isCollab').value = 'false';
+  document.getElementById('f_isStage').checked = false;
+  document.getElementById('f_isCollab').checked = false;
   document.getElementById('f_status').value = '预约中';
   const autoEl0 = document.getElementById('f_statusAuto');
   if (autoEl0) autoEl0.checked = true;
@@ -46999,8 +47104,8 @@ function submitGoodsForm() {
   const shopLinksData = getShopLinks();
   const item = {
     name, nameCn, category,
-    isStage: document.getElementById('f_isStage').value === 'true',
-    isCollab: document.getElementById('f_isCollab').value === 'true',
+    isStage: document.getElementById('f_isStage').checked,
+    isCollab: document.getElementById('f_isCollab').checked,
     series: document.getElementById('f_series').value.trim(),
     characters: chars, allTeams, teamScope: teamScope || 0,
     platform,
@@ -47014,6 +47119,7 @@ function submitGoodsForm() {
     status,
     statusSource: statusAuto ? 'auto' : 'manual',
     stock: document.getElementById('f_stock').value || undefined,
+    size: document.getElementById('f_size').value.trim() || undefined,
     saleTypes: (function () {
       const a = getFormSaleTypes();
       return a.length ? a : undefined;
@@ -47147,7 +47253,7 @@ function exportJSON() {
 }
 
 function exportCSV() {
-  const cols = ['id','name','nameCn','category','series','characters','allTeams','teamScope','platform','platformUrl','price','stock','preorderStart','preorderEnd','preorderWhileStock','preorderDate','releaseDate','shipDate','officialUrl','status','statusSource','statusJp','description','image'];
+  const cols = ['id','name','nameCn','category','series','characters','allTeams','teamScope','platform','platformUrl','price','stock','size','preorderStart','preorderEnd','preorderWhileStock','preorderDate','releaseDate','shipDate','officialUrl','status','statusSource','statusJp','description','image'];
   const q = v => {
     if (Array.isArray(v)) v = v.join(';');
     v = String(v == null ? '' : v);
