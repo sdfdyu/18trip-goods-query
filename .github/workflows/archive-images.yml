@@ -1,0 +1,74 @@
+name: 归档图片
+
+# 把数据里还挂在外站的商品图下载下来、转 webp、存进 img/，
+# 并把 goods-cloud.json 里的地址改成本地路径。
+# 云端跑，不需要本机装 Python，也不需要翻墙（走站点自己的图片代理）。
+
+on:
+  workflow_dispatch:
+    inputs:
+      proxy:
+        description: '图片代理前缀（留空 = 直连日本站点，可能 403）'
+        required: false
+        default: 'https://18trip-goods-query.pages.dev/p?u='
+      dry_run:
+        description: '只试跑不写入（填 true 检查一下，填 false 真归档）'
+        required: false
+        default: 'false'
+      limit:
+        description: '最多处理几张（0 = 全部）'
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-images
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: 取出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 装 Pillow（转 webp 用）
+        run: pip install --quiet Pillow
+
+      - name: 跑归档
+        env:
+          PROXY: ${{ inputs.proxy }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          python scripts/archive-images.py \
+            --proxy "$PROXY" \
+            --dry-run "$DRY_RUN" \
+            --limit "$LIMIT"
+
+      - name: 提交并推送
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add img goods-cloud.json
+          if [ -f img-来源对照.json ]; then git add img-来源对照.json; fi
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            COUNT=$(git diff --cached --name-only -- 'img/*' | wc -l)
+            git commit -m "归档图片：新增 ${COUNT} 张（$(date -u +%Y-%m-%d)）"
+            git push
+            echo "已推送，Cloudflare Pages 会自动部署"
+          fi
