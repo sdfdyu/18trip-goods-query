@@ -46233,16 +46233,20 @@ function structMatch(meta, it) {
 
 function findSimilarItem(name, meta) {
   const sig = volumeSignature(name);
-  let best = null, bestScore = 0;
+  let best = null, bestScore = 0, bestVia = '';
   for (let i = 0; i < goodsData.length; i++) {
     const it = goodsData[i];
-    if (sig && volumeSignature(it.name) && sig !== volumeSignature(it.name)) continue;
+    // 卷号必须对等：只要有一边带卷号，就必须两边卷号完全相同才继续比较。
+    // 以前只排除「两边都有卷号且不同」，导致 vol.14 会和无卷号的老条目误判重复。
+    const itSig = volumeSignature(it.name);
+    if ((sig || itSig) && sig !== itSig) continue;
     let s = nameSimilarity(name, it.name);
-    // 名字写法差异大时，靠「分类 + 角色」这套结构化信号补上（要求名字还有一点相似度）
-    if (s < 0.82 && s >= 0.45 && structMatch(meta, it)) s = 0.82;
-    if (s > bestScore) { bestScore = s; best = it; }
+    let via = '';
+    // 名字写法差异大时，靠「分类 + 角色」补信号；门槛从 0.45 提到 0.62，减少误报
+    if (s < 0.82 && s >= 0.75 && structMatch(meta, it)) { s = 0.82; via = 'struct'; }
+    if (s > bestScore) { bestScore = s; best = it; bestVia = via; }
   }
-  return (best && bestScore >= 0.82) ? { item: best, score: bestScore } : null;
+  return (best && bestScore >= 0.82) ? { item: best, score: bestScore, via: bestVia } : null;
 }
 
 function hideDupPrompt() {
@@ -46260,7 +46264,7 @@ function renderDupPrompt(dup, parsed) {
     '<div style="margin-bottom:7px;">⚠️ 可能已经录过了：<b>' + esc(it.name) + '</b>' +
     '<div style="font-size:11.5px;opacity:.85;margin-top:3px;">' +
       esc(preorderRangeText(it) || '无预购时间') + ' · ' + esc(it.platform || '—') +
-      ' · 相似度 ' + Math.round(dup.score * 100) + '%</div></div>' +
+      ' · ' + (dup.via === 'struct' ? '分类与角色相同' : '相似度 ' + Math.round(dup.score * 100) + '%') + '</div></div>' +
     '<div style="display:flex;gap:6px;flex-wrap:wrap;">' +
       '<button type="button" class="btn small primary" onclick="appendChannelToExisting()">给这条追加渠道</button>' +
       '<button type="button" class="btn small" onclick="createAsNew()">照样新建</button>' +
