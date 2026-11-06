@@ -1,7 +1,51 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-05T18:01:39.738Z",
+  "timestamp": "2026-11-06T02:38:05.072Z",
   "goods": [
+    {
+      "name": "18TRIP キャラバッジコレクション／vol.12 朝班・昼班",
+      "nameCn": "二轮SSR花前吧唧 vol.12 朝班昼班",
+      "category": "徽章吧唧",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.12",
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "4,400円(税込)",
+      "preorderEnd": "2026年11月8日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807701_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807701_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00158/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00158/",
+      "id": 1793904822601
+    },
     {
       "name": "18TRIP キャラバッジコレクション／vol.12 夕班・夜班",
       "nameCn": "二轮SSR花前吧唧 vol.12 夕班夜班",
@@ -55250,7 +55294,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-71904",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2026年9月4週目",
       "shipDate": "",
       "status": "发售中",
@@ -55268,7 +55311,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     },
     {
       "id": 2247,
@@ -55288,10 +55332,9 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "09月第",
       "shipDate": "",
-      "status": "",
+      "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
       "image": "img/e6602738626b1916.webp",
@@ -55309,7 +55352,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2248,
@@ -55329,7 +55374,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "08月第",
       "shipDate": "",
       "status": "预约中",
@@ -55350,7 +55394,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2249,
@@ -55370,7 +55416,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "08月第",
       "shipDate": "",
       "status": "预约中",
@@ -55391,7 +55436,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2250,
@@ -55411,7 +55458,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-62491",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2026年7月5週目",
       "shipDate": "",
       "status": "发售中",
@@ -55429,7 +55475,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     },
     {
       "id": 2251,
@@ -55449,7 +55496,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
       "status": "预约中",
@@ -55470,7 +55516,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2252,
@@ -55486,10 +55534,9 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "06月第",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
       "image": "img/c2f2ec6fae591844.webp",
@@ -55507,7 +55554,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2253,
@@ -55523,10 +55572,9 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "04月第",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
       "image": "img/67764cb8a2f223ba.webp",
@@ -55544,7 +55592,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2254,
@@ -55556,13 +55606,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-56830",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "12月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-56830",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55570,7 +55617,20 @@
       "imgs": [
         "img/db5b1f80cc968b03.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-56830"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2255,
@@ -55590,7 +55650,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-55482",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2025年10月5週目",
       "shipDate": "",
       "status": "发售中",
@@ -55608,7 +55667,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     },
     {
       "id": 2256,
@@ -55628,7 +55688,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
       "status": "预约中",
@@ -55649,7 +55708,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2257,
@@ -55669,7 +55730,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
       "status": "预约中",
@@ -55690,7 +55750,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2258,
@@ -55710,7 +55772,6 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "10月第",
       "shipDate": "",
       "status": "预约中",
@@ -55731,7 +55792,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2259,
@@ -55743,13 +55806,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54108",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "09月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54108",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55757,7 +55817,20 @@
       "imgs": [
         "img/ba40af52a1305419.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54108"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2260,
@@ -55769,13 +55842,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54103",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "08月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54103",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55783,7 +55853,20 @@
       "imgs": [
         "img/6033e331b0d1d7b6.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-54103"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2261,
@@ -55795,13 +55878,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53241",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53241",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55809,7 +55889,20 @@
       "imgs": [
         "img/c79ebcfa23d547fb.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53241"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2262,
@@ -55821,13 +55914,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53245",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53245",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55835,7 +55925,20 @@
       "imgs": [
         "img/e4b69f8261b4ffc6.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-53245"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2263,
@@ -55851,10 +55954,9 @@
       "platform": "SK JAPAN 景品",
       "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "07月第",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
       "image": "img/d1d75b5ed2a33b50.webp",
@@ -55872,7 +55974,9 @@
           "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2264,
@@ -55884,13 +55988,10 @@
       "allTeams": false,
       "teamScope": 0,
       "platform": "SK JAPAN 景品",
-      "platformUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
-      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-52655",
+      "skJapanUrl": "https://www.sk-japan.co.jp/charatoru/charas/18trip",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "06月第",
       "shipDate": "",
-      "officialUrl": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-52655",
       "status": "发售中",
       "statusJp": "",
       "description": "SK JAPAN 夹娃娃机景品",
@@ -55898,7 +55999,20 @@
       "imgs": [
         "img/f8469303c180a1fd.webp"
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isStage": false,
+      "isCollab": false,
+      "saleType": "景品",
+      "shopLinks": [
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/chara/18trip/amgoods-52655"
+        },
+        {
+          "name": "SK JAPAN",
+          "url": "https://www.sk-japan.co.jp/charatoru/charas/18trip"
+        }
+      ]
     },
     {
       "id": 2265,
@@ -60084,7 +60198,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798580/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
       "status": "已结束",
@@ -60102,7 +60215,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "saleType": "景品"
     },
     {
       "id": 2409,
@@ -60122,10 +60236,9 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798579/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
       "image": "img/c562ca423843112e.webp",
@@ -60139,7 +60252,9 @@
           "url": "https://bsp-prize.jp/item/2798579/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2410,
@@ -60159,7 +60274,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798578/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
       "status": "已结束",
@@ -60177,7 +60291,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "saleType": "景品"
     },
     {
       "id": 2411,
@@ -60197,7 +60312,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2798577/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2025年11月18日",
       "shipDate": "",
       "status": "已结束",
@@ -60215,7 +60329,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "saleType": "景品"
     },
     {
       "id": 2412,
@@ -60235,7 +60350,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738424/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
       "status": "已结束",
@@ -60252,7 +60366,9 @@
           "url": "https://bsp-prize.jp/item/2738424/"
         }
       ],
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2413,
@@ -60272,7 +60388,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738423/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
       "status": "已结束",
@@ -60289,7 +60404,9 @@
           "url": "https://bsp-prize.jp/item/2738423/"
         }
       ],
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2414,
@@ -60309,10 +60426,9 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738422/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
       "image": "img/37969d3b537bc009.webp",
@@ -60326,7 +60442,9 @@
           "url": "https://bsp-prize.jp/item/2738422/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "saleType": "景品"
     },
     {
       "id": 2415,
@@ -60346,7 +60464,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2738421/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2024年8月16日",
       "shipDate": "",
       "status": "已结束",
@@ -60364,7 +60481,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "manual"
+      "statusSource": "manual",
+      "saleType": "景品"
     },
     {
       "id": 2416,
@@ -60389,10 +60507,9 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2743593/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "",
       "shipDate": "",
-      "status": "",
+      "status": "预约中",
       "statusJp": "",
       "description": "Banpresto 眼镜厂景品",
       "image": "img/09d7a1e9de3d720d.webp",
@@ -60407,7 +60524,8 @@
           "url": "https://bsp-prize.jp/item/2743593/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     },
     {
       "id": 2417,
@@ -60432,7 +60550,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2740796/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2024年6月7日",
       "shipDate": "",
       "status": "发售中",
@@ -60450,7 +60567,8 @@
           "url": "https://bsp-prize.jp/item/2740796/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     },
     {
       "id": 2418,
@@ -60464,7 +60582,6 @@
       "platform": "Banpresto",
       "platformUrl": "https://bsp-prize.jp/item/2740795/",
       "price": "景品",
-      "preorderDate": "",
       "releaseDate": "2024年6月7日",
       "shipDate": "",
       "status": "发售中",
@@ -60482,7 +60599,8 @@
           "url": "https://bsp-prize.jp/item/2740795/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "saleType": "景品"
     }
   ]
 }
