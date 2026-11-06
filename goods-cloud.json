@@ -1,7 +1,79 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-06T02:38:05.072Z",
+  "timestamp": "2026-11-06T02:47:39.579Z",
   "goods": [
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 大黒 可不可",
+      "nameCn": "立牌 vol.14 大黑可不可",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "oguro-kafuka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807510_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807510_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00543/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00543/",
+      "id": 1793933076384,
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内"
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 西園 練牙",
+      "nameCn": "二轮SSR花前立牌 vol.14 西园练牙",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "nishizono-renga"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807503_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807503_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00542/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00542/",
+      "id": 1793932943110
+    },
     {
       "name": "18TRIP キャラバッジコレクション／vol.12 朝班・昼班",
       "nameCn": "二轮SSR花前吧唧 vol.12 朝班昼班",
@@ -28,7 +100,7 @@
       "preorderEnd": "2026年11月8日",
       "preorderWhileStock": true,
       "releaseDate": "2027年1月16日",
-      "shipDate": "",
+      "shipDate": "発売日以降、順次発送",
       "status": "预约中",
       "statusSource": "auto",
       "stock": "有货",
@@ -26036,7 +26108,7 @@
       "id": 412,
       "name": "証明写真館／vol.2（トレーディング）",
       "nameCn": "vol.2 证件照（含向导烧麦）",
-      "category": "",
+      "category": "亚克力立牌",
       "series": "定番グッズ vol.2",
       "characters": [],
       "allTeams": true,
@@ -26059,7 +26131,9 @@
           "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%96%E3%83%AD%E3%83%9E%E3%82%A4%E3%83%89%E3%80%9118TRIP+%E8%A8%BC%E6%98%8E%E5%86%99%E7%9C%9F%E9%A4%A8%EF%BC%8Fvol.2%EF%BC%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%89/pd/3564684/"
         }
       ],
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "isCollab": false,
+      "stock": "有货"
     },
     {
       "id": 689,
@@ -45156,7 +45230,8 @@
         }
       ],
       "isCollab": false,
-      "statusSource": "auto"
+      "statusSource": "auto",
+      "stock": "有货"
     },
     {
       "id": 251,
