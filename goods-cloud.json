@@ -1,10 +1,765 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-06T05:15:00.970Z",
+  "timestamp": "2026-11-06T11:33:26.533Z",
   "goods": [
     {
+      "name": "18TRIP ダイカットステッカー／第十八界位狂科学者(夜半 子タろ) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 夜半子太郎",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806643_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806643_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00266/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00266/",
+      "id": 1793964783254
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／シープ・カウンター(棗 夜鷹) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 枣夜鹰",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "natsume-yodaka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806636_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806636_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00265/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00265/",
+      "id": 1793964719254
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ルージュアービター(白光 琉衣) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 白光琉衣",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "shiromitsu-rui"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806629_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806629_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00264/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00264/",
+      "id": 1793964682299
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／エンゼルノワール(白光 糖衣) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 白光糖衣",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "shiromitsu-toi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806612_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806612_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00263/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00263/",
+      "id": 1793964644370
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ぺたぺたテンタ＋(蜂乃屋 凪) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 蜂乃屋凪",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806605_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806605_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00259/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00259/",
+      "id": 1793964583579
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／オルフェウス(百目鬼 潜) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 百目鬼潜",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806599_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806599_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00260/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00260/",
+      "id": 1793964458643
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／バレルネイド(木ノ内 太緒) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 木之内太绪",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kinouchi-tao"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806582_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806582_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00262/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00262/",
+      "id": 1793964400504
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ちぃりずむ(夏焼 千弥) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 夏烧千弥",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "natsuyaki-chihiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806575_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806575_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00262/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00262/",
+      "id": 1793964338593
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／プルモー(畔川 幾成) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 畔川几成",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "azekawa-ikinari"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806568_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806568_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00258/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00258/",
+      "id": 1793964261362
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／キング of KING(北片 來人) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 北片来人",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kitakata-raito"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806551_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806551_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00259/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00259/",
+      "id": 1793964201872
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ミラージュフォックス(久楽間 潮) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 久乐间潮",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806544_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806544_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00262/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00262/",
+      "id": 1793964171141
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／符師(輝矢 宗氏) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 辉矢宗氏",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kiya-muneuji"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806537_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806537_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00255/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00255/",
+      "id": 1793949529590
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ハーモニーウイングZ (斜木 七基) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 斜木七基",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "naname-shichiki"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806520_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806520_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00256/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00256/",
+      "id": 1793949405150
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／インクマン(衣川 季肋) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 衣川季肋",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kinugawa-kiroku"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806513_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806513_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00256/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00256/",
+      "id": 1793947817556
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／シャーク監督(五十竹 あく太) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 五十竹芥太",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "isotake-akuta"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806506_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806506_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00257/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00257/",
+      "id": 1793945291414
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／玲瓏(鹿 礼光) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 鹿礼光",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806490_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806490_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00251/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00251/",
+      "id": 1793945155301
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／スノウ・クロウ(神名 雪風) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 神名雪风",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "kamina-yukikaze"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806483_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806483_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00252/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00252/",
+      "id": 1793945107861
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／イタチ(叢雲 添) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 丛云添",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "murakumo-ten"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806476_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806476_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00251/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00251/",
+      "id": 1793945012642
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／Mr.FA(大黒 可不可) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 大黑可不可",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "oguro-kafuka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806469_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806469_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00250/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00250/",
+      "id": 1793944928284
+    },
+    {
+      "name": "18TRIP ダイカットステッカー／ShaRon(西園 練牙) 18HEROES",
+      "nameCn": "18HEROES贴纸/2026愚人节贴纸 西园练牙",
+      "category": "贴纸",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "nishizono-renga"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "550円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約8×8cm以内",
+      "description": "【素材・仕様】紙、PP製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806452_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806452_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00340-00249/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00340-00249/",
+      "id": 1793942470699
+    },
+    {
+      "name": "18TRIP クリアファイル／18HEROES",
+      "nameCn": "18HEROES文件夹 2026愚人节文件夹",
+      "category": "日常杂货",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [],
+      "allTeams": true,
+      "teamScope": 22,
+      "platform": "Movic(ムービック)",
+      "price": "440円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "A4対応サイズ",
+      "description": "【素材・仕様】PP製／フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806865_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806865_1.jpg",
+        "https://www.movic.jp/img/goods/1/4550621806865_2.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00240-00057/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00240-00057/",
+      "id": 1793942194436
+    },
+    {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／第十八界位狂科学者(夜半 子タろ) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 夜半子太郎",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 夜半子太郎",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -40,7 +795,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／シープ・カウンター(棗 夜鷹) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 枣夜鹰",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 枣夜鹰",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -76,7 +831,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ルージュアービター(白光 琉衣) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 白光琉衣",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 白光琉衣",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -112,7 +867,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／エンゼルノワール(白光 糖衣) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 白光糖衣",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 白光糖衣",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -148,7 +903,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ぺたぺたテンタ＋(蜂乃屋 凪) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 蜂乃屋凪",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 蜂乃屋凪",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -184,7 +939,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／オルフェウス(百目鬼 潜) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 百目鬼潜",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 百目鬼潜",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -220,7 +975,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／バレルネイド(木ノ内 太緒) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 木之内太绪",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 木之内太绪",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -256,7 +1011,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ちぃりずむ(夏焼 千弥) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 夏烧千弥",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 夏烧千弥",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -292,7 +1047,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／プルモー(畔川 幾成) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 畔川几成",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 畔川几成",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -328,7 +1083,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／キング of KING(北片 來人) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 北片来人",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 北片来人",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -364,7 +1119,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ミラージュフォックス(久楽間 潮) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 久乐间潮",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 久乐间潮",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -400,7 +1155,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／符師(輝矢 宗氏) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 辉矢宗氏",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 辉矢宗氏",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -436,7 +1191,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ハーモニーウイングZ (斜木 七基) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 斜木七基",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 斜木七基",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -472,7 +1227,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／インクマン(衣川 季肋) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 衣川季肋",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 衣川季肋",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -508,7 +1263,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／シャーク監督(五十竹 あく太) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 五十竹芥太",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 五十竹芥太",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -544,7 +1299,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／玲瓏(鹿 礼光) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 鹿礼光",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 鹿礼光",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -580,7 +1335,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／スノウ・クロウ(神名 雪風) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 神名雪风",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 神名雪风",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -616,7 +1371,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／イタチ(叢雲 添) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 丛云添",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 丛云添",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -652,7 +1407,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／Mr.FA(大黒 可不可) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 大黑可不可",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 大黑可不可",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -688,7 +1443,7 @@
     },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／ShaRon(西園 練牙) 18HEROES",
-      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 西园练牙",
+      "nameCn": "18HEROES亚克力钥匙扣/2026愚人节钥匙扣 西园练牙",
       "category": "亚克力挂件",
       "isStage": false,
       "isCollab": false,
@@ -724,7 +1479,7 @@
     },
     {
       "name": "18TRIP ビッグタオル／18HEROES",
-      "nameCn": "18HEROES毛巾",
+      "nameCn": "18HEROES毛巾 2026愚人节毛巾",
       "category": "日常杂货",
       "isStage": false,
       "isCollab": false,
@@ -758,7 +1513,7 @@
     },
     {
       "name": "18TRIP ミニトートバッグ／18HEROES",
-      "nameCn": "18HEROES托特包",
+      "nameCn": "18HEROES托特包 2026愚人节托特包",
       "category": "日常杂货",
       "isStage": false,
       "isCollab": false,
@@ -792,7 +1547,7 @@
     },
     {
       "name": "18TRIP ピンズセット／しゅうまい＆闇しゅうまい 18HEROES",
-      "nameCn": "18HEROES烧卖金属徽章／2026愚人节烧卖金属徽章",
+      "nameCn": "18HEROES烧卖金属徽章/2026愚人节烧卖金属徽章",
       "category": "日常杂货",
       "isStage": false,
       "isCollab": false,
