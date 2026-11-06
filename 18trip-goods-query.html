@@ -199,6 +199,7 @@
   .sale-venue{background:linear-gradient(135deg,#ffb347,#ff8c42); color:#fff;}
   .sale-after{background:linear-gradient(135deg,#8ec5fc,#6a9fe8); color:#fff;}
   .sale-prize{background:linear-gradient(135deg,#22d3ee,#0891b2); color:#fff;}
+  .sale-pre{background:linear-gradient(135deg,#818cf8,#4f46e5); color:#fff;}
   /* 归档提醒 */
   .arc-steps{font-size:13px; line-height:1.9; color:var(--ink); margin:10px 0 0;}
   .arc-steps li{margin-left:18px;}
@@ -247,9 +248,10 @@
   }
   .st-pre{background:var(--st-pre-bg); color:var(--st-pre);}
   /* 场贩角标：放左上角，和右上角的状态角标左右对称 */
-  .st-badge.st-sale{left:10px; right:auto; background:linear-gradient(135deg,#ffb347,#ff8c42); color:#fff; letter-spacing:.3px;}
-  .st-badge.st-sale-after{left:10px; right:auto; background:linear-gradient(135deg,#8ec5fc,#6a9fe8); color:#fff; letter-spacing:.3px;}
-  .st-badge.st-prize{left:10px; right:auto; background:linear-gradient(135deg,#22d3ee,#0891b2); color:#fff; letter-spacing:.3px;}
+  .st-badge.st-sale{left:10px; right:auto; background:rgba(255,243,230,.95); color:#c96f14; letter-spacing:.3px; box-shadow:0 2px 8px rgba(0,0,0,.10);}
+  .st-badge.st-sale-after{left:10px; right:auto; background:rgba(232,240,255,.95); color:#2f6fd8; letter-spacing:.3px; box-shadow:0 2px 8px rgba(0,0,0,.10);}
+  .st-badge.st-sale-pre{left:10px; right:auto; background:rgba(232,233,255,.95); color:#4f46e5; letter-spacing:.3px; box-shadow:0 2px 8px rgba(0,0,0,.10);}
+  .st-badge.st-prize{left:10px; right:auto; background:rgba(224,247,250,.95); color:#0e7490; letter-spacing:.3px; box-shadow:0 2px 8px rgba(0,0,0,.10);}
   .st-on{background:var(--st-on-bg); color:var(--st-on);}
   .st-soon{background:var(--st-soon-bg); color:var(--st-soon);}
   .st-shipped{background:var(--st-shipped-bg); color:var(--st-shipped);}
@@ -615,6 +617,10 @@
   :root[data-theme="dark"] .tag.stock-in{background:rgba(87,214,141,.16); color:#57d68d; border-color:rgba(87,214,141,.4);}
   :root[data-theme="dark"] .tag.stock-low{background:rgba(245,196,81,.16); color:#f5c451; border-color:rgba(245,196,81,.4);}
   :root[data-theme="dark"] .tag.stock-sold{background:rgba(255,107,157,.16); color:#ff6b9d; border-color:rgba(255,107,157,.4);}
+    [data-theme="dark"] .st-badge.st-prize{background:rgba(8,51,68,.92); color:#67e8f9; box-shadow:none;}
+    [data-theme="dark"] .st-badge.st-sale{background:rgba(47,35,13,.92); color:#f5c451; box-shadow:none;}
+    [data-theme="dark"] .st-badge.st-sale-after{background:rgba(18,35,60,.92); color:#7fb4ff; box-shadow:none;}
+    [data-theme="dark"] .st-badge.st-sale-pre{background:rgba(30,27,75,.92); color:#a5b4fc; box-shadow:none;}
   .star{margin-left:auto; background:none; border:none; cursor:pointer; font-size:17px; line-height:1; filter:grayscale(1); opacity:.45; transition:transform .1s;}
   .star.on{filter:none; opacity:1;}
   .star:hover{transform:scale(1.25);}
@@ -45331,7 +45337,7 @@ function saleBadgeHtml(item) {
   let label = '', cls = '';
   if (st === '事后通贩') { label = '🛒 事后通贩'; cls = 'st-sale-after'; }
   else if (venue) { label = '🎪 场贩'; cls = 'st-sale'; }
-  else if (st === '事前通贩') { label = '🛒 事前通贩'; cls = 'st-sale-after'; }
+  else if (st === '事前通贩') { label = '🛒 事前通贩'; cls = 'st-sale-pre'; }
   else if (st === '景品') { label = '🎯 景品'; cls = 'st-prize'; }
   if (!label) return '';
   return '<span class="st-badge ' + cls + '" title="销售方式：' + esc(st || '场贩') + '">' + label + '</span>';
@@ -45344,7 +45350,7 @@ function saleTypeTagHtml(item) {
   if (isVenueSale(item)) list.push('场贩');
   if (st && st !== '场贩') list.push(st);
   return list.map(s => {
-    const cls = s === '场贩' ? 'sale-venue' : (s === '景品' ? 'sale-prize' : 'sale-after');
+    const cls = s === '场贩' ? 'sale-venue' : (s === '景品' ? 'sale-prize' : (s === '事前通贩' ? 'sale-pre' : 'sale-after'));
     const icon = s === '场贩' ? '🎪 ' : (s === '景品' ? '🎯 ' : '🛒 ');
     return '<span class="tag ' + cls + '" title="销售方式">' + icon + esc(s) + '</span>';
   }).join('');
