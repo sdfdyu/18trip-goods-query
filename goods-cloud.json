@@ -1,7 +1,43 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-06T05:13:25.224Z",
+  "timestamp": "2026-11-06T05:15:00.970Z",
   "goods": [
+    {
+      "name": "18TRIP じゃらじゃらアクリルキーホルダー／第十八界位狂科学者(夜半 子タろ) 18HEROES",
+      "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 夜半子太郎",
+      "category": "亚克力挂件",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18HEROES",
+      "characters": [
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,760円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体サイズ：約9.8×9.8cm程度；アクリルパーツ：約5×5cm以内",
+      "description": "【素材・仕様】アクリル製、フルカラー印刷",
+      "image": "https://www.movic.jp/img/goods/L/4550621806841_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806841_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00220-00279/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00220-00279/",
+      "id": 1793942061064
+    },
     {
       "name": "18TRIP じゃらじゃらアクリルキーホルダー／シープ・カウンター(棗 夜鷹) 18HEROES",
       "nameCn": "18HEROES亚克力钥匙扣/2626愚人节钥匙扣 枣夜鹰",
