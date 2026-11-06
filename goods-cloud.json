@@ -1,10 +1,748 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-06T02:47:39.579Z",
+  "timestamp": "2026-11-06T03:30:13.739Z",
   "goods": [
     {
+      "name": "18TRIP スタンドポップコレクション／夕班・夜班",
+      "nameCn": "立牌 夕班夜班",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18TRIP グッズ",
+      "characters": [
+        "kitakata-raito",
+        "azekawa-ikinari",
+        "natsuyaki-chihiro",
+        "kinouchi-tao",
+        "domeki-kuguri",
+        "hachinoya-nagi",
+        "shiromitsu-toi",
+        "shiromitsu-rui",
+        "natsume-yodaka",
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "7,700円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約15×15cm以内",
+      "description": "【素材・仕様】紙製 | フルカラー印刷 | 1パック1個入り 全10種 | 1BOX10パック入り",
+      "image": "https://www.movic.jp/img/goods/L/4550621806223_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806223_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00517/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00517/",
+      "id": 1793935667089
+    },
+    {
+      "name": "18TRIP スタンドポップコレクション／朝班・昼班",
+      "nameCn": "立牌 朝班昼班",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18TRIP グッズ",
+      "characters": [
+        "nishizono-renga",
+        "oguro-kafuka",
+        "murakumo-ten",
+        "kamina-yukikaze",
+        "shika-reiko",
+        "isotake-akuta",
+        "kinugawa-kiroku",
+        "naname-shichiki",
+        "kiya-muneuji",
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "7,700円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約15×15cm以内",
+      "description": "【素材・仕様】紙製 | フルカラー印刷 | 1パック1個入り 全10種 | 1BOX10パック入り",
+      "image": "https://www.movic.jp/img/goods/L/4550621806216_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621806216_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00518/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00518/",
+      "id": 1793935600442
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 夜半 子タろ",
+      "nameCn": "立牌 vol.14 夜半子太郎",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "yowa-kotaro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807695_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807695_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00559/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00559/",
+      "id": 1793935330111
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 棗 夜鷹",
+      "nameCn": "立牌 vol.14 枣夜鹰",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "natsume-yodaka"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807688_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807688_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "id": 1793935319889
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 白光 琉衣",
+      "nameCn": "立牌 vol.14 白光琉衣",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "shiromitsu-rui"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807671_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807671_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "id": 1793935296950
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 白光 糖衣",
+      "nameCn": "立牌 vol.14 白光糖衣",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "shiromitsu-toi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807664_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807664_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "id": 1793935272477
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 蜂乃屋 凪",
+      "nameCn": "立牌 vol.14 蜂乃屋凪",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807657_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807657_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "id": 1793935262542
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 百目鬼 潜",
+      "nameCn": "立牌 vol.14 百目鬼潜",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "domeki-kuguri"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807640_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807640_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00554/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00554/",
+      "id": 1793935210355
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 木ノ内 太緒",
+      "nameCn": "立牌 vol.14 木之内太绪",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kinouchi-tao"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807633_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807633_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "id": 1793935198919
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 夏焼 千弥",
+      "nameCn": "立牌 vol.14 夏烧千弥",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "natsuyaki-chihiro"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807626_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807626_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "id": 1793935189727
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 畔川 幾成",
+      "nameCn": "立牌 vol.14 畔川几成",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "azekawa-ikinari"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807619_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807619_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "id": 1793935181009
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 北片 來人",
+      "nameCn": "立牌 vol.14 北片来人",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kitakata-raito"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807602_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807602_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "id": 1793935171890
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 久楽間 潮",
+      "nameCn": "二轮SSR花前立牌 vol.14 久乐间潮",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kugura-mio"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807596_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807596_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00549/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00549/",
+      "id": 1793935002848
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 輝矢 宗氏",
+      "nameCn": "二轮SSR花前立牌 vol.14 辉矢宗氏",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kiya-muneuji"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807589_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807589_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "id": 1793934992379
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 斜木 七基",
+      "nameCn": "二轮SSR花前立牌 vol.14 斜木七基",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "naname-shichiki"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807572_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807572_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "id": 1793934977337
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 衣川 季肋",
+      "nameCn": "二轮SSR花前立牌 vol.14 衣川季肋",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kinugawa-kiroku"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807565_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807565_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "id": 1793934956691
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 五十竹 あく太",
+      "nameCn": "二轮SSR花前立牌 vol.14 五十竹芥太",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "isotake-akuta"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807558_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807558_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "id": 1793934944597
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 鹿 礼光",
+      "nameCn": "二轮SSR花前立牌 vol.14 鹿礼光",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "shika-reiko"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807541_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807541_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "id": 1793933691342
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 神名 雪風",
+      "nameCn": "二轮SSR花前立牌 vol.14 神名雪风",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "kamina-yukikaze"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807534_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807534_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00549/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00549/",
+      "id": 1793933674524
+    },
+    {
+      "name": "18TRIP アクリルスタンド／vol.14 叢雲 添",
+      "nameCn": "二轮SSR花前立牌 vol.14 丛云添",
+      "category": "亚克力立牌",
+      "isStage": false,
+      "isCollab": false,
+      "series": "定番グッズ vol.14",
+      "characters": [
+        "murakumo-ten"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Movic(ムービック)",
+      "price": "1,650円(税込)",
+      "preorderEnd": "2026年11月15日",
+      "preorderWhileStock": true,
+      "releaseDate": "2027年1月16日",
+      "shipDate": "発売日以降、順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "本体：約12×12cm以内、台座：約8×8cm以内",
+      "description": "",
+      "image": "https://www.movic.jp/img/goods/L/4550621807527_1.jpg",
+      "imgs": [
+        "https://www.movic.jp/img/goods/L/4550621807527_1.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Movic",
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00542/"
+        }
+      ],
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00542/",
+      "id": 1793933626737
+    },
+    {
       "name": "18TRIP アクリルスタンド／vol.14 大黒 可不可",
-      "nameCn": "立牌 vol.14 大黑可不可",
+      "nameCn": "二轮SSR花前立牌 vol.14 大黑可不可",
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
