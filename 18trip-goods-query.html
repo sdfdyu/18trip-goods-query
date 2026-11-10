@@ -43573,7 +43573,8 @@ let exchangeRate = 0.046;
 let favorites = new Set();
 let detailId = null;
 let starOnly = false;
-let stockTodoOnly = false;   // 只看"在售但库存未填"的条目（管理员核对用）
+let stockTodoOnly = false;
+let reviewOnly = false;   // 只看「待核对」的条目（批量导入后核对用）   // 只看"在售但库存未填"的条目（管理员核对用）
 let _lastImgExternal = 0;    // 上次渲染时的外链图片数（归档提醒用）
 
 // ==================== 状态映射 ====================
@@ -43909,6 +43910,11 @@ function toggleStockTodo() {
   renderGoods();
 }
 
+function toggleReviewOnly() {
+  reviewOnly = !reviewOnly;
+  renderGoods();
+}
+
 function toggleGchar(btn) {
   const gchar = btn.parentElement;
   if (!gchar) return;
@@ -44099,6 +44105,7 @@ function clearAllFilters() {
   currentCategory = 'all';
   currentTag = 'all';
   currentStatus = 'all';
+  reviewOnly = false;
   searchKeyword = '';
   starOnly = false;
   const searchInput = document.getElementById('q');
@@ -44504,6 +44511,7 @@ function getFiltered() {
     }
     if (starOnly && !favorites.has(item.id)) return false;
     if (stockTodoOnly && !isStockTodo(item)) return false;
+  if (reviewOnly && !item.needsReview) return false;
     if (currentCategory !== 'all' && item.category !== currentCategory) return false;
     if (currentTag === 'collab' && !item.isCollab) return false;
     if (currentTag === 'venue' && !isVenueSale(item)) return false;
@@ -44918,7 +44926,7 @@ function renderGoods() {
   const starred = favorites.size;
 
   // 图片归档情况（仅管理模式显示）：img/ 开头 = 已本地归档；http 开头 = 仍在用外链
-  let imgArchived = 0, imgExternal = 0, stockTodo = 0;
+  let imgArchived = 0, imgExternal = 0, stockTodo = 0, reviewTodo = 0;
   if (isAdmin()) {
     for (let i = 0; i < goodsData.length; i++) {
       const it = goodsData[i];
@@ -44926,6 +44934,7 @@ function renderGoods() {
       if (u.indexOf('img/') === 0) imgArchived++;
       else if (u.indexOf('http') === 0) imgExternal++;
       if (isStockTodo(it)) stockTodo++;
+      if (it.needsReview) reviewTodo++;
     }
     _lastImgExternal = imgExternal;
     // 每次打开页面只提醒一次，别每渲染一次就弹
@@ -44952,6 +44961,9 @@ function renderGoods() {
       : '') +
     (isAdmin()
       ? ' · <span style="cursor:pointer;' + (stockTodo ? '' : 'opacity:.4;') + '" onclick="' + (stockTodo ? 'toggleStockTodo()' : '') + '" title="在售但没有填库存的条目，点一下只看这些">🗃 库存待核对 <b' + (stockTodo ? ' style="color:#c96f14"' : '') + '>' + stockTodo + '</b>' + (stockTodoOnly ? '（只看这些）' : '') + '</span>'
+      : '') +
+    (isAdmin()
+      ? ' · <span style="cursor:pointer;' + (reviewTodo ? '' : 'opacity:.4;') + '" onclick="' + (reviewTodo ? 'toggleReviewOnly()' : '') + '" title="批量导入后还没核对过的条目，点一下只看这些；编辑保存后会自动消失">📝 待核对 <b' + (reviewTodo ? ' style="color:#c96f14"' : '') + '>' + reviewTodo + '</b>' + (reviewOnly ? '（只看这些）' : '') + '</span>'
       : '') +
     '<span style="cursor:pointer;margin-left:8px;' + (starred ? '' : 'opacity:.4;pointer-events:none;') + '" onclick="toggleStarOnly()" title="点击只看星标">' +
     (starOnly ? '◉ 只看星标' : '○ 只看星标') + '</span>';
@@ -46955,6 +46967,7 @@ function saveBulkDrafts() {
       id: base + i
     };
     if (saleType) item.saleType = saleType;
+    item.needsReview = true;   // 批量导入的默认待核对
     if (d.image) { item.image = d.image; item.imgs = [d.image]; }
     if (d.link) {
       item.platformUrl = d.link;
@@ -47418,6 +47431,7 @@ function submitGoodsForm() {
       // 先合并基础数据
       goodsData[i] = { ...goodsData[i], ...item };
       delete goodsData[i]._sNorm;   // 改了内容，搜索缓存要失效
+      delete goodsData[i].needsReview; // 人工编辑过 = 已核对
       delete goodsData[i].saleTypes; // 老的多选数组，已被 saleType 取代
       // 显式删除平台专用字段（如果 shopLinks 中已不存在），确保删除渠道生效
       // （对象展开时 undefined 不会覆盖已有属性，所以需要手动删除）
