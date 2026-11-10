@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-10T06:42:16.949Z",
+  "timestamp": "2026-11-10T06:45:12.932Z",
   "goods": [
     {
       "name": "18TRIP ころっと（アクリルフィギュア）／闇しゅうまい 18HEROES",
@@ -3294,10 +3294,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00603-00158/"
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00157/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00158/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00157/",
       "id": 1793904822601
     },
     {
@@ -3338,10 +3338,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00603-00119/"
+          "url": "https://www.movic.jp/shop/g/g05377-00603-00158/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00119/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00603-00158/",
       "id": 1793901612386
     },
     {
