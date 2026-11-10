@@ -45535,14 +45535,72 @@ function absUrl(u, host) {
 
 // 找这件商品自己的页面地址。顺序很重要：
 // 1) canonical（最权威）2) 含品番且形如商品页 3) 链接文字就是商品名 4) 第一个商品型链接
+// 页面真实的站点地址（带不带 www）：从 og:image / 绝对地址里找同域的
+function pageOrigin(doc, host) {
+  const bare = String(host || '').replace(/^www\./, '');
+  if (!bare) return '';
+  const cands = [];
+  const og = doc.querySelector('meta[property="og:image"]');
+  if (og && og.getAttribute('content')) cands.push(og.getAttribute('content'));
+  doc.querySelectorAll('img[src], script[src], link[href]').forEach(el => {
+    const v = el.getAttribute('src') || el.getAttribute('href');
+    if (v && /^https?:\/\//i.test(v)) cands.push(v);
+  });
+  for (let i = 0; i < cands.length; i++) {
+    try {
+      const u = new URL(cands[i]);
+      if (u.hostname.replace(/^www\./, '') !== bare) continue;
+      if (u.hostname.indexOf('www.') === 0) return u.protocol + '//' + u.host;
+    } catch (e) { /* 忽略 */ }
+  }
+  return '';
+}
+
+// 从链接地址里还原出"商品名"：Animate 是 /pn/<URL编码的商品名>/pd/<id>/，
+// 很多日本站点也把商品名编进路径。链接文字是不可靠的（可能是"詳細を見る"）
+function urlPathText(abs) {
+  try {
+    const u = new URL(abs);
+    let best = '';
+    u.pathname.split('/').filter(Boolean).forEach(seg => {
+      let d = seg;
+      try { d = decodeURIComponent(seg); } catch (e) { d = seg; }
+      // 只用"最像商品名"的那一段：纯数字、pn/pd 这种占位段不要
+      if (d.length < 3) return;
+      if (/^[\d._-]+$/.test(d)) return;
+      if (d.length > best.length) best = d;
+    });
+    return best;
+  } catch (e) { return ''; }
+}
+
 function guessProductUrl(doc, host, code, title, rawTitle) {
   const sameHost = (abs) => {
     if (!host) return true;
     try { return new URL(abs).hostname.replace(/^www\./, '').indexOf(host) !== -1; } catch (e) { return false; }
   };
+  const patOk = (u) => PRODUCT_URL_PATS.some(p => p.test(u));
+
+  // 页面若暴露了带 www 的真实域名，把生成的链接补成它（movic.jp → www.movic.jp）
+  const origin = pageOrigin(doc, host);
+  const mk = (abs) => {
+    if (!abs || !origin) return abs;
+    try {
+      const u = new URL(abs);
+      if (u.hostname === host) return origin + u.pathname + u.search;
+    } catch (e) { /* 忽略 */ }
+    return abs;
+  };
+
+  // 1) og:url —— 页面自己声明的本页地址，最可靠
+  const og = doc.querySelector('meta[property="og:url"]');
+  const ogAbs = og ? absUrl(og.getAttribute('content'), host) : '';
+  if (ogAbs && sameHost(ogAbs) && patOk(ogAbs)) return mk(ogAbs);
+
+  // 2) canonical
   const canon = doc.querySelector('link[rel="canonical"]');
   const canonAbs = canon ? absUrl(canon.getAttribute('href'), host) : '';
-  if (canonAbs && sameHost(canonAbs) && PRODUCT_URL_PATS.some(p => p.test(canonAbs))) return canonAbs;
+  if (canonAbs && sameHost(canonAbs) && patOk(canonAbs)) return mk(canonAbs);
 
   const links = [];
   doc.querySelectorAll('a[href]').forEach(a => {
@@ -45551,22 +45609,43 @@ function guessProductUrl(doc, host, code, title, rawTitle) {
     links.push({ abs: abs, text: normJp(elText(a)) });
   });
 
+  // 3) 商品番号（最硬的证据）
   if (code) {
-    const byCode = links.filter(x => x.abs.indexOf(code) !== -1);
-    const withPat = byCode.filter(x => PRODUCT_URL_PATS.some(p => p.test(x.abs)));
-    if (withPat.length) return withPat[0].abs;
-    if (byCode.length) return byCode[0].abs;
+    const c = String(code).replace(/\s+/g, '');
+    const byCode = links.filter(x => x.abs.indexOf(c) !== -1);
+    return byCode.length ? mk(byCode[0].abs) : '';
   }
 
-  const key = normJp(cleanTitle(rawTitle || title || '')).slice(0, 10);
-  if (key.length >= 4) {
-    const byText = links.find(x => x.text && x.text.indexOf(key) !== -1);
-    if (byText) return byText.abs;
+  // 4) 标题相似度：整条标题比「前 10 个字」，避免同系列单领商品互相串
+  //    （以前只比前 10 个字，同一系列的标题前缀都一样，永远选中第一个 → 抓到隔壁商品）
+  const myTitle = normJp(cleanTitle(rawTitle || title || ''));
+  if (myTitle.length >= 6) {
+    let best = null, bestScore = 0, secondScore = 0;
+    links.forEach(x => {
+      // 两条信号：链接文字、URL 路径里解码出来的商品名
+      let s = x.text ? nameSimilarity(myTitle, x.text) : 0;
+      const pu = urlPathText(x.abs);
+      if (pu) {
+        const s2 = nameSimilarity(myTitle, pu);
+        if (s2 > s) s = s2;
+      }
+      if (s > bestScore) { secondScore = bestScore; bestScore = s; best = x; }
+      else if (s > secondScore) { secondScore = s; }
+    });
+    // 要求足够像，而且明显好过第二名（否则说明分不清，宁可留空）
+    if (best && bestScore >= 0.72 && (bestScore - secondScore) >= 0.02) {
+      console.log('[链接判定] 按标题相似度选中', bestScore.toFixed(3), '→', mk(best.abs));
+      return mk(best.abs);
+    }
   }
 
-  const byPat = links.find(x => PRODUCT_URL_PATS.some(p => p.test(x.abs)));
-  if (byPat) return byPat.abs;
-  return canonAbs || '';
+  // 5) 页面里只有一个像商品页的链接时，用它
+  const pats = links.filter(x => patOk(x.abs));
+  if (pats.length === 1) return mk(pats[0].abs);
+
+  // 6) 都不靠谱就留空 —— 抓错链接比没有链接更糟
+  console.warn('[链接判定] 无法确定本页商品链接，已留空（候选 ' + pats.length + ' 个）');
+  return mk(canonAbs) || '';
 }
 
 // ---------- 通用兜底取值 ----------
@@ -45737,7 +45816,7 @@ const PARSERS = {
       name: p.name || guessName(doc),
       price: price,
       releaseDate: rel,
-      code: p.mpn || '',
+      code: p.mpn || p.sku || '',
       images: img ? [img] : [],
       stock: stock
     };
