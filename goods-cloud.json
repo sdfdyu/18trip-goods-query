@@ -1,7 +1,43 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-10T06:45:12.932Z",
+  "timestamp": "2026-11-10T07:02:41.677Z",
   "goods": [
+    {
+      "name": "18TRIP トートバッグ",
+      "nameCn": "甜品天堂托特包",
+      "category": "日常杂货",
+      "isStage": false,
+      "isCollab": false,
+      "series": "18TRIP 甜品天堂",
+      "characters": [
+        "nishizono-renga",
+        "kinugawa-kiroku",
+        "azekawa-ikinari",
+        "hachinoya-nagi"
+      ],
+      "allTeams": false,
+      "teamScope": 0,
+      "platform": "Animate(オンライン通販)",
+      "price": "3,300円(税込)",
+      "releaseDate": "2027年2月",
+      "shipDate": "発売日以降，順次発送",
+      "status": "预约中",
+      "statusSource": "auto",
+      "stock": "有货",
+      "size": "約35×35cm",
+      "description": "素材：綿",
+      "image": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4549502260513_1_1793937908.jpg",
+      "imgs": [
+        "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=4549502260513_1_1793937908.jpg"
+      ],
+      "shopLinks": [
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%90%E3%83%83%E3%82%B0%E3%80%9118TRIP+%E3%83%88%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%B0/pd/3641182/#"
+        }
+      ],
+      "id": 1794293641373
+    },
     {
       "name": "18TRIP ころっと（アクリルフィギュア）／闇しゅうまい 18HEROES",
       "nameCn": "18HEROES厚Q/2026愚人节麻将 暗烧卖",
@@ -2512,7 +2548,7 @@
       ],
       "allTeams": false,
       "teamScope": 0,
-      "platform": "Movic(ムービック)",
+      "platform": "Movic(ムービック) + Animate",
       "price": "7,700円(税込)",
       "preorderEnd": "2026年11月15日",
       "preorderWhileStock": true,
@@ -2531,6 +2567,10 @@
         {
           "name": "Movic",
           "url": "https://www.movic.jp/shop/g/g05377-00350-00517/"
+        },
+        {
+          "name": "Animate",
+          "url": "https://www.animate-onlineshop.jp/pd/3629845/"
         }
       ],
       "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00517/",
