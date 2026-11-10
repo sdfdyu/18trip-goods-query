@@ -1,6 +1,6 @@
 {
   "version": "2.6",
-  "timestamp": "2026-11-10T06:34:45.090Z",
+  "timestamp": "2026-11-10T06:42:16.949Z",
   "goods": [
     {
       "name": "18TRIP ころっと（アクリルフィギュア）／闇しゅうまい 18HEROES",
@@ -2485,10 +2485,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00517/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00518/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00517/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00518/",
       "id": 1793935667089
     },
     {
@@ -2530,10 +2530,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00518/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00517/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00518/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00517/",
       "id": 1793935600442
     },
     {
@@ -2542,7 +2542,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "yowa-kotaro"
       ],
@@ -2566,10 +2566,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00559/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00559/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
       "id": 1793935330111
     },
     {
@@ -2578,7 +2578,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "natsume-yodaka"
       ],
@@ -2602,10 +2602,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00559/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00559/",
       "id": 1793935319889
     },
     {
@@ -2614,7 +2614,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "shiromitsu-rui"
       ],
@@ -2638,10 +2638,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00558/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00558/",
       "id": 1793935296950
     },
     {
@@ -2650,7 +2650,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "shiromitsu-toi"
       ],
@@ -2674,10 +2674,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00557/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00557/",
       "id": 1793935272477
     },
     {
@@ -2686,7 +2686,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "hachinoya-nagi"
       ],
@@ -2710,10 +2710,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00560/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00556/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00560/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00556/",
       "id": 1793935262542
     },
     {
@@ -2722,7 +2722,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "domeki-kuguri"
       ],
@@ -2746,10 +2746,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00554/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00554/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
       "id": 1793935210355
     },
     {
@@ -2758,7 +2758,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kinouchi-tao"
       ],
@@ -2782,10 +2782,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00554/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00554/",
       "id": 1793935198919
     },
     {
@@ -2794,7 +2794,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "natsuyaki-chihiro"
       ],
@@ -2818,10 +2818,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00553/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00553/",
       "id": 1793935189727
     },
     {
@@ -2830,7 +2830,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "azekawa-ikinari"
       ],
@@ -2854,10 +2854,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00552/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00552/",
       "id": 1793935181009
     },
     {
@@ -2866,7 +2866,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kitakata-raito"
       ],
@@ -2890,10 +2890,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00555/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00551/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00555/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00551/",
       "id": 1793935171890
     },
     {
@@ -2902,7 +2902,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kugura-mio"
       ],
@@ -2926,10 +2926,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00549/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00549/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
       "id": 1793935002848
     },
     {
@@ -2938,7 +2938,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kiya-muneuji"
       ],
@@ -2962,10 +2962,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00549/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00549/",
       "id": 1793934992379
     },
     {
@@ -2974,7 +2974,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "naname-shichiki"
       ],
@@ -2998,10 +2998,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00548/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00548/",
       "id": 1793934977337
     },
     {
@@ -3010,7 +3010,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kinugawa-kiroku"
       ],
@@ -3034,10 +3034,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00547/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00547/",
       "id": 1793934956691
     },
     {
@@ -3046,7 +3046,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "isotake-akuta"
       ],
@@ -3070,10 +3070,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00546/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00546/",
       "id": 1793934944597
     },
     {
@@ -3082,7 +3082,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "shika-reiko"
       ],
@@ -3106,10 +3106,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00550/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00545/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00550/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00545/",
       "id": 1793933691342
     },
     {
@@ -3118,7 +3118,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "kamina-yukikaze"
       ],
@@ -3142,10 +3142,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00549/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00544/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00549/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00544/",
       "id": 1793933674524
     },
     {
@@ -3154,7 +3154,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "murakumo-ten"
       ],
@@ -3178,10 +3178,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00542/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00543/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00542/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00543/",
       "id": 1793933626737
     },
     {
@@ -3190,7 +3190,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "oguro-kafuka"
       ],
@@ -3213,10 +3213,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00543/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00542/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00543/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00542/",
       "id": 1793933076384,
       "size": "本体：約12×12cm以内、台座：約8×8cm以内"
     },
@@ -3226,7 +3226,7 @@
       "category": "亚克力立牌",
       "isStage": false,
       "isCollab": false,
-      "series": "定番グッズ vol.14",
+      "series": "アクリルスタンド vol.14",
       "characters": [
         "nishizono-renga"
       ],
@@ -3250,10 +3250,10 @@
       "shopLinks": [
         {
           "name": "Movic",
-          "url": "https://www.movic.jp/shop/g/g05377-00350-00542/"
+          "url": "https://www.movic.jp/shop/g/g05377-00350-00541/"
         }
       ],
-      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00542/",
+      "movicUrl": "https://www.movic.jp/shop/g/g05377-00350-00541/",
       "id": 1793932943110
     },
     {
